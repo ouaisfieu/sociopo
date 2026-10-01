@@ -6,7 +6,7 @@ themes: [reformes-etat, federalisme, pouvoirs-locaux]
 level: 2
 summary: "Réforme issue des accords du Lambermont et du Lombard (2001), sous le gouvernement Verhofstadt I : régionalisation de l'agriculture, du commerce extérieur et de la législation sur les communes et provinces, autonomie fiscale accrue des Régions, refinancement des Communautés et garanties pour les néerlandophones de Bruxelles."
 terms: { nl: "vijfde staatshervorming", de: "fünfte Staatsreform", en: "fifth state reform" }
-related: [accords-du-lambermont, accord-du-lombard, autonomie-fiscale, pouvoirs-locaux, garanties-des-neerlandophones-bruxellois]
+related: [accords-du-lambermont, accord-du-lombard, autonomie-fiscale, commune, province, garanties-des-neerlandophones-bruxellois]
 date: "2001"
 legal_basis: "Lois spéciales du 13 juillet 2001"
 ---

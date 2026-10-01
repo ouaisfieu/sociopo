@@ -5,7 +5,7 @@ themes: [administration, justice-droits]
 level: 3
 summary: "Ombudsman institué en 1995 auprès de la Chambre, chargé d'examiner les réclamations des citoyens contre le fonctionnement des administrations fédérales et de formuler des recommandations. Il comprend deux médiateurs, l'un francophone, l'autre néerlandophone."
 terms: { nl: "Federale Ombudsman", de: "Föderaler Ombudsmann", en: "Federal Ombudsman" }
-related: [administration, fonction-publique, transparence-administrative]
+related: [service-public-federal, fonction-publique, transparence-administrative]
 legal_basis: "Loi du 22 mars 1995"
 founded: 1995
 website: https://www.mediateurfederal.be
