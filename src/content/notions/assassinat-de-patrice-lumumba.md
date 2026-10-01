@@ -10,4 +10,4 @@ date: 1961-01-17
 ---
 Lumumba est fusillé avec deux compagnons en présence d'officiers belges ; son corps est ensuite dissous dans l'acide par un policier belge, qui conserve une dent. La [[commission-d-enquete|commission d'enquête]] de la Chambre (2000-2001) conduit le gouvernement belge à présenter ses excuses en 2002. La dent est restituée à la famille en 2022.
 
-Une procédure judiciaire ouverte à la suite d'une plainte de la famille vise les derniers protagonistes belges encore en vie : en mars 2026, la chambre du conseil a renvoyé l'ancien diplomate Étienne Davignon devant le tribunal correctionnel ; il a fait appel de cette décision.
+Une procédure judiciaire ouverte à la suite d'une plainte de la famille vise les derniers protagonistes belges encore en vie : en mars 2026, la chambre du conseil a renvoyé l'ancien diplomate Étienne Davignon devant le tribunal correctionnel. Il a fait appel, puis est mort le 18 mai 2026, ce qui a éteint l'action publique à son égard.

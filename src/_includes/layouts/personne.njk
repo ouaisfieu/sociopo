@@ -31,7 +31,7 @@ layout: layouts/base.njk
           <dl class="facts">
             {%- if d.born %}<dt>Naissance</dt><dd>{{ d.born | dateFr }}{% if d.birthplace %}, {{ d.birthplace }}{% endif %}</dd>{% endif %}
             {%- if d.died %}<dt>Décès</dt><dd>{{ d.died | dateFr }}{% if d.deathplace %}, {{ d.deathplace }}{% endif %}</dd>{% endif %}
-            {%- if party %}<dt>Parti</dt><dd><a href="{{ party.url }}">{{ party.title }}</a></dd>{% elif d.party_label %}<dt>Affiliation</dt><dd>{{ d.party_label }}</dd>{% endif %}
+            {%- if party %}<dt>Parti</dt><dd><a href="{{ party.url }}">{{ party.title }}</a></dd>{% elif d.party_label %}<dt>{{ "Dynastie" if d.group == "rois" else "Affiliation" }}</dt><dd>{{ d.party_label }}</dd>{% endif %}
             {%- if d.job %}<dt>Fonction actuelle</dt><dd>{{ d.job }}</dd>{% endif %}
           </dl>
         </div>
