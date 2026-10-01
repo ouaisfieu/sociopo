@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+permalink: /chronologie/
+title: Chronologie de la Belgique politique (1789-2026)
+description: "Frise chronologique de la vie politique belge de la révolution brabançonne à 2026 : réformes de l'État, élections, gouvernements, crises, conquêtes sociales, monarchie et relations internationales."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Chronologie", url: "/chronologie/" }]
+scripts: [chronologie]
+ogImage: /assets/img/og/histoire.png
+---
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Chronologie</p>
+    <h1>Deux siècles de vie politique belge</h1>
+    <p class="lead">{{ chronologie.items.length }} dates clés, de 1789 au conclave budgétaire de l'automne 2026. Filtrez par type d'événement ou par période ; chaque date renvoie à la notice correspondante.</p>
+    <div class="filters" role="group" aria-label="Filtrer la chronologie">
+      <div class="pill-nav" data-tl-types>
+        <button class="chip is-on" type="button" aria-pressed="true" data-type="">Tout</button>
+        {%- for k, v in chronologie.types %}<button class="chip" type="button" aria-pressed="false" data-type="{{ k }}">{{ v }}</button>{% endfor %}
+      </div>
+      <label class="visually-hidden" for="tl-from">Depuis</label>
+      <select id="tl-from" data-tl-from><option value="">Depuis…</option>{% for y in [1789, 1830, 1900, 1945, 1970, 1990, 2010, 2020] %}<option value="{{ y }}">{{ y }}</option>{% endfor %}</select>
+      <span class="count" data-tl-count aria-live="polite">{{ chronologie.items.length }} événements</span>
+    </div>
+  </header>
+  <div class="timeline">
+    {%- for it in chronologie.items %}
+    {%- set yr = it.date | year %}
+    {%- if loop.first or (chronologie.items[loop.index0 - 1].date | year) != yr %}<p class="tl-year" data-tl-year="{{ yr }}">{{ yr }}</p>{% endif %}
+    {%- set le = it.link | entry %}
+    <div class="tl-item t-{{ it.type }}" data-type="{{ it.type }}" data-year="{{ yr }}">
+      <span class="d">{{ it.date | dateFr }} · {{ chronologie.types[it.type] }}</span>
+      <div class="tt">{% if le %}<a href="{{ le.url }}" data-slug="{{ le.slug }}">{{ it.title }}</a>{% else %}{{ it.title }}{% endif %}</div>
+      <p>{{ it.text }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+</div>

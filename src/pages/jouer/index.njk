@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/
+title: Jouer et comprendre
+description: "Simulateur de coalitions, calculateur D'Hondt, quiz, cartes mémoire, jeu du formateur, lasagne institutionnelle, graphe des notions et carte schématique : apprendre la politique belge en jouant."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }]
+ogImage: /assets/img/og/jouer.png
+---
+{%- set games = [
+  { url: "/jouer/coalitions/", icon: "hemicycle", t: "Simulateur de coalitions", d: "Composez une majorité à la Chambre ou dans les parlements régionaux, vérifiez les groupes linguistiques et découvrez les coalitions minimales gagnantes." },
+  { url: "/jouer/formateur/", icon: "handshake", t: "Le jeu du formateur", d: "Juin 2024 : le Roi vous charge de former un gouvernement. Lignes rouges, budget, pensions, réforme de l'État… Ferez-vous mieux que 239 jours ?" },
+  { url: "/jouer/dhondt/", icon: "ballot", t: "Calculateur D'Hondt", d: "Transformez des voix en sièges avec les méthodes D'Hondt, Imperiali ou Sainte-Laguë, avec ou sans seuil de 5 %." },
+  { url: "/jouer/quiz/", icon: "quiz", t: "Quiz", d: "Plus de cent questions rédigées et des milliers de questions générées à partir du lexique, par thème ou en mode mixte." },
+  { url: "/jouer/cartes-memoire/", icon: "cards", t: "Cartes mémoire", d: "Révisez les notions par répétition espacée, en français ou à partir du terme néerlandais, allemand ou anglais." },
+  { url: "/jouer/qui-est-competent/", icon: "puzzle", t: "Qui est compétent ?", d: "Allocations familiales, permis d'urbanisme, prisons, TVA : devinez quel niveau de pouvoir décide." },
+  { url: "/jouer/lasagne/", icon: "layers", t: "La lasagne institutionnelle", d: "Choisissez une commune et voyez combien de niveaux de pouvoir s'empilent au-dessus de ses habitants." },
+  { url: "/jouer/carte/", icon: "map", t: "Carte des territoires", d: "Provinces, Régions, régions linguistiques et circonscriptions sur une carte schématique interactive." },
+  { url: "/jouer/graphe/", icon: "graph", t: "Graphe des notions", d: "Naviguez dans le réseau des liens entre notions, partis et dossiers de l'encyclopédie." },
+  { url: "/jouer/genealogie/", icon: "timeline", t: "Généalogie des partis", d: "De 1830 à aujourd'hui : fondations, scissions, fusions et changements de nom des partis belges." },
+  { url: "/parcours/", icon: "trophy", t: "Mon parcours", d: "Vos badges et votre progression, conservés uniquement dans votre navigateur." }
+] %}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer &amp; comprendre</p>
+    <h1>Apprendre la politique belge en jouant</h1>
+    <p class="lead">Des outils interactifs pour manipuler les règles plutôt que de les apprendre par cœur : former une coalition, répartir des sièges, situer une compétence, remonter la filiation des partis. Tout fonctionne dans votre navigateur, sans compte ni traceur.</p>
+  </header>
+  <div class="grid grid-3">
+    {%- for g in games %}
+    <article class="card card-accent">
+      <div class="tile-ico" aria-hidden="true">{% icon g.icon %}</div>
+      <h2 class="h3"><a class="stretched" href="{{ g.url }}">{{ g.t }}</a></h2>
+      <p>{{ g.d }}</p>
+    </article>
+    {%- endfor %}
+  </div>
+</div>

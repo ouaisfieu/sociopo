@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/lasagne/
+title: La lasagne institutionnelle
+description: "Combien de niveaux de pouvoir au-dessus de votre tête ? Choisissez une commune belge (Gand, Anvers, Liège, Namur, Ixelles, Eupen, Rhode-Saint-Genèse, Fourons, Mouscron) et découvrez l'empilement des institutions."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "La lasagne institutionnelle", url: "/jouer/lasagne/" }]
+ogImage: /assets/img/og/federalisme.png
+scripts: [lasagne]
+ldKind: "app:|La lasagne institutionnelle|Visualisation interactive des niveaux de pouvoir qui s'appliquent aux habitants de différentes communes belges."
+---
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · fédéralisme</p>
+    <h1>La lasagne institutionnelle</h1>
+    <p class="lead">On dit souvent que la Belgique est une « lasagne » : Union européenne, État fédéral, Communautés, Régions, provinces, communes… Le nombre d'étages dépend de l'endroit où l'on habite. Choisissez une commune.</p>
+  </header>
+  <div data-lasagne>
+    <div class="pill-nav" data-communes role="group" aria-label="Choisir une commune"></div>
+    <div data-stage aria-live="polite"><p class="noscript-note">La visualisation nécessite JavaScript.</p></div>
+  </div>
+  <section class="prose section">
+    <h2>Pourquoi tant d'étages ?</h2>
+    <p>Le fédéralisme belge superpose deux logiques : des {{ "[[communaute|Communautés]]" | mdInline | safe }}, fondées sur la langue et compétentes pour les matières liées aux personnes, et des {{ "[[region|Régions]]" | mdInline | safe }}, fondées sur le territoire et compétentes pour l'économie, l'emploi ou l'aménagement du territoire. Les Flamands ont fusionné leurs institutions ; les francophones les ont gardées séparées ; Bruxelles cumule des commissions communautaires. Voir aussi {{ "[[lasagne-institutionnelle|lasagne institutionnelle]] et [[federalisme-asymetrique|fédéralisme asymétrique]]" | mdInline | safe }}.</p>
+  </section>
+</div>

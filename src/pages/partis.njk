@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+permalink: /partis/
+title: Les partis politiques belges
+description: "Tous les partis politiques belges, actuels et historiques, classés par famille : N-VA, Vlaams Belang, MR, PS, PTB-PVDA, Les Engagés, Vooruit, CD&V, Anders, Groen, Ecolo, DéFI… avec leur généalogie et leurs résultats."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Partis", url: "/partis/" }]
+ogImage: /assets/img/og/partis.png
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Partis</p>
+    <h1>Les partis politiques belges</h1>
+    <p class="lead">Depuis la scission des partis nationaux (1968-1978), chaque famille politique est représentée par deux partis distincts, l'un néerlandophone, l'autre francophone. Seul le PTB-PVDA reste organisé à l'échelle du pays. Voici {{ corpus.partis.length }} partis, actuels et historiques.</p>
+    <div class="cluster"><a class="btn" href="/jouer/genealogie/">{% icon "graph" %} Arbre généalogique interactif</a><a class="btn btn-ghost" href="/notions/systeme-de-partis/">Le système de partis</a><a class="btn btn-ghost" href="/notions/famille-politique/">Familles politiques</a></div>
+  </header>
+
+  {%- set ch = elections.items | where("id", "chambre-2024") | first %}
+  {%- set rows = ch.seats | seatsWithInfo %}
+  <section aria-labelledby="ch-h" class="grid grid-2" style="--gap:2rem;align-items:center">
+    <div>{{ ch.seats | hemicycle(150, "Chambre des représentants 2024", "h-partis") | safe }}{% include "partials/seat-legend.njk" %}</div>
+    <div><h2 id="ch-h" style="margin-top:0">Le rapport de forces à la Chambre (2024)</h2>
+      <div class="seat-bars">{% for r in rows | bySeats %}<div class="seat-bar"><span><a href="{{ r.url }}">{{ r.label }}</a></span><span class="track"><span class="fill" style="width:{{ r.seats / 24 * 100 }}%;background:{{ r.color }}"></span></span><span class="v">{{ r.seats }}</span></div>{% endfor %}</div>
+    </div>
+  </section>
+
+  {%- set fams = ["gauche-radicale", "socialiste", "ecologiste", "regionaliste", "regionaliste_de", "chretienne-democrate", "liberale", "nationaliste-flamande", "populiste", "extreme-droite", "autre"] %}
+  {%- for f in fams %}
+  {%- set list = corpus.partis | where("data.family", f) %}
+  {%- if list.length %}
+  <section class="family-group" id="famille-{{ f }}" aria-labelledby="fam-{{ f }}">
+    <h2 id="fam-{{ f }}">{{ f | familyLabel }}</h2>
+    <div class="grid grid-3">
+      {%- for p in list | sortBy("data.founded_sort") %}
+      <a class="card linkable" href="{{ p.url }}" style="border-left:6px solid var(--p-{{ p.slug }}, var(--p-autre))">
+        <div class="between"><h3>{{ p.short or p.title }}</h3>{% if p.data.dissolved %}<span class="badge">{{ p.data.founded | year }}–{{ p.data.dissolved | year }}</span>{% else %}<span class="badge badge-green">actif</span>{% endif %}</div>
+        <p>{{ p.title }}</p>
+        <span class="meta">{{ {nl: "néerlandophone", fr: "francophone", de: "germanophone", national: "national"}[p.data.community] }}{% if p.data.seats and p.data.seats.chambre %} · {{ p.data.seats.chambre }} député{{ "s" if p.data.seats.chambre > 1 }} fédéra{{ "ux" if p.data.seats.chambre > 1 else "l" }}{% endif %}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+  {%- endfor %}
+</div>

@@ -1,0 +1,1946 @@
+{
+ "updated": "2026-10-01",
+ "note": "Dates de prestation de serment. Une date au mois (AAAA-MM) signale une précision volontairement limitée. Sources : sites officiels des gouvernements, CRISP, Moniteur belge, presse.",
+ "items": [
+  {
+   "id": "van-acker-i",
+   "name": "Gouvernement Van Acker I",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "achille-van-acker",
+   "head_name": "Achille Van Acker",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge",
+    "psc-cvp",
+    "parti-liberal",
+    "kpb-pcb"
+   ],
+   "parties_extra": [
+    "UDB"
+   ],
+   "start": "1945-02-12",
+   "end": "1945-08-02",
+   "summary": "Gouvernement d'union nationale de la Libération (socialistes, sociaux-chrétiens, libéraux, communistes et UDB). Il met en œuvre la sécurité sociale née du Pacte social et se divise sur la Question royale : les ministres sociaux-chrétiens s'en retirent à l'été 1945.",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "van-acker-ii",
+   "name": "Gouvernement Van Acker II",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "achille-van-acker",
+   "head_name": "Achille Van Acker",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge",
+    "parti-liberal",
+    "kpb-pcb"
+   ],
+   "parties_extra": [
+    "UDB"
+   ],
+   "start": "1945-08-02",
+   "end": "1946-03-13",
+   "summary": "Coalition de gauche sans les sociaux-chrétiens, opposés à la majorité sur la Question royale. Il gouverne jusqu'aux élections de février 1946.",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "spaak-ii",
+   "name": "Gouvernement Spaak II",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "paul-henri-spaak",
+   "head_name": "Paul-Henri Spaak",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge"
+   ],
+   "start": "1946-03-13",
+   "end": "1946-03-31",
+   "summary": "Gouvernement socialiste minoritaire formé après les élections de 1946 : mis en minorité, il ne survit que quelques semaines.",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "van-acker-iii",
+   "name": "Gouvernement Van Acker III",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "achille-van-acker",
+   "head_name": "Achille Van Acker",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge",
+    "parti-liberal",
+    "kpb-pcb"
+   ],
+   "start": "1946-03-31",
+   "end": "1946-08-03",
+   "summary": "Coalition des gauches (socialistes, libéraux, communistes) dans le climat tendu de la Question royale.",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "huysmans",
+   "name": "Gouvernement Huysmans",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "camille-huysmans",
+   "head_name": "Camille Huysmans",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge",
+    "parti-liberal",
+    "kpb-pcb"
+   ],
+   "start": "1946-08-03",
+   "end": "1947-03-20",
+   "summary": "Prolongation de la coalition socialistes–libéraux–communistes. Le départ des ministres communistes en mars 1947 entraîne sa chute et clôt la seule période de participation du Parti communiste au pouvoir (1944-1947).",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "spaak-iii-iv",
+   "name": "Gouvernements Spaak III et IV",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "paul-henri-spaak",
+   "head_name": "Paul-Henri Spaak",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge",
+    "psc-cvp"
+   ],
+   "start": "1947-03-20",
+   "end": "1949-08-11",
+   "summary": "Alliance socialistes–sociaux-chrétiens de la reconstruction : plan Marshall, Benelux, et loi du 27 mars 1948 accordant aux femmes le droit de vote aux élections législatives.",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "g-eyskens-i",
+   "name": "Gouvernement Gaston Eyskens I",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "gaston-eyskens",
+   "head_name": "Gaston Eyskens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp",
+    "parti-liberal"
+   ],
+   "start": "1949-08-11",
+   "end": "1950-06-08",
+   "summary": "Coalition sociaux-chrétiens–libéraux issue du premier scrutin législatif ouvert aux femmes (1949). Elle organise la consultation populaire du 12 mars 1950 sur le retour de Léopold III.",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "duvieusart",
+   "name": "Gouvernement Duvieusart",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "jean-duvieusart",
+   "head_name": "Jean Duvieusart",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp"
+   ],
+   "start": "1950-06-08",
+   "end": "1950-08-16",
+   "summary": "Gouvernement social-chrétien homogène né de la majorité absolue du PSC-CVP aux élections de juin 1950. Il permet le retour de Léopold III (22 juillet 1950), puis cède face aux grèves insurrectionnelles : le Roi annonce son retrait au profit de Baudouin.",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "pholien",
+   "name": "Gouvernement Pholien",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "joseph-pholien",
+   "head_name": "Joseph Pholien",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp"
+   ],
+   "start": "1950-08-16",
+   "end": "1952-01-15",
+   "summary": "Gouvernement social-chrétien homogène qui organise la transition dynastique : Baudouin prête serment comme roi le 17 juillet 1951.",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "van-houtte",
+   "name": "Gouvernement Van Houtte",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "jean-van-houtte",
+   "head_name": "Jean Van Houtte",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp"
+   ],
+   "start": "1952-01-15",
+   "end": "1954-04-23",
+   "summary": "Gouvernement social-chrétien homogène. Sa politique scolaire favorable au réseau libre nourrit la tension qui éclatera en seconde guerre scolaire sous le gouvernement suivant.",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "van-acker-iv",
+   "name": "Gouvernement Van Acker IV",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "achille-van-acker",
+   "head_name": "Achille Van Acker",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge",
+    "parti-liberal"
+   ],
+   "start": "1954-04-23",
+   "end": "1958-06-26",
+   "summary": "Coalition socialistes–libéraux qui renvoie les sociaux-chrétiens dans l'opposition. Les mesures scolaires du ministre Léo Collard déclenchent la seconde guerre scolaire.",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "g-eyskens-ii",
+   "name": "Gouvernement Gaston Eyskens II",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "gaston-eyskens",
+   "head_name": "Gaston Eyskens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp"
+   ],
+   "start": "1958-06-26",
+   "end": "1958-11-06",
+   "summary": "Gouvernement social-chrétien minoritaire qui négocie avec socialistes et libéraux le Pacte scolaire, signé le 20 novembre 1958.",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "g-eyskens-iii",
+   "name": "Gouvernement Gaston Eyskens III",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "gaston-eyskens",
+   "head_name": "Gaston Eyskens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp",
+    "parti-liberal"
+   ],
+   "start": "1958-11-06",
+   "end": "1960-09-03",
+   "summary": "Coalition sociaux-chrétiens–libéraux : traduction légale du Pacte scolaire (loi du 29 mai 1959) et indépendance précipitée du Congo (30 juin 1960).",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "g-eyskens-iv",
+   "name": "Gouvernement Gaston Eyskens IV",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "gaston-eyskens",
+   "head_name": "Gaston Eyskens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp",
+    "parti-liberal"
+   ],
+   "start": "1960-09-03",
+   "end": "1961-04-25",
+   "summary": "Gouvernement remanié qui dépose la « loi unique » d'austérité, à l'origine de la grande grève de l'hiver 1960-1961.",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "lefevre",
+   "name": "Gouvernement Lefèvre",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "theo-lefevre",
+   "head_name": "Théo Lefèvre",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp",
+    "parti-socialiste-belge"
+   ],
+   "start": "1961-04-25",
+   "end": "1965-07-28",
+   "summary": "Coalition sociaux-chrétiens–socialistes : fixation de la frontière linguistique et lois linguistiques de 1962-1963, création de l'assurance maladie-invalidité moderne (loi Leburton de 1963).",
+   "themes": [
+    "communautaire"
+   ],
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "harmel",
+   "name": "Gouvernement Harmel",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "pierre-harmel",
+   "head_name": "Pierre Harmel",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp",
+    "parti-socialiste-belge"
+   ],
+   "start": "1965-07-28",
+   "end": "1966-03-19",
+   "summary": "Coalition sociaux-chrétiens–socialistes éphémère, formée après le recul des partis traditionnels aux élections de 1965.",
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "vanden-boeynants-i",
+   "name": "Gouvernement Vanden Boeynants I",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "paul-vanden-boeynants",
+   "head_name": "Paul Vanden Boeynants",
+   "head_title": "Premier ministre",
+   "parties": [
+    "psc-cvp",
+    "pvv-plp"
+   ],
+   "start": "1966-03-19",
+   "end": "1968-06-17",
+   "summary": "Coalition sociaux-chrétiens–libéraux qui tombe en février 1968 sur l'affaire de Louvain (« Walen buiten »), laquelle fait éclater le PSC-CVP.",
+   "themes": [
+    "communautaire"
+   ],
+   "head_party": "psc-cvp"
+  },
+  {
+   "id": "g-eyskens-v",
+   "name": "Gouvernement Gaston Eyskens V",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "gaston-eyskens",
+   "head_name": "Gaston Eyskens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "parti-socialiste-belge"
+   ],
+   "start": "1968-06-17",
+   "end": "1972-01-21",
+   "summary": "Coalition sociaux-chrétiens–socialistes qui réalise la première réforme de l'État (révision constitutionnelle de 1970) : communautés culturelles, principe des Régions, groupes linguistiques, parité au Conseil des ministres et sonnette d'alarme.",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "cvp"
+  },
+  {
+   "id": "g-eyskens-vi",
+   "name": "Gouvernement Gaston Eyskens VI",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "gaston-eyskens",
+   "head_name": "Gaston Eyskens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "parti-socialiste-belge"
+   ],
+   "start": "1972-01-21",
+   "end": "1973-01-26",
+   "summary": "Reconduction de la coalition après les élections de 1971 ; le Pacte culturel est conclu en 1972.",
+   "head_party": "cvp"
+  },
+  {
+   "id": "leburton",
+   "name": "Gouvernement Leburton",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "edmond-leburton",
+   "head_name": "Edmond Leburton",
+   "head_title": "Premier ministre",
+   "parties": [
+    "parti-socialiste-belge",
+    "cvp",
+    "psc",
+    "pvv",
+    "prl"
+   ],
+   "start": "1973-01-26",
+   "end": "1974-04-25",
+   "summary": "Tripartite socialistes–sociaux-chrétiens–libéraux, tombée en 1974 sur le projet de raffinerie Ibramco.",
+   "head_party": "parti-socialiste-belge"
+  },
+  {
+   "id": "tindemans-i",
+   "name": "Gouvernement Tindemans I",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "leo-tindemans",
+   "head_name": "Leo Tindemans",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "pvv",
+    "prl",
+    "rassemblement-wallon"
+   ],
+   "start": "1974-04-25",
+   "end": "1977-06-03",
+   "summary": "Coalition sociaux-chrétiens–libéraux élargie au Rassemblement wallon : régionalisation « préparatoire » (loi du 1er août 1974) et gestion de la crise économique.",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "cvp"
+  },
+  {
+   "id": "tindemans-ii",
+   "name": "Gouvernement Tindemans II",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "leo-tindemans",
+   "head_name": "Leo Tindemans",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "parti-socialiste-belge",
+    "volksunie",
+    "defi"
+   ],
+   "start": "1977-06-03",
+   "end": "1978-10-20",
+   "summary": "Coalition sociaux-chrétiens–socialistes–Volksunie–FDF qui négocie le Pacte d'Egmont. Tindemans démissionne en octobre 1978 en contestant la constitutionnalité du projet de mise en œuvre.",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "cvp"
+  },
+  {
+   "id": "vanden-boeynants-ii",
+   "name": "Gouvernement Vanden Boeynants II",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "paul-vanden-boeynants",
+   "head_name": "Paul Vanden Boeynants",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps",
+    "volksunie",
+    "defi"
+   ],
+   "start": "1978-10-20",
+   "end": "1979-04-03",
+   "summary": "Gouvernement de transition chargé de conduire le pays aux élections de décembre 1978, premières après la scission du Parti socialiste belge.",
+   "head_party": "psc"
+  },
+  {
+   "id": "martens-i",
+   "name": "Gouvernement Martens I",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps",
+    "defi"
+   ],
+   "start": "1979-04-03",
+   "end": "1980-01-23",
+   "summary": "Premier des neuf gouvernements Martens : sociaux-chrétiens, socialistes et FDF.",
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-ii",
+   "name": "Gouvernement Martens II",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps"
+   ],
+   "start": "1980-01-23",
+   "end": "1980-05-18",
+   "summary": "Sociaux-chrétiens et socialistes, après le départ du FDF.",
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-iii",
+   "name": "Gouvernement Martens III",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps",
+    "pvv",
+    "prl"
+   ],
+   "start": "1980-05-18",
+   "end": "1980-10-22",
+   "summary": "Tripartite qui fait voter la deuxième réforme de l'État (loi spéciale du 8 août 1980) : Régions flamande et wallonne et Communautés dotées de conseils et d'exécutifs.",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-iv",
+   "name": "Gouvernement Martens IV",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps"
+   ],
+   "start": "1980-10-22",
+   "end": "1981-04-06",
+   "summary": "Retour à une coalition sociaux-chrétiens–socialistes, emportée par les divergences sur la politique économique.",
+   "head_party": "cvp"
+  },
+  {
+   "id": "m-eyskens",
+   "name": "Gouvernement Mark Eyskens",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "mark-eyskens",
+   "head_name": "Mark Eyskens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps"
+   ],
+   "start": "1981-04-06",
+   "end": "1981-12-17",
+   "summary": "Gouvernement sociaux-chrétiens–socialistes de quelques mois, tombé sur le financement de la sidérurgie wallonne.",
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-v",
+   "name": "Gouvernement Martens V",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "pvv",
+    "prl"
+   ],
+   "start": "1981-12-17",
+   "end": "1985-11-28",
+   "summary": "Coalition sociaux-chrétiens–libéraux gouvernant par pouvoirs spéciaux : dévaluation du franc (1982), modération salariale et sauts d'index, assainissement des finances publiques.",
+   "themes": [
+    "economie-finances"
+   ],
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-vi",
+   "name": "Gouvernement Martens VI",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "pvv",
+    "prl"
+   ],
+   "start": "1985-11-28",
+   "end": "1987-10-21",
+   "summary": "Reconduction de la coalition (plan d'économies de Val Duchesse, 1986), tombée en 1987 sur l'affaire des Fourons.",
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-vii",
+   "name": "Gouvernement Martens VII",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "pvv",
+    "prl"
+   ],
+   "start": "1987-10-21",
+   "end": "1988-05-09",
+   "summary": "Gouvernement de transition jusqu'aux élections de décembre 1987 et à la longue formation qui suit (148 jours).",
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-viii",
+   "name": "Gouvernement Martens VIII",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps",
+    "volksunie"
+   ],
+   "start": "1988-05-09",
+   "end": "1991-09-29",
+   "summary": "Sociaux-chrétiens, socialistes et Volksunie : troisième réforme de l'État (enseignement aux Communautés, Région de Bruxelles-Capitale, loi spéciale de financement de 1989) et crise de l'« impossibilité de régner » lors de la loi sur l'avortement (1990).",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "cvp"
+  },
+  {
+   "id": "martens-ix",
+   "name": "Gouvernement Martens IX",
+   "level": "federal",
+   "level_label": "Gouvernement national",
+   "head": "wilfried-martens",
+   "head_name": "Wilfried Martens",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps"
+   ],
+   "start": "1991-09-29",
+   "end": "1992-03-07",
+   "summary": "Coalition réduite après le départ de la Volksunie, qui mène au scrutin du 24 novembre 1991, le « dimanche noir ».",
+   "head_party": "cvp"
+  },
+  {
+   "id": "dehaene-i",
+   "name": "Gouvernement Dehaene I",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "jean-luc-dehaene",
+   "head_name": "Jean-Luc Dehaene",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps"
+   ],
+   "start": "1992-03-07",
+   "end": "1995-06-23",
+   "formation_days": 104,
+   "summary": "Sociaux-chrétiens–socialistes : quatrième réforme de l'État (accords de la Saint-Michel ; la Belgique devient un État fédéral en 1993) et plan global d'assainissement (1993).",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "cvp"
+  },
+  {
+   "id": "dehaene-ii",
+   "name": "Gouvernement Dehaene II",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "jean-luc-dehaene",
+   "head_name": "Jean-Luc Dehaene",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cvp",
+    "psc",
+    "vooruit",
+    "ps"
+   ],
+   "start": "1995-06-23",
+   "end": "1999-07-12",
+   "summary": "Reconduite après les premières élections régionales directes : qualification pour l'euro, affaire Dutroux et Marche blanche (1996), accord Octopus sur la police (1998). Sanctionnée en 1999 après la crise de la dioxine.",
+   "head_party": "cvp"
+  },
+  {
+   "id": "verhofstadt-i",
+   "name": "Gouvernement Verhofstadt I",
+   "nickname": "Arc-en-ciel",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "guy-verhofstadt",
+   "head_name": "Guy Verhofstadt",
+   "head_title": "Premier ministre",
+   "parties": [
+    "anders",
+    "mr",
+    "vooruit",
+    "ps",
+    "groen",
+    "ecolo"
+   ],
+   "start": "1999-07-12",
+   "end": "2003-07-12",
+   "summary": "Libéraux, socialistes et écologistes : les sociaux-chrétiens sont exclus du pouvoir pour la première fois depuis 1958. Cinquième réforme de l'État (Lambermont, Lombard), réforme Copernic, dépénalisation de l'euthanasie (2002) et mariage entre personnes de même sexe (2003).",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "anders"
+  },
+  {
+   "id": "verhofstadt-ii",
+   "name": "Gouvernement Verhofstadt II",
+   "nickname": "Violette",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "guy-verhofstadt",
+   "head_name": "Guy Verhofstadt",
+   "head_title": "Premier ministre",
+   "parties": [
+    "anders",
+    "mr",
+    "vooruit",
+    "ps"
+   ],
+   "start": "2003-07-12",
+   "end": "2007-12-21",
+   "summary": "Coalition « violette » libérale–socialiste : Pacte de solidarité entre les générations (2005), déduction des intérêts notionnels.",
+   "head_party": "anders"
+  },
+  {
+   "id": "verhofstadt-iii",
+   "name": "Gouvernement Verhofstadt III",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "guy-verhofstadt",
+   "head_name": "Guy Verhofstadt",
+   "head_title": "Premier ministre",
+   "parties": [
+    "anders",
+    "mr",
+    "cd-v",
+    "ps",
+    "cdh"
+   ],
+   "start": "2007-12-21",
+   "end": "2008-03-20",
+   "formation_days": 194,
+   "summary": "Gouvernement intérimaire mis sur pied après 194 jours de crise pour adopter un budget, en attendant un accord sur une coalition durable.",
+   "head_party": "anders"
+  },
+  {
+   "id": "leterme-i",
+   "name": "Gouvernement Leterme I",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "yves-leterme",
+   "head_name": "Yves Leterme",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cd-v",
+    "mr",
+    "ps",
+    "anders",
+    "cdh"
+   ],
+   "start": "2008-03-20",
+   "end": "2008-12-30",
+   "summary": "Coalition élargie (CD&V, MR, PS, Open Vld, cdH) née de la crise de 2007, tombée en décembre 2008 sur l'affaire Fortis.",
+   "head_party": "cd-v"
+  },
+  {
+   "id": "van-rompuy",
+   "name": "Gouvernement Van Rompuy",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "herman-van-rompuy",
+   "head_name": "Herman Van Rompuy",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cd-v",
+    "mr",
+    "ps",
+    "anders",
+    "cdh"
+   ],
+   "start": "2008-12-30",
+   "end": "2009-11-25",
+   "summary": "Même coalition stabilisée par Herman Van Rompuy, qui quitte la fonction pour devenir le premier président permanent du Conseil européen.",
+   "head_party": "cd-v"
+  },
+  {
+   "id": "leterme-ii",
+   "name": "Gouvernement Leterme II",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "yves-leterme",
+   "head_name": "Yves Leterme",
+   "head_title": "Premier ministre",
+   "parties": [
+    "cd-v",
+    "mr",
+    "ps",
+    "anders",
+    "cdh"
+   ],
+   "start": "2009-11-25",
+   "end": "2011-12-06",
+   "formation_days": 541,
+   "summary": "Tombé en avril 2010 sur Bruxelles-Hal-Vilvorde (départ de l'Open Vld), il reste en affaires courantes durant la formation record de 541 jours qui suit le scrutin du 13 juin 2010.",
+   "head_party": "cd-v"
+  },
+  {
+   "id": "di-rupo",
+   "name": "Gouvernement Di Rupo",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "elio-di-rupo",
+   "head_name": "Elio Di Rupo",
+   "head_title": "Premier ministre",
+   "parties": [
+    "ps",
+    "cd-v",
+    "mr",
+    "vooruit",
+    "anders",
+    "cdh"
+   ],
+   "start": "2011-12-06",
+   "end": "2014-10-11",
+   "summary": "Coalition de six partis, minoritaire dans le groupe linguistique néerlandais, qui réalise la sixième réforme de l'État (scission de BHV, réforme du Sénat, transferts de compétences) et un assainissement budgétaire.",
+   "themes": [
+    "reformes-etat"
+   ],
+   "head_party": "ps"
+  },
+  {
+   "id": "michel-i",
+   "name": "Gouvernement Michel I",
+   "nickname": "Suédoise",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "charles-michel",
+   "head_name": "Charles Michel",
+   "head_title": "Premier ministre",
+   "parties": [
+    "n-va",
+    "mr",
+    "cd-v",
+    "anders"
+   ],
+   "start": "2014-10-11",
+   "end": "2018-12-09",
+   "formation_days": 139,
+   "summary": "Coalition « suédoise » dont le MR est l'unique parti francophone : saut d'index (2015), tax shift, report de l'âge légal de la pension à 67 ans (2030). La N-VA la quitte en décembre 2018 sur le pacte de Marrakech.",
+   "head_party": "mr"
+  },
+  {
+   "id": "michel-ii",
+   "name": "Gouvernement Michel II",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "charles-michel",
+   "head_name": "Charles Michel",
+   "head_title": "Premier ministre",
+   "parties": [
+    "mr",
+    "cd-v",
+    "anders"
+   ],
+   "start": "2018-12-09",
+   "end": "2019-10-27",
+   "summary": "Gouvernement minoritaire MR–CD&V–Open Vld, démissionnaire dès le 21 décembre 2018 et en affaires courantes jusqu'au départ de Charles Michel pour la présidence du Conseil européen.",
+   "head_party": "mr"
+  },
+  {
+   "id": "wilmes-i",
+   "name": "Gouvernement Wilmès I",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "sophie-wilmes",
+   "head_name": "Sophie Wilmès",
+   "head_title": "Première ministre",
+   "parties": [
+    "mr",
+    "cd-v",
+    "anders"
+   ],
+   "start": "2019-10-27",
+   "end": "2020-03-17",
+   "summary": "Sophie Wilmès devient la première femme à diriger le gouvernement belge, à la tête d'une équipe en affaires courantes.",
+   "head_party": "mr"
+  },
+  {
+   "id": "wilmes-ii",
+   "name": "Gouvernement Wilmès II",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "sophie-wilmes",
+   "head_name": "Sophie Wilmès",
+   "head_title": "Première ministre",
+   "parties": [
+    "mr",
+    "cd-v",
+    "anders"
+   ],
+   "start": "2020-03-17",
+   "end": "2020-10-01",
+   "summary": "Gouvernement minoritaire de crise investi de pouvoirs spéciaux pour affronter la pandémie de Covid-19, avec l'appui extérieur de plusieurs partis d'opposition.",
+   "head_party": "mr"
+  },
+  {
+   "id": "de-croo",
+   "name": "Gouvernement De Croo",
+   "nickname": "Vivaldi",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "alexander-de-croo",
+   "head_name": "Alexander De Croo",
+   "head_title": "Premier ministre",
+   "parties": [
+    "anders",
+    "mr",
+    "ps",
+    "vooruit",
+    "ecolo",
+    "groen",
+    "cd-v"
+   ],
+   "start": "2020-10-01",
+   "end": "2025-02-03",
+   "formation_days": 494,
+   "summary": "Coalition « Vivaldi » de sept partis (libéraux, socialistes, écologistes, CD&V) : gestion de la pandémie et de la crise énergétique, prolongation de Doel 4 et Tihange 3, réforme fiscale avortée. Sanctionnée au scrutin de 2024.",
+   "head_party": "anders"
+  },
+  {
+   "id": "de-wever",
+   "name": "Gouvernement De Wever",
+   "nickname": "Arizona",
+   "level": "federal",
+   "level_label": "Gouvernement fédéral",
+   "head": "bart-de-wever",
+   "head_name": "Bart De Wever",
+   "head_title": "Premier ministre",
+   "parties": [
+    "n-va",
+    "mr",
+    "les-engages",
+    "vooruit",
+    "cd-v"
+   ],
+   "start": "2025-02-03",
+   "end": null,
+   "formation_days": 239,
+   "summary": "Coalition « Arizona » (N-VA, MR, Les Engagés, Vooruit, CD&V), premier gouvernement dirigé par un nationaliste flamand : limitation du chômage dans le temps, réforme des pensions, taxe sur les plus-values, effort de défense et assainissement budgétaire sous procédure européenne de déficit excessif.",
+   "text": "## Composition au moment de la prestation de serment (3 février 2025)\n\n| Membre | Parti | Attributions principales |\n|---|---|---|\n| Bart De Wever | N-VA | Premier ministre |\n| Jan Jambon | N-VA | Vice-Premier ministre ; Finances, Pensions |\n| David Clarinval | MR | Vice-Premier ministre ; Emploi, Économie, Agriculture |\n| Maxime Prévot | Les Engagés | Vice-Premier ministre ; Affaires étrangères, européennes, Coopération au développement |\n| Frank Vandenbroucke | Vooruit | Vice-Premier ministre ; Affaires sociales, Santé publique |\n| Vincent Van Peteghem | CD&V | Vice-Premier ministre ; Budget, Simplification administrative |\n| Theo Francken | N-VA | Défense, Commerce extérieur |\n| Anneleen Van Bossuyt | N-VA | Asile et Migration, Intégration, Politique des grandes villes |\n| Bernard Quintin | MR | Intérieur, Beliris |\n| Eléonore Simonet | MR | Classes moyennes, Indépendants, PME |\n| Mathieu Bihet | MR | Énergie |\n| Jean-Luc Crucke | Les Engagés | Mobilité, Climat, Transition écologique |\n| Vanessa Matz | Les Engagés | Modernisation de l'action publique, Fonction publique, Numérique |\n| Rob Beenders | Vooruit | Protection des consommateurs, Lutte contre la fraude sociale, Égalité des chances |\n| Annelies Verlinden | CD&V | Justice, Mer du Nord |\n\nLa parité linguistique du [[conseil-des-ministres|Conseil des ministres]] est respectée : sept ministres néerlandophones et sept francophones, le Premier ministre étant traditionnellement réputé « asexué » linguistiquement.\n\n## Repères 2025-2026\n\n- **3 février 2025** : prestation de serment, après 239 jours de [[formation-du-gouvernement|formation]].\n- **12 avril 2025** : « accord de Pâques » (budget 2025, effort de défense porté à 2 % du PIB).\n- **15 mai 2025** : abrogation de la loi de [[sortie-du-nucleaire|sortie du nucléaire]] de 2003.\n- **Juillet 2025** : « accord d'été » (pensions, plus-values).\n- **24 novembre 2025** : accord budgétaire de 9,2 milliards d'euros d'ici 2029 (plafonnement partiel de l'[[indexation-automatique|indexation]] en 2026 et 2028, relèvements ciblés de TVA, taxe sur les comptes-titres doublée).\n- **1er janvier 2026** : début de la [[limitation-des-allocations-de-chomage-dans-le-temps|limitation des allocations de chômage dans le temps]] et de la [[taxe-sur-les-plus-values|taxe de 10 % sur les plus-values]].\n- **Mars-avril 2026** : premier vote en vue de la [[suppression-du-senat|suppression du Sénat]] ; dégradations de la note souveraine (Moody's, S&P).\n- **10 juillet 2026** : engagement d'un effort supplémentaire de 10 milliards d'euros d'ici 2029.\n- **22 septembre 2026** : ouverture du [[conclave-budgetaire|conclave budgétaire]] d'automne, attendu pour la déclaration de politique fédérale du 13 octobre 2026.\n\nVoir aussi le dossier [[rapports-de-forces-politiques-2024-2026]].",
+   "head_party": "n-va"
+  },
+  {
+   "id": "flandre-dewael",
+   "name": "Gouvernement flamand Dewael",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "patrick-dewael",
+   "head_name": "Patrick Dewael",
+   "head_title": "Ministre-président",
+   "parties": [
+    "anders",
+    "vooruit",
+    "groen",
+    "volksunie"
+   ],
+   "start": "1999-07",
+   "end": "2003-06",
+   "summary": "Coalition libéraux–socialistes–écologistes–Volksunie qui écarte pour la première fois le CVP du pouvoir flamand.",
+   "head_party": "anders"
+  },
+  {
+   "id": "flandre-somers",
+   "name": "Gouvernement flamand Somers",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "bart-somers",
+   "head_name": "Bart Somers",
+   "head_title": "Ministre-président",
+   "parties": [
+    "anders",
+    "vooruit",
+    "groen",
+    "spirit"
+   ],
+   "start": "2003-06",
+   "end": "2004-07",
+   "summary": "Fin de législature après le départ de Patrick Dewael pour le gouvernement fédéral.",
+   "head_party": "anders"
+  },
+  {
+   "id": "flandre-leterme",
+   "name": "Gouvernement flamand Leterme",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "yves-leterme",
+   "head_name": "Yves Leterme",
+   "head_title": "Ministre-président",
+   "parties": [
+    "cd-v",
+    "n-va",
+    "anders",
+    "vooruit"
+   ],
+   "start": "2004-07",
+   "end": "2007-06",
+   "summary": "Retour des chrétiens-démocrates, en cartel avec la N-VA, à la tête de la Flandre ; le Vlaams Blok, premier parti, reste derrière le cordon sanitaire.",
+   "head_party": "cd-v"
+  },
+  {
+   "id": "flandre-peeters-i",
+   "name": "Gouvernement flamand Peeters I",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "kris-peeters",
+   "head_name": "Kris Peeters",
+   "head_title": "Ministre-président",
+   "parties": [
+    "cd-v",
+    "n-va",
+    "anders",
+    "vooruit"
+   ],
+   "start": "2007-06",
+   "end": "2009-07",
+   "summary": "Reprise de la coalition par Kris Peeters ; la N-VA s'en retire en 2008 pour protester contre l'absence de réforme de l'État.",
+   "head_party": "cd-v"
+  },
+  {
+   "id": "flandre-peeters-ii",
+   "name": "Gouvernement flamand Peeters II",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "kris-peeters",
+   "head_name": "Kris Peeters",
+   "head_title": "Ministre-président",
+   "parties": [
+    "cd-v",
+    "vooruit",
+    "n-va"
+   ],
+   "start": "2009-07",
+   "end": "2014-07",
+   "summary": "Chrétiens-démocrates, socialistes et N-VA ; préparation à l'absorption des compétences de la sixième réforme de l'État.",
+   "head_party": "cd-v"
+  },
+  {
+   "id": "flandre-bourgeois",
+   "name": "Gouvernement flamand Bourgeois",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "geert-bourgeois",
+   "head_name": "Geert Bourgeois",
+   "head_title": "Ministre-président",
+   "parties": [
+    "n-va",
+    "cd-v",
+    "anders"
+   ],
+   "start": "2014-07-25",
+   "end": "2019-10-02",
+   "summary": "Premier gouvernement flamand dirigé par la N-VA, symétrique de la « suédoise » fédérale.",
+   "head_party": "n-va"
+  },
+  {
+   "id": "flandre-jambon",
+   "name": "Gouvernement flamand Jambon",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "jan-jambon",
+   "head_name": "Jan Jambon",
+   "head_title": "Ministre-président",
+   "parties": [
+    "n-va",
+    "cd-v",
+    "anders"
+   ],
+   "start": "2019-10-02",
+   "end": "2024-09-30",
+   "summary": "N-VA, CD&V et Open Vld, formé après une longue négociation et une tentative de rapprochement entre la N-VA et le Vlaams Belang.",
+   "head_party": "n-va"
+  },
+  {
+   "id": "flandre-diependaele",
+   "name": "Gouvernement flamand Diependaele",
+   "level": "flandre",
+   "level_label": "Gouvernement flamand",
+   "head": "matthias-diependaele",
+   "head_name": "Matthias Diependaele",
+   "head_title": "Ministre-président",
+   "parties": [
+    "n-va",
+    "vooruit",
+    "cd-v"
+   ],
+   "start": "2024-09-30",
+   "end": null,
+   "summary": "N-VA, Vooruit et CD&V (65 sièges sur 124) ; le Vlaams Belang, à égalité de sièges avec la N-VA, reste dans l'opposition.",
+   "head_party": "n-va"
+  },
+  {
+   "id": "wallonie-di-rupo-i",
+   "name": "Gouvernement wallon Di Rupo I",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "elio-di-rupo",
+   "head_name": "Elio Di Rupo",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "prl",
+    "ecolo"
+   ],
+   "start": "1999-07",
+   "end": "2000-04",
+   "summary": "Coalition « arc-en-ciel » régionale socialistes–libéraux–écologistes.",
+   "head_party": "ps"
+  },
+  {
+   "id": "wallonie-van-cauwenberghe",
+   "name": "Gouvernements wallons Van Cauwenberghe",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "jean-claude-van-cauwenberghe",
+   "head_name": "Jean-Claude Van Cauwenberghe",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "mr",
+    "ecolo",
+    "cdh"
+   ],
+   "start": "2000-04",
+   "end": "2005-10",
+   "summary": "PS–MR–Ecolo jusqu'en 2004, puis PS–cdH ; Jean-Claude Van Cauwenberghe démissionne en 2005 dans le contexte des affaires de Charleroi.",
+   "head_party": "ps"
+  },
+  {
+   "id": "wallonie-di-rupo-ii",
+   "name": "Gouvernement wallon Di Rupo II",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "elio-di-rupo",
+   "head_name": "Elio Di Rupo",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "cdh"
+   ],
+   "start": "2005-10",
+   "end": "2007-07",
+   "summary": "PS–cdH : lancement du plan Marshall pour la Wallonie.",
+   "head_party": "ps"
+  },
+  {
+   "id": "wallonie-demotte",
+   "name": "Gouvernements wallons Demotte I et II",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "rudy-demotte",
+   "head_name": "Rudy Demotte",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "cdh",
+    "ecolo"
+   ],
+   "start": "2007-07",
+   "end": "2014-07",
+   "summary": "PS–cdH (2007-2009), puis « Olivier » PS–Ecolo–cdH (2009-2014), identique au gouvernement de la Communauté française.",
+   "head_party": "ps"
+  },
+  {
+   "id": "wallonie-magnette",
+   "name": "Gouvernement wallon Magnette",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "paul-magnette",
+   "head_name": "Paul Magnette",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "cdh"
+   ],
+   "start": "2014-07-22",
+   "end": "2017-07-28",
+   "summary": "PS–cdH, marqué par le refus wallon de signer en l'état le CETA (2016) ; il tombe quand le cdH rompt avec le PS en juin 2017.",
+   "head_party": "ps"
+  },
+  {
+   "id": "wallonie-borsus",
+   "name": "Gouvernement wallon Borsus",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "willy-borsus",
+   "head_name": "Willy Borsus",
+   "head_title": "Ministre-président",
+   "parties": [
+    "mr",
+    "cdh"
+   ],
+   "start": "2017-07-28",
+   "end": "2019-09-13",
+   "summary": "MR–cdH, né du changement d'alliance du cdH en cours de législature.",
+   "head_party": "mr"
+  },
+  {
+   "id": "wallonie-di-rupo-iii",
+   "name": "Gouvernement wallon Di Rupo III",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "elio-di-rupo",
+   "head_name": "Elio Di Rupo",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "mr",
+    "ecolo"
+   ],
+   "start": "2019-09-13",
+   "end": "2024-07-15",
+   "summary": "PS–MR–Ecolo, confronté à la crise sanitaire et aux inondations de juillet 2021.",
+   "head_party": "ps"
+  },
+  {
+   "id": "wallonie-dolimont",
+   "name": "Gouvernement wallon Dolimont",
+   "level": "wallonie",
+   "level_label": "Gouvernement wallon",
+   "head": "adrien-dolimont",
+   "head_name": "Adrien Dolimont",
+   "head_title": "Ministre-président",
+   "parties": [
+    "mr",
+    "les-engages"
+   ],
+   "start": "2024-07-15",
+   "end": null,
+   "summary": "MR–Les Engagés (43 sièges sur 75), le PS rejeté dans l'opposition régionale ; Adrien Dolimont est le plus jeune chef de gouvernement de l'histoire de la Région.",
+   "head_party": "mr"
+  },
+  {
+   "id": "bruxelles-picque-iv",
+   "name": "Gouvernement bruxellois Picqué IV",
+   "level": "bruxelles",
+   "level_label": "Gouvernement bruxellois",
+   "head": "charles-picque",
+   "head_name": "Charles Picqué",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "ecolo",
+    "cdh",
+    "anders",
+    "vooruit",
+    "groen"
+   ],
+   "start": "2009-07",
+   "end": "2013-05",
+   "summary": "PS–Ecolo–cdH côté francophone, Open Vld–SP.A–Groen côté néerlandophone.",
+   "head_party": "ps"
+  },
+  {
+   "id": "bruxelles-vervoort-i",
+   "name": "Gouvernement bruxellois Vervoort I",
+   "level": "bruxelles",
+   "level_label": "Gouvernement bruxellois",
+   "head": "rudi-vervoort",
+   "head_name": "Rudi Vervoort",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "ecolo",
+    "cdh",
+    "anders",
+    "vooruit",
+    "groen"
+   ],
+   "start": "2013-05",
+   "end": "2014-07",
+   "summary": "Rudi Vervoort succède à Charles Picqué en fin de législature.",
+   "head_party": "ps"
+  },
+  {
+   "id": "bruxelles-vervoort-ii",
+   "name": "Gouvernement bruxellois Vervoort II",
+   "level": "bruxelles",
+   "level_label": "Gouvernement bruxellois",
+   "head": "rudi-vervoort",
+   "head_name": "Rudi Vervoort",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "defi",
+    "cdh",
+    "anders",
+    "vooruit",
+    "cd-v"
+   ],
+   "start": "2014-07",
+   "end": "2019-07",
+   "summary": "PS–FDF/DéFI–cdH et Open Vld–SP.A–CD&V ; mise en œuvre des compétences de la sixième réforme de l'État.",
+   "head_party": "ps"
+  },
+  {
+   "id": "bruxelles-vervoort-iii",
+   "name": "Gouvernement bruxellois Vervoort III",
+   "level": "bruxelles",
+   "level_label": "Gouvernement bruxellois",
+   "head": "rudi-vervoort",
+   "head_name": "Rudi Vervoort",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "ecolo",
+    "defi",
+    "groen",
+    "anders",
+    "vooruit"
+   ],
+   "start": "2019-07-18",
+   "end": "2026-02-14",
+   "summary": "PS–Ecolo–DéFI et Groen–Open Vld–one.brussels-Vooruit (plan Good Move, zone de basses émissions) ; en affaires courantes de juin 2024 à février 2026.",
+   "head_party": "ps"
+  },
+  {
+   "id": "bruxelles-dillies",
+   "name": "Gouvernement bruxellois Dilliès",
+   "level": "bruxelles",
+   "level_label": "Gouvernement bruxellois",
+   "head": "boris-dillies",
+   "head_name": "Boris Dilliès",
+   "head_title": "Ministre-président",
+   "parties": [
+    "mr",
+    "ps",
+    "les-engages",
+    "groen",
+    "anders",
+    "vooruit",
+    "cd-v"
+   ],
+   "start": "2026-02-14",
+   "end": null,
+   "formation_days": 613,
+   "summary": "Formé après 613 jours de blocage, à l'issue d'un « conclave » de trois jours : MR, PS et Les Engagés côté francophone, Groen, Anders, Vooruit et CD&V côté néerlandophone (9 sièges sur 17). Le MR revient au gouvernement bruxellois après 22 ans d'opposition.",
+   "text": "## Composition (14 février 2026)\n\n| Membre | Parti | Fonction |\n|---|---|---|\n| Boris Dilliès | MR | Ministre-président |\n| Dirk De Smedt | Anders | Ministre (Finances, Budget) |\n| Laurent Hublet | Les Engagés | Ministre (Économie, Emploi) |\n| Elke Van den Brandt | Groen | Ministre (Mobilité, Travaux publics) |\n| Ahmed Laaouej | PS | Ministre (Pouvoirs locaux, Santé) |\n| Ans Persoons | Vooruit | Secrétaire d'État (Environnement, Climat) |\n| Audrey Henry | MR | Secrétaire d'État (Urbanisme) |\n| Karine Lalieux | PS | Secrétaire d'État (Logement) |\n\nL'accord prévoit le retour à l'équilibre budgétaire en 2029, l'arrêt du chantier du métro 3 au profit d'un tram, un nouveau plan de mobilité et des priorités de propreté et de sécurité.\n\nVoir le récit de la crise : [[formation-bruxelloise-2024-2026]].",
+   "head_party": "mr"
+  },
+  {
+   "id": "fwb-hasquin",
+   "name": "Gouvernement de la Communauté française Hasquin",
+   "level": "fwb",
+   "level_label": "Gouvernement de la Communauté française",
+   "head": "herve-hasquin",
+   "head_name": "Hervé Hasquin",
+   "head_title": "Ministre-président",
+   "parties": [
+    "mr",
+    "ps",
+    "ecolo"
+   ],
+   "start": "1999-07",
+   "end": "2004-07",
+   "summary": "Coalition arc-en-ciel PRL-FDF-MCC/MR–PS–Ecolo.",
+   "head_party": "mr"
+  },
+  {
+   "id": "fwb-arena",
+   "name": "Gouvernement de la Communauté française Arena",
+   "level": "fwb",
+   "level_label": "Gouvernement de la Communauté française",
+   "head": "marie-arena",
+   "head_name": "Marie Arena",
+   "head_title": "Ministre-présidente",
+   "parties": [
+    "ps",
+    "cdh"
+   ],
+   "start": "2004-07",
+   "end": "2008-03",
+   "summary": "PS–cdH ; première femme à la présidence de l'exécutif communautaire.",
+   "head_party": "ps"
+  },
+  {
+   "id": "fwb-demotte",
+   "name": "Gouvernements de la Communauté française Demotte",
+   "level": "fwb",
+   "level_label": "Gouvernement de la Communauté française",
+   "head": "rudy-demotte",
+   "head_name": "Rudy Demotte",
+   "head_title": "Ministre-président",
+   "parties": [
+    "ps",
+    "cdh",
+    "ecolo"
+   ],
+   "start": "2008-03",
+   "end": "2019-09",
+   "summary": "Rudy Demotte préside l'exécutif durant trois législatures (PS–cdH, puis Olivier PS–Ecolo–cdH, puis PS–cdH) ; la Communauté adopte l'appellation « Fédération Wallonie-Bruxelles » en 2011.",
+   "head_party": "ps"
+  },
+  {
+   "id": "fwb-jeholet",
+   "name": "Gouvernement de la Fédération Wallonie-Bruxelles Jeholet",
+   "level": "fwb",
+   "level_label": "Gouvernement de la Fédération Wallonie-Bruxelles",
+   "head": "pierre-yves-jeholet",
+   "head_name": "Pierre-Yves Jeholet",
+   "head_title": "Ministre-président",
+   "parties": [
+    "mr",
+    "ps",
+    "ecolo"
+   ],
+   "start": "2019-09",
+   "end": "2024-07",
+   "summary": "MR–PS–Ecolo : poursuite du Pacte pour un enseignement d'excellence et réforme des rythmes scolaires (2022).",
+   "head_party": "mr"
+  },
+  {
+   "id": "fwb-degryse",
+   "name": "Gouvernement de la Fédération Wallonie-Bruxelles Degryse",
+   "level": "fwb",
+   "level_label": "Gouvernement de la Fédération Wallonie-Bruxelles",
+   "head": "elisabeth-degryse",
+   "head_name": "Elisabeth Degryse",
+   "head_title": "Ministre-présidente",
+   "parties": [
+    "les-engages",
+    "mr"
+   ],
+   "start": "2024-07",
+   "end": null,
+   "summary": "Les Engagés–MR (50 sièges sur 94), confronté à de fortes mobilisations enseignantes contre les économies et l'allongement des carrières. En février 2026, le ministre-président bruxellois Boris Dilliès y remplace Adrien Dolimont.",
+   "head_party": "les-engages"
+  },
+  {
+   "id": "dg-paasch-i-ii",
+   "name": "Gouvernements de la Communauté germanophone Paasch I et II",
+   "level": "dg",
+   "level_label": "Gouvernement de la Communauté germanophone",
+   "head": "oliver-paasch",
+   "head_name": "Oliver Paasch",
+   "head_title": "Ministre-président",
+   "parties": [
+    "prodg",
+    "pff"
+   ],
+   "parties_extra": [
+    "SP"
+   ],
+   "start": "2014-06",
+   "end": "2024-06",
+   "summary": "ProDG, SP et PFF : Oliver Paasch succède à Karl-Heinz Lambertz et met en place le dialogue citoyen permanent (2019).",
+   "head_party": "prodg"
+  },
+  {
+   "id": "dg-paasch-iii",
+   "name": "Gouvernement de la Communauté germanophone Paasch III",
+   "level": "dg",
+   "level_label": "Gouvernement de la Communauté germanophone",
+   "head": "oliver-paasch",
+   "head_name": "Oliver Paasch",
+   "head_title": "Ministre-président",
+   "parties": [
+    "prodg",
+    "csp",
+    "pff"
+   ],
+   "start": "2024-06",
+   "end": null,
+   "summary": "ProDG, CSP et PFF : premier gouvernement constitué après le scrutin de juin 2024, quelques jours seulement après les élections.",
+   "head_party": "prodg"
+  }
+ ],
+ "ministres_presidents": {
+  "flandre": [
+   {
+    "name": "Gaston Geens",
+    "party": "CVP",
+    "from": 1981,
+    "to": 1992
+   },
+   {
+    "name": "Luc Van den Brande",
+    "party": "CVP",
+    "from": 1992,
+    "to": 1999
+   },
+   {
+    "name": "Patrick Dewael",
+    "party": "VLD",
+    "from": 1999,
+    "to": 2003
+   },
+   {
+    "name": "Bart Somers",
+    "party": "VLD",
+    "from": 2003,
+    "to": 2004
+   },
+   {
+    "name": "Yves Leterme",
+    "party": "CD&V",
+    "from": 2004,
+    "to": 2007
+   },
+   {
+    "name": "Kris Peeters",
+    "party": "CD&V",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "name": "Geert Bourgeois",
+    "party": "N-VA",
+    "from": 2014,
+    "to": 2019
+   },
+   {
+    "name": "Jan Jambon",
+    "party": "N-VA",
+    "from": 2019,
+    "to": 2024
+   },
+   {
+    "name": "Matthias Diependaele",
+    "party": "N-VA",
+    "from": 2024,
+    "to": null
+   }
+  ],
+  "wallonie": [
+   {
+    "name": "Jean-Maurice Dehousse",
+    "party": "PS",
+    "from": 1981,
+    "to": 1982
+   },
+   {
+    "name": "André Damseaux",
+    "party": "PRL",
+    "from": 1982,
+    "to": 1985
+   },
+   {
+    "name": "Melchior Wathelet",
+    "party": "PSC",
+    "from": 1985,
+    "to": 1988
+   },
+   {
+    "name": "Bernard Anselme",
+    "party": "PS",
+    "from": 1988,
+    "to": 1992
+   },
+   {
+    "name": "Guy Spitaels",
+    "party": "PS",
+    "from": 1992,
+    "to": 1994
+   },
+   {
+    "name": "Robert Collignon",
+    "party": "PS",
+    "from": 1994,
+    "to": 1999
+   },
+   {
+    "name": "Elio Di Rupo",
+    "party": "PS",
+    "from": 1999,
+    "to": 2000
+   },
+   {
+    "name": "Jean-Claude Van Cauwenberghe",
+    "party": "PS",
+    "from": 2000,
+    "to": 2005
+   },
+   {
+    "name": "Elio Di Rupo",
+    "party": "PS",
+    "from": 2005,
+    "to": 2007
+   },
+   {
+    "name": "Rudy Demotte",
+    "party": "PS",
+    "from": 2007,
+    "to": 2014
+   },
+   {
+    "name": "Paul Magnette",
+    "party": "PS",
+    "from": 2014,
+    "to": 2017
+   },
+   {
+    "name": "Willy Borsus",
+    "party": "MR",
+    "from": 2017,
+    "to": 2019
+   },
+   {
+    "name": "Elio Di Rupo",
+    "party": "PS",
+    "from": 2019,
+    "to": 2024
+   },
+   {
+    "name": "Adrien Dolimont",
+    "party": "MR",
+    "from": 2024,
+    "to": null
+   }
+  ],
+  "bruxelles": [
+   {
+    "name": "Charles Picqué",
+    "party": "PS",
+    "from": 1989,
+    "to": 1999
+   },
+   {
+    "name": "Jacques Simonet",
+    "party": "PRL",
+    "from": 1999,
+    "to": 2000
+   },
+   {
+    "name": "François-Xavier de Donnea",
+    "party": "PRL / MR",
+    "from": 2000,
+    "to": 2003
+   },
+   {
+    "name": "Daniel Ducarme",
+    "party": "MR",
+    "from": 2003,
+    "to": 2004
+   },
+   {
+    "name": "Jacques Simonet",
+    "party": "MR",
+    "from": 2004,
+    "to": 2004
+   },
+   {
+    "name": "Charles Picqué",
+    "party": "PS",
+    "from": 2004,
+    "to": 2013
+   },
+   {
+    "name": "Rudi Vervoort",
+    "party": "PS",
+    "from": 2013,
+    "to": 2026
+   },
+   {
+    "name": "Boris Dilliès",
+    "party": "MR",
+    "from": 2026,
+    "to": null
+   }
+  ],
+  "fwb": [
+   {
+    "name": "Philippe Moureaux",
+    "party": "PS",
+    "from": 1981,
+    "to": 1985
+   },
+   {
+    "name": "Philippe Monfils",
+    "party": "PRL",
+    "from": 1985,
+    "to": 1988
+   },
+   {
+    "name": "Valmy Féaux",
+    "party": "PS",
+    "from": 1988,
+    "to": 1992
+   },
+   {
+    "name": "Bernard Anselme",
+    "party": "PS",
+    "from": 1992,
+    "to": 1993
+   },
+   {
+    "name": "Laurette Onkelinx",
+    "party": "PS",
+    "from": 1993,
+    "to": 1999
+   },
+   {
+    "name": "Hervé Hasquin",
+    "party": "PRL / MR",
+    "from": 1999,
+    "to": 2004
+   },
+   {
+    "name": "Marie Arena",
+    "party": "PS",
+    "from": 2004,
+    "to": 2008
+   },
+   {
+    "name": "Rudy Demotte",
+    "party": "PS",
+    "from": 2008,
+    "to": 2019
+   },
+   {
+    "name": "Pierre-Yves Jeholet",
+    "party": "MR",
+    "from": 2019,
+    "to": 2024
+   },
+   {
+    "name": "Elisabeth Degryse",
+    "party": "Les Engagés",
+    "from": 2024,
+    "to": null
+   }
+  ],
+  "dg": [
+   {
+    "name": "Karl-Heinz Lambertz",
+    "party": "SP",
+    "from": 1999,
+    "to": 2014
+   },
+   {
+    "name": "Oliver Paasch",
+    "party": "ProDG",
+    "from": 2014,
+    "to": null
+   }
+  ]
+ },
+ "avant_1945": [
+  {
+   "years": "1831",
+   "head": "Étienne de Gerlache",
+   "note": "Régence (Surlet de Chokier)"
+  },
+  {
+   "years": "1831",
+   "head": "Joseph Lebeau",
+   "note": "Unioniste (libéral)"
+  },
+  {
+   "years": "1831-1832",
+   "head": "Félix de Muelenaere",
+   "note": "Unioniste (catholique)"
+  },
+  {
+   "years": "1832-1834",
+   "head": "Albert Goblet d'Alviella / Charles Rogier",
+   "note": "Unioniste"
+  },
+  {
+   "years": "1834-1840",
+   "head": "Barthélémy de Theux",
+   "note": "Unioniste (catholique)"
+  },
+  {
+   "years": "1840-1841",
+   "head": "Joseph Lebeau",
+   "note": "Libéral"
+  },
+  {
+   "years": "1841-1845",
+   "head": "Jean-Baptiste Nothomb",
+   "note": "Unioniste"
+  },
+  {
+   "years": "1845-1846",
+   "head": "Sylvain Van de Weyer",
+   "note": "Unioniste"
+  },
+  {
+   "years": "1846-1847",
+   "head": "Barthélémy de Theux",
+   "note": "Catholique"
+  },
+  {
+   "years": "1847-1852",
+   "head": "Charles Rogier",
+   "note": "Libéral homogène — fin de l'unionisme"
+  },
+  {
+   "years": "1852-1855",
+   "head": "Henri de Brouckère",
+   "note": "Libéral modéré"
+  },
+  {
+   "years": "1855-1857",
+   "head": "Pierre De Decker",
+   "note": "Catholique-libéral"
+  },
+  {
+   "years": "1857-1868",
+   "head": "Charles Rogier",
+   "note": "Libéral"
+  },
+  {
+   "years": "1868-1870",
+   "head": "Walthère Frère-Orban",
+   "note": "Libéral"
+  },
+  {
+   "years": "1870-1871",
+   "head": "Jules d'Anethan",
+   "note": "Catholique"
+  },
+  {
+   "years": "1871-1878",
+   "head": "Barthélémy de Theux puis Jules Malou",
+   "note": "Catholique"
+  },
+  {
+   "years": "1878-1884",
+   "head": "Walthère Frère-Orban",
+   "note": "Libéral — première guerre scolaire"
+  },
+  {
+   "years": "1884",
+   "head": "Jules Malou",
+   "note": "Catholique — début de trente ans de gouvernements catholiques homogènes"
+  },
+  {
+   "years": "1884-1894",
+   "head": "Auguste Beernaert",
+   "note": "Catholique — suffrage universel tempéré par le vote plural (1893)"
+  },
+  {
+   "years": "1894-1896",
+   "head": "Jules de Burlet",
+   "note": "Catholique"
+  },
+  {
+   "years": "1896-1899",
+   "head": "Paul de Smet de Naeyer",
+   "note": "Catholique"
+  },
+  {
+   "years": "1899",
+   "head": "Jules Vandenpeereboom",
+   "note": "Catholique — tombé sur la représentation proportionnelle"
+  },
+  {
+   "years": "1899-1907",
+   "head": "Paul de Smet de Naeyer",
+   "note": "Catholique"
+  },
+  {
+   "years": "1907",
+   "head": "Jules de Trooz",
+   "note": "Catholique"
+  },
+  {
+   "years": "1908-1911",
+   "head": "Frans Schollaert",
+   "note": "Catholique — reprise du Congo par la Belgique (1908)"
+  },
+  {
+   "years": "1911-1918",
+   "head": "Charles de Broqueville",
+   "note": "Catholique, puis union nationale (1914) — gouvernement au Havre"
+  },
+  {
+   "years": "1918",
+   "head": "Gérard Cooreman",
+   "note": "Union nationale"
+  },
+  {
+   "years": "1918-1920",
+   "head": "Léon Delacroix",
+   "note": "Union nationale — suffrage universel masculin pur (1919)"
+  },
+  {
+   "years": "1920-1921",
+   "head": "Henry Carton de Wiart",
+   "note": "Union nationale"
+  },
+  {
+   "years": "1921-1925",
+   "head": "Georges Theunis",
+   "note": "Catholique-libéral"
+  },
+  {
+   "years": "1925",
+   "head": "Aloys Van de Vyvere",
+   "note": "Catholique"
+  },
+  {
+   "years": "1925-1926",
+   "head": "Prosper Poullet",
+   "note": "Catholique-socialiste (Poullet-Vandervelde)"
+  },
+  {
+   "years": "1926-1931",
+   "head": "Henri Jaspar",
+   "note": "Union nationale puis catholique-libéral"
+  },
+  {
+   "years": "1931-1932",
+   "head": "Jules Renkin",
+   "note": "Catholique-libéral"
+  },
+  {
+   "years": "1932-1934",
+   "head": "Charles de Broqueville",
+   "note": "Catholique-libéral — pouvoirs spéciaux"
+  },
+  {
+   "years": "1934-1935",
+   "head": "Georges Theunis",
+   "note": "Catholique-libéral"
+  },
+  {
+   "years": "1935-1937",
+   "head": "Paul van Zeeland",
+   "note": "Tripartite — dévaluation, congés payés (1936)"
+  },
+  {
+   "years": "1937-1938",
+   "head": "Paul-Émile Janson",
+   "note": "Tripartite"
+  },
+  {
+   "years": "1938-1939",
+   "head": "Paul-Henri Spaak",
+   "note": "Tripartite — premier Premier ministre socialiste"
+  },
+  {
+   "years": "1939-1945",
+   "head": "Hubert Pierlot",
+   "note": "Gouvernements successifs, dont le gouvernement en exil à Londres (1940-1944)"
+  }
+ ]
+}

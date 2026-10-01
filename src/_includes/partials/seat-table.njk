@@ -1,0 +1,19 @@
+{#- Paramètres : rows (sièges enrichis), total, caption -#}
+<div class="table-wrap" tabindex="0">
+<table>
+  <caption class="visually-hidden">{{ caption }}</caption>
+  <thead><tr><th scope="col">Parti</th><th scope="col" class="num">Sièges</th><th scope="col" class="num">Part des sièges</th>{% if rows[0].pct %}<th scope="col" class="num">Voix (%)</th>{% endif %}{% if rows[0].votes %}<th scope="col" class="num">Voix</th>{% endif %}</tr></thead>
+  <tbody>
+  {%- for r in rows | bySeats %}
+    <tr>
+      <th scope="row"><span class="party-swatch" style="background:{{ r.color }}"></span>{% if r.url %}<a href="{{ r.url }}" data-slug="{{ r.slug }}">{{ r.label }}</a>{% else %}{{ r.label }}{% endif %}</th>
+      <td class="num">{{ r.seats }}</td>
+      <td class="num">{{ (r.seats / total * 100) | num(1) }} %</td>
+      {%- if rows[0].pct %}<td class="num">{{ (r.pct | num(2)) if r.pct else "—" }}</td>{% endif %}
+      {%- if rows[0].votes %}<td class="num">{{ (r.votes | num) if r.votes else "—" }}</td>{% endif %}
+    </tr>
+  {%- endfor %}
+  </tbody>
+  <tfoot><tr><th scope="row">Total</th><td class="num">{{ total }}</td><td class="num">100 %</td>{% if rows[0].pct %}<td></td>{% endif %}{% if rows[0].votes %}<td></td>{% endif %}</tr></tfoot>
+</table>
+</div>

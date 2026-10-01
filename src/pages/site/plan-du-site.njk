@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+permalink: /plan-du-site/
+title: Plan du site
+description: "Toutes les pages de Sociopo : lexique, thèmes, partis, personnalités, gouvernements, élections, chronologie, dossiers, jeux et données."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Plan du site", url: "/plan-du-site/" }]
+pageType: CollectionPage
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <h1>Plan du site</h1>
+  <div class="grid grid-3">
+    <section><h2 class="h3">Explorer</h2><ul>
+      <li><a href="/">Accueil</a></li><li><a href="/lexique/">Lexique A–Z</a></li><li><a href="/themes/">Thèmes</a></li><li><a href="/partis/">Partis</a></li><li><a href="/personnalites/">Personnalités</a></li><li><a href="/gouvernements/">Gouvernements</a></li><li><a href="/elections/">Élections</a></li><li><a href="/chronologie/">Chronologie</a></li><li><a href="/dossiers/">Dossiers</a></li>
+    </ul></section>
+    <section><h2 class="h3">Jouer</h2><ul>
+      <li><a href="/jouer/">Tous les jeux</a></li><li><a href="/jouer/coalitions/">Simulateur de coalitions</a></li><li><a href="/jouer/formateur/">Le jeu du formateur</a></li><li><a href="/jouer/dhondt/">Calculateur D'Hondt</a></li><li><a href="/jouer/quiz/">Quiz</a></li><li><a href="/jouer/cartes-memoire/">Cartes mémoire</a></li><li><a href="/jouer/qui-est-competent/">Qui est compétent ?</a></li><li><a href="/jouer/lasagne/">La lasagne institutionnelle</a></li><li><a href="/jouer/carte/">Carte</a></li><li><a href="/jouer/graphe/">Graphe</a></li><li><a href="/jouer/genealogie/">Généalogie des partis</a></li><li><a href="/parcours/">Mon parcours</a></li>
+    </ul></section>
+    <section><h2 class="h3">À propos</h2><ul>
+      <li><a href="/a-propos/">Le projet</a></li><li><a href="/methodologie/">Méthode</a></li><li><a href="/sources/">Sources</a></li><li><a href="/donnees/">Données ouvertes</a></li><li><a href="/recherche/">Recherche</a></li>
+    </ul></section>
+  </div>
+  <h2>Thèmes</h2>
+  <ul class="cluster" style="list-style:none;padding:0">{% for t in taxonomy.THEMES %}<li><a class="chip" href="/themes/{{ t.slug }}/">{{ t.label }}</a></li>{% endfor %}</ul>
+  {%- for grp in [["Notions", corpus.notions], ["Partis", corpus.partis], ["Personnalités", corpus.personnes], ["Dossiers", corpus.dossiers], ["Gouvernements", corpus.gouvernements], ["Élections", corpus.elections]] %}
+  {%- if grp[1] | length %}
+  <h2>{{ grp[0] }} <small class="muted">({{ grp[1] | length }})</small></h2>
+  <ul class="index-list" style="columns: 18rem; column-gap: 2rem">
+    {%- for e in grp[1] | sortTitle %}<li><a href="{{ e.url }}">{{ e.title }}</a></li>{% endfor %}
+  </ul>
+  {%- endif %}
+  {%- endfor %}
+</div>

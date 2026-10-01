@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/graphe/
+title: Graphe des notions
+description: "Explorez visuellement le réseau des liens entre les notions, partis, personnalités et dossiers de l'encyclopédie de la sociopolitique belge."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Graphe des notions", url: "/jouer/graphe/" }]
+ogImage: /assets/img/og/jouer.png
+scripts: [graphe]
+ldKind: "app:|Graphe des notions|Visualisation interactive du réseau de liens entre les entrées de l'encyclopédie Sociopo."
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · exploration</p>
+    <h1>Graphe des notions</h1>
+    <p class="lead">Chaque point est une entrée de l'encyclopédie, chaque trait un renvoi entre deux entrées. Les notions les plus connectées sont les plus grosses. Survolez, cliquez, faites glisser, zoomez à la molette.</p>
+  </header>
+  <div data-graphe>
+    <div class="filters">
+      <input class="input" type="search" name="q" list="graphe-noeuds" placeholder="Aller à une notion…" aria-label="Aller à une notion">
+      <datalist id="graphe-noeuds"></datalist>
+      <select class="input" name="groupe" aria-label="Mettre en évidence une famille de thèmes"><option value="">Toutes les familles</option></select>
+      <button type="button" class="btn btn-small btn-ghost" data-reset>Recentrer</button>
+      <span class="count small muted" data-stats></span>
+    </div>
+    <div class="map-legend" data-legend></div>
+    <div class="graph-stage">
+      <canvas aria-label="Graphe interactif des liens entre notices (la liste des notices reste accessible dans le lexique)"></canvas>
+      <div class="graph-info" data-info aria-live="polite"></div>
+    </div>
+    <p class="small muted">Le graphe est une aide à l'exploration ; toutes les notices sont accessibles sans JavaScript dans le <a href="/lexique/">lexique A–Z</a>.</p>
+  </div>
+</div>

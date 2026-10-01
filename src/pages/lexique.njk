@@ -1,0 +1,61 @@
+---
+layout: layouts/base.njk
+permalink: /lexique/
+title: Lexique de la sociopolitique belge (A–Z)
+description: "Toutes les notions de la sociopolitique belge de A à Z : institutions, procédures, concepts, lois, accords, événements, partis et personnalités, avec définition courte et termes NL/DE/EN."
+bodyClass: page-lexique
+scripts: [lexique]
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Lexique", url: "/lexique/" }]
+---
+{%- set pool = corpus.all | whereIn("type", ["notion", "parti", "personne", "dossier"]) -%}
+{%- set groups = pool | abecedaire -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Lexique A–Z</p>
+    <h1 id="lexique">Le vocabulaire de la sociopolitique belge</h1>
+    <p class="lead">{{ corpus.notions.length | num }} notions, {{ corpus.partis.length }} partis, {{ corpus.personnes.length }} personnalités et {{ corpus.dossiers.length }} dossiers, définis en une phrase puis développés. Filtrez, cherchez, ou laissez-vous guider par les lettres.</p>
+    <div class="filters" role="search" aria-label="Filtrer le lexique">
+      <label class="visually-hidden" for="lx-q">Filtrer par mot</label>
+      <input id="lx-q" type="search" placeholder="Filtrer : budget, bourgmestre, lopende zaken…" autocomplete="off" data-lx-q>
+      <label class="visually-hidden" for="lx-type">Type d'entrée</label>
+      <select id="lx-type" data-lx-type>
+        <option value="">Tous les types</option>
+        <option value="notion">Notions</option>
+        <option value="parti">Partis</option>
+        <option value="personne">Personnalités</option>
+        <option value="dossier">Dossiers</option>
+      </select>
+      <label class="visually-hidden" for="lx-theme">Thème</label>
+      <select id="lx-theme" data-lx-theme>
+        <option value="">Tous les thèmes</option>
+        {%- for t in taxonomy.THEMES %}<option value="{{ t.slug }}">{{ t.label }}</option>{% endfor %}
+      </select>
+      <label class="visually-hidden" for="lx-kind">Nature</label>
+      <select id="lx-kind" data-lx-kind>
+        <option value="">Toutes les natures</option>
+        {%- for k, v in taxonomy.KINDS %}{% if not (k in ["gouvernement", "election"]) %}<option value="{{ k }}">{{ v.plural }}</option>{% endif %}{% endfor %}
+      </select>
+      <span class="count" data-lx-count aria-live="polite">{{ pool.length | num }} entrées</span>
+    </div>
+  </header>
+  <nav class="letters" aria-label="Lettres">
+    {%- set present = groups | pluck("letter") %}
+    {%- for L in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | list %}{% if L in present %}<a href="#lettre-{{ L }}">{{ L }}</a>{% else %}<span>{{ L }}</span>{% endif %}{% endfor %}
+  </nav>
+  {%- for g in groups %}
+  <section class="index-group" id="lettre-{{ g.letter }}" data-lx-group>
+    <h2>{{ g.letter }}</h2>
+    <ul class="index-list">
+      {%- for e in g.entries %}
+      <li data-type="{{ e.type }}" data-kind="{{ e.kind }}" data-themes="{{ e.themes | join(' ') }}" data-text="{{ (e.title + ' ' + (e.short or '') + ' ' + (e.aliases | join(' ')) + ' ' + (e.terms.nl or '') + ' ' + (e.terms.de or '') + ' ' + (e.terms.en or '')) | lower }}">
+        <a href="{{ e.url }}" data-slug="{{ e.slug }}">{{ e.title }}</a><span class="k">{{ e.kind | kindLabel }}</span>
+        <span class="s">{{ e.summary | truncate(120) }}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endfor %}
+  <p class="empty-state" data-lx-empty hidden>Aucune entrée ne correspond. Essayez la <button class="btn btn-ghost btn-small" type="button" data-search-open>recherche plein texte</button>.</p>
+</div>

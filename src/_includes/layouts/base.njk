@@ -1,0 +1,68 @@
+{%- set pageTitle = (title + " — " + site.name) if (title and page.url != "/") else site.title -%}
+{%- set pageDesc = (description or (entry.summary if entry else "") or site.description) | plain | truncate(300) -%}
+{%- set ogImg = ogImage or "/assets/img/og/default.png" -%}
+<!doctype html>
+<html lang="fr-BE" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ pageTitle }}</title>
+<meta name="description" content="{{ pageDesc }}">
+<link rel="canonical" href="{{ page.url | absUrl }}">
+<meta name="robots" content="{{ robots or 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
+<meta name="generator" content="Eleventy">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:title" content="{{ title or site.title }}">
+<meta property="og:description" content="{{ pageDesc }}">
+<meta property="og:url" content="{{ page.url | absUrl }}">
+<meta property="og:image" content="{{ ogImg | absUrl }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ title or site.name }} — Sociopo, encyclopédie de la sociopolitique belge">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ title or site.title }}">
+<meta name="twitter:description" content="{{ pageDesc }}">
+<meta name="twitter:image" content="{{ ogImg | absUrl }}">
+{%- if entry and entry.data.updated %}<meta property="article:modified_time" content="{{ entry.data.updated }}">{% endif %}
+{%- if entry and entry.themes %}{% for t in entry.themes %}<meta property="article:tag" content="{{ (t | theme).label }}">{% endfor %}{% endif %}
+<link rel="alternate" type="application/atom+xml" title="Sociopo — nouveautés" href="/feed.xml">
+<link rel="alternate" type="application/ld+json" title="Thésaurus SKOS (JSON-LD)" href="/thesaurus.jsonld">
+<link rel="alternate" type="text/turtle" title="Thésaurus SKOS (Turtle)" href="/thesaurus.ttl">
+<link rel="search" type="application/opensearchdescription+xml" title="Sociopo" href="/opensearch.xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#fbfaf6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101215" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/partis.css">
+<link rel="stylesheet" href="/assets/css/print.css" media="print">
+<script>(function(){try{var t=localStorage.getItem("sociopo-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}document.documentElement.classList.add("js");})();</script>
+{%- if jsonld %}{% set ld = jsonld %}
+{%- elif g and g.level_label %}{% set ld = g | ldGovernment("/gouvernements/" + g.id + "/") %}
+{%- elif el and el.type %}{% set ld = el | ldElection("/elections/" + el.id + "/") %}
+{%- else %}{% set ld = ({ url: page.url, title: title or site.title, description: pageDesc, crumbs: crumbs, type: pageType or "WebPage", ldKind: ldKind }) | ldPage %}{% endif %}
+<script type="application/ld+json">{{ ld | safe }}</script>
+<script type="module" src="/assets/js/core.js"></script>
+{%- for s in scripts %}
+<script type="module" src="/assets/js/{{ s }}.js"></script>
+{%- endfor %}
+</head>
+<body class="{{ bodyClass }}" data-base="{{ site.pathPrefix }}" data-build="{{ site.buildTime }}"{% if entry %} data-slug="{{ entry.slug }}" data-type="{{ entry.type }}"{% endif %}>
+<a class="skip" href="#contenu">Aller au contenu</a>
+{% include "partials/icons.njk" %}
+{% include "partials/header.njk" %}
+<main id="contenu" tabindex="-1">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+{% include "partials/search.njk" %}
+<div class="toast" role="status" aria-live="polite" id="toast"></div>
+</body>
+</html>

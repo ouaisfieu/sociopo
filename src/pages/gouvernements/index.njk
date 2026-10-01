@@ -1,0 +1,70 @@
+---
+layout: layouts/base.njk
+permalink: /gouvernements/
+title: Les gouvernements belges depuis 1831
+description: "Tous les gouvernements fédéraux belges depuis 1945 (et les chefs de cabinet depuis 1831), ainsi que les gouvernements flamand, wallon, bruxellois, de la Fédération Wallonie-Bruxelles et de la Communauté germanophone, avec leurs coalitions."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Gouvernements", url: "/gouvernements/" }]
+ogImage: /assets/img/og/gouvernement.png
+scripts: [gouvernements]
+---
+{%- set levels = [
+  { id: "federal", label: "Gouvernements nationaux puis fédéraux (depuis 1945)" },
+  { id: "flandre", label: "Gouvernements flamands (depuis 1999)" },
+  { id: "wallonie", label: "Gouvernements wallons (depuis 1999)" },
+  { id: "bruxelles", label: "Gouvernements bruxellois (depuis 2009)" },
+  { id: "fwb", label: "Gouvernements de la Communauté française / FWB (depuis 1999)" },
+  { id: "dg", label: "Gouvernements de la Communauté germanophone (depuis 2014)" }
+] -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Gouvernements</p>
+    <h1>Les gouvernements de Belgique</h1>
+    <p class="lead">{{ gouvernements.items.length }} gouvernements détaillés : coalitions, dates, chefs de gouvernement et faits marquants. La frise montre la durée de chaque équipe fédérale depuis 1945 ; survolez ou sélectionnez une barre.</p>
+    <div class="cluster"><a class="btn btn-ghost btn-small" href="/notions/formation-du-gouvernement/">Comment se forme un gouvernement ?</a><a class="btn btn-ghost btn-small" href="/notions/noms-de-coalitions/">Les noms de coalitions</a><a class="btn btn-ghost btn-small" href="/notions/duree-des-formations/">Records de formation</a></div>
+  </header>
+
+  {%- set fed = gouvernements.items | where("level", "federal") %}
+  <section aria-labelledby="frise-h">
+    <h2 id="frise-h">Frise des gouvernements fédéraux (1945-2026)</h2>
+    <div class="gantt" data-gantt>
+      <noscript><p class="noscript-note">La frise interactive nécessite JavaScript ; la liste ci-dessous contient les mêmes informations.</p></noscript>
+    </div>
+    <script type="application/json" id="gantt-data">{{ fed | jsonScript | safe }}</script>
+  </section>
+
+  {%- for lv in levels %}
+  {%- set list = gouvernements.items | where("level", lv.id) %}
+  <section aria-labelledby="lv-{{ lv.id }}">
+    <h2 id="lv-{{ lv.id }}">{{ lv.label }}</h2>
+    <div>
+      {%- for g in list | reverse %}
+      <div class="gov-row">
+        <span class="dates">{{ g.start | dateFr(true) }}<br>{{ (g.end | dateFr(true)) if g.end else "en fonction" }}</span>
+        <span><a href="/gouvernements/{{ g.id }}/">{{ g.name }}</a>{% if g.nickname %} <span class="badge">{{ g.nickname }}</span>{% endif %}<br>
+          <span class="party-chips">{% for p in g.parties %}{% set pi = p | partyInfo %}{% if pi %}<span class="party-chip"><i style="background:{{ pi.color }}"></i>{{ pi.short }}</span>{% endif %}{% endfor %}{% for x in g.parties_extra %}<span class="party-chip"><i style="background:var(--p-autre)"></i>{{ x }}</span>{% endfor %}</span></span>
+      </div>
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endfor %}
+
+  <section aria-labelledby="mp-h">
+    <h2 id="mp-h">Les chefs des exécutifs fédérés depuis leur création</h2>
+    <div class="grid grid-2">
+      {%- for key, label in { flandre: "Flandre", wallonie: "Wallonie", bruxelles: "Bruxelles-Capitale", fwb: "Communauté française / FWB", dg: "Communauté germanophone" } %}
+      <div class="aside-box"><h3>{{ label }}</h3><ul>{% for m in gouvernements.ministres_presidents[key] %}<li>{{ m.from }}–{{ m.to or "…" }} · <b>{{ m.name }}</b> <span class="muted small">({{ m.party }})</span></li>{% endfor %}</ul></div>
+      {%- endfor %}
+    </div>
+  </section>
+
+  <section aria-labelledby="av-h">
+    <h2 id="av-h">Les chefs de cabinet de 1831 à 1945</h2>
+    <div class="table-wrap" tabindex="0"><table>
+      <thead><tr><th scope="col">Période</th><th scope="col">Chef du gouvernement</th><th scope="col">Majorité / remarque</th></tr></thead>
+      <tbody>{% for a in gouvernements.avant_1945 %}<tr><td class="num">{{ a.years }}</td><td>{{ a.head }}</td><td>{{ a.note }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+    <p class="small muted">Jusqu'en 1918, le titre de « Premier ministre » n'existe pas officiellement : on parle de chef de cabinet. Les dates précises figurent dans les publications du CRISP et du Moniteur belge.</p>
+  </section>
+</div>

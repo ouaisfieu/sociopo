@@ -1,0 +1,10 @@
+{%- set bc = crumbsList or crumbs -%}
+{%- if bc %}
+<nav class="breadcrumbs" aria-label="Fil d'Ariane">
+  <ol>
+    {%- for c in bc %}
+    <li>{% if not loop.last %}<a href="{{ c.url }}">{{ c.label }}</a>{% else %}<span aria-current="page">{{ c.label }}</span>{% endif %}</li>
+    {%- endfor %}
+  </ol>
+</nav>
+{%- endif %}

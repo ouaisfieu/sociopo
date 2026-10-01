@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+permalink: /personnalites/
+title: Personnalités de la vie politique belge
+description: "Rois, Premiers ministres, ministres-présidents, présidents de partis, figures syndicales et historiques : les personnalités qui ont façonné la Belgique politique, avec leurs fonctions et dates clés."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Personnalités", url: "/personnalites/" }]
+ogImage: /assets/img/og/personnalites.png
+---
+{%- set groups = [
+  { id: "rois", label: "Souverains" },
+  { id: "premiers-ministres", label: "Premiers ministres" },
+  { id: "entites", label: "Ministres-présidents et dirigeants des entités fédérées" },
+  { id: "presidents", label: "Présidents et présidentes de partis (2026)" },
+  { id: "ministres", label: "Membres des gouvernements (2024-2026)" },
+  { id: "figures", label: "Figures politiques" },
+  { id: "histoire", label: "Figures historiques" },
+  { id: "societe", label: "Syndicats, patronat, société civile" }
+] -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Personnalités</p>
+    <h1>Qui est qui ?</h1>
+    <p class="lead">{{ corpus.personnes.length }} fiches biographiques centrées sur les fonctions exercées et les dates clés. Les fiches des personnes vivantes s'en tiennent à leur parcours public.</p>
+  </header>
+  {%- for g in groups %}
+  {%- set list = corpus.personnes | where("data.group", g.id) %}
+  {%- if list.length %}
+  <section class="kind-section" aria-labelledby="pg-{{ g.id }}">
+    <h2 id="pg-{{ g.id }}">{{ g.label }} <span class="muted">({{ list.length }})</span></h2>
+    <ul class="index-list">
+      {%- for p in list | sortBy("data.order") %}{% set party = p.data.party | entry %}
+      <li><a href="{{ p.url }}" data-slug="{{ p.slug }}">{{ p.title }}</a>{% if party %}<span class="k"><span class="party-swatch" style="background:var(--p-{{ party.slug }})"></span>{{ party.short }}</span>{% endif %}<span class="s">{{ p.data.job or p.summary | truncate(100) }}</span></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+  {%- endfor %}
+</div>

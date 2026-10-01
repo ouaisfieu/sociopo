@@ -1,0 +1,76 @@
+---
+layout: layouts/base.njk
+---
+{%- set e = entry -%}
+{%- set d = e.data -%}
+{%- set crumbsList = e | crumbs -%}
+{%- set toc = content | tocFromHtml -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <article data-pagefind-body style="--party: var(--p-{{ e.slug }}, var(--accent))">
+    <header class="notice-head party-head">
+      <div class="kicker">
+        <span class="badge">{{ "Parti historique" if d.dissolved else "Parti politique" }}</span>
+        {%- if d.family %}<a class="chip" href="/partis/#famille-{{ d.family }}">{{ d.family | familyLabel }}</a>{% endif %}
+        {%- if d.community %}<span class="chip">{{ { nl: "Néerlandophone", fr: "Francophone", de: "Germanophone", national: "National / unitaire", bxl: "Bruxellois" }[d.community] }}</span>{% endif %}
+      </div>
+      <h1 data-pagefind-meta="title"><span class="party-swatch" style="background:var(--p-{{ e.slug }}, var(--p-autre))"></span>{{ e.title }}{% if e.short and e.short != e.title %} <span class="muted" style="font-size:.55em;font-weight:500">({{ e.short }})</span>{% endif %}</h1>
+      <p class="definition">{{ e.summary | mdInline | safe }}</p>
+      {%- if e.aliases.length %}<p class="small muted" style="margin:.6rem 0 0">Autres noms : {{ e.aliases | join(" · ") }}</p>{% endif %}
+      <span hidden data-pagefind-filter="type">Parti politique</span>
+    </header>
+    <div class="notice-layout">
+      <div>
+        {%- if d.seats %}
+        <section aria-labelledby="poids-h">
+          <h2 id="poids-h" style="margin-top:0">Poids électoral (élections de 2024)</h2>
+          <div class="seat-bars">
+            {%- set maxes = { chambre: 150, flandre: 124, wallonie: 75, bruxelles_fr: 72, bruxelles_nl: 17, dg: 25, europe: 22 } %}
+            {%- set labels = { chambre: "Chambre", flandre: "Parlement flamand", wallonie: "Parlement de Wallonie", bruxelles_fr: "Bruxelles (groupe FR)", bruxelles_nl: "Bruxelles (groupe NL)", dg: "Parl. germanophone", europe: "Parlement européen (sièges belges)" } %}
+            {%- for k, v in d.seats %}
+            <div class="seat-bar"><span>{{ labels[k] or k }}</span><span class="track"><span class="fill" style="width:{{ (v / maxes[k] * 100) if maxes[k] else 0 }}%;background:var(--party)"></span></span><span class="v">{{ v }}/{{ maxes[k] }}</span></div>
+            {%- endfor %}
+          </div>
+          <p class="small muted">Sièges obtenus au scrutin du 9 juin 2024. Les effectifs des groupes peuvent varier en cours de législature (départs, ralliements).</p>
+        </section>
+        {%- endif %}
+        <div class="prose">
+          {{ content | safe }}
+        </div>
+        {% include "partials/entry-foot.njk" %}
+      </div>
+      <aside class="aside" data-pagefind-ignore aria-label="Fiche du parti">
+        <div class="aside-box">
+          <h2>Fiche</h2>
+          <dl class="facts">
+            {%- if e.short %}<dt>Sigle</dt><dd>{{ e.short }}</dd>{% endif %}
+            {%- if d.founded %}<dt>Fondation</dt><dd>{{ d.founded | dateFr }}</dd>{% endif %}
+            {%- if d.dissolved %}<dt>Fin</dt><dd>{{ d.dissolved | dateFr }}</dd>{% endif %}
+            {%- if d.president %}<dt>Présidence</dt><dd>{% set pe = d.president.slug | entry %}{% if pe %}<a href="{{ pe.url }}">{{ d.president.name }}</a>{% else %}{{ d.president.name }}{% endif %}{% if d.president.since %}<br><span class="small muted">depuis {{ d.president.since | dateFr }}</span>{% endif %}</dd>{% endif %}
+            {%- if d.ideology %}<dt>Idéologie</dt><dd>{{ d.ideology | join(", ") }}</dd>{% endif %}
+            {%- if d.position %}<dt>Positionnement</dt><dd>{{ d.position }}</dd>{% endif %}
+            {%- if d.europarty %}<dt>Europe</dt><dd>{{ d.europarty }}</dd>{% endif %}
+            {%- if d.pillar %}<dt>Pilier</dt><dd>{{ d.pillar }}</dd>{% endif %}
+            {%- if d.website %}<dt>Site</dt><dd><a href="{{ d.website }}" rel="noopener nofollow">{{ d.website | replace("https://", "") | replace("www.", "") | truncate(28) }}</a></dd>{% endif %}
+          </dl>
+        </div>
+        {%- set pre = d.predecessors | entries %}
+        {%- set suc = d.successors | entries %}
+        {%- if pre.length or suc.length %}
+        <div class="aside-box">
+          <h2>Généalogie</h2>
+          {%- if pre.length %}<p class="small" style="margin:0 0 .4rem"><b>Issu de :</b> {% for p in pre %}<a href="{{ p.url }}">{{ p.short or p.title }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+          {%- if suc.length %}<p class="small" style="margin:0"><b>A donné :</b> {% for p in suc %}<a href="{{ p.url }}">{{ p.short or p.title }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+          <p class="small" style="margin:.6rem 0 0"><a href="/jouer/genealogie/#{{ e.slug }}">{% icon "graph" %} Arbre généalogique des partis</a></p>
+        </div>
+        {%- endif %}
+        {%- if toc.length > 2 %}
+        <nav class="aside-box toc" aria-label="Sommaire">
+          <h2>Sommaire</h2>
+          <ol>{% for h in toc %}<li class="lvl-{{ h.level }}"><a href="#{{ h.id }}">{{ h.text }}</a></li>{% endfor %}</ol>
+        </nav>
+        {%- endif %}
+      </aside>
+    </div>
+  </article>
+</div>

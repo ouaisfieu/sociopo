@@ -1,0 +1,72 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="/"><svg aria-hidden="true" style="color:var(--brick)"><use href="#i-logo"></use></svg><span>Sociopo<small>sociopolitique belge</small></span></a>
+        <p class="small muted" style="margin-top:.8rem">Encyclopédie libre et interactive de la sociopolitique belge, rédigée de manière collective et anonyme. Pas de cookie, pas de traceur, pas de publicité.</p>
+        <p class="small muted">État des connaissances : {{ site.updatedLabel }}.</p>
+      </div>
+      <div>
+        <h2>Explorer</h2>
+        <ul>
+          <li><a href="/lexique/">Lexique A–Z</a></li>
+          <li><a href="/themes/">Thèmes</a></li>
+          <li><a href="/partis/">Partis politiques</a></li>
+          <li><a href="/personnalites/">Personnalités</a></li>
+          <li><a href="/gouvernements/">Gouvernements</a></li>
+          <li><a href="/elections/">Élections</a></li>
+          <li><a href="/chronologie/">Chronologie 1830-2026</a></li>
+          <li><a href="/dossiers/">Dossiers d'analyse</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Jouer &amp; comprendre</h2>
+        <ul>
+          <li><a href="/jouer/coalitions/">Simulateur de coalitions</a></li>
+          <li><a href="/jouer/dhondt/">Calculateur D'Hondt</a></li>
+          <li><a href="/jouer/quiz/">Quiz</a></li>
+          <li><a href="/jouer/cartes-memoire/">Cartes mémoire</a></li>
+          <li><a href="/jouer/qui-est-competent/">Qui est compétent ?</a></li>
+          <li><a href="/jouer/formateur/">Le jeu du formateur</a></li>
+          <li><a href="/jouer/lasagne/">La lasagne institutionnelle</a></li>
+          <li><a href="/jouer/graphe/">Graphe des notions</a></li>
+          <li><a href="/jouer/carte/">Carte des territoires</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Données ouvertes</h2>
+        <ul>
+          <li><a href="/donnees/">Jeux de données</a></li>
+          <li><a href="/thesaurus.ttl">Thésaurus SKOS (Turtle)</a></li>
+          <li><a href="/thesaurus.jsonld">Thésaurus SKOS (JSON-LD)</a></li>
+          <li><a href="/feed.xml">Flux Atom</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
+          <li><a href="{{ site.repo }}">Code source</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>À propos</h2>
+        <ul>
+          <li><a href="/a-propos/">Le projet</a></li>
+          <li><a href="/methodologie/">Méthode &amp; ligne éditoriale</a></li>
+          <li><a href="/sources/">Sources &amp; bibliographie</a></li>
+          <li><a href="/a-propos/#contribuer">Contribuer, signaler une erreur</a></li>
+          <li><a href="/a-propos/#confidentialite">Confidentialité</a></li>
+          <li><a href="/plan-du-site/">Plan du site</a></li>
+        </ul>
+        <h2 style="margin-top:1.2rem">Projets liés</h2>
+        <ul>
+          {%- for r in site.related %}
+          <li><a href="{{ r.url }}" rel="noopener">{{ r.name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Textes sous licence <a href="{{ site.license.url }}" rel="license">{{ site.license.name }}</a></span>
+      <span>Code sous licence <a href="{{ site.codeLicense.url }}">{{ site.codeLicense.name }}</a></span>
+      <span>{{ corpus.count | num }} entrées</span>
+      <span>Aucun cookie · aucun traceur</span>
+    </div>
+  </div>
+</footer>

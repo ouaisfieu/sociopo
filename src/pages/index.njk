@@ -1,0 +1,141 @@
+---
+layout: layouts/base.njk
+permalink: /
+title: Accueil
+description: "Sociopo, encyclopédie libre et interactive de la sociopolitique belge : plus de mille entrées reliées sur les institutions, le fédéralisme, les partis, les élections, les piliers, la concertation sociale et l'histoire politique, avec simulateurs, quiz et données ouvertes."
+bodyClass: page-home
+scripts: [home]
+---
+{%- set nNotions = corpus.notions.length -%}
+{%- set daily = corpus.notions | dailyPick("notion") -%}
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Encyclopédie libre · sans traceur · mise à jour : {{ site.updatedLabel }}</p>
+      <h1>La Belgique politique, <em>enfin</em> lisible.</h1>
+      <p class="lead">Institutions, réformes de l'État, partis, élections, piliers, concertation sociale, finances publiques et histoire politique de 1830 à 2026 : {{ corpus.count | num }} entrées reliées entre elles, avec leurs équivalents en néerlandais, en allemand et en anglais, des simulateurs et des quiz.</p>
+      <div class="hero-search">
+        <button class="fake-input" type="button" data-search-open aria-label="Ouvrir la recherche">{% icon "search" %} Formateur, BHV, sonnette d'alarme, Arizona…</button>
+      </div>
+      <div class="stats-row" aria-label="Sociopo en chiffres">
+        <div class="stat"><span class="v">{{ nNotions | num }}</span><span class="l">notions</span></div>
+        <div class="stat"><span class="v">{{ corpus.partis.length }}</span><span class="l">partis</span></div>
+        <div class="stat"><span class="v">{{ corpus.personnes.length }}</span><span class="l">personnalités</span></div>
+        <div class="stat"><span class="v">{{ corpus.gouvernements.length }}</span><span class="l">gouvernements</span></div>
+        <div class="stat"><span class="v">{{ corpus.elections.length }}</span><span class="l">scrutins</span></div>
+      </div>
+    </div>
+    <div class="stack" style="--s:1rem">
+      <div class="hero-card daily" data-daily>
+        <p class="eyebrow" style="color:var(--ochre)">{% icon "sparkle" %} La notion du jour</p>
+        {%- if daily %}
+        <p class="term"><a href="{{ daily.url }}" data-slug="{{ daily.slug }}" data-daily-link>{{ daily.title }}</a></p>
+        <p class="small" data-daily-summary>{{ daily.summary | truncate(220) }}</p>
+        {%- endif %}
+        <div class="cluster"><a class="btn btn-small" href="{{ daily.url if daily else '/lexique/' }}" data-daily-btn>Lire la notice</a><button class="btn btn-ghost btn-small" type="button" data-random>{% icon "dice" %} Au hasard</button></div>
+      </div>
+      <div class="hero-card">
+        <h2>Où en est-on ? <span class="muted small" style="font-family:var(--font-sans);font-weight:500">octobre 2026</span></h2>
+        <div class="status-board">
+          {%- set current = gouvernements.items | activeGov %}
+          {%- for g in current %}
+          <a class="status-row" href="/gouvernements/{{ g.id }}/" style="text-decoration:none;color:inherit">
+            <span><b>{{ g.level_label | replace("Gouvernement de la ", "") | replace("Gouvernement ", "") | capitalize }}</b><br><span class="who">{{ g.head_name }}{% if g.nickname %} · {{ g.nickname }}{% endif %}</span></span>
+            <span class="coalition-dots" aria-label="Coalition : {% for p in g.parties %}{{ (p | partyInfo).short }}{% if not loop.last %}, {% endif %}{% endfor %}">{% for p in g.parties %}{% set pi = p | partyInfo %}<i style="background:{{ pi.color }}" title="{{ pi.short }}"></i>{% endfor %}</span>
+          </a>
+          {%- endfor %}
+        </div>
+        <p class="small muted" style="margin:.7rem 0 0">Prochain scrutin fédéral, régional et européen : juin 2029. <a href="/dossiers/rapports-de-forces-politiques-2024-2026/">Le dossier 2024-2026</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="themes-h">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Explorer</p><h2 id="themes-h">{{ taxonomy.THEMES.length }} thèmes pour tout comprendre</h2></div><a class="btn btn-ghost" href="/themes/">Tous les thèmes {% icon "arrow-right" %}</a></div>
+    <div class="grid grid-4">
+      {%- for t in taxonomy.THEMES %}
+      {%- set n = (t.slug | ofTheme).length %}
+      <a class="tile" href="/themes/{{ t.slug }}/"><span class="ico">{% icon t.icon %}</span><span><strong>{{ t.label }}</strong><span>{{ n }} entrée{{ "s" if n > 1 }}</span></span></a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="jouer-h">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Jouer pour comprendre</p><h2 id="jouer-h">Mettez la main dans la mécanique</h2></div><a class="btn btn-ghost" href="/jouer/">Tous les jeux et outils {% icon "arrow-right" %}</a></div>
+    <div class="grid grid-3">
+      <a class="card linkable card-accent" href="/jouer/coalitions/"><span class="badge">Simulateur</span><h3>Formez une coalition</h3><p>Choisissez des partis sur les vrais hémicycles de 2024 et vérifiez la majorité… et la double majorité linguistique.</p></a>
+      <a class="card linkable card-accent" href="/jouer/formateur/"><span class="badge badge-brick">Jeu narratif</span><h3>Le jeu du formateur</h3><p>Le Roi vous charge de former un gouvernement. Vétos, notes, nuits blanches : tiendrez-vous jusqu'à la prestation de serment ?</p></a>
+      <a class="card linkable card-accent" href="/jouer/qui-est-competent/"><span class="badge badge-ochre">Jeu</span><h3>Qui est compétent ?</h3><p>Allocations familiales, permis de conduire, prisons, enseignement… Fédéral, Région, Communauté ou commune ?</p></a>
+      <a class="card linkable" href="/jouer/quiz/"><span class="badge badge-green">Quiz</span><h3>Quiz par thème</h3><p>Des centaines de questions corrigées et expliquées, du niveau découverte au niveau expert.</p></a>
+      <a class="card linkable" href="/jouer/dhondt/"><span class="badge">Calculateur</span><h3>D'Hondt, Imperiali et seuils</h3><p>Transformez des voix en sièges et voyez l'effet du seuil de 5 % ou de la clé Imperiali.</p></a>
+      <a class="card linkable" href="/jouer/graphe/"><span class="badge badge-violet">Visualisation</span><h3>Le graphe des notions</h3><p>Naviguez dans la toile des {{ corpus.count | num }} entrées et de leurs liens.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" aria-labelledby="chambre-h">
+  <div class="container grid grid-2" style="--gap:2rem;align-items:center">
+    <div>
+      {%- set ch = elections.items | where("id", "chambre-2024") | first %}
+      {{ ch.seats | hemicycle(150, "Chambre des représentants, scrutin du 9 juin 2024", "h-home") | safe }}
+      {%- set rows = ch.seats | seatsWithInfo %}
+      {% include "partials/seat-legend.njk" %}
+    </div>
+    <div>
+      <p class="eyebrow">Chambre des représentants</p>
+      <h2 id="chambre-h">150 sièges, 76 pour gouverner… et deux majorités linguistiques</h2>
+      <p>Au fédéral, une coalition doit réunir la majorité absolue de la <a class="wl" href="/notions/chambre-des-representants/" data-slug="chambre-des-representants">Chambre</a>. Mais pour réformer l'État, il faut une <a class="wl" href="/notions/majorite-speciale/" data-slug="majorite-speciale">majorité spéciale</a> : deux tiers des voix et la majorité dans chacun des deux <a class="wl" href="/notions/groupe-linguistique/" data-slug="groupe-linguistique">groupes linguistiques</a>. La coalition Arizona réunit 82 sièges sur 150.</p>
+      <div class="cluster"><a class="btn" href="/jouer/coalitions/">{% icon "puzzle" %} Ouvrir le simulateur</a><a class="btn btn-ghost" href="/elections/chambre-2024/">Résultats détaillés</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="reformes-h">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Repères</p><h2 id="reformes-h">De l'État unitaire à l'État fédéral, en six réformes</h2></div><a class="btn btn-ghost" href="/themes/reformes-etat/">Le thème {% icon "arrow-right" %}</a></div>
+    <ol class="grid grid-3" style="list-style:none;padding:0;--gap:.8rem">
+      {%- set steps = [
+        { y: "1970", s: "premiere-reforme-de-l-etat", t: "Communautés culturelles, principe des Régions, groupes linguistiques" },
+        { y: "1980", s: "deuxieme-reforme-de-l-etat", t: "Régions flamande et wallonne, Communautés avec exécutifs" },
+        { y: "1988-1989", s: "troisieme-reforme-de-l-etat", t: "Enseignement aux Communautés, Région bruxelloise, loi de financement" },
+        { y: "1993", s: "quatrieme-reforme-de-l-etat", t: "La Belgique devient un État fédéral ; parlements élus directement" },
+        { y: "2001", s: "cinquieme-reforme-de-l-etat", t: "Autonomie fiscale régionale, lois communale et provinciale" },
+        { y: "2011-2014", s: "sixieme-reforme-de-l-etat", t: "Scission de BHV, Sénat réformé, allocations familiales et emploi" }
+      ] %}
+      {%- for st in steps %}
+      <li><a class="card linkable" href="/notions/{{ st.s }}/" data-slug="{{ st.s }}"><span class="big-number" style="font-size:1.6rem;color:var(--brick)">{{ st.y }}</span><p>{{ st.t }}</p></a></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+{%- if corpus.dossiers.length %}
+<section class="section section-alt" aria-labelledby="dossiers-h">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Dossiers</p><h2 id="dossiers-h">Les rapports de forces, décortiqués</h2></div><a class="btn btn-ghost" href="/dossiers/">Tous les dossiers {% icon "arrow-right" %}</a></div>
+    <div class="grid grid-3">
+      {%- for d in corpus.dossiers | limit(6) %}
+      <a class="card linkable" href="{{ d.url }}"><span class="badge badge-brick">Dossier</span><h3>{{ d.title }}</h3><p>{{ d.summary | truncate(170) }}</p><span class="meta">{{ d.body | readingTime }} min de lecture</span></a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="section" aria-labelledby="pourquoi-h">
+  <div class="container">
+    <div class="section-head"><div><p class="eyebrow">Le projet</p><h2 id="pourquoi-h">Une encyclopédie pensée pour être reliée, vérifiable et ouverte</h2></div></div>
+    <div class="grid grid-3">
+      <div class="card"><h3>{% icon "link" %} Tout est relié</h3><p>Chaque notion renvoie aux autres, avec aperçu au survol, rétroliens « cité dans » et graphe interactif.</p></div>
+      <div class="card"><h3>{% icon "languages" %} Trilingue dans l'âme</h3><p>Les termes officiels néerlandais, allemands et anglais accompagnent chaque notice ; la recherche les comprend.</p></div>
+      <div class="card"><h3>{% icon "book" %} Sourcé et daté</h3><p>Sources officielles et académiques, date de mise à jour sur chaque page, signalement d'erreur en un clic.</p></div>
+      <div class="card"><h3>{% icon "data" %} Données ouvertes</h3><p>Thésaurus SKOS, résultats électoraux, gouvernements et partis téléchargeables en JSON, sous licence libre.</p></div>
+      <div class="card"><h3>{% icon "shield" %} Respect de la vie privée</h3><p>Aucun cookie, aucun traceur, aucune ressource tierce : votre progression reste dans votre navigateur.</p></div>
+      <div class="card"><h3>{% icon "scales" %} Pluraliste</h3><p>Des notices factuelles et des dossiers qui exposent les lectures contradictoires, attribuées à leurs auteurs.</p></div>
+    </div>
+  </div>
+</section>

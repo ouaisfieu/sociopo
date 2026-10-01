@@ -1,0 +1,2633 @@
+{
+ "updated": "2026-10-01",
+ "note": "Sièges à la Chambre des représentants. Pour 1919, 1921 et 1929, les résultats détaillés ne sont pas repris faute de vérification suffisante. Sources : SPF Intérieur (elections.fgov.be, resultatselection.belgium.be), Chambre des représentants, CRISP, Parties and Elections in Europe.",
+ "items": [
+  {
+   "id": "chambre-1919",
+   "type": "chambre",
+   "name": "Élections législatives de 1919",
+   "date": "1919-11-16",
+   "total": 186,
+   "summary": "Premières élections au suffrage universel masculin « pur » (un homme, une voix), introduit au lendemain de la Première Guerre mondiale par l'accord dit de Lophem. Les catholiques perdent leur majorité absolue détenue depuis 1884 ; le Parti ouvrier belge progresse fortement et le nationalisme flamand (Frontpartij) entre au Parlement.",
+   "seats": null,
+   "government": null,
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1921",
+   "type": "chambre",
+   "name": "Élections législatives de 1921",
+   "date": "1921-11-20",
+   "total": 186,
+   "summary": "Premières élections après la révision constitutionnelle de 1921 qui inscrit le suffrage universel masculin dans la Constitution. Les catholiques restent le premier groupe et gouvernent avec les libéraux (gouvernement Theunis).",
+   "seats": null,
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1925",
+   "type": "chambre",
+   "name": "Élections législatives de 1925",
+   "date": "1925-04-05",
+   "total": 187,
+   "summary": "Le Parti ouvrier belge fait jeu égal avec les catholiques (78 sièges chacun). Une coalition catholique-socialiste inédite (Poullet-Vandervelde) en sort, renversée en 1926 par la crise financière.",
+   "seats": [
+    {
+     "party": "parti-catholique",
+     "label": "Catholiques",
+     "seats": 78
+    },
+    {
+     "party": "parti-ouvrier-belge",
+     "label": "POB",
+     "seats": 78
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 23
+    },
+    {
+     "party": "frontpartij",
+     "label": "Frontpartij",
+     "seats": 6
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 2
+    }
+   ],
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1929",
+   "type": "chambre",
+   "name": "Élections législatives de 1929",
+   "date": "1929-05-26",
+   "total": 187,
+   "summary": "Percée du Frontpartij et du nationalisme flamand, dans le sillage de l'élection symbolique d'August Borms à Anvers (1928). Les coalitions catholiques-libérales se poursuivent.",
+   "seats": null,
+   "themes": [
+    "histoire",
+    "communautaire"
+   ]
+  },
+  {
+   "id": "chambre-1932",
+   "type": "chambre",
+   "name": "Élections législatives de 1932",
+   "date": "1932-11-27",
+   "total": 187,
+   "summary": "Scrutin tenu en pleine crise économique, après les grandes grèves de 1932. Les catholiques et les libéraux reconduisent leur alliance sous Charles de Broqueville, qui gouverne par pouvoirs spéciaux.",
+   "seats": [
+    {
+     "party": "parti-catholique",
+     "label": "Catholiques",
+     "seats": 79
+    },
+    {
+     "party": "parti-ouvrier-belge",
+     "label": "POB",
+     "seats": 73
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 24
+    },
+    {
+     "party": "frontpartij",
+     "label": "Nationalistes flamands",
+     "seats": 8
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 3
+    }
+   ],
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1936",
+   "type": "chambre",
+   "name": "Élections législatives de 1936",
+   "date": "1936-05-24",
+   "total": 202,
+   "summary": "Séisme électoral : Rex de Léon Degrelle obtient 21 sièges et le VNV 16, au détriment des partis traditionnels. Les grandes grèves de juin 1936 débouchent sur les congés payés et la semaine de 40 heures dans certains secteurs ; la tripartite Van Zeeland est reconduite.",
+   "seats": [
+    {
+     "party": "parti-ouvrier-belge",
+     "label": "POB",
+     "seats": 70
+    },
+    {
+     "party": "parti-catholique",
+     "label": "Catholiques",
+     "seats": 63
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 23
+    },
+    {
+     "party": "rex",
+     "label": "Rex",
+     "seats": 21
+    },
+    {
+     "party": "vnv",
+     "label": "VNV",
+     "seats": 16
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 9
+    }
+   ],
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1939",
+   "type": "chambre",
+   "name": "Élections législatives de 1939",
+   "date": "1939-04-02",
+   "total": 202,
+   "summary": "Recul de Rex, maintien du VNV. Le scrutin précède de peu la Seconde Guerre mondiale ; Hubert Pierlot forme les gouvernements qui conduiront le pays jusqu'à la Libération.",
+   "seats": [
+    {
+     "party": "parti-catholique",
+     "label": "Catholiques",
+     "seats": 73
+    },
+    {
+     "party": "parti-ouvrier-belge",
+     "label": "POB",
+     "seats": 64
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 33
+    },
+    {
+     "party": "vnv",
+     "label": "VNV",
+     "seats": 17
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 9
+    },
+    {
+     "party": "rex",
+     "label": "Rex",
+     "seats": 4
+    },
+    {
+     "party": null,
+     "label": "Autres",
+     "seats": 2
+    }
+   ],
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1946",
+   "type": "chambre",
+   "name": "Élections législatives de 1946",
+   "date": "1946-02-17",
+   "total": 202,
+   "summary": "Premières élections d'après-guerre, dominées par la Question royale. Le PSC-CVP, favorable au retour de Léopold III, devient le premier parti ; le Parti communiste atteint son record historique (23 sièges).",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "PSC-CVP",
+     "seats": 92
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 69
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 23
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 17
+    },
+    {
+     "party": null,
+     "label": "UDB",
+     "seats": 1
+    }
+   ],
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1949",
+   "type": "chambre",
+   "name": "Élections législatives de 1949",
+   "date": "1949-06-26",
+   "total": 212,
+   "summary": "Premières élections législatives ouvertes aux femmes. Le PSC-CVP frôle la majorité absolue (105 sièges sur 212) et gouverne avec les libéraux.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "PSC-CVP",
+     "seats": 105
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 66
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 29
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 12
+    }
+   ],
+   "government": "g-eyskens-i",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1950",
+   "type": "chambre",
+   "name": "Élections législatives de 1950",
+   "date": "1950-06-04",
+   "total": 212,
+   "summary": "Après la consultation populaire sur Léopold III, le PSC-CVP obtient la majorité absolue à la Chambre (108 sièges) : seul cas depuis la Seconde Guerre mondiale. Le retour du Roi provoque une crise insurrectionnelle et son retrait.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "PSC-CVP",
+     "seats": 108
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 77
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 20
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 7
+    }
+   ],
+   "government": "duvieusart",
+   "themes": [
+    "histoire",
+    "monarchie"
+   ]
+  },
+  {
+   "id": "chambre-1954",
+   "type": "chambre",
+   "name": "Élections législatives de 1954",
+   "date": "1954-04-11",
+   "total": 212,
+   "summary": "Le PSC-CVP perd sa majorité absolue. Socialistes et libéraux forment le gouvernement Van Acker IV, dont la politique scolaire ouvre la seconde guerre scolaire. Première élection d'un député nationaliste flamand d'après-guerre.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "PSC-CVP",
+     "seats": 95
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 86
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 25
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 4
+    },
+    {
+     "party": "volksunie",
+     "label": "Nationalistes flamands",
+     "seats": 1
+    },
+    {
+     "party": null,
+     "label": "Autres",
+     "seats": 1
+    }
+   ],
+   "government": "van-acker-iv",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1958",
+   "type": "chambre",
+   "name": "Élections législatives de 1958",
+   "date": "1958-06-01",
+   "total": 212,
+   "summary": "Scrutin de la guerre scolaire : le PSC-CVP progresse (104 sièges) et forme un gouvernement minoritaire qui négocie le Pacte scolaire avec socialistes et libéraux.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "PSC-CVP",
+     "seats": 104
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 84
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 21
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 2
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 1
+    }
+   ],
+   "government": "g-eyskens-ii",
+   "themes": [
+    "histoire",
+    "ethique-enseignement-cultes"
+   ]
+  },
+  {
+   "id": "chambre-1961",
+   "type": "chambre",
+   "name": "Élections législatives de 1961",
+   "date": "1961-03-26",
+   "total": 212,
+   "summary": "Élections anticipées après la grève contre la loi unique. Sociaux-chrétiens et socialistes forment le gouvernement Lefèvre, qui fixera la frontière linguistique.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "PSC-CVP",
+     "seats": 96
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 84
+    },
+    {
+     "party": "parti-liberal",
+     "label": "Libéraux",
+     "seats": 20
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 5
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 5
+    },
+    {
+     "party": null,
+     "label": "Autres",
+     "seats": 2
+    }
+   ],
+   "government": "lefevre",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1965",
+   "type": "chambre",
+   "name": "Élections législatives de 1965",
+   "date": "1965-05-23",
+   "total": 212,
+   "summary": "Recul marqué des deux grands partis et poussée des libéraux refondés en PVV-PLP (48 sièges). Les partis communautaires (Volksunie, FDF, mouvement wallon) s'installent durablement.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "PSC-CVP",
+     "seats": 77
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 64
+    },
+    {
+     "party": "pvv-plp",
+     "label": "PVV-PLP",
+     "seats": 48
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 12
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 6
+    },
+    {
+     "party": "defi",
+     "label": "FDF",
+     "seats": 3
+    },
+    {
+     "party": null,
+     "label": "Autres (wallons)",
+     "seats": 2
+    }
+   ],
+   "government": "harmel",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1968",
+   "type": "chambre",
+   "name": "Élections législatives de 1968",
+   "date": "1968-03-31",
+   "total": 212,
+   "summary": "Élections provoquées par l'affaire de Louvain : les sociaux-chrétiens se présentent divisés (CVP et PSC), la Volksunie atteint 20 sièges et le FDF-Rassemblement wallon 12. Le scrutin ouvre la voie à la première réforme de l'État.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "CVP + PSC",
+     "seats": 69
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 59
+    },
+    {
+     "party": "pvv-plp",
+     "label": "PVV-PLP",
+     "seats": 47
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 20
+    },
+    {
+     "party": "defi",
+     "label": "FDF-RW",
+     "seats": 12
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 5
+    }
+   ],
+   "government": "g-eyskens-v",
+   "themes": [
+    "histoire",
+    "communautaire"
+   ]
+  },
+  {
+   "id": "chambre-1971",
+   "type": "chambre",
+   "name": "Élections législatives de 1971",
+   "date": "1971-11-07",
+   "total": 212,
+   "summary": "Point haut des partis communautaires : le FDF-RW obtient 24 sièges et la Volksunie 21. La coalition sociaux-chrétiens–socialistes est reconduite.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "CVP + PSC",
+     "seats": 67
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 61
+    },
+    {
+     "party": "pvv-plp",
+     "label": "Libéraux",
+     "seats": 34
+    },
+    {
+     "party": "defi",
+     "label": "FDF-RW",
+     "seats": 24
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 21
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 5
+    }
+   ],
+   "government": "g-eyskens-vi",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1974",
+   "type": "chambre",
+   "name": "Élections législatives de 1974",
+   "date": "1974-03-10",
+   "total": 212,
+   "summary": "Après la chute de la tripartite Leburton, Leo Tindemans forme une coalition sociaux-chrétiens–libéraux élargie au Rassemblement wallon.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "CVP + PSC",
+     "seats": 72
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 59
+    },
+    {
+     "party": "pvv-plp",
+     "label": "Libéraux",
+     "seats": 30
+    },
+    {
+     "party": "defi",
+     "label": "FDF-RW",
+     "seats": 25
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 22
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 4
+    }
+   ],
+   "government": "tindemans-i",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1977",
+   "type": "chambre",
+   "name": "Élections législatives de 1977",
+   "date": "1977-04-17",
+   "total": 212,
+   "summary": "Victoire des sociaux-chrétiens (80 sièges) ; la coalition Tindemans II (avec socialistes, Volksunie et FDF) négocie le Pacte d'Egmont.",
+   "seats": [
+    {
+     "party": "psc-cvp",
+     "label": "CVP + PSC",
+     "seats": 80
+    },
+    {
+     "party": "parti-socialiste-belge",
+     "label": "PSB-BSP",
+     "seats": 62
+    },
+    {
+     "party": "pvv-plp",
+     "label": "Libéraux",
+     "seats": 33
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 20
+    },
+    {
+     "party": "defi",
+     "label": "FDF-RW",
+     "seats": 15
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 2
+    }
+   ],
+   "government": "tindemans-ii",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1978",
+   "type": "chambre",
+   "name": "Élections législatives de 1978",
+   "date": "1978-12-17",
+   "total": 212,
+   "summary": "Premier scrutin où tous les grands partis se présentent scindés selon la langue, le Parti socialiste belge s'étant à son tour divisé (PS / SP). La Volksunie, punie pour Egmont, recule ; le Vlaams Blok obtient son premier siège.",
+   "seats": [
+    {
+     "party": "cvp",
+     "label": "CVP",
+     "seats": 57
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 32
+    },
+    {
+     "party": "vooruit",
+     "label": "SP",
+     "seats": 26
+    },
+    {
+     "party": "psc",
+     "label": "PSC",
+     "seats": 25
+    },
+    {
+     "party": "pvv",
+     "label": "PVV",
+     "seats": 22
+    },
+    {
+     "party": "prl",
+     "label": "PRLW / PL",
+     "seats": 15
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 14
+    },
+    {
+     "party": "defi",
+     "label": "FDF",
+     "seats": 11
+    },
+    {
+     "party": "rassemblement-wallon",
+     "label": "RW",
+     "seats": 4
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 4
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 1
+    },
+    {
+     "party": "udrt",
+     "label": "UDRT",
+     "seats": 1
+    }
+   ],
+   "government": "martens-i",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1981",
+   "type": "chambre",
+   "name": "Élections législatives de 1981",
+   "date": "1981-11-08",
+   "total": 212,
+   "summary": "Défaite historique du CVP et percée libérale ; les écologistes (Agalev, Ecolo) entrent à la Chambre. Martens V gouvernera avec les libéraux et des pouvoirs spéciaux.",
+   "seats": [
+    {
+     "party": "cvp",
+     "label": "CVP",
+     "seats": 43
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 35
+    },
+    {
+     "party": "pvv",
+     "label": "PVV",
+     "seats": 28
+    },
+    {
+     "party": "vooruit",
+     "label": "SP",
+     "seats": 26
+    },
+    {
+     "party": "prl",
+     "label": "PRL",
+     "seats": 24
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 20
+    },
+    {
+     "party": "psc",
+     "label": "PSC",
+     "seats": 18
+    },
+    {
+     "party": "defi",
+     "label": "FDF-RW",
+     "seats": 8
+    },
+    {
+     "party": "udrt",
+     "label": "UDRT",
+     "seats": 3
+    },
+    {
+     "party": "groen",
+     "label": "Agalev",
+     "seats": 2
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 2
+    },
+    {
+     "party": "kpb-pcb",
+     "label": "Communistes",
+     "seats": 2
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 1
+    }
+   ],
+   "government": "martens-v",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1985",
+   "type": "chambre",
+   "name": "Élections législatives de 1985",
+   "date": "1985-10-13",
+   "total": 212,
+   "summary": "Les électeurs reconduisent la coalition sociaux-chrétiens–libéraux (Martens VI). Le Parti communiste perd sa représentation à la Chambre.",
+   "seats": [
+    {
+     "party": "cvp",
+     "label": "CVP",
+     "seats": 49
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 35
+    },
+    {
+     "party": "vooruit",
+     "label": "SP",
+     "seats": 32
+    },
+    {
+     "party": "prl",
+     "label": "PRL",
+     "seats": 24
+    },
+    {
+     "party": "pvv",
+     "label": "PVV",
+     "seats": 22
+    },
+    {
+     "party": "psc",
+     "label": "PSC",
+     "seats": 20
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 16
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 5
+    },
+    {
+     "party": "groen",
+     "label": "Agalev",
+     "seats": 4
+    },
+    {
+     "party": "defi",
+     "label": "FDF",
+     "seats": 3
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 1
+    },
+    {
+     "party": "udrt",
+     "label": "UDRT",
+     "seats": 1
+    }
+   ],
+   "government": "martens-vi",
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1987",
+   "type": "chambre",
+   "name": "Élections législatives de 1987",
+   "date": "1987-12-13",
+   "total": 212,
+   "summary": "Élections anticipées après la chute sur les Fourons. Le PS de Guy Spitaels triomphe (40 sièges) ; après 148 jours de négociations, Martens VIII associe sociaux-chrétiens, socialistes et Volksunie autour de la troisième réforme de l'État.",
+   "seats": [
+    {
+     "party": "cvp",
+     "label": "CVP",
+     "seats": 43
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 40
+    },
+    {
+     "party": "vooruit",
+     "label": "SP",
+     "seats": 32
+    },
+    {
+     "party": "pvv",
+     "label": "PVV",
+     "seats": 25
+    },
+    {
+     "party": "prl",
+     "label": "PRL",
+     "seats": 23
+    },
+    {
+     "party": "psc",
+     "label": "PSC",
+     "seats": 19
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 16
+    },
+    {
+     "party": "groen",
+     "label": "Agalev",
+     "seats": 6
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 3
+    },
+    {
+     "party": "defi",
+     "label": "FDF",
+     "seats": 3
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 2
+    }
+   ],
+   "government": "martens-viii",
+   "formation_days": 148,
+   "themes": [
+    "histoire"
+   ]
+  },
+  {
+   "id": "chambre-1991",
+   "type": "chambre",
+   "name": "Élections législatives de 1991",
+   "date": "1991-11-24",
+   "total": 212,
+   "summary": "Le « dimanche noir » : le Vlaams Blok passe de 2 à 12 sièges, les écologistes et la liste ROSSEM progressent, les partis traditionnels reculent. Le cordon sanitaire est réaffirmé.",
+   "seats": [
+    {
+     "party": "cvp",
+     "label": "CVP",
+     "seats": 39
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 35
+    },
+    {
+     "party": "vooruit",
+     "label": "SP",
+     "seats": 28
+    },
+    {
+     "party": "pvv",
+     "label": "PVV",
+     "seats": 26
+    },
+    {
+     "party": "prl",
+     "label": "PRL",
+     "seats": 20
+    },
+    {
+     "party": "psc",
+     "label": "PSC",
+     "seats": 18
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 12
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 10
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 10
+    },
+    {
+     "party": "groen",
+     "label": "Agalev",
+     "seats": 7
+    },
+    {
+     "party": "defi",
+     "label": "FDF",
+     "seats": 3
+    },
+    {
+     "party": "rossem",
+     "label": "ROSSEM",
+     "seats": 3
+    },
+    {
+     "party": "front-national-belgique",
+     "label": "FN",
+     "seats": 1
+    }
+   ],
+   "government": "dehaene-i",
+   "formation_days": 104,
+   "themes": [
+    "histoire",
+    "partis"
+   ]
+  },
+  {
+   "id": "chambre-1995",
+   "type": "chambre",
+   "name": "Élections législatives de 1995",
+   "date": "1995-05-21",
+   "total": 150,
+   "summary": "Premières élections de l'État fédéral : Chambre réduite à 150 membres et premières élections directes des parlements régionaux et communautaires, le même jour. La coalition Dehaene est reconduite.",
+   "seats": [
+    {
+     "party": "cvp",
+     "label": "CVP",
+     "seats": 29
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 21
+    },
+    {
+     "party": "anders",
+     "label": "VLD",
+     "seats": 21
+    },
+    {
+     "party": "vooruit",
+     "label": "SP",
+     "seats": 20
+    },
+    {
+     "party": "prl",
+     "label": "PRL-FDF",
+     "seats": 18
+    },
+    {
+     "party": "psc",
+     "label": "PSC",
+     "seats": 12
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 11
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 6
+    },
+    {
+     "party": "volksunie",
+     "label": "Volksunie",
+     "seats": 5
+    },
+    {
+     "party": "groen",
+     "label": "Agalev",
+     "seats": 5
+    },
+    {
+     "party": "front-national-belgique",
+     "label": "FN",
+     "seats": 2
+    }
+   ],
+   "government": "dehaene-ii",
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "chambre-1999",
+   "type": "chambre",
+   "name": "Élections législatives de 1999",
+   "date": "1999-06-13",
+   "total": 150,
+   "summary": "Scrutin de la crise de la dioxine : les sociaux-chrétiens chutent, les écologistes progressent fortement (Ecolo 11, Agalev 9). Guy Verhofstadt forme la coalition arc-en-ciel.",
+   "seats": [
+    {
+     "party": "anders",
+     "label": "VLD",
+     "seats": 23
+    },
+    {
+     "party": "cvp",
+     "label": "CVP",
+     "seats": 22
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 19
+    },
+    {
+     "party": "prl",
+     "label": "PRL-FDF-MCC",
+     "seats": 18
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 15
+    },
+    {
+     "party": "vooruit",
+     "label": "SP",
+     "seats": 14
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 11
+    },
+    {
+     "party": "psc",
+     "label": "PSC",
+     "seats": 10
+    },
+    {
+     "party": "groen",
+     "label": "Agalev",
+     "seats": 9
+    },
+    {
+     "party": "volksunie",
+     "label": "VU-ID",
+     "seats": 8
+    },
+    {
+     "party": "front-national-belgique",
+     "label": "FN",
+     "seats": 1
+    }
+   ],
+   "government": "verhofstadt-i",
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "chambre-2003",
+   "type": "chambre",
+   "name": "Élections législatives de 2003",
+   "date": "2003-05-18",
+   "total": 150,
+   "summary": "Premier scrutin avec le seuil électoral de 5 % et les circonscriptions provinciales : les écologistes s'effondrent (Agalev perd tous ses sièges), la N-VA n'obtient qu'un siège. Coalition violette libérale–socialiste (Verhofstadt II).",
+   "seats": [
+    {
+     "party": "anders",
+     "label": "VLD",
+     "seats": 25
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 25
+    },
+    {
+     "party": "mr",
+     "label": "MR",
+     "seats": 24
+    },
+    {
+     "party": "vooruit",
+     "label": "SP.A-Spirit",
+     "seats": 23
+    },
+    {
+     "party": "cd-v",
+     "label": "CD&V",
+     "seats": 21
+    },
+    {
+     "party": "vlaams-blok",
+     "label": "Vlaams Blok",
+     "seats": 18
+    },
+    {
+     "party": "cdh",
+     "label": "cdH",
+     "seats": 8
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 4
+    },
+    {
+     "party": "n-va",
+     "label": "N-VA",
+     "seats": 1
+    },
+    {
+     "party": "front-national-belgique",
+     "label": "FN",
+     "seats": 1
+    }
+   ],
+   "government": "verhofstadt-ii",
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "chambre-2007",
+   "type": "chambre",
+   "name": "Élections législatives de 2007",
+   "date": "2007-06-10",
+   "total": 150,
+   "summary": "Victoire du cartel CD&V/N-VA d'Yves Leterme sur un programme de réforme de l'État ; le MR devient le premier parti francophone. S'ouvre une crise de 194 jours avant un gouvernement intérimaire, puis de 284 jours avant Leterme I.",
+   "seats": [
+    {
+     "party": "cd-v",
+     "label": "CD&V/N-VA",
+     "seats": 30
+    },
+    {
+     "party": "mr",
+     "label": "MR",
+     "seats": 23
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 20
+    },
+    {
+     "party": "anders",
+     "label": "Open Vld",
+     "seats": 18
+    },
+    {
+     "party": "vlaams-belang",
+     "label": "Vlaams Belang",
+     "seats": 17
+    },
+    {
+     "party": "vooruit",
+     "label": "SP.A-Spirit",
+     "seats": 14
+    },
+    {
+     "party": "cdh",
+     "label": "cdH",
+     "seats": 10
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 8
+    },
+    {
+     "party": "lijst-dedecker",
+     "label": "LDD",
+     "seats": 5
+    },
+    {
+     "party": "groen",
+     "label": "Groen!",
+     "seats": 4
+    },
+    {
+     "party": "front-national-belgique",
+     "label": "FN",
+     "seats": 1
+    }
+   ],
+   "government": "leterme-i",
+   "formation_days": 194,
+   "groups": {
+    "nl": 88,
+    "fr": 62
+   },
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "chambre-2010",
+   "type": "chambre",
+   "name": "Élections législatives de 2010",
+   "date": "2010-06-13",
+   "total": 150,
+   "summary": "Élections anticipées après la chute sur BHV : la N-VA de Bart De Wever devient le premier parti du pays (27 sièges), le PS d'Elio Di Rupo le premier parti francophone. Record mondial de formation : 541 jours.",
+   "seats": [
+    {
+     "party": "n-va",
+     "label": "N-VA",
+     "seats": 27
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 26
+    },
+    {
+     "party": "mr",
+     "label": "MR",
+     "seats": 18
+    },
+    {
+     "party": "cd-v",
+     "label": "CD&V",
+     "seats": 17
+    },
+    {
+     "party": "vooruit",
+     "label": "SP.A",
+     "seats": 13
+    },
+    {
+     "party": "anders",
+     "label": "Open Vld",
+     "seats": 13
+    },
+    {
+     "party": "vlaams-belang",
+     "label": "Vlaams Belang",
+     "seats": 12
+    },
+    {
+     "party": "cdh",
+     "label": "cdH",
+     "seats": 9
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 8
+    },
+    {
+     "party": "groen",
+     "label": "Groen!",
+     "seats": 5
+    },
+    {
+     "party": "lijst-dedecker",
+     "label": "LDD",
+     "seats": 1
+    },
+    {
+     "party": "parti-populaire",
+     "label": "PP",
+     "seats": 1
+    }
+   ],
+   "government": "di-rupo",
+   "formation_days": 541,
+   "groups": {
+    "nl": 88,
+    "fr": 62
+   },
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "chambre-2014",
+   "type": "chambre",
+   "name": "Élections législatives de 2014",
+   "date": "2014-05-25",
+   "total": 150,
+   "summary": "Premières élections fédérales et régionales simultanées depuis la sixième réforme de l'État. Record de la N-VA (33 sièges) et effondrement du Vlaams Belang. La coalition « suédoise » est formée en 139 jours.",
+   "seats": [
+    {
+     "party": "n-va",
+     "label": "N-VA",
+     "seats": 33
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 23
+    },
+    {
+     "party": "mr",
+     "label": "MR",
+     "seats": 20
+    },
+    {
+     "party": "cd-v",
+     "label": "CD&V",
+     "seats": 18
+    },
+    {
+     "party": "anders",
+     "label": "Open Vld",
+     "seats": 14
+    },
+    {
+     "party": "vooruit",
+     "label": "SP.A",
+     "seats": 13
+    },
+    {
+     "party": "cdh",
+     "label": "cdH",
+     "seats": 9
+    },
+    {
+     "party": "groen",
+     "label": "Groen",
+     "seats": 6
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 6
+    },
+    {
+     "party": "vlaams-belang",
+     "label": "Vlaams Belang",
+     "seats": 3
+    },
+    {
+     "party": "ptb-pvda",
+     "label": "PTB-GO!",
+     "seats": 2
+    },
+    {
+     "party": "defi",
+     "label": "FDF",
+     "seats": 2
+    },
+    {
+     "party": "parti-populaire",
+     "label": "PP",
+     "seats": 1
+    }
+   ],
+   "government": "michel-i",
+   "formation_days": 139,
+   "groups": {
+    "nl": 87,
+    "fr": 63
+   },
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "chambre-2019",
+   "type": "chambre",
+   "name": "Élections législatives de 2019",
+   "date": "2019-05-26",
+   "total": 150,
+   "summary": "« Dimanche noir » bis : le Vlaams Belang remonte à 18 sièges, le PTB-PVDA atteint 12 sièges, les partis de la suédoise reculent. La formation dure 494 jours (gouvernements Wilmès en intermède) et aboutit à la Vivaldi.",
+   "seats": [
+    {
+     "party": "n-va",
+     "label": "N-VA",
+     "seats": 25,
+     "pct": 16.03
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 20,
+     "pct": 9.46
+    },
+    {
+     "party": "vlaams-belang",
+     "label": "Vlaams Belang",
+     "seats": 18,
+     "pct": 11.95
+    },
+    {
+     "party": "mr",
+     "label": "MR",
+     "seats": 14,
+     "pct": 7.56
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 13,
+     "pct": 6.14
+    },
+    {
+     "party": "cd-v",
+     "label": "CD&V",
+     "seats": 12,
+     "pct": 8.89
+    },
+    {
+     "party": "anders",
+     "label": "Open Vld",
+     "seats": 12,
+     "pct": 8.54
+    },
+    {
+     "party": "ptb-pvda",
+     "label": "PTB-PVDA",
+     "seats": 12,
+     "pct": 8.62
+    },
+    {
+     "party": "vooruit",
+     "label": "sp.a",
+     "seats": 9,
+     "pct": 6.71
+    },
+    {
+     "party": "groen",
+     "label": "Groen",
+     "seats": 8,
+     "pct": 6.1
+    },
+    {
+     "party": "cdh",
+     "label": "cdH",
+     "seats": 5,
+     "pct": 3.7
+    },
+    {
+     "party": "defi",
+     "label": "DéFI",
+     "seats": 2,
+     "pct": 2.22
+    }
+   ],
+   "government": "de-croo",
+   "formation_days": 494,
+   "groups": {
+    "nl": 89,
+    "fr": 61
+   },
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "chambre-2024",
+   "type": "chambre",
+   "name": "Élections législatives de 2024",
+   "date": "2024-06-09",
+   "total": 150,
+   "summary": "« Méga-scrutin » fédéral, régional et européen. La N-VA reste premier parti, le Vlaams Belang progresse sans dépasser la N-VA, le MR redevient premier parti francophone et Les Engagés percent, tandis qu'Ecolo s'effondre. La coalition Arizona est formée en 239 jours.",
+   "seats": [
+    {
+     "party": "n-va",
+     "label": "N-VA",
+     "seats": 24,
+     "votes": 1167061,
+     "pct": 16.71
+    },
+    {
+     "party": "vlaams-belang",
+     "label": "Vlaams Belang",
+     "seats": 20,
+     "votes": 961601,
+     "pct": 13.77
+    },
+    {
+     "party": "mr",
+     "label": "MR",
+     "seats": 20,
+     "votes": 716934,
+     "pct": 10.26
+    },
+    {
+     "party": "ps",
+     "label": "PS",
+     "seats": 16,
+     "votes": 561602,
+     "pct": 8.04
+    },
+    {
+     "party": "ptb-pvda",
+     "label": "PTB-PVDA",
+     "seats": 15,
+     "votes": 688369,
+     "pct": 9.86
+    },
+    {
+     "party": "les-engages",
+     "label": "Les Engagés",
+     "seats": 14,
+     "votes": 472755,
+     "pct": 6.77
+    },
+    {
+     "party": "vooruit",
+     "label": "Vooruit",
+     "seats": 13,
+     "votes": 566436,
+     "pct": 8.11
+    },
+    {
+     "party": "cd-v",
+     "label": "CD&V",
+     "seats": 11,
+     "votes": 557392,
+     "pct": 7.98
+    },
+    {
+     "party": "anders",
+     "label": "Open Vld",
+     "seats": 7,
+     "votes": 380659,
+     "pct": 5.45
+    },
+    {
+     "party": "groen",
+     "label": "Groen",
+     "seats": 6,
+     "votes": 324608,
+     "pct": 4.65
+    },
+    {
+     "party": "ecolo",
+     "label": "Ecolo",
+     "seats": 3,
+     "votes": 204438,
+     "pct": 2.93
+    },
+    {
+     "party": "defi",
+     "label": "DéFI",
+     "seats": 1,
+     "votes": 84024,
+     "pct": 1.2
+    }
+   ],
+   "government": "de-wever",
+   "formation_days": 239,
+   "groups": {
+    "nl": 89,
+    "fr": 61
+   },
+   "constituencies": [
+    {
+     "name": "Anvers",
+     "seats": 24
+    },
+    {
+     "name": "Flandre-Orientale",
+     "seats": 20
+    },
+    {
+     "name": "Flandre-Occidentale",
+     "seats": 16
+    },
+    {
+     "name": "Brabant flamand",
+     "seats": 15
+    },
+    {
+     "name": "Limbourg",
+     "seats": 12
+    },
+    {
+     "name": "Bruxelles-Capitale",
+     "seats": 16
+    },
+    {
+     "name": "Hainaut",
+     "seats": 17
+    },
+    {
+     "name": "Liège",
+     "seats": 14
+    },
+    {
+     "name": "Namur",
+     "seats": 7
+    },
+    {
+     "name": "Brabant wallon",
+     "seats": 5
+    },
+    {
+     "name": "Luxembourg",
+     "seats": 4
+    }
+   ],
+   "themes": [
+    "elections"
+   ]
+  },
+  {
+   "id": "regionales-2014",
+   "type": "regionales",
+   "name": "Élections régionales et communautaires de 2014",
+   "date": "2014-05-25",
+   "summary": "Premier scrutin régional organisé le même jour que les élections fédérales dans le cadre de la concordance prévue par la sixième réforme de l'État.",
+   "parliaments": [
+    {
+     "id": "flandre",
+     "name": "Parlement flamand",
+     "total": 124,
+     "seats": [
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 43
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 27
+      },
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 19
+      },
+      {
+       "party": "vooruit",
+       "label": "SP.A",
+       "seats": 18
+      },
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 10
+      },
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 6
+      },
+      {
+       "party": null,
+       "label": "Union des francophones",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "wallonie",
+     "name": "Parlement wallon",
+     "total": 75,
+     "seats": [
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 30
+      },
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 25
+      },
+      {
+       "party": "cdh",
+       "label": "cdH",
+       "seats": 13
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 4
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB-GO!",
+       "seats": 2
+      },
+      {
+       "party": "parti-populaire",
+       "label": "PP",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "bruxelles-fr",
+     "name": "Parlement bruxellois — groupe français",
+     "total": 72,
+     "seats": [
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 21
+      },
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 18
+      },
+      {
+       "party": "defi",
+       "label": "FDF",
+       "seats": 12
+      },
+      {
+       "party": "cdh",
+       "label": "cdH",
+       "seats": 9
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 8
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB-GO!",
+       "seats": 4
+      }
+     ]
+    },
+    {
+     "id": "bruxelles-nl",
+     "name": "Parlement bruxellois — groupe néerlandais",
+     "total": 17,
+     "seats": [
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 5
+      },
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 3
+      },
+      {
+       "party": "vooruit",
+       "label": "SP.A",
+       "seats": 3
+      },
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 3
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 2
+      },
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "dg",
+     "name": "Parlement de la Communauté germanophone",
+     "total": 25,
+     "seats": [
+      {
+       "party": "csp",
+       "label": "CSP",
+       "seats": 7
+      },
+      {
+       "party": "prodg",
+       "label": "ProDG",
+       "seats": 6
+      },
+      {
+       "party": null,
+       "label": "SP",
+       "seats": 4
+      },
+      {
+       "party": "pff",
+       "label": "PFF",
+       "seats": 4
+      },
+      {
+       "party": "vivant",
+       "label": "Vivant",
+       "seats": 2
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 2
+      }
+     ]
+    }
+   ],
+   "themes": [
+    "elections",
+    "federalisme"
+   ]
+  },
+  {
+   "id": "regionales-2019",
+   "type": "regionales",
+   "name": "Élections régionales et communautaires de 2019",
+   "date": "2019-05-26",
+   "summary": "Poussée du Vlaams Belang en Flandre, des écologistes à Bruxelles et du PTB en Wallonie.",
+   "parliaments": [
+    {
+     "id": "flandre",
+     "name": "Parlement flamand",
+     "total": 124,
+     "seats": [
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 35
+      },
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 23
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 19
+      },
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 16
+      },
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 14
+      },
+      {
+       "party": "vooruit",
+       "label": "sp.a",
+       "seats": 12
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PVDA",
+       "seats": 4
+      },
+      {
+       "party": null,
+       "label": "Union des francophones",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "wallonie",
+     "name": "Parlement wallon",
+     "total": 75,
+     "seats": [
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 23
+      },
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 20
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 12
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB",
+       "seats": 10
+      },
+      {
+       "party": "cdh",
+       "label": "cdH",
+       "seats": 10
+      }
+     ]
+    },
+    {
+     "id": "bruxelles-fr",
+     "name": "Parlement bruxellois — groupe français",
+     "total": 72,
+     "seats": [
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 17
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 15
+      },
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 13
+      },
+      {
+       "party": "defi",
+       "label": "DéFI",
+       "seats": 10
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB",
+       "seats": 10
+      },
+      {
+       "party": "cdh",
+       "label": "cdH",
+       "seats": 6
+      },
+      {
+       "party": null,
+       "label": "Agora",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "bruxelles-nl",
+     "name": "Parlement bruxellois — groupe néerlandais",
+     "total": 17,
+     "seats": [
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 4
+      },
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 3
+      },
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 3
+      },
+      {
+       "party": "vooruit",
+       "label": "one.brussels-sp.a",
+       "seats": 3
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 2
+      },
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 1
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PVDA",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "dg",
+     "name": "Parlement de la Communauté germanophone",
+     "total": 25,
+     "seats": [
+      {
+       "party": "csp",
+       "label": "CSP",
+       "seats": 6
+      },
+      {
+       "party": "prodg",
+       "label": "ProDG",
+       "seats": 6
+      },
+      {
+       "party": null,
+       "label": "SP",
+       "seats": 4
+      },
+      {
+       "party": "pff",
+       "label": "PFF",
+       "seats": 3
+      },
+      {
+       "party": "vivant",
+       "label": "Vivant",
+       "seats": 3
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 3
+      }
+     ]
+    }
+   ],
+   "themes": [
+    "elections",
+    "federalisme"
+   ]
+  },
+  {
+   "id": "regionales-2024",
+   "type": "regionales",
+   "name": "Élections régionales et communautaires de 2024",
+   "date": "2024-06-09",
+   "summary": "Basculement à droite en Wallonie (MR premier parti, PS deuxième), égalité de sièges N-VA–Vlaams Belang en Flandre, MR premier parti francophone à Bruxelles et apparition de la Team Fouad Ahidar dans le groupe néerlandophone bruxellois.",
+   "parliaments": [
+    {
+     "id": "flandre",
+     "name": "Parlement flamand",
+     "total": 124,
+     "seats": [
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 31,
+       "pct": 23.88
+      },
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 31,
+       "pct": 22.66
+      },
+      {
+       "party": "vooruit",
+       "label": "Vooruit",
+       "seats": 18,
+       "pct": 13.85
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 16,
+       "pct": 13.04
+      },
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 9,
+       "pct": 8.33
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PVDA",
+       "seats": 9,
+       "pct": 8.31
+      },
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 9,
+       "pct": 7.29
+      },
+      {
+       "party": "team-fouad-ahidar",
+       "label": "Team Fouad Ahidar",
+       "seats": 1,
+       "pct": 0.32
+      }
+     ]
+    },
+    {
+     "id": "wallonie",
+     "name": "Parlement de Wallonie",
+     "total": 75,
+     "seats": [
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 26,
+       "pct": 29.61
+      },
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 19,
+       "pct": 23.22
+      },
+      {
+       "party": "les-engages",
+       "label": "Les Engagés",
+       "seats": 17,
+       "pct": 20.66
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB",
+       "seats": 8,
+       "pct": 12.1
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 5,
+       "pct": 6.97
+      }
+     ]
+    },
+    {
+     "id": "bruxelles-fr",
+     "name": "Parlement bruxellois — groupe français",
+     "total": 72,
+     "seats": [
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 20,
+       "pct": 25.95
+      },
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 16,
+       "pct": 22.05
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB",
+       "seats": 15,
+       "pct": 20.92
+      },
+      {
+       "party": "les-engages",
+       "label": "Les Engagés",
+       "seats": 8,
+       "pct": 10.68
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 7,
+       "pct": 9.85
+      },
+      {
+       "party": "defi",
+       "label": "DéFI",
+       "seats": 6,
+       "pct": 8.11
+      }
+     ]
+    },
+    {
+     "id": "bruxelles-nl",
+     "name": "Parlement bruxellois — groupe néerlandais",
+     "total": 17,
+     "seats": [
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 4,
+       "pct": 22.82
+      },
+      {
+       "party": "team-fouad-ahidar",
+       "label": "Team Fouad Ahidar",
+       "seats": 3,
+       "pct": 16.47
+      },
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 2,
+       "pct": 11.91
+      },
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 2,
+       "pct": 10.62
+      },
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 2,
+       "pct": 10.54
+      },
+      {
+       "party": "vooruit",
+       "label": "Vooruit",
+       "seats": 2,
+       "pct": 10.01
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PVDA",
+       "seats": 1,
+       "pct": 6.99
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 1,
+       "pct": 6.35
+      }
+     ]
+    },
+    {
+     "id": "dg",
+     "name": "Parlement de la Communauté germanophone",
+     "total": 25,
+     "seats": [
+      {
+       "party": "prodg",
+       "label": "ProDG",
+       "seats": 8,
+       "pct": 29.1
+      },
+      {
+       "party": "csp",
+       "label": "CSP",
+       "seats": 5,
+       "pct": 19.78
+      },
+      {
+       "party": "vivant",
+       "label": "Vivant",
+       "seats": 4,
+       "pct": 14.23
+      },
+      {
+       "party": null,
+       "label": "SP",
+       "seats": 3,
+       "pct": 13.67
+      },
+      {
+       "party": "pff",
+       "label": "PFF",
+       "seats": 3,
+       "pct": 12.03
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 2,
+       "pct": 9.1
+      }
+     ]
+    },
+    {
+     "id": "fwb",
+     "name": "Parlement de la Fédération Wallonie-Bruxelles (composition dérivée)",
+     "total": 94,
+     "seats": [
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 31
+      },
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 24
+      },
+      {
+       "party": "les-engages",
+       "label": "Les Engagés",
+       "seats": 19
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB",
+       "seats": 12
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 7
+      },
+      {
+       "party": "defi",
+       "label": "DéFI",
+       "seats": 1
+      }
+     ]
+    }
+   ],
+   "themes": [
+    "elections",
+    "federalisme"
+   ]
+  },
+  {
+   "id": "europeennes-2019",
+   "type": "europeennes",
+   "name": "Élections européennes de 2019 en Belgique",
+   "date": "2019-05-26",
+   "summary": "21 sièges belges répartis entre trois collèges électoraux (néerlandophone 12, francophone 8, germanophone 1).",
+   "colleges": [
+    {
+     "id": "nl",
+     "name": "Collège néerlandophone",
+     "total": 12,
+     "seats": [
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 3
+      },
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 3
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 2
+      },
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 2
+      },
+      {
+       "party": "vooruit",
+       "label": "sp.a",
+       "seats": 1
+      },
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "fr",
+     "name": "Collège francophone",
+     "total": 8,
+     "seats": [
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 2
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 2
+      },
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 2
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB",
+       "seats": 1
+      },
+      {
+       "party": "cdh",
+       "label": "cdH",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "de",
+     "name": "Collège germanophone",
+     "total": 1,
+     "seats": [
+      {
+       "party": "csp",
+       "label": "CSP",
+       "seats": 1
+      }
+     ]
+    }
+   ],
+   "themes": [
+    "elections",
+    "europe-international"
+   ]
+  },
+  {
+   "id": "europeennes-2024",
+   "type": "europeennes",
+   "name": "Élections européennes de 2024 en Belgique",
+   "date": "2024-06-09",
+   "summary": "22 sièges belges ; premier scrutin ouvert aux jeunes dès 16 ans. Le Vlaams Belang et la N-VA font jeu égal dans le collège néerlandophone, le MR domine le collège francophone, le CSP conserve le siège germanophone.",
+   "colleges": [
+    {
+     "id": "nl",
+     "name": "Collège néerlandophone",
+     "total": 13,
+     "seats": [
+      {
+       "party": "vlaams-belang",
+       "label": "Vlaams Belang",
+       "seats": 3
+      },
+      {
+       "party": "n-va",
+       "label": "N-VA",
+       "seats": 3
+      },
+      {
+       "party": "cd-v",
+       "label": "CD&V",
+       "seats": 2
+      },
+      {
+       "party": "vooruit",
+       "label": "Vooruit",
+       "seats": 2
+      },
+      {
+       "party": "anders",
+       "label": "Open Vld",
+       "seats": 1
+      },
+      {
+       "party": "groen",
+       "label": "Groen",
+       "seats": 1
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PVDA",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "fr",
+     "name": "Collège francophone",
+     "total": 8,
+     "seats": [
+      {
+       "party": "mr",
+       "label": "MR",
+       "seats": 3
+      },
+      {
+       "party": "ps",
+       "label": "PS",
+       "seats": 2
+      },
+      {
+       "party": "ptb-pvda",
+       "label": "PTB",
+       "seats": 1
+      },
+      {
+       "party": "les-engages",
+       "label": "Les Engagés",
+       "seats": 1
+      },
+      {
+       "party": "ecolo",
+       "label": "Ecolo",
+       "seats": 1
+      }
+     ]
+    },
+    {
+     "id": "de",
+     "name": "Collège germanophone",
+     "total": 1,
+     "seats": [
+      {
+       "party": "csp",
+       "label": "CSP",
+       "seats": 1
+      }
+     ]
+    }
+   ],
+   "themes": [
+    "elections",
+    "europe-international"
+   ]
+  },
+  {
+   "id": "communales-2024",
+   "type": "communales",
+   "name": "Élections communales et provinciales de 2024",
+   "date": "2024-10-13",
+   "summary": "Premières élections locales sans vote obligatoire en Flandre (participation nettement en baisse). Le cordon sanitaire est rompu localement : à Ninove, la liste Forza Ninove de Guy D'haeseleer obtient la majorité absolue des sièges (premier bourgmestre issu du Vlaams Belang) ; à Ranst, le Vlaams Belang entre dans une coalition locale. En Wallonie et à Bruxelles, le PS conserve la plupart de ses bastions urbains.",
+   "text": "## Points clés\n\n- **Flandre** : premier scrutin local sans obligation de se rendre aux urnes ; le vote en case de tête n'influence plus l'ordre des élus (seules comptent les voix de préférence) ; le candidat ayant obtenu le plus de voix de préférence au sein du plus grand parti de la majorité devient automatiquement bourgmestre (sauf dans les communes à facilités de la périphérie) ; le plus grand parti dispose d'un droit d'initiative de 14 jours pour former une majorité.\n- **Ninove** : Forza Ninove (47,4 % des voix) obtient la majorité absolue des sièges ; Guy D'haeseleer prête serment comme bourgmestre le 5 décembre 2024.\n- **Ranst** : coalition associant des listes locales et le Vlaams Belang, désavouée par les instances nationales des partis concernés.\n- **Anvers** : la N-VA reste en tête ; Bart De Wever cède ensuite le mayorat en devenant Premier ministre (2025).\n- **Wallonie et Bruxelles** : le PS garde Charleroi, Liège et Mons ; le MR et Les Engagés progressent dans les communes périurbaines et rurales.\n\nVoir [[elections-communales]], [[cordon-sanitaire]] et [[vote-obligatoire]].",
+   "themes": [
+    "elections",
+    "pouvoirs-locaux"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: taxonomy.THEMES
+  size: 1
+  alias: theme
+permalink: "/themes/{{ theme.slug }}/"
+pageType: CollectionPage
+eleventyComputed:
+  title: "{{ theme.label | safe }}"
+  description: "{{ theme.intro | safe }}"
+  ogImage: "/assets/img/og/{{ theme.slug }}.png"
+  crumbs: [{ label: "Accueil", url: "/" }, { label: "Thèmes", url: "/themes/" }]
+---
+{%- set items = theme.slug | ofTheme -%}
+{%- set crumbsList = [{ label: "Accueil", url: "/" }, { label: "Thèmes", url: "/themes/" }, { label: theme.label, url: "/themes/" + theme.slug + "/" }] -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <div class="cluster" style="--gap:1rem"><span class="ico">{% icon theme.icon %}</span><p class="eyebrow" style="margin:0">Thème · {{ items.length }} entrée{{ "s" if items.length > 1 }}</p></div>
+    <h1>{{ theme.label }}</h1>
+    <p class="lead">{{ theme.intro }}</p>
+    <div class="cluster"><a class="btn btn-small" href="/jouer/quiz/?theme={{ theme.slug }}">{% icon "quiz" %} Quiz sur ce thème</a><a class="btn btn-ghost btn-small" href="/jouer/cartes-memoire/?theme={{ theme.slug }}">{% icon "cards" %} Cartes mémoire</a><a class="btn btn-ghost btn-small" href="/lexique/?theme={{ theme.slug }}">{% icon "book" %} Vue lexique</a></div>
+  </header>
+
+  {%- set starters = items | where("level", 1) | whereIn("type", ["notion"]) | limit(9) %}
+  {%- if starters.length %}
+  <section aria-labelledby="start-h">
+    <h2 id="start-h" class="h-sans" style="font-size:1.3rem">Pour commencer</h2>
+    <div class="related-grid">
+      {%- for e in starters %}<a href="{{ e.url }}" data-slug="{{ e.slug }}"><b>{{ e.title }}</b><span>{{ e.summary | truncate(90) }}</span></a>{% endfor %}
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- set kinds = ["institution", "concept", "procedure", "fonction", "doctrine", "loi", "accord", "evenement", "organisation", "territoire", "dossier", "parti", "personne", "gouvernement", "election"] %}
+  {%- for k in kinds %}
+  {%- set list = items | ofKind(k) | sortTitle %}
+  {%- if list.length %}
+  <section class="kind-section" aria-labelledby="k-{{ k }}">
+    <h2 id="k-{{ k }}">{{ k | kindPlural }} <span class="muted">({{ list.length }})</span></h2>
+    <ul class="index-list">
+      {%- for e in list %}<li><a href="{{ e.url }}" data-slug="{{ e.slug }}">{{ e.title }}</a><span class="s">{{ e.summary | truncate(110) }}</span></li>{% endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+  {%- endfor %}
+</div>

@@ -1,0 +1,10 @@
+<dialog class="search-dialog" id="search-dialog" aria-label="Recherche dans Sociopo">
+  <form class="search-box" role="search" method="get" action="/recherche/" onsubmit="return false">
+    {% icon "search" %}
+    <label class="visually-hidden" for="search-input">Rechercher une notion, un parti, une personnalité…</label>
+    <input id="search-input" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Rechercher : formateur, BHV, Pacte scolaire, N-VA…" aria-controls="search-results">
+    <button class="icon-btn" type="button" data-search-close aria-label="Fermer la recherche">{% icon "close" %}</button>
+  </form>
+  <div class="search-results" id="search-results" role="listbox" aria-label="Résultats"></div>
+  <div class="search-foot"><span><kbd>↑</kbd> <kbd>↓</kbd> naviguer · <kbd>Entrée</kbd> ouvrir · <kbd>Échap</kbd> fermer</span><span>Recherche locale, sans traceur</span></div>
+</dialog>

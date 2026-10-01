@@ -1,0 +1,64 @@
+---
+layout: layouts/base.njk
+permalink: /sources/
+title: Sources et bibliographie
+description: "Sources officielles, institutionnelles, statistiques et académiques utilisées par Sociopo pour décrire la politique belge : Constitution, Moniteur belge, parlements, CRISP, ouvrages de référence."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Sources", url: "/sources/" }]
+---
+{%- set official = [
+  ["Moniteur belge et législation consolidée (Justel)", "https://www.ejustice.just.fgov.be", "Textes officiels : Constitution, lois, décrets, ordonnances, arrêtés."],
+  ["Chambre des représentants", "https://www.lachambre.be", "Composition, documents parlementaires, comptes rendus, Constitution coordonnée."],
+  ["Sénat de Belgique", "https://www.senate.be", "Composition, procédures, révisions de la Constitution."],
+  ["Cour constitutionnelle", "https://www.const-court.be", "Arrêts et rapports annuels."],
+  ["Conseil d'État", "https://www.raadvst-consetat.be", "Avis de la section de législation et arrêts."],
+  ["Cour des comptes", "https://www.ccrek.be", "Rapports sur les finances publiques."],
+  ["Portail fédéral belgium.be", "https://www.belgium.be", "Organisation de l'État et des services publics."],
+  ["Chancellerie du Premier ministre", "https://www.premier.be", "Accord de gouvernement, composition du gouvernement fédéral."],
+  ["Parlement flamand", "https://www.vlaamsparlement.be", "Composition, décrets, documents."],
+  ["Parlement de Wallonie", "https://www.parlement-wallonie.be", "Composition, décrets, documents."],
+  ["Parlement de la Région de Bruxelles-Capitale", "https://www.parlement.brussels", "Composition, ordonnances, documents."],
+  ["Parlement de la Fédération Wallonie-Bruxelles", "https://www.pfwb.be", "Composition, décrets, documents."],
+  ["Parlement de la Communauté germanophone", "https://www.pdg.be", "Composition, décrets, dialogue citoyen permanent."]
+] %}
+{%- set stats = [
+  ["SPF Intérieur — Direction des élections", "https://elections.fgov.be", "Résultats officiels des élections."],
+  ["Statbel, office belge de statistique", "https://statbel.fgov.be", "Population, emploi, prix, revenus."],
+  ["Banque nationale de Belgique", "https://www.nbb.be", "Comptes nationaux, finances publiques, conjoncture."],
+  ["Bureau fédéral du Plan", "https://www.plan.be", "Perspectives économiques et budgétaires."],
+  ["Eurostat", "https://ec.europa.eu/eurostat", "Déficit et dette publics selon les règles européennes."],
+  ["Wikidata", "https://www.wikidata.org", "Identifiants des entités (institutions, partis, personnes)."]
+] %}
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Sources</p>
+    <h1>Sources et bibliographie</h1>
+    <p class="lead">Les notices citent leurs sources spécifiques en bas de page. Voici les références générales sur lesquelles repose l'ensemble de l'encyclopédie.</p>
+  </header>
+  <div class="prose">
+    <h2>Sources officielles</h2>
+    <ul>{% for s in official %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> — {{ s[2] }}</li>{% endfor %}</ul>
+    <h2>Statistiques et données</h2>
+    <ul>{% for s in stats %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> — {{ s[2] }}</li>{% endfor %}</ul>
+    <h2>Centres de recherche et outils de référence</h2>
+    <ul>
+      <li><a href="https://www.crisp.be" rel="noopener">CRISP — Centre de recherche et d'information socio-politiques</a>, et notamment le <em>Courrier hebdomadaire du CRISP</em> et le <a href="https://www.vocabulairepolitique.be" rel="noopener">vocabulaire politique</a> en ligne.</li>
+      <li>Les revues de science politique belges, dont <em>Res Publica</em> (aujourd'hui <em>Politics of the Low Countries</em>) et les publications des centres universitaires de science politique.</li>
+    </ul>
+    <h2>Ouvrages de référence</h2>
+    <ul>
+      <li>Xavier Mabille, <em>Histoire politique de la Belgique. Facteurs et acteurs de changement</em>, Bruxelles, CRISP, 4<sup>e</sup> éd., 2000.</li>
+      <li>Pascal Delwit, <em>La vie politique en Belgique de 1830 à nos jours</em>, Bruxelles, Éditions de l'Université de Bruxelles (plusieurs éditions).</li>
+      <li>Pierre Blaise, Jean Faniel et Caroline Sägesser, <em>Introduction à la Belgique fédérale. La Belgique après la sixième réforme de l'État</em>, Bruxelles, CRISP, 2014.</li>
+      <li>Vincent de Coorebyter, « Clivages et partis en Belgique », <em>Courrier hebdomadaire du CRISP</em>, n<sup>o</sup> 2000, 2008.</li>
+      <li>Kris Deschouwer, <em>The Politics of Belgium. Governing a Divided Society</em>, Basingstoke, Palgrave Macmillan, 2009 (2<sup>e</sup> éd. 2012).</li>
+      <li>Els Witte, Jan Craeybeckx et Alain Meynen, <em>Political History of Belgium from 1830 Onwards</em>, Bruxelles, ASP, 2009.</li>
+      <li>Marc Reynebeau, <em>Een geschiedenis van België</em>, Tielt, Lannoo, 2003.</li>
+      <li>Arend Lijphart, <em>Democracy in Plural Societies. A Comparative Exploration</em>, New Haven, Yale University Press, 1977.</li>
+      <li>Seymour Martin Lipset et Stein Rokkan (dir.), <em>Party Systems and Voter Alignments</em>, New York, Free Press, 1967.</li>
+    </ul>
+    <h2>Presse</h2>
+    <p>Pour l'actualité 2024-2026, les informations ont été recoupées dans la presse belge de référence, francophone et néerlandophone (agence Belga, RTBF, VRT NWS, <em>Le Soir</em>, <em>De Standaard</em>, <em>L'Écho</em>, <em>De Tijd</em>, <em>La Libre Belgique</em>, BX1, entre autres).</p>
+    <p class="small muted">Sociopo n'est affilié à aucune des institutions ou organisations citées.</p>
+  </div>
+</div>

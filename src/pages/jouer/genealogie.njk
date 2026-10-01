@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/genealogie/
+title: Généalogie des partis politiques belges
+description: "Frise interactive des partis belges de 1840 à aujourd'hui : fondations, scissions linguistiques, fusions et changements de nom, du Parti catholique aux Engagés, du POB au PS et à Vooruit, de la Volksunie à la N-VA."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Généalogie des partis", url: "/jouer/genealogie/" }]
+ogImage: /assets/img/og/partis.png
+scripts: [genealogie]
+ldKind: "app:|Généalogie des partis politiques belges|Frise interactive des partis politiques belges et de leurs filiations depuis 1840."
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · histoire des partis</p>
+    <h1>Généalogie des partis</h1>
+    <p class="lead">Les trois familles historiques (catholique, libérale, socialiste) se sont scindées selon la frontière linguistique entre 1968 et 1978, puis ont changé de nom, parfois plusieurs fois. Survolez une barre pour voir sa lignée ; cliquez pour ouvrir la fiche.</p>
+  </header>
+  <div data-genealogie>
+    <div class="genealogy" data-chart tabindex="0" aria-label="Frise des partis (défilement horizontal)"><p class="noscript-note" style="margin:1rem">La frise interactive nécessite JavaScript ; le tableau ci-dessous en reprend le contenu.</p></div>
+    <div class="panel small" data-tip hidden aria-live="polite" style="margin-top:.8rem"></div>
+  </div>
+  <section class="section" aria-labelledby="tab-h">
+    <h2 id="tab-h">Tableau des filiations</h2>
+    <div class="table-wrap"><table class="data">
+      <thead><tr><th scope="col">Parti</th><th scope="col">Famille</th><th scope="col" class="num">Création</th><th scope="col" class="num">Fin</th><th scope="col">Issu de</th></tr></thead>
+      <tbody>
+      {%- for p in corpus.partis | sortBy("data.founded_sort") %}
+        <tr>
+          <td><a href="{{ p.url }}">{{ p.short or p.title }}</a>{% if p.short and p.short != p.title %} <small class="muted">{{ p.title }}</small>{% endif %}</td>
+          <td>{{ p.data.family | familyLabel }}</td>
+          <td class="num">{{ p.data.founded | year if p.data.founded else "—" }}</td>
+          <td class="num">{{ p.data.dissolved | year if p.data.dissolved else "" }}</td>
+          <td>{% for s in p.data.predecessors or [] %}{% set q = s | entry %}{% if q %}<a href="{{ q.url }}">{{ q.short or q.title }}</a>{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}</td>
+        </tr>
+      {%- endfor %}
+      </tbody>
+    </table></div>
+  </section>
+</div>

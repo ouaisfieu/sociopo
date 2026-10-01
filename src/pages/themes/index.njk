@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+permalink: /themes/
+title: Les thèmes de la sociopolitique belge
+description: "Parcourez Sociopo par grands thèmes : institutions, fédéralisme, réformes de l'État, élections, partis, piliers, concertation sociale, sécurité sociale, économie, question communautaire, Bruxelles, histoire et plus encore."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Thèmes", url: "/themes/" }]
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Thèmes</p>
+    <h1>Explorer par thème</h1>
+    <p class="lead">Chaque entrée appartient à un ou plusieurs thèmes. Les pages de thème proposent un point d'entrée « pour commencer », puis l'ensemble des notions classées par nature.</p>
+  </header>
+  <div class="grid grid-2">
+    {%- for t in taxonomy.THEMES %}
+    {%- set n = (t.slug | ofTheme).length %}
+    <a class="card linkable" href="/themes/{{ t.slug }}/">
+      <div class="cluster"><span class="tile" style="padding:0;border:0;background:none"><span class="ico">{% icon t.icon %}</span></span><h2 style="margin:0;font-size:1.25rem">{{ t.label }}</h2></div>
+      <p>{{ t.intro }}</p>
+      <span class="meta">{{ n }} entrée{{ "s" if n > 1 }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+</div>

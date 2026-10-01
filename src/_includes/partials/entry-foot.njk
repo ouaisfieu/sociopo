@@ -1,0 +1,54 @@
+{#- Pied commun des pages d'entrées : FAQ, voir aussi, rétroliens, sources, citation -#}
+{%- set e = entry -%}
+<div class="notice-foot">
+  {%- if e.data.faq and e.data.faq.length %}
+  <section aria-labelledby="faq-h">
+    <h2 id="faq-h" class="h-sans">Questions fréquentes</h2>
+    {%- for f in e.data.faq %}
+    <details class="disclosure"><summary>{{ f.q }}</summary><div class="prose" style="font-size:1rem">{{ f.a | md | safe }}</div></details>
+    {%- endfor %}
+  </section>
+  {%- endif %}
+
+  {%- set rel = e | relatedOf(9) %}
+  {%- if rel.length %}
+  <section aria-labelledby="voir-aussi-h" data-pagefind-ignore>
+    <h2 id="voir-aussi-h">Voir aussi</h2>
+    <div class="related-grid">
+      {%- for r in rel %}
+      <a href="{{ r.url }}" data-slug="{{ r.slug }}"><b>{{ r.title }}</b><span>{{ r.kind | kindLabel }}{% if r.short and r.short != r.title %} · {{ r.short }}{% endif %}</span></a>
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- if e.backlinks and e.backlinks.length %}
+  <section class="backlinks" aria-labelledby="cite-dans-h" data-pagefind-ignore>
+    <h2 id="cite-dans-h">Cité dans {{ e.backlinks.length }} {{ "entrée" if e.backlinks.length == 1 else "entrées" }}</h2>
+    <p>
+      {%- for s in e.backlinks %}{% set b = s | entry %}<a href="{{ b.url }}" data-slug="{{ b.slug }}">{{ b.title }}</a>{% if not loop.last %} · {% endif %}{% endfor -%}
+    </p>
+  </section>
+  {%- endif %}
+
+  {%- if e.data.sources and e.data.sources.length %}
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h">Sources et pour aller plus loin</h2>
+    <ol>
+      {%- for s in e.data.sources %}
+      <li>{% if s.author %}{{ s.author }}, {% endif %}{% if s.url %}<a href="{{ s.url }}" class="ext" rel="noopener">{{ s.title }}</a>{% else %}<cite>{{ s.title }}</cite>{% endif %}{% if s.publisher %}, {{ s.publisher }}{% endif %}{% if s.date %}, {{ s.date | dateFr }}{% endif %}.{% if s.note %} <span class="muted">{{ s.note }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endif %}
+
+  <section aria-labelledby="citer-h" data-pagefind-ignore>
+    <h2 id="citer-h" class="visually-hidden">Citer cette page</h2>
+    <div class="cite-box">
+      <strong>Citer cette page :</strong>
+      <code data-cite>« {{ e.title }} », dans <i>Sociopo, encyclopédie de la sociopolitique belge</i>, mise à jour du {{ (e.data.updated or site.updated) | dateFr }}, {{ e.url | absUrl }}</code>
+      <button class="btn btn-ghost btn-small" type="button" data-copy-cite style="margin-top:.5rem">{% icon "copy" %} Copier la référence</button>
+      <p class="small muted" style="margin:.6rem 0 0">Une erreur, une omission, une source à ajouter ? <a href="{{ site.issues }}/new?title={{ ('Notice : ' + e.title) | urlencode }}">Signalez-la sur le dépôt du projet</a>.</p>
+    </div>
+  </section>
+</div>

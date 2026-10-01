@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/coalitions/
+title: Simulateur de coalitions
+description: "Composez une coalition à la Chambre (2007-2024) ou dans les parlements flamand, wallon, bruxellois, de la Fédération Wallonie-Bruxelles et germanophone : majorité, groupes linguistiques, majorité spéciale et coalitions minimales gagnantes."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Coalitions", url: "/jouer/coalitions/" }]
+ogImage: /assets/img/og/jouer.png
+scripts: [coalitions]
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · simulateur</p>
+    <h1>Simulateur de coalitions</h1>
+    <p class="lead">En Belgique, aucun parti n'a la majorité seul : tout gouvernement est une {{ "[[coalition]]" | mdInline | safe }} négociée. Cliquez sur les partis (ou sur les sièges) pour composer une majorité, puis comparez-la avec celle qui a réellement été formée.</p>
+  </header>
+  <div data-coalitions>
+    <div class="cluster" style="margin-bottom:1rem">
+      <label for="assemblee" class="small"><b>Assemblée</b></label>
+      <select id="assemblee" name="assemblee" class="input"></select>
+      <label class="small"><input type="checkbox" name="cordon" checked> Respecter le cordon sanitaire dans les suggestions</label>
+    </div>
+    <div class="tool-shell">
+      <div data-stage><p class="noscript-note">Chargement du simulateur… (JavaScript requis)</p></div>
+      <aside class="panel" data-side></aside>
+    </div>
+    <section class="section" data-minimal aria-live="polite"></section>
+  </div>
+  <section class="prose" style="max-width:72ch">
+    <h2>Comment lire le simulateur</h2>
+    <ul>
+      <li><strong>Majorité absolue</strong> : plus de la moitié des sièges (76 sur 150 à la Chambre).</li>
+      <li><strong>Groupes linguistiques</strong> : à la Chambre, aucune règle n'impose une majorité dans chaque groupe, mais une coalition minoritaire d'un côté de la frontière linguistique est politiquement fragile. À Bruxelles, elle est indispensable.</li>
+      <li><strong>Majorité spéciale</strong> : deux tiers des voix et majorité dans chaque groupe, exigés pour réformer l'État.</li>
+      <li><strong>Coalitions minimales gagnantes</strong> : la théorie des coalitions (William Riker) prédit que les partis préfèrent les majorités sans membre superflu, et de préférence « connectées » sur l'axe gauche-droite. La réalité belge est souvent plus large, pour réunir une majorité dans chaque communauté.</li>
+    </ul>
+    <p class="small muted">Positions gauche-droite indicatives, établies par la rédaction à partir des programmes et de la littérature comparée ; elles servent uniquement à ordonner l'hémicycle et à mesurer des écarts.</p>
+  </section>
+</div>

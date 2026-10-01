@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+permalink: /methodologie/
+title: Méthode et ligne éditoriale
+description: "Comment Sociopo rédige ses notices : neutralité, pluralisme des lectures dans les dossiers, sources, niveaux de lecture, vocabulaire officiel multilingue, mises à jour et données structurées."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Méthode", url: "/methodologie/" }]
+---
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Méthode</p>
+    <h1>Méthode et ligne éditoriale</h1>
+    <p class="lead">Informer sans prendre parti, analyser sans trancher à la place du lecteur.</p>
+  </header>
+  <div class="prose">
+    <h2 id="deux-registres">Deux registres distincts</h2>
+    <p>Les <strong>notices</strong> (lexique, partis, personnalités, gouvernements, élections) sont factuelles. Elles décrivent les règles, les acteurs et les événements dans un langage neutre ; lorsque l'interprétation d'un fait est disputée, elles le signalent dans un encadré « Débat » qui présente les positions en présence.</p>
+    <p>Les <strong>dossiers</strong> sont des analyses des rapports de forces politiques, économiques et sociaux. Ils assument un angle, mais exposent systématiquement les lectures contradictoires, distinguent les faits établis des hypothèses et indiquent leurs sources. Ils sont signalés comme tels.</p>
+
+    <h2 id="neutralite">Neutralité et pluralisme</h2>
+    <ul>
+      <li>Les partis sont présentés avec le même gabarit : origine, idéologie déclarée, positionnement, résultats, dirigeants.</li>
+      <li>Les qualifications contestées (« extrême droite », « populisme », « gauche radicale ») sont employées au sens de la littérature de science politique et expliquées dans des notices dédiées.</li>
+      <li>Les positions des partis sont attribuées à leurs auteurs ; les chiffres sont datés et sourcés.</li>
+      <li>Les jeux simplifient la réalité et le disent : leurs paramètres sont présentés comme indicatifs.</li>
+    </ul>
+
+    <h2 id="niveaux">Trois niveaux de lecture</h2>
+    <p>Chaque notice indique un niveau : <strong>1</strong> pour les notions essentielles à tout citoyen, <strong>2</strong> pour l'approfondissement, <strong>3</strong> pour les mécanismes techniques. Les notices commencent par une définition courte, suivie d'un développement et de renvois.</p>
+
+    <h2 id="langues">Vocabulaire officiel en quatre langues</h2>
+    <p>La Belgique a trois langues officielles et une forte production en anglais. Chaque notion indique, quand il existe, son équivalent officiel en néerlandais et en allemand, ainsi qu'une traduction anglaise usuelle. Les noms propres d'institutions suivent les dénominations officielles (par exemple « Fédération Wallonie-Bruxelles » pour l'appellation usuelle de la Communauté française).</p>
+
+    <h2 id="sources">Sources et vérification</h2>
+    <p>Les notices s'appuient en priorité sur les textes officiels (Constitution, lois spéciales, Moniteur belge, documents parlementaires), sur les publications académiques et du CRISP, puis sur la presse de référence pour l'actualité. Les informations postérieures à 2024 ont été recoupées entre plusieurs sources ; lorsqu'un point n'a pu l'être, il est omis ou signalé. Voir la page <a href="/sources/">Sources et bibliographie</a>.</p>
+
+    <h2 id="mises-a-jour">Mises à jour</h2>
+    <p>Chaque page indique sa date de mise à jour. L'état général des connaissances du site est daté du {{ site.updatedLabel }}. Les corrections sont tracées dans l'historique public du dépôt.</p>
+
+    <h2 id="web-semantique">Données structurées et web sémantique</h2>
+    <p>Chaque page publie des métadonnées <a href="https://schema.org" rel="noopener">schema.org</a> (JSON-LD) : termes définis (<code>DefinedTerm</code>), partis (<code>PoliticalParty</code>), personnes, organisations publiques, législation, événements électoraux, fil d'Ariane. Le lexique est également publié comme <a href="/thesaurus.ttl">thésaurus SKOS</a>, et les données sous forme de <a href="/donnees/">jeux ouverts</a>. Les identifiants Wikidata sont indiqués lorsqu'ils sont connus.</p>
+  </div>
+</div>

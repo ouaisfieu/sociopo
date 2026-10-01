@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/qui-est-competent/
+title: Qui est compétent ? La répartition des compétences en Belgique
+description: "Jeu et tableau de référence : allocations familiales, enseignement, prisons, TVA, logement, permis d'urbanisme… quel niveau de pouvoir est compétent en Belgique (Union européenne, fédéral, Communautés, Régions, communes) ?"
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Qui est compétent ?", url: "/jouer/qui-est-competent/" }]
+ogImage: /assets/img/og/federalisme.png
+scripts: [competences]
+ldKind: "app:|Qui est compétent ?|Jeu sur la répartition des compétences entre l'Union européenne, l'État fédéral, les Communautés, les Régions et les pouvoirs locaux en Belgique."
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · fédéralisme</p>
+    <h1>Qui est compétent ?</h1>
+    <p class="lead">Depuis six réformes de l'État, chaque matière a son « propriétaire » : l'État fédéral, les Communautés (matières liées aux personnes), les Régions (matières liées au territoire), les pouvoirs locaux ou l'Union européenne. Devinez qui décide, puis consultez le tableau complet.</p>
+  </header>
+  <div data-competences class="quiz"><div data-stage><p class="noscript-note">Le jeu nécessite JavaScript ; le tableau ci-dessous reste consultable.</p></div></div>
+
+  <section class="section" id="tableau" aria-labelledby="tableau-h">
+    <h2 id="tableau-h">Tableau de la répartition des compétences</h2>
+    <p class="muted">{{ competences.note }}</p>
+    {%- for lv in ["europe", "federal", "communautes", "regions", "local", "partagee"] %}
+    {%- set items = competences.items | where("a", lv) %}
+    {%- if items | length %}
+    <h3>{{ competences.levels[lv].label }} <small class="muted">({{ items | length }})</small></h3>
+    <div class="table-wrap"><table class="data">
+      <thead><tr><th scope="col" style="width:32%">Matière</th><th scope="col">Explication</th></tr></thead>
+      <tbody>
+      {%- for it in items %}
+        <tr><td>{% if it.link | entry %}<a href="{{ (it.link | entry).url }}">{{ it.q }}</a>{% else %}{{ it.q }}{% endif %}</td><td>{{ it.x }}</td></tr>
+      {%- endfor %}
+      </tbody>
+    </table></div>
+    {%- endif %}
+    {%- endfor %}
+    <p class="small muted">Voir aussi : {{ "[[repartition-des-competences|répartition des compétences]], [[competences-residuelles|compétences résiduelles]], [[matieres-personnalisables|matières personnalisables]], [[sixieme-reforme-de-l-etat|sixième réforme de l'État]]" | mdInline | safe }}.</p>
+  </section>
+</div>

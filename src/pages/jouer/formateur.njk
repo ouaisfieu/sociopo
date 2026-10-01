@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/formateur/
+title: Le jeu du formateur
+description: "Jeu de rôle : après les élections de juin 2024, le Roi vous charge de former le gouvernement fédéral. Composez une majorité, négociez budget, fiscalité, pensions, chômage et réforme de l'État, et tentez de battre les 239 jours de la formation De Wever."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Le jeu du formateur", url: "/jouer/formateur/" }]
+ogImage: /assets/img/og/gouvernement.png
+scripts: [formateur]
+ldKind: "app:|Le jeu du formateur|Jeu de rôle sur la formation d'un gouvernement fédéral belge après les élections de 2024."
+---
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · jeu de rôle</p>
+    <h1>Le jeu du formateur</h1>
+    <p class="lead">Informateur, préformateur, formateur : en Belgique, former un gouvernement est un art. À vous de jouer, avec les résultats réels de juin 2024.</p>
+  </header>
+  <div data-formateur><div data-stage aria-live="polite"><p class="noscript-note">Le jeu nécessite JavaScript.</p></div></div>
+  <aside class="callout callout-attention" style="margin-top:2rem">
+    <p class="callout-title">Avertissement</p>
+    <p>Les positions des partis sont simplifiées à l'extrême pour les besoins du jeu, à partir de leurs programmes de 2024 et de leurs prises de position publiques ; elles ne prétendent pas résumer fidèlement leurs projets. Pour une présentation rigoureuse, consultez les fiches des partis et le récit de {{ "[[formation-federale-2024-2025|la formation fédérale de 2024-2025]]" | mdInline | safe }}.</p>
+  </aside>
+</div>

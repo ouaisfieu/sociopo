@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+permalink: /recherche/
+title: Rechercher
+description: "Recherche plein texte dans toute l'encyclopédie Sociopo : notions, partis, personnalités, gouvernements, élections et dossiers, en français et par termes néerlandais."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Recherche", url: "/recherche/" }]
+pageType: SearchResultsPage
+bodyClass: page-recherche
+robots: "noindex, follow"
+scripts: [recherche]
+---
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <h1>Rechercher</h1>
+  <div data-recherche>
+    <form class="filters" role="search" action="{{ '/recherche/' | htmlBaseUrl }}" method="get">
+      <input class="input" type="search" name="q" placeholder="Ex. : formateur, facilités, loi spéciale, kern…" aria-label="Termes recherchés" autofocus>
+      <button class="btn" type="submit">Rechercher</button>
+    </form>
+    <div class="cluster" data-filters></div>
+    <p class="muted small" data-status aria-live="polite"></p>
+    <ol class="notice-list search-page-results" data-results></ol>
+    <button type="button" class="btn btn-ghost" data-more hidden>Afficher plus de résultats</button>
+    <noscript><p class="noscript-note">La recherche nécessite JavaScript. Consultez le <a href="/lexique/">lexique A–Z</a> ou le <a href="/plan-du-site/">plan du site</a>.</p></noscript>
+  </div>
+</div>

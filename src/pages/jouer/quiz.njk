@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/quiz/
+title: Quiz de sociopolitique belge
+description: "Testez vos connaissances sur la politique belge : institutions, fédéralisme, partis, élections, gouvernements, histoire, vocabulaire néerlandais et allemand. Plus de cent questions rédigées et des milliers générées."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Quiz", url: "/jouer/quiz/" }]
+ogImage: /assets/img/og/jouer.png
+scripts: [quiz]
+ldKind: quiz
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · quiz</p>
+    <h1>Quiz</h1>
+    <p class="lead">Dix questions par partie, tirées d'une banque de <span data-count>{{ quiz.items | length }}</span> questions : rédigées par la rédaction ou générées à partir du lexique, de la chronologie, des gouvernements et des résultats électoraux. Chaque réponse renvoie à la notice correspondante.</p>
+  </header>
+  <div data-quiz>
+    <div class="pill-nav" data-modes role="group" aria-label="Choisir un thème"></div>
+    <div class="quiz" data-stage>
+      <noscript>
+        <p class="noscript-note">Le quiz interactif nécessite JavaScript. Voici les questions rédigées avec leur réponse.</p>
+      </noscript>
+    </div>
+  </div>
+  <div hidden>{% for t in taxonomy.THEMES %}<span data-theme-label="{{ t.slug }}">{{ t.short or t.label }}</span>{% endfor %}</div>
+  <noscript>
+    <dl class="flash-static">
+      {%- for q in quiz.items %}
+      <dt>{{ q.q }}</dt><dd>{{ q.c[q.a] }} — {{ q.x }}</dd>
+      {%- endfor %}
+    </dl>
+  </noscript>
+</div>

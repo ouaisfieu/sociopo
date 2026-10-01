@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+permalink: /dossiers/
+title: Dossiers d'analyse
+description: "Dossiers d'analyse pluralistes sur les rapports de forces politiques, économiques et sociaux en Belgique : Arizona, blocage bruxellois, cordon sanitaire, concertation sociale, fédéralisme, nucléaire, dette publique."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Dossiers", url: "/dossiers/" }]
+ogImage: /assets/img/og/dossiers.png
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Dossiers</p>
+    <h1>Dossiers « rapports de forces »</h1>
+    <p class="lead">Des analyses longues qui croisent faits vérifiés, données et lectures contradictoires. Chaque dossier distingue clairement ce qui relève du constat et ce qui relève de l'interprétation.</p>
+  </header>
+  <div class="grid grid-2">
+    {%- for d in corpus.dossiers | sortBy("data.order") %}
+    <a class="card linkable" href="{{ d.url }}"><span class="badge badge-brick">Dossier</span><h2 style="margin:.2rem 0;font-size:1.35rem">{{ d.title }}</h2><p>{{ d.summary }}</p><span class="meta">{{ d.body | readingTime }} min de lecture · mis à jour le {{ (d.data.updated or site.updated) | dateFr }}</span></a>
+    {%- endfor %}
+  </div>
+</div>

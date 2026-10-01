@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/carte/
+title: Carte schématique de la Belgique
+description: "Carte interactive en tuiles : Régions, régions linguistiques, provinces et circonscriptions électorales de la Chambre (sièges 2024), avec la Communauté germanophone, les communes à facilités et Bruxelles."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Carte", url: "/jouer/carte/" }]
+ogImage: /assets/img/og/federalisme.png
+scripts: [carte]
+ldKind: "app:|Carte schématique de la Belgique|Carte interactive des Régions, régions linguistiques, provinces et circonscriptions électorales belges."
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · territoires</p>
+    <h1>Carte schématique de la Belgique</h1>
+    <p class="lead">Trois Régions, quatre régions linguistiques, dix provinces, onze circonscriptions : la même carte, découpée de plusieurs façons. Chaque tuile représente environ 22 km de côté ; la forme est volontairement simplifiée.</p>
+  </header>
+  <div data-carte>
+    <div class="pill-nav" data-layers role="group" aria-label="Choisir une couche"></div>
+    <div class="tool-shell">
+      <div><div data-map><p class="noscript-note">La carte interactive nécessite JavaScript.</p></div><div class="map-legend" data-legend></div></div>
+      <aside class="panel" data-info aria-live="polite"></aside>
+    </div>
+  </div>
+  <section class="prose section" style="max-width:72ch">
+    <h2>Repères</h2>
+    <ul>
+      <li>Les {{ "[[region-linguistique|régions linguistiques]]" | mdInline | safe }} (art. 4 de la Constitution) ne coïncident pas avec les Régions : la région de langue allemande fait partie de la Région wallonne.</li>
+      <li>Depuis 1995, la province de Brabant est scindée en Brabant flamand et Brabant wallon ; Bruxelles-Capitale n'appartient à aucune province.</li>
+      <li>Les circonscriptions de la Chambre suivent les provinces depuis 2003 ; Bruxelles-Capitale forme la sienne depuis la scission de {{ "[[bhv|BHV]]" | mdInline | safe }} en 2012.</li>
+    </ul>
+  </section>
+</div>

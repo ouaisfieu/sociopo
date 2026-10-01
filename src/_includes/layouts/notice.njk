@@ -1,0 +1,89 @@
+---
+layout: layouts/base.njk
+---
+{%- set e = entry -%}
+{%- set crumbsList = e | crumbs -%}
+{%- set toc = content | tocFromHtml -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <article data-pagefind-body data-pagefind-meta="url:{{ e.url }}" itemscope>
+    <header class="notice-head">
+      <div class="kicker">
+        <span class="badge">{{ e.kind | kindLabel }}</span>
+        {%- for t in e.themes %}<a class="chip" href="/themes/{{ t }}/">{{ (t | theme).short }}</a>{% endfor %}
+        <span class="level" title="Niveau : {{ ['', 'découverte', 'approfondissement', 'expert'][e.level] }}" aria-label="Niveau {{ e.level }} sur 3">{% for i in range(1, 4) %}<i class="{{ 'on' if i <= e.level else '' }}"></i>{% endfor %}</span>
+      </div>
+      <h1 data-pagefind-meta="title">{{ e.title }}{% if e.short and e.short != e.title %} <span class="muted" style="font-size:.55em;font-weight:500">({{ e.short }})</span>{% endif %}</h1>
+      <p class="definition">{{ e.summary | mdInline | safe }}</p>
+      {%- if e.terms.nl or e.terms.de or e.terms.en %}
+      <ul class="terms" aria-label="Équivalents dans d'autres langues">
+        {%- if e.terms.nl %}<li><span class="lang" title="néerlandais">NL</span><i lang="nl">{{ e.terms.nl }}</i></li>{% endif %}
+        {%- if e.terms.de %}<li><span class="lang" title="allemand">DE</span><i lang="de">{{ e.terms.de }}</i></li>{% endif %}
+        {%- if e.terms.en %}<li><span class="lang" title="anglais">EN</span><i lang="en">{{ e.terms.en }}</i></li>{% endif %}
+      </ul>
+      {%- endif %}
+      {%- if e.aliases.length %}<p class="small muted" style="margin:.6rem 0 0">Autres appellations : {{ e.aliases | join(" · ") }}</p>{% endif %}
+      <span hidden data-pagefind-filter="type">{{ e.kind | kindLabel }}</span>
+      {%- for t in e.themes %}<span hidden data-pagefind-filter="thème">{{ (t | theme).label }}</span>{% endfor %}
+    </header>
+
+    <div class="notice-layout">
+      <div>
+        <div class="prose">
+          {{ content | safe }}
+        </div>
+        {% include "partials/entry-foot.njk" %}
+      </div>
+
+      <aside class="aside" data-pagefind-ignore aria-label="Informations complémentaires">
+        {%- if toc.length > 2 %}
+        <nav class="aside-box toc" aria-label="Sommaire">
+          <h2>Sommaire</h2>
+          <ol>
+            {%- for h in toc %}<li class="lvl-{{ h.level }}"><a href="#{{ h.id }}">{{ h.text }}</a></li>{% endfor %}
+          </ol>
+        </nav>
+        {%- endif %}
+
+        {%- set d = e.data %}
+        {%- if d.facts or d.date or d.founded or d.legal_basis or d.date_end %}
+        <div class="aside-box">
+          <h2>Fiche</h2>
+          <dl class="facts">
+            {%- if d.date %}<dt>{{ "Début" if d.date_end else "Date" }}</dt><dd>{{ d.date | dateFr }}</dd>{% endif %}
+            {%- if d.date_end %}<dt>Fin</dt><dd>{{ d.date_end | dateFr }}</dd>{% endif %}
+            {%- if d.founded %}<dt>Création</dt><dd>{{ d.founded | dateFr }}</dd>{% endif %}
+            {%- if d.dissolved %}<dt>Disparition</dt><dd>{{ d.dissolved | dateFr }}</dd>{% endif %}
+            {%- if d.legal_basis %}<dt>Base légale</dt><dd>{{ d.legal_basis | mdInline | safe }}</dd>{% endif %}
+            {%- for f in d.facts %}<dt>{{ f.k }}</dt><dd>{{ f.v | mdInline | safe }}</dd>{% endfor %}
+            {%- if d.website %}<dt>Site officiel</dt><dd><a href="{{ d.website }}" rel="noopener">{{ d.website | replace("https://", "") | replace("www.", "") | truncate(32) }}</a></dd>{% endif %}
+          </dl>
+        </div>
+        {%- endif %}
+
+        {%- if d.not_to_confuse and d.not_to_confuse.length %}
+        <div class="aside-box">
+          <h2>À ne pas confondre avec</h2>
+          <ul>
+            {%- for n in d.not_to_confuse %}{% set ne = (n.slug or n) | entry %}
+            {%- if ne %}<li><a href="{{ ne.url }}" data-slug="{{ ne.slug }}">{{ ne.title }}</a>{% if n.why %}<br><span class="small muted">{{ n.why }}</span>{% endif %}</li>{% endif %}
+            {%- endfor %}
+          </ul>
+        </div>
+        {%- endif %}
+
+        <div class="aside-box">
+          <h2>Ma progression</h2>
+          <button class="btn btn-ghost btn-small read-toggle" type="button" data-mastered aria-pressed="false">{% icon "check" %} <span>Je maîtrise cette notion</span></button>
+          <p class="small muted" style="margin:.6rem 0 0" data-progress-note>Votre progression reste dans votre navigateur.</p>
+          <p class="small" style="margin:.4rem 0 0"><a href="/jouer/cartes-memoire/?theme={{ e.themes[0] }}">{% icon "cards" %} Réviser ce thème en cartes mémoire</a></p>
+        </div>
+
+        <div class="aside-box">
+          <h2>Mise à jour</h2>
+          <p class="small" style="margin:0">{{ (d.updated or site.updated) | dateFr }} · {{ e.body | readingTime }} min de lecture</p>
+        </div>
+      </aside>
+    </div>
+  </article>
+</div>

@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+permalink: /donnees/
+title: Données ouvertes
+description: "Jeux de données ouverts sur la politique belge au format JSON (notions, partis, gouvernements, élections, chronologie, compétences, quiz) et thésaurus SKOS, sous licence CC BY 4.0."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Données ouvertes", url: "/donnees/" }]
+pageType: CollectionPage
+ldKind: datasets
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Données ouvertes</p>
+    <h1>Données ouvertes</h1>
+    <p class="lead">Tout ce qui alimente l'encyclopédie et ses jeux est publié sous forme de fichiers réutilisables, sous licence <a href="{{ site.license.url }}" rel="license">{{ site.license.name }}</a>. Citez simplement « Sociopo » et l'adresse du fichier.</p>
+  </header>
+  <div class="table-wrap"><table class="data">
+    <thead><tr><th scope="col">Jeu de données</th><th scope="col">Contenu</th><th scope="col">Fichier</th></tr></thead>
+    <tbody>
+    {%- for d in datasets %}
+      <tr><td><b>{{ d.title }}</b></td><td>{{ d.description }}</td><td><a href="/data/{{ d.name }}.json" download>{{ d.name }}.json</a></td></tr>
+    {%- endfor %}
+      <tr><td><b>Thésaurus SKOS</b></td><td>Le lexique sous forme de vocabulaire contrôlé : libellés préférés et alternatifs en français, néerlandais, allemand et anglais, définitions, relations entre concepts, regroupement par thème.</td><td><a href="/thesaurus.ttl">thesaurus.ttl</a> · <a href="/thesaurus.jsonld">thesaurus.jsonld</a></td></tr>
+      <tr><td><b>Aperçus</b></td><td>Index compact (titre, nature, résumé, adresse) de toutes les entrées.</td><td><a href="/data/apercus.json">apercus.json</a></td></tr>
+      <tr><td><b>Graphe</b></td><td>Nœuds (entrées) et arêtes (renvois) de l'encyclopédie.</td><td><a href="/data/graphe.json">graphe.json</a></td></tr>
+      <tr><td><b>Flux Atom</b></td><td>Les dernières notices et mises à jour.</td><td><a href="/feed.xml">feed.xml</a></td></tr>
+      <tr><td><b>Pour les modèles de langage</b></td><td>Présentation du site et liste des pages essentielles (<code>llms.txt</code>) ; corpus textuel complet (<code>llms-full.txt</code>).</td><td><a href="/llms.txt">llms.txt</a> · <a href="/llms-full.txt">llms-full.txt</a></td></tr>
+    </tbody>
+  </table></div>
+  <section class="prose section" style="max-width:72ch">
+    <h2>Format</h2>
+    <p>Chaque fichier JSON contient un objet <code>meta</code> (nom, description, licence, date de mise à jour) et un objet <code>data</code>. Les identifiants (<code>slug</code>) sont stables et correspondent aux adresses des pages : la notice <code>loi-speciale</code> est publiée à l'adresse <code>/notions/loi-speciale/</code>.</p>
+    <h2>Exemple</h2>
+    <pre><code>fetch("https://ouaisfieu.github.io/sociopo/data/partis.json")
+  .then((r) =&gt; r.json())
+  .then(({ data }) =&gt; console.log(data.filter((p) =&gt; !p.dissolved).length, "partis actifs"));</code></pre>
+    <h2>Limites</h2>
+    <p>Les résultats électoraux reprennent les sièges et, lorsqu'ils sont disponibles, les pourcentages et voix au niveau national. Pour des analyses fines (circonscriptions, cantons), référez-vous aux résultats officiels du SPF Intérieur. Signalez toute erreur via le <a href="{{ site.issues }}">suivi des tickets</a>.</p>
+  </section>
+</div>

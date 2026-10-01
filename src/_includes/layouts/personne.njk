@@ -1,0 +1,51 @@
+---
+layout: layouts/base.njk
+---
+{%- set e = entry -%}
+{%- set d = e.data -%}
+{%- set crumbsList = e | crumbs -%}
+{%- set party = d.party | entry -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <article data-pagefind-body>
+    <header class="notice-head"{% if party %} style="--party: var(--p-{{ party.slug }})"{% endif %}>
+      <div class="kicker">
+        <span class="badge">Personnalité</span>
+        {%- if party %}<a class="chip" href="{{ party.url }}"><span class="party-swatch" style="background:var(--p-{{ party.slug }})"></span>{{ party.short or party.title }}</a>{% elif d.party_label %}<span class="chip">{{ d.party_label }}</span>{% endif %}
+        {%- if d.born or d.died %}<span class="chip">{{ d.born | year }}{% if d.died %} – {{ d.died | year }}{% endif %}</span>{% endif %}
+      </div>
+      <h1 data-pagefind-meta="title">{{ e.title }}</h1>
+      <p class="definition">{{ e.summary | mdInline | safe }}</p>
+      <span hidden data-pagefind-filter="type">Personnalité</span>
+    </header>
+    <div class="notice-layout">
+      <div>
+        <div class="prose">
+          {{ content | safe }}
+        </div>
+        {% include "partials/entry-foot.njk" %}
+      </div>
+      <aside class="aside" data-pagefind-ignore aria-label="Repères biographiques">
+        <div class="aside-box">
+          <h2>Repères</h2>
+          <dl class="facts">
+            {%- if d.born %}<dt>Naissance</dt><dd>{{ d.born | dateFr }}{% if d.birthplace %}, {{ d.birthplace }}{% endif %}</dd>{% endif %}
+            {%- if d.died %}<dt>Décès</dt><dd>{{ d.died | dateFr }}{% if d.deathplace %}, {{ d.deathplace }}{% endif %}</dd>{% endif %}
+            {%- if party %}<dt>Parti</dt><dd><a href="{{ party.url }}">{{ party.title }}</a></dd>{% elif d.party_label %}<dt>Affiliation</dt><dd>{{ d.party_label }}</dd>{% endif %}
+            {%- if d.job %}<dt>Fonction actuelle</dt><dd>{{ d.job }}</dd>{% endif %}
+          </dl>
+        </div>
+        {%- if d.roles and d.roles.length %}
+        <div class="aside-box">
+          <h2>Fonctions principales</h2>
+          <ul>
+            {%- for r in d.roles %}
+            <li><b>{{ r.role }}</b><br><span class="small muted">{% if r.from %}{{ r.from | dateFr(true) }}{% endif %}{% if r.to %} – {{ r.to | dateFr(true) }}{% elif r.from %} – {% endif %}</span></li>
+            {%- endfor %}
+          </ul>
+        </div>
+        {%- endif %}
+      </aside>
+    </div>
+  </article>
+</div>

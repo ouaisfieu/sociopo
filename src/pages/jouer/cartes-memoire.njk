@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+permalink: /jouer/cartes-memoire/
+title: Cartes mémoire
+description: "Révisez les notions de la politique belge par répétition espacée : définitions, et équivalents néerlandais, allemands et anglais. Progression conservée dans votre navigateur."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Jouer", url: "/jouer/" }, { label: "Cartes mémoire", url: "/jouer/cartes-memoire/" }]
+ogImage: /assets/img/og/jouer.png
+scripts: [flashcards]
+ldKind: flashcards
+---
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Jouer · révision</p>
+    <h1>Cartes mémoire</h1>
+    <p class="lead">Retournez la carte, puis dites honnêtement si vous saviez. Les cartes maîtrisées montent de boîte et reviennent de plus en plus tard (méthode de Leitner) ; les autres reviennent vite. Idéal pour apprendre aussi le vocabulaire politique en néerlandais et en allemand.</p>
+  </header>
+  <div data-flash>
+    <div class="grid grid-2">
+      <div class="field"><label for="theme">Paquet</label>
+        <select class="input" id="theme" name="theme">
+          <option value="toutes">Toutes les notions</option>
+          {%- for t in taxonomy.THEMES %}{% if (corpus.notions | withTheme(t.slug) | length) >= 4 %}
+          <option value="{{ t.slug }}">{{ t.label }}</option>{% endif %}{% endfor %}
+        </select>
+      </div>
+      <div class="field"><label for="dir">Sens</label><select class="input" id="dir" name="dir"></select></div>
+    </div>
+    <div class="cluster small" data-stats style="margin-bottom:1rem"></div>
+    <div data-card aria-live="polite"></div>
+    <p class="small muted center" style="margin-top:1rem">Raccourcis : Espace pour retourner, flèche droite « je savais », flèche gauche « à revoir ».</p>
+  </div>
+  <noscript>
+    <p class="noscript-note">Les cartes interactives nécessitent JavaScript. Voici les notions essentielles.</p>
+    <dl class="flash-static">
+      {%- for n in corpus.notions | where("level", 1) | sortTitle %}
+      <dt><a href="{{ n.url }}">{{ n.title }}</a>{% if n.terms and n.terms.nl %} <small>(NL : {{ n.terms.nl }})</small>{% endif %}</dt><dd>{{ n.summary }}</dd>
+      {%- endfor %}
+    </dl>
+  </noscript>
+</div>

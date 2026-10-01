@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+permalink: /a-propos/
+title: À propos de Sociopo
+description: "Sociopo est une encyclopédie libre, interactive et anonyme de la sociopolitique belge : objectifs, contribution, confidentialité, licences et manière de citer."
+crumbs: [{ label: "Accueil", url: "/" }, { label: "À propos", url: "/a-propos/" }]
+pageType: AboutPage
+---
+<div class="container narrow">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Le projet</p>
+    <h1>À propos de Sociopo</h1>
+    <p class="lead">Une encyclopédie libre pour comprendre comment fonctionne la Belgique : ses institutions, ses partis, ses compromis, ses crises et ses rapports de forces.</p>
+  </header>
+  <div class="prose">
+    <h2 id="projet">Le projet</h2>
+    <p>La politique belge a la réputation d'être indéchiffrable : six réformes de l'État, trois Communautés, trois Régions, des commissions communautaires, des gouvernements formés en plusieurs centaines de jours, des partis scindés par la frontière linguistique. Sociopo rassemble en un seul endroit, gratuitement et sans publicité :</p>
+    <ul>
+      <li>un <a href="/lexique/">lexique</a> de notices courtes et reliées entre elles, avec leurs équivalents officiels en néerlandais, en allemand et en anglais ;</li>
+      <li>des fiches sur les <a href="/partis/">partis</a>, les <a href="/personnalites/">personnalités</a>, les <a href="/gouvernements/">gouvernements</a> et les <a href="/elections/">élections</a> ;</li>
+      <li>des <a href="/dossiers/">dossiers d'analyse</a> sur les rapports de forces politiques et économiques ;</li>
+      <li>des <a href="/jouer/">outils interactifs</a> pour manipuler les règles : coalitions, répartition des sièges, compétences ;</li>
+      <li>des <a href="/donnees/">données ouvertes</a> réutilisables.</li>
+    </ul>
+    <p>Sociopo s'inscrit dans la tradition des grands outils de référence sur la politique belge, au premier rang desquels les publications du <abbr title="Centre de recherche et d'information socio-politiques">CRISP</abbr> et son <a href="https://www.vocabulairepolitique.be" rel="noopener">vocabulaire politique</a>, qu'il cite et complète sans s'y substituer. Son parti pris : relier les notions entre elles, les rendre manipulables, les dater et les mettre à jour en continu.</p>
+
+    <h2 id="anonymat">Une rédaction anonyme</h2>
+    <p>Les textes sont publiés sous la signature collective « Rédaction Sociopo », sans auteur individuel. Ce choix ne dispense pas de rigueur : chaque affirmation doit pouvoir être vérifiée à partir de sources publiques, citées en bas de notice ou dans la page <a href="/sources/">Sources</a>. La <a href="/methodologie/">méthode éditoriale</a> explique comment les notices sont rédigées et mises à jour.</p>
+
+    <h2 id="contribuer">Contribuer, signaler une erreur</h2>
+    <p>Une erreur, une imprécision, une notice manquante ? Le code et les textes sont publics sur <a href="{{ site.repo }}">GitHub</a> :</p>
+    <ul>
+      <li>pour signaler un problème, ouvrez un <a href="{{ site.issues }}">ticket</a> en indiquant la page et, si possible, une source ;</li>
+      <li>pour proposer une correction, modifiez directement le fichier Markdown de la notice (dossier <code>src/content/</code>) et ouvrez une demande de fusion ;</li>
+      <li>chaque notice affiche, en bas de page, un lien direct vers le signalement d'une erreur.</li>
+    </ul>
+    <p>Les contributions sont relues au regard de la ligne éditoriale : neutralité, sources vérifiables, distinction claire entre faits et analyses.</p>
+
+    <h2 id="confidentialite">Confidentialité</h2>
+    <p>Sociopo ne dépose aucun cookie, n'utilise aucun outil de mesure d'audience et ne charge aucune ressource tierce (les polices de caractères sont hébergées sur le site). La recherche fonctionne entièrement dans votre navigateur.</p>
+    <p>Votre progression (notices lues, badges, scores) est conservée uniquement dans le stockage local de votre navigateur ; elle n'est jamais transmise. Vous pouvez l'exporter ou l'effacer depuis <a href="/parcours/">Mon parcours</a>. L'hébergeur du site (GitHub Pages) peut conserver des journaux techniques de connexion, selon ses propres conditions.</p>
+
+    <h2 id="licences">Licences et réutilisation</h2>
+    <p>Les textes et les données sont publiés sous licence <a href="{{ site.license.url }}" rel="license">{{ site.license.name }}</a> : vous pouvez les copier, les adapter et les republier, y compris à des fins commerciales, à condition de citer la source. Le code est publié sous licence <a href="{{ site.codeLicense.url }}">{{ site.codeLicense.name }}</a>.</p>
+    <p>Pour citer une notice : « <i>Titre de la notice</i>, Sociopo — Encyclopédie de la sociopolitique belge, consulté le [date], [adresse] ». Un bloc de citation prêt à copier figure au bas de chaque notice.</p>
+
+    <h2 id="etat">État des connaissances</h2>
+    <p>Les contenus reflètent l'état des connaissances au <strong>{{ site.updatedLabel }}</strong>. La politique belge évolue vite : les notices d'actualité indiquent leur date de mise à jour.</p>
+
+    <h2 id="projets-lies">Projets liés</h2>
+    <ul>
+      {%- for r in site.related %}
+      <li><a href="{{ r.url }}" rel="noopener">{{ r.name }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</div>

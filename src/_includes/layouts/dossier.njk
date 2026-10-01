@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+---
+{%- set e = entry -%}
+{%- set d = e.data -%}
+{%- set crumbsList = e | crumbs -%}
+{%- set toc = content | tocFromHtml -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <article data-pagefind-body>
+    <header class="notice-head">
+      <div class="kicker">
+        <span class="badge badge-brick">Dossier</span>
+        {%- for t in e.themes %}<a class="chip" href="/themes/{{ t }}/">{{ (t | theme).short }}</a>{% endfor %}
+        <span class="chip">{{ e.body | readingTime }} min de lecture</span>
+      </div>
+      <h1 data-pagefind-meta="title">{{ e.title }}</h1>
+      <p class="definition">{{ e.summary | mdInline | safe }}</p>
+      <p class="notice-meta"><span>Par la {{ site.editor }}</span><span>Publié le {{ (d.published or site.updated) | dateFr }}</span>{% if d.updated and d.updated != d.published %}<span>Mis à jour le {{ d.updated | dateFr }}</span>{% endif %}</p>
+      <span hidden data-pagefind-filter="type">Dossier</span>
+    </header>
+    <div class="notice-layout">
+      <div>
+        <div class="callout callout-methode" role="note">
+          <p class="callout-title">Note de lecture</p>
+          <p>Les dossiers croisent des faits vérifiés et des <strong>lectures contradictoires</strong>, qui sont attribuées à leurs auteurs ou courants. L'analyse de la rédaction est signalée comme telle. Les chiffres sont datés et sourcés en fin de dossier.</p>
+        </div>
+        <div class="prose">
+          {{ content | safe }}
+        </div>
+        {% include "partials/entry-foot.njk" %}
+      </div>
+      <aside class="aside" data-pagefind-ignore aria-label="Sommaire du dossier">
+        {%- if toc.length %}
+        <nav class="aside-box toc" aria-label="Sommaire">
+          <h2>Sommaire</h2>
+          <ol>{% for h in toc %}<li class="lvl-{{ h.level }}"><a href="#{{ h.id }}">{{ h.text }}</a></li>{% endfor %}</ol>
+        </nav>
+        {%- endif %}
+        {%- set ab = d.about | entries %}
+        {%- if ab.length %}
+        <div class="aside-box">
+          <h2>Notions clés</h2>
+          <ul>{% for a in ab %}<li><a href="{{ a.url }}" data-slug="{{ a.slug }}">{{ a.title }}</a></li>{% endfor %}</ul>
+        </div>
+        {%- endif %}
+      </aside>
+    </div>
+  </article>
+</div>

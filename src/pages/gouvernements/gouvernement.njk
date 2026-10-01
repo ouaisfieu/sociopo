@@ -1,0 +1,69 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: gouvernements.items
+  size: 1
+  alias: g
+permalink: "/gouvernements/{{ g.id }}/"
+eleventyComputed:
+  title: "{{ g.name | safe }}{% if g.nickname %} ({{ g.nickname | safe }}){% endif %}"
+  description: "{{ g.summary | safe }}"
+  ogImage: "/assets/img/og/gouvernement.png"
+  bodyClass: "page-gouvernement"
+---
+{%- set url = "/gouvernements/" + g.id + "/" -%}
+{%- set e = ("gouvernement-" + g.id) | entry -%}
+{%- set crumbsList = [{ label: "Accueil", url: "/" }, { label: "Gouvernements", url: "/gouvernements/" }, { label: g.name, url: url }] -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <article data-pagefind-body>
+    <header class="notice-head">
+      <div class="kicker">
+        <span class="badge">{{ g.level_label }}</span>
+        {%- if g.nickname %}<span class="chip">Coalition « {{ g.nickname }} »</span>{% endif %}
+        {%- if not g.end %}<span class="badge badge-green">En fonction</span>{% endif %}
+      </div>
+      <h1 data-pagefind-meta="title">{{ g.name }}</h1>
+      <p class="definition">{{ g.summary }}</p>
+      <span hidden data-pagefind-filter="type">Gouvernement</span>
+    </header>
+    <div class="notice-layout">
+      <div>
+        <div class="aside-box" style="margin-bottom:1.4rem">
+          <h2>Coalition</h2>
+          <div class="cluster">
+            {%- for p in g.parties %}{% set pi = p | partyInfo %}{% if pi %}<a class="party-chip" href="{{ pi.url }}"><i style="background:{{ pi.color }}"></i>{{ pi.short }}</a>{% endif %}{% endfor %}
+            {%- for x in g.parties_extra %}<span class="party-chip"><i style="background:var(--p-autre)"></i>{{ x }}</span>{% endfor %}
+          </div>
+        </div>
+        <div class="prose">
+          {%- if g.text %}{{ g.text | md | safe }}{% else %}
+          <p>Le {{ g.name | replace("Gouvernement ", "gouvernement ") | replace("Gouvernements ", "gouvernements ") }} est entré en fonction le {{ g.start | dateFr }}{% if g.end %} et a pris fin le {{ g.end | dateFr }}{% endif %}. Il était dirigé par {% set h = g.head | entry %}{% if h %}<a class="wl" href="{{ h.url }}" data-slug="{{ h.slug }}">{{ g.head_name }}</a>{% else %}{{ g.head_name }}{% endif %} ({{ g.head_title | lower }}).</p>
+          {%- endif %}
+        </div>
+        {%- if e %}{% set entry = e %}{% include "partials/entry-foot.njk" %}{% endif %}
+      </div>
+      <aside class="aside" data-pagefind-ignore aria-label="Fiche du gouvernement">
+        <div class="aside-box">
+          <h2>Fiche</h2>
+          <dl class="facts">
+            <dt>Niveau</dt><dd>{{ g.level_label }}</dd>
+            <dt>Chef</dt><dd>{% set h = g.head | entry %}{% if h %}<a href="{{ h.url }}">{{ g.head_name }}</a>{% else %}{{ g.head_name }}{% endif %}</dd>
+            <dt>Entrée en fonction</dt><dd>{{ g.start | dateFr }}</dd>
+            <dt>Fin</dt><dd>{{ (g.end | dateFr) if g.end else "en fonction" }}</dd>
+            {%- if g.start | length == 10 and g.end and g.end | length == 10 %}<dt>Durée</dt><dd>{{ g.start | days(g.end) | num }} jours</dd>{% endif %}
+            {%- if g.formation_days %}<dt>Formation</dt><dd>{{ g.formation_days }} jours après le scrutin</dd>{% endif %}
+          </dl>
+        </div>
+        {%- set same = gouvernements.items | where("level", g.level) %}
+        <div class="aside-box">
+          <h2>Gouvernements voisins</h2>
+          <ul>
+            {%- for x in same %}{% if loop.index0 > 0 and same[loop.index0 - 1].id == g.id %}<li>Suivant : <a href="/gouvernements/{{ x.id }}/">{{ x.name }}</a></li>{% endif %}{% if loop.index0 < same.length - 1 and same[loop.index0 + 1].id == g.id %}<li>Précédent : <a href="/gouvernements/{{ x.id }}/">{{ x.name }}</a></li>{% endif %}{% endfor %}
+            <li><a href="/gouvernements/">Tous les gouvernements</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </article>
+</div>

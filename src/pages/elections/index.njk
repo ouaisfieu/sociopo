@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+permalink: /elections/
+title: Les élections en Belgique
+description: "Résultats des élections législatives depuis 1919 (sièges à la Chambre), des élections régionales et européennes de 2014 à 2024 et des communales de 2024, avec hémicycles, tableaux et explications."
+pageType: CollectionPage
+crumbs: [{ label: "Accueil", url: "/" }, { label: "Élections", url: "/elections/" }]
+ogImage: /assets/img/og/elections.png
+scripts: [elections]
+---
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <header class="theme-hero">
+    <p class="eyebrow">Élections</p>
+    <h1>Les élections en Belgique</h1>
+    <p class="lead">Vote obligatoire, proportionnelle, scission linguistique des partis : un siècle de résultats pour comprendre les recompositions du système politique. Le graphique retrace la part des sièges de chaque famille à la Chambre.</p>
+    <div class="cluster"><a class="btn btn-ghost btn-small" href="/themes/elections/">Le thème « Élections »</a><a class="btn btn-ghost btn-small" href="/jouer/dhondt/">Calculateur D'Hondt</a></div>
+  </header>
+  <section aria-labelledby="evo-h">
+    <h2 id="evo-h">Évolution des familles politiques à la Chambre</h2>
+    <div data-evolution class="gantt" style="padding:.5rem"></div>
+    <script type="application/json" id="evo-data">{{ (elections.items | where("type", "chambre")) | jsonScript | safe }}</script>
+    <script type="application/json" id="evo-parties">{{ corpus.partis | familyMap | jsonScript | safe }}</script>
+  </section>
+  {%- for t, label in { chambre: "Élections législatives (Chambre)", regionales: "Élections régionales et communautaires", europeennes: "Élections européennes", communales: "Élections communales et provinciales" } %}
+  {%- set list = elections.items | where("type", t) %}
+  <section aria-labelledby="t-{{ t }}">
+    <h2 id="t-{{ t }}">{{ label }}</h2>
+    <ul class="index-list">
+      {%- for el in list | reverse %}
+      <li><a href="/elections/{{ el.id }}/">{{ el.name }}</a><span class="k">{{ el.date | dateFr }}</span><span class="s">{{ el.summary | truncate(120) }}</span></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endfor %}
+</div>

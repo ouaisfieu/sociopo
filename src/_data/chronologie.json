@@ -1,0 +1,1003 @@
+{
+ "updated": "2026-10-01",
+ "types": {
+  "institution": "Institutions",
+  "reforme": "Réforme de l'État",
+  "election": "Élection",
+  "gouvernement": "Gouvernement",
+  "crise": "Crise",
+  "social": "Social",
+  "loi": "Loi",
+  "monarchie": "Monarchie",
+  "international": "International",
+  "societe": "Société"
+ },
+ "items": [
+  {
+   "date": "1789-10",
+   "type": "crise",
+   "title": "Révolution brabançonne",
+   "text": "Soulèvement des provinces belges contre les réformes de Joseph II ; éphémères États belgiques unis (1790).",
+   "link": "revolution-brabanconne"
+  },
+  {
+   "date": "1815-06",
+   "type": "international",
+   "title": "Royaume-Uni des Pays-Bas",
+   "text": "Le congrès de Vienne réunit les anciennes provinces belges et les Provinces-Unies sous Guillaume Ier d'Orange.",
+   "link": "royaume-uni-des-pays-bas"
+  },
+  {
+   "date": "1830-08-25",
+   "type": "crise",
+   "title": "Début de la révolution belge",
+   "text": "Émeute à Bruxelles après une représentation de La Muette de Portici ; combats de septembre et retrait des troupes hollandaises.",
+   "link": "revolution-belge"
+  },
+  {
+   "date": "1830-10-04",
+   "type": "institution",
+   "title": "Proclamation de l'indépendance",
+   "text": "Le gouvernement provisoire proclame l'indépendance des provinces belges.",
+   "link": "revolution-belge"
+  },
+  {
+   "date": "1830-11-10",
+   "type": "institution",
+   "title": "Réunion du Congrès national",
+   "text": "L'assemblée constituante élue au suffrage censitaire siège à Bruxelles.",
+   "link": "congres-national"
+  },
+  {
+   "date": "1831-02-07",
+   "type": "institution",
+   "title": "Adoption de la Constitution",
+   "text": "Une des constitutions les plus libérales de son temps : monarchie constitutionnelle, libertés publiques, suffrage censitaire.",
+   "link": "constitution"
+  },
+  {
+   "date": "1831-07-21",
+   "type": "monarchie",
+   "title": "Prestation de serment de Léopold Ier",
+   "text": "Le premier roi des Belges prête serment ; le 21 juillet devient la fête nationale.",
+   "link": "leopold-ier"
+  },
+  {
+   "date": "1839-04-19",
+   "type": "international",
+   "title": "Traité des XXIV articles",
+   "text": "Les Pays-Bas reconnaissent l'indépendance belge ; la Belgique cède une partie du Limbourg et du Luxembourg. La neutralité est garantie par les puissances.",
+   "link": "traite-des-xxiv-articles"
+  },
+  {
+   "date": "1846-06-14",
+   "type": "institution",
+   "title": "Congrès libéral",
+   "text": "Fondation du Parti libéral, premier parti organisé : fin de l'unionisme.",
+   "link": "parti-liberal"
+  },
+  {
+   "date": "1847-08",
+   "type": "gouvernement",
+   "title": "Premier gouvernement libéral homogène",
+   "text": "Charles Rogier forme un cabinet exclusivement libéral.",
+   "link": "unionisme"
+  },
+  {
+   "date": "1873",
+   "type": "loi",
+   "title": "Première loi linguistique",
+   "text": "Emploi du néerlandais en matière répressive dans les provinces flamandes.",
+   "link": "lois-linguistiques"
+  },
+  {
+   "date": "1879-07-01",
+   "type": "loi",
+   "title": "Loi scolaire libérale (« loi de malheur »)",
+   "text": "Enseignement primaire officiel laïque dans chaque commune : début de la première guerre scolaire.",
+   "link": "guerre-scolaire-1879-1884"
+  },
+  {
+   "date": "1884-06",
+   "type": "election",
+   "title": "Victoire catholique",
+   "text": "Début de trente ans de gouvernements catholiques homogènes.",
+   "link": "parti-catholique"
+  },
+  {
+   "date": "1885-02",
+   "type": "international",
+   "title": "État indépendant du Congo",
+   "text": "Les puissances reconnaissent à Léopold II la souveraineté personnelle sur le Congo (conférence de Berlin).",
+   "link": "etat-independant-du-congo"
+  },
+  {
+   "date": "1885-04-05",
+   "type": "institution",
+   "title": "Fondation du Parti ouvrier belge",
+   "text": "Le POB fédère syndicats, coopératives et mutualités.",
+   "link": "parti-ouvrier-belge"
+  },
+  {
+   "date": "1886-03",
+   "type": "social",
+   "title": "Émeutes ouvrières de 1886",
+   "text": "Grèves et émeutes dans le bassin liégeois et le Hainaut, durement réprimées ; elles ouvrent la voie aux premières lois sociales.",
+   "link": "monde-socialiste"
+  },
+  {
+   "date": "1893-04",
+   "type": "social",
+   "title": "Grève générale pour le suffrage universel",
+   "text": "La révision constitutionnelle instaure le suffrage universel masculin tempéré par le vote plural et le vote obligatoire.",
+   "link": "vote-plural"
+  },
+  {
+   "date": "1898-04-18",
+   "type": "loi",
+   "title": "Loi d'égalité (Coremans-De Vriendt)",
+   "text": "Le néerlandais devient langue officielle à égalité avec le français pour la publication des lois.",
+   "link": "loi-coremans-de-vriendt"
+  },
+  {
+   "date": "1899-12-29",
+   "type": "loi",
+   "title": "Représentation proportionnelle",
+   "text": "La Belgique est le premier pays à adopter la proportionnelle (méthode D'Hondt) pour les élections législatives.",
+   "link": "representation-proportionnelle"
+  },
+  {
+   "date": "1908-11-15",
+   "type": "international",
+   "title": "Le Congo devient colonie belge",
+   "text": "Reprise de l'État indépendant du Congo par la Belgique.",
+   "link": "congo-belge"
+  },
+  {
+   "date": "1909-12-23",
+   "type": "monarchie",
+   "title": "Avènement d'Albert Ier",
+   "text": "Mort de Léopold II ; son neveu Albert lui succède.",
+   "link": "albert-ier"
+  },
+  {
+   "date": "1913-04",
+   "type": "social",
+   "title": "Grève générale de 1913",
+   "text": "Nouvelle grève pour le suffrage universel pur.",
+   "link": "suffrage-universel"
+  },
+  {
+   "date": "1914-08-04",
+   "type": "international",
+   "title": "Invasion allemande",
+   "text": "Violation de la neutralité belge ; quatre années d'occupation, front de l'Yser.",
+   "link": "premiere-guerre-mondiale"
+  },
+  {
+   "date": "1918-11",
+   "type": "institution",
+   "title": "Accords de Lophem",
+   "text": "Le Roi et les dirigeants politiques s'accordent sur le suffrage universel masculin pur.",
+   "link": "coup-de-lophem"
+  },
+  {
+   "date": "1919-11-16",
+   "type": "election",
+   "title": "Premières élections au suffrage universel masculin",
+   "text": "Les catholiques perdent leur majorité absolue.",
+   "link": "elections-chambre-1919"
+  },
+  {
+   "date": "1920-04-15",
+   "type": "loi",
+   "title": "Vote des femmes aux communales",
+   "text": "Les femmes votent pour la première fois aux élections communales de 1921.",
+   "link": "suffrage-feminin"
+  },
+  {
+   "date": "1921-02-07",
+   "type": "institution",
+   "title": "Révision constitutionnelle de 1921",
+   "text": "Le suffrage universel masculin est inscrit dans la Constitution.",
+   "link": "suffrage-universel"
+  },
+  {
+   "date": "1930-10",
+   "type": "loi",
+   "title": "Université de Gand néerlandophone",
+   "text": "Première université belge enseignant en néerlandais.",
+   "link": "mouvement-flamand"
+  },
+  {
+   "date": "1932",
+   "type": "loi",
+   "title": "Lois linguistiques de 1932",
+   "text": "Unilinguisme régional en matière administrative et d'enseignement.",
+   "link": "lois-linguistiques"
+  },
+  {
+   "date": "1934-02-17",
+   "type": "monarchie",
+   "title": "Mort d'Albert Ier",
+   "text": "Le Roi meurt dans un accident d'escalade à Marche-les-Dames ; Léopold III lui succède.",
+   "link": "leopold-iii"
+  },
+  {
+   "date": "1936-05-24",
+   "type": "election",
+   "title": "Percée de Rex et du VNV",
+   "text": "Les partis antiparlementaires obtiennent 37 sièges.",
+   "link": "elections-chambre-1936"
+  },
+  {
+   "date": "1936-06",
+   "type": "social",
+   "title": "Grèves de juin 1936",
+   "text": "Elles débouchent sur les congés payés et la conférence nationale du travail.",
+   "link": "greve-generale"
+  },
+  {
+   "date": "1940-05-10",
+   "type": "international",
+   "title": "Invasion allemande",
+   "text": "Campagne des dix-huit jours ; capitulation de l'armée le 28 mai 1940.",
+   "link": "seconde-guerre-mondiale"
+  },
+  {
+   "date": "1940-05-28",
+   "type": "monarchie",
+   "title": "Capitulation et rupture Roi-gouvernement",
+   "text": "Léopold III reste en Belgique comme prisonnier ; le gouvernement Pierlot gagne la France, puis Londres.",
+   "link": "question-royale"
+  },
+  {
+   "date": "1944-04",
+   "type": "social",
+   "title": "Pacte social",
+   "text": "Projet d'accord de solidarité sociale négocié clandestinement entre patronat et syndicats.",
+   "link": "pacte-social-de-1944"
+  },
+  {
+   "date": "1944-09",
+   "type": "international",
+   "title": "Libération",
+   "text": "Libération de Bruxelles (3 septembre) ; le prince Charles devient régent.",
+   "link": "regence"
+  },
+  {
+   "date": "1944-12-28",
+   "type": "loi",
+   "title": "Arrêté-loi sur la sécurité sociale",
+   "text": "Naissance de l'Office national de sécurité sociale (ONSS).",
+   "link": "securite-sociale"
+  },
+  {
+   "date": "1948-03-27",
+   "type": "loi",
+   "title": "Suffrage féminin aux élections législatives",
+   "text": "Les femmes votent pour la première fois aux législatives de 1949.",
+   "link": "suffrage-feminin"
+  },
+  {
+   "date": "1948-09-20",
+   "type": "loi",
+   "title": "Loi portant organisation de l'économie",
+   "text": "Création du Conseil central de l'économie et des conseils d'entreprise.",
+   "link": "loi-du-20-septembre-1948"
+  },
+  {
+   "date": "1950-03-12",
+   "type": "monarchie",
+   "title": "Consultation populaire sur Léopold III",
+   "text": "57,7 % de oui au niveau national, mais une majorité de non en Wallonie et à Bruxelles.",
+   "link": "consultation-populaire-de-1950"
+  },
+  {
+   "date": "1950-07-22",
+   "type": "crise",
+   "title": "Retour de Léopold III",
+   "text": "Grèves insurrectionnelles en Wallonie ; fusillade de Grâce-Berleur (30 juillet).",
+   "link": "question-royale"
+  },
+  {
+   "date": "1950-08-18",
+   "type": "crise",
+   "title": "Assassinat de Julien Lahaut",
+   "text": "Le président du Parti communiste est abattu à Seraing.",
+   "link": "kpb-pcb"
+  },
+  {
+   "date": "1951-07-17",
+   "type": "monarchie",
+   "title": "Avènement de Baudouin",
+   "text": "Léopold III abdique ; Baudouin prête serment.",
+   "link": "baudouin"
+  },
+  {
+   "date": "1952-05-29",
+   "type": "loi",
+   "title": "Création du Conseil national du travail",
+   "text": "Organe paritaire interprofessionnel de concertation sociale.",
+   "link": "conseil-national-du-travail"
+  },
+  {
+   "date": "1956-08-08",
+   "type": "societe",
+   "title": "Catastrophe du Bois du Cazier",
+   "text": "262 mineurs meurent à Marcinelle, dont 136 Italiens.",
+   "link": "catastrophe-du-bois-du-cazier"
+  },
+  {
+   "date": "1958-11-20",
+   "type": "loi",
+   "title": "Pacte scolaire",
+   "text": "Fin de la seconde guerre scolaire : coexistence et financement des réseaux.",
+   "link": "pacte-scolaire"
+  },
+  {
+   "date": "1960-06-30",
+   "type": "international",
+   "title": "Indépendance du Congo",
+   "text": "Le Congo belge devient indépendant ; crise congolaise.",
+   "link": "independance-du-congo"
+  },
+  {
+   "date": "1960-12-20",
+   "type": "social",
+   "title": "Grève générale contre la loi unique",
+   "text": "Cinq semaines de grève, surtout en Wallonie ; André Renard lie défense sociale et fédéralisme.",
+   "link": "greve-generale-de-1960-1961"
+  },
+  {
+   "date": "1961-01-17",
+   "type": "international",
+   "title": "Assassinat de Patrice Lumumba",
+   "text": "Le Premier ministre congolais est assassiné au Katanga ; la responsabilité morale belge sera reconnue en 2002.",
+   "link": "assassinat-de-patrice-lumumba"
+  },
+  {
+   "date": "1961-10-22",
+   "type": "societe",
+   "title": "Première marche flamande sur Bruxelles",
+   "text": "Mobilisation pour la fixation de la frontière linguistique.",
+   "link": "marches-flamandes-sur-bruxelles"
+  },
+  {
+   "date": "1962-11-08",
+   "type": "loi",
+   "title": "Fixation de la frontière linguistique",
+   "text": "Les Fourons passent au Limbourg, Comines et Mouscron au Hainaut.",
+   "link": "frontiere-linguistique"
+  },
+  {
+   "date": "1963-08-02",
+   "type": "loi",
+   "title": "Lois linguistiques de 1963",
+   "text": "Bruxelles limitée à 19 communes bilingues ; régime des facilités.",
+   "link": "communes-a-facilites"
+  },
+  {
+   "date": "1964-02",
+   "type": "societe",
+   "title": "Conventions de main-d'œuvre avec le Maroc et la Turquie",
+   "text": "Recrutement de travailleurs immigrés pour les charbonnages et l'industrie.",
+   "link": "conventions-bilaterales-de-1964"
+  },
+  {
+   "date": "1964-05-11",
+   "type": "institution",
+   "title": "Fondation du FDF",
+   "text": "Front démocratique des Francophones, à Bruxelles.",
+   "link": "defi"
+  },
+  {
+   "date": "1968-02-07",
+   "type": "crise",
+   "title": "Chute du gouvernement sur Louvain",
+   "text": "« Walen buiten » : la section francophone de l'université doit quitter Louvain ; le PSC-CVP éclate.",
+   "link": "affaire-de-louvain"
+  },
+  {
+   "date": "1970-12-24",
+   "type": "reforme",
+   "title": "Première réforme de l'État",
+   "text": "Communautés culturelles, principe de trois Régions, groupes linguistiques, sonnette d'alarme.",
+   "link": "premiere-reforme-de-l-etat"
+  },
+  {
+   "date": "1971-07-26",
+   "type": "loi",
+   "title": "Agglomérations et fédérations de communes",
+   "text": "Création de l'agglomération bruxelloise.",
+   "link": "agglomeration-et-federation-de-communes"
+  },
+  {
+   "date": "1973-07-16",
+   "type": "loi",
+   "title": "Loi du Pacte culturel",
+   "text": "Protection des tendances idéologiques et philosophiques dans les politiques culturelles.",
+   "link": "pacte-culturel"
+  },
+  {
+   "date": "1974-08-01",
+   "type": "reforme",
+   "title": "Régionalisation préparatoire",
+   "text": "Loi Perin-Vandekerckhove : conseils régionaux consultatifs.",
+   "link": "rassemblement-wallon"
+  },
+  {
+   "date": "1977-01-01",
+   "type": "institution",
+   "title": "Fusion des communes",
+   "text": "La Belgique passe de 2 359 à 596 communes.",
+   "link": "fusion-des-communes"
+  },
+  {
+   "date": "1977-05-24",
+   "type": "reforme",
+   "title": "Pacte d'Egmont",
+   "text": "Accord communautaire ambitieux, jamais appliqué.",
+   "link": "pacte-d-egmont"
+  },
+  {
+   "date": "1978-10",
+   "type": "institution",
+   "title": "Scission du Parti socialiste belge",
+   "text": "Dernier grand parti unitaire à se diviser.",
+   "link": "scission-des-partis-nationaux"
+  },
+  {
+   "date": "1980-08-08",
+   "type": "reforme",
+   "title": "Deuxième réforme de l'État",
+   "text": "Loi spéciale de réformes institutionnelles : Régions flamande et wallonne, Communautés avec exécutifs.",
+   "link": "deuxieme-reforme-de-l-etat"
+  },
+  {
+   "date": "1981-07-30",
+   "type": "loi",
+   "title": "Loi Moureaux",
+   "text": "Répression des actes inspirés par le racisme ou la xénophobie.",
+   "link": "loi-moureaux"
+  },
+  {
+   "date": "1982-02-22",
+   "type": "gouvernement",
+   "title": "Dévaluation du franc belge",
+   "text": "Le gouvernement Martens V dévalue de 8,5 % et gouverne par pouvoirs spéciaux.",
+   "link": "pouvoirs-speciaux"
+  },
+  {
+   "date": "1984-10",
+   "type": "institution",
+   "title": "Installation de la Cour d'arbitrage",
+   "text": "Juridiction chargée des conflits de compétences, devenue Cour constitutionnelle en 2007.",
+   "link": "cour-constitutionnelle"
+  },
+  {
+   "date": "1985-05-29",
+   "type": "societe",
+   "title": "Drame du Heysel",
+   "text": "39 morts lors de la finale de la Coupe d'Europe ; la gestion de la sécurité est mise en cause."
+  },
+  {
+   "date": "1985-11",
+   "type": "crise",
+   "title": "Dernières tueries du Brabant",
+   "text": "Attaque d'un supermarché à Alost (9 novembre 1985) ; les auteurs ne seront jamais identifiés.",
+   "link": "tueries-du-brabant"
+  },
+  {
+   "date": "1987-10",
+   "type": "crise",
+   "title": "Chute du gouvernement sur les Fourons",
+   "text": "L'affaire José Happart fait tomber Martens VI.",
+   "link": "fourons"
+  },
+  {
+   "date": "1988-08-08",
+   "type": "reforme",
+   "title": "Troisième réforme de l'État",
+   "text": "Enseignement aux Communautés, extension des compétences régionales ; lois spéciales de janvier 1989.",
+   "link": "troisieme-reforme-de-l-etat"
+  },
+  {
+   "date": "1989-01-12",
+   "type": "reforme",
+   "title": "Création de la Région de Bruxelles-Capitale",
+   "text": "Loi spéciale relative aux institutions bruxelloises ; premières élections régionales bruxelloises le 18 juin 1989.",
+   "link": "region-de-bruxelles-capitale"
+  },
+  {
+   "date": "1989-05",
+   "type": "institution",
+   "title": "Premier cordon sanitaire",
+   "text": "Les partis flamands s'engagent à ne pas s'allier au Vlaams Blok.",
+   "link": "cordon-sanitaire"
+  },
+  {
+   "date": "1990-04-04",
+   "type": "monarchie",
+   "title": "Impossibilité de régner de Baudouin",
+   "text": "Le Roi refuse de sanctionner la loi dépénalisant partiellement l'avortement ; le gouvernement constate son impossibilité de régner pendant 36 heures.",
+   "link": "impossibilite-de-regner"
+  },
+  {
+   "date": "1991-07-18",
+   "type": "crise",
+   "title": "Assassinat d'André Cools",
+   "text": "L'ancien vice-Premier ministre socialiste est abattu à Liège.",
+   "link": "assassinat-d-andre-cools"
+  },
+  {
+   "date": "1991-11-24",
+   "type": "election",
+   "title": "Dimanche noir",
+   "text": "Percée du Vlaams Blok (12 sièges) et des partis protestataires.",
+   "link": "dimanche-noir"
+  },
+  {
+   "date": "1993-05",
+   "type": "reforme",
+   "title": "La Belgique, État fédéral",
+   "text": "Quatrième réforme de l'État : l'article 1er de la Constitution consacre l'État fédéral.",
+   "link": "quatrieme-reforme-de-l-etat"
+  },
+  {
+   "date": "1993-07-31",
+   "type": "monarchie",
+   "title": "Mort de Baudouin",
+   "text": "Le Roi meurt à Motril ; Albert II prête serment le 9 août.",
+   "link": "baudouin"
+  },
+  {
+   "date": "1993-11",
+   "type": "social",
+   "title": "Plan global",
+   "text": "Le gouvernement Dehaene adopte un plan pour l'emploi, la compétitivité et la viabilité de la sécurité sociale (modération salariale, réforme de l'index).",
+   "link": "plan-global"
+  },
+  {
+   "date": "1995-05-21",
+   "type": "election",
+   "title": "Premières élections régionales directes",
+   "text": "Les parlements flamand, wallon et bruxellois sont élus le même jour que les Chambres.",
+   "link": "elections-regionales"
+  },
+  {
+   "date": "1996-07-26",
+   "type": "loi",
+   "title": "Loi sur la sauvegarde de la compétitivité",
+   "text": "Introduction de la norme salariale.",
+   "link": "loi-de-1996"
+  },
+  {
+   "date": "1996-10-20",
+   "type": "societe",
+   "title": "Marche blanche",
+   "text": "300 000 personnes à Bruxelles après l'affaire Dutroux.",
+   "link": "affaire-dutroux"
+  },
+  {
+   "date": "1997-02-27",
+   "type": "social",
+   "title": "Annonce de la fermeture de Renault Vilvorde",
+   "text": "3 000 emplois supprimés ; la loi Renault suivra en 1998.",
+   "link": "loi-renault"
+  },
+  {
+   "date": "1998-05-24",
+   "type": "reforme",
+   "title": "Accord Octopus",
+   "text": "Réforme des polices après l'affaire Dutroux.",
+   "link": "accord-octopus"
+  },
+  {
+   "date": "1999-05",
+   "type": "crise",
+   "title": "Crise de la dioxine",
+   "text": "Contamination de la chaîne alimentaire ; défaite de la coalition sortante.",
+   "link": "crise-de-la-dioxine"
+  },
+  {
+   "date": "1999-07-12",
+   "type": "gouvernement",
+   "title": "Coalition arc-en-ciel",
+   "text": "Les sociaux-chrétiens quittent le pouvoir fédéral pour la première fois depuis 1958.",
+   "link": "coalition-arc-en-ciel"
+  },
+  {
+   "date": "2001-07-13",
+   "type": "reforme",
+   "title": "Accords du Lambermont et du Lombard",
+   "text": "Cinquième réforme de l'État : autonomie fiscale, refinancement des Communautés, institutions bruxelloises.",
+   "link": "cinquieme-reforme-de-l-etat"
+  },
+  {
+   "date": "2002-05-28",
+   "type": "loi",
+   "title": "Loi sur l'euthanasie",
+   "text": "La Belgique dépénalise l'euthanasie sous conditions.",
+   "link": "euthanasie"
+  },
+  {
+   "date": "2003-01-31",
+   "type": "loi",
+   "title": "Loi de sortie du nucléaire",
+   "text": "Fermeture progressive des réacteurs après 40 ans d'exploitation (abrogée en 2025).",
+   "link": "sortie-du-nucleaire"
+  },
+  {
+   "date": "2003-02-13",
+   "type": "loi",
+   "title": "Mariage entre personnes de même sexe",
+   "text": "Deuxième pays au monde à l'ouvrir.",
+   "link": "mariage-pour-tous"
+  },
+  {
+   "date": "2004-11-09",
+   "type": "crise",
+   "title": "Condamnation du Vlaams Blok",
+   "text": "La Cour de cassation confirme la condamnation pour racisme ; le parti devient Vlaams Belang.",
+   "link": "vlaams-blok"
+  },
+  {
+   "date": "2005-10-28",
+   "type": "social",
+   "title": "Grève contre le Pacte des générations",
+   "text": "Mobilisation syndicale contre la réforme des fins de carrière.",
+   "link": "pacte-des-generations"
+  },
+  {
+   "date": "2007-06-10",
+   "type": "election",
+   "title": "Élections de 2007",
+   "text": "Victoire du cartel CD&V/N-VA ; début d'une longue crise institutionnelle.",
+   "link": "crise-politique-2007-2011"
+  },
+  {
+   "date": "2007-11-07",
+   "type": "crise",
+   "title": "Vote flamand sur BHV",
+   "text": "La majorité flamande de la commission de l'Intérieur vote la scission de BHV contre les francophones.",
+   "link": "bhv"
+  },
+  {
+   "date": "2008-09-28",
+   "type": "crise",
+   "title": "Sauvetage de Fortis",
+   "text": "Nationalisation partielle puis vente à BNP Paribas ; le gouvernement Leterme tombe en décembre.",
+   "link": "crise-fortis-2008"
+  },
+  {
+   "date": "2010-04-22",
+   "type": "crise",
+   "title": "Chute du gouvernement Leterme II sur BHV",
+   "text": "L'Open Vld quitte le gouvernement ; élections anticipées.",
+   "link": "bhv"
+  },
+  {
+   "date": "2010-06-13",
+   "type": "election",
+   "title": "La N-VA premier parti du pays",
+   "text": "Début d'une formation record de 541 jours.",
+   "link": "elections-chambre-2010"
+  },
+  {
+   "date": "2011-10-11",
+   "type": "reforme",
+   "title": "Accord institutionnel « papillon »",
+   "text": "Accord sur la sixième réforme de l'État et la scission de BHV.",
+   "link": "accord-papillon"
+  },
+  {
+   "date": "2011-12-06",
+   "type": "gouvernement",
+   "title": "Gouvernement Di Rupo",
+   "text": "Fin de la crise de 541 jours.",
+   "link": "gouvernement-di-rupo"
+  },
+  {
+   "date": "2012-07",
+   "type": "reforme",
+   "title": "Scission de BHV votée",
+   "text": "Le Parlement adopte la scission de la circonscription électorale et la réforme de l'arrondissement judiciaire de Bruxelles-Hal-Vilvorde.",
+   "link": "bhv"
+  },
+  {
+   "date": "2013-07-21",
+   "type": "monarchie",
+   "title": "Abdication d'Albert II",
+   "text": "Philippe prête serment comme septième roi des Belges.",
+   "link": "philippe"
+  },
+  {
+   "date": "2014-01-06",
+   "type": "reforme",
+   "title": "Lois spéciales de la sixième réforme",
+   "text": "Nouvelle loi spéciale de financement, réforme du Sénat, transferts de compétences.",
+   "link": "sixieme-reforme-de-l-etat"
+  },
+  {
+   "date": "2014-05-25",
+   "type": "election",
+   "title": "Premières élections simultanées",
+   "text": "Fédérales, régionales et européennes le même jour ; record de la N-VA.",
+   "link": "concordance-des-scrutins"
+  },
+  {
+   "date": "2014-10-11",
+   "type": "gouvernement",
+   "title": "Coalition suédoise",
+   "text": "Gouvernement Michel I avec la N-VA.",
+   "link": "coalition-suedoise"
+  },
+  {
+   "date": "2015-04",
+   "type": "social",
+   "title": "Saut d'index",
+   "text": "L'indexation des salaires et allocations est suspendue une fois.",
+   "link": "saut-d-index"
+  },
+  {
+   "date": "2016-03-22",
+   "type": "crise",
+   "title": "Attentats de Bruxelles",
+   "text": "32 victimes à l'aéroport de Zaventem et à la station Maelbeek.",
+   "link": "attentats-du-22-mars-2016"
+  },
+  {
+   "date": "2016-10",
+   "type": "international",
+   "title": "Veto wallon sur le CETA",
+   "text": "Le Parlement wallon bloque temporairement la signature de l'accord UE-Canada.",
+   "link": "ceta-wallonie"
+  },
+  {
+   "date": "2017-06-19",
+   "type": "crise",
+   "title": "Rupture du cdH avec le PS",
+   "text": "Après les affaires Publifin et Samusocial, le cdH change d'alliance en Wallonie.",
+   "link": "affaire-publifin-nethys"
+  },
+  {
+   "date": "2018-12-09",
+   "type": "crise",
+   "title": "La N-VA quitte le gouvernement",
+   "text": "Désaccord sur le pacte migratoire de l'ONU (Marrakech).",
+   "link": "crise-de-marrakech-2018"
+  },
+  {
+   "date": "2019-05-26",
+   "type": "election",
+   "title": "Nouveau « dimanche noir »",
+   "text": "Remontée du Vlaams Belang et du PTB-PVDA.",
+   "link": "elections-chambre-2019"
+  },
+  {
+   "date": "2019-10-27",
+   "type": "gouvernement",
+   "title": "Première femme Première ministre",
+   "text": "Sophie Wilmès succède à Charles Michel.",
+   "link": "sophie-wilmes"
+  },
+  {
+   "date": "2020-03-17",
+   "type": "crise",
+   "title": "Pouvoirs spéciaux face au Covid-19",
+   "text": "Gouvernement Wilmès II ; confinement à partir du 18 mars.",
+   "link": "crise-du-covid-19"
+  },
+  {
+   "date": "2020-10-01",
+   "type": "gouvernement",
+   "title": "Coalition Vivaldi",
+   "text": "Sept partis autour d'Alexander De Croo.",
+   "link": "coalition-vivaldi"
+  },
+  {
+   "date": "2021-07-14",
+   "type": "crise",
+   "title": "Inondations meurtrières en Wallonie",
+   "text": "39 morts, vallées de la Vesdre et de l'Ourthe dévastées.",
+   "link": "inondations-de-2021"
+  },
+  {
+   "date": "2022-03-12",
+   "type": "institution",
+   "title": "Le cdH devient Les Engagés",
+   "text": "Refondation du centre francophone.",
+   "link": "les-engages"
+  },
+  {
+   "date": "2022-06",
+   "type": "international",
+   "title": "Visite du Roi au Congo",
+   "text": "Philippe réitère ses « plus profonds regrets » pour le passé colonial.",
+   "link": "commission-passe-colonial"
+  },
+  {
+   "date": "2022-12",
+   "type": "crise",
+   "title": "Qatargate",
+   "text": "Enquête belge sur des soupçons de corruption au Parlement européen.",
+   "link": "qatargate"
+  },
+  {
+   "date": "2023-03",
+   "type": "social",
+   "title": "Conflit Delhaize",
+   "text": "Annonce de la franchisation des 128 magasins intégrés.",
+   "link": "conflit-delhaize-2023"
+  },
+  {
+   "date": "2023-09",
+   "type": "societe",
+   "title": "Bon d'État record",
+   "text": "Plus de 21 milliards d'euros souscrits ; les banques relèvent leurs taux d'épargne.",
+   "link": "bon-d-etat"
+  },
+  {
+   "date": "2024-01",
+   "type": "international",
+   "title": "Présidence belge du Conseil de l'UE",
+   "text": "Treizième présidence belge (janvier-juin 2024).",
+   "link": "presidence-belge-du-conseil-de-l-ue"
+  },
+  {
+   "date": "2024-06-09",
+   "type": "election",
+   "title": "Méga-scrutin de 2024",
+   "text": "Victoire du MR et des Engagés, maintien de la N-VA en tête, effondrement d'Ecolo ; premier vote européen à 16 ans.",
+   "link": "elections-chambre-2024"
+  },
+  {
+   "date": "2024-07-15",
+   "type": "gouvernement",
+   "title": "Gouvernements wallon et FWB MR-Engagés",
+   "text": "Le PS est rejeté dans l'opposition régionale.",
+   "link": "gouvernement-wallonie-dolimont"
+  },
+  {
+   "date": "2024-07-26",
+   "type": "international",
+   "title": "Procédure de déficit excessif",
+   "text": "Le Conseil de l'UE ouvre une procédure contre la Belgique.",
+   "link": "procedure-de-deficit-excessif"
+  },
+  {
+   "date": "2024-09-30",
+   "type": "gouvernement",
+   "title": "Gouvernement flamand Diependaele",
+   "text": "N-VA, Vooruit et CD&V.",
+   "link": "gouvernement-flandre-diependaele"
+  },
+  {
+   "date": "2024-10-13",
+   "type": "election",
+   "title": "Communales de 2024",
+   "text": "Fin du vote obligatoire en Flandre ; rupture locale du cordon sanitaire (Ninove, Ranst).",
+   "link": "elections-communales-2024"
+  },
+  {
+   "date": "2025-02-03",
+   "type": "gouvernement",
+   "title": "Gouvernement De Wever (Arizona)",
+   "text": "Bart De Wever, premier Premier ministre nationaliste flamand, après 239 jours.",
+   "link": "gouvernement-de-wever"
+  },
+  {
+   "date": "2025-02-13",
+   "type": "social",
+   "title": "Manifestation nationale contre l'Arizona",
+   "text": "Première grande mobilisation syndicale contre les réformes annoncées.",
+   "link": "mobilisations-contre-l-arizona"
+  },
+  {
+   "date": "2025-03-31",
+   "type": "social",
+   "title": "Grève générale",
+   "text": "Grève nationale interprofessionnelle en front commun.",
+   "link": "mobilisations-contre-l-arizona"
+  },
+  {
+   "date": "2025-04-12",
+   "type": "gouvernement",
+   "title": "Accord de Pâques",
+   "text": "Budget 2025 et effort de défense porté à 2 % du PIB.",
+   "link": "defense-nationale"
+  },
+  {
+   "date": "2025-04-26",
+   "type": "institution",
+   "title": "Valerie Van Peel présidente de la N-VA",
+   "text": "Elle succède à Bart De Wever après plus de vingt ans de présidence.",
+   "link": "n-va"
+  },
+  {
+   "date": "2025-05-15",
+   "type": "loi",
+   "title": "Abrogation de la sortie du nucléaire",
+   "text": "La loi Bihet supprime la loi de 2003 et autorise de nouvelles capacités nucléaires.",
+   "link": "sortie-du-nucleaire"
+  },
+  {
+   "date": "2025-09-22",
+   "type": "international",
+   "title": "Reconnaissance de l'État de Palestine",
+   "text": "Annonce à l'ONU d'une reconnaissance assortie de conditions.",
+   "link": "reconnaissance-de-la-palestine"
+  },
+  {
+   "date": "2025-10-14",
+   "type": "social",
+   "title": "Manifestation nationale",
+   "text": "Entre 80 000 et 140 000 personnes à Bruxelles.",
+   "link": "mobilisations-contre-l-arizona"
+  },
+  {
+   "date": "2025-11-24",
+   "type": "gouvernement",
+   "title": "Accord budgétaire de 9,2 milliards",
+   "text": "Plafonnement partiel de l'indexation en 2026 et 2028, relèvements ciblés de TVA ; trois jours de grève du 24 au 26 novembre.",
+   "link": "budget-de-l-etat"
+  },
+  {
+   "date": "2026-01-01",
+   "type": "loi",
+   "title": "Limitation du chômage dans le temps",
+   "text": "Premières fins de droit pour les chômeurs de très longue durée ; taxe de 10 % sur les plus-values.",
+   "link": "limitation-des-allocations-de-chomage-dans-le-temps"
+  },
+  {
+   "date": "2026-01-19",
+   "type": "institution",
+   "title": "Open Vld devient Anders",
+   "text": "Nouveau nom pour les libéraux flamands.",
+   "link": "anders"
+  },
+  {
+   "date": "2026-02-14",
+   "type": "gouvernement",
+   "title": "Gouvernement bruxellois Dilliès",
+   "text": "Fin d'un blocage de 613 jours.",
+   "link": "formation-bruxelloise-2024-2026"
+  },
+  {
+   "date": "2026-04-03",
+   "type": "reforme",
+   "title": "Premier vote vers la suppression du Sénat",
+   "text": "Révision de l'article 195 adoptée à la majorité des deux tiers.",
+   "link": "suppression-du-senat"
+  },
+  {
+   "date": "2026-04-17",
+   "type": "crise",
+   "title": "Moody's abaisse la note belge",
+   "text": "De Aa3 à A1 ; S&P suit le 24 avril (AA-).",
+   "link": "notation-souveraine"
+  },
+  {
+   "date": "2026-04-22",
+   "type": "crise",
+   "title": "Le plus gros déficit de la zone euro",
+   "text": "Eurostat : déficit de 5,2 % du PIB en 2025, dette de 107,9 %.",
+   "link": "deficit-public"
+  },
+  {
+   "date": "2026-07-10",
+   "type": "gouvernement",
+   "title": "Effort supplémentaire de 10 milliards",
+   "text": "Le gouvernement fédéral s'engage sur un effort budgétaire d'ici 2029.",
+   "link": "conclave-budgetaire"
+  },
+  {
+   "date": "2026-09-22",
+   "type": "gouvernement",
+   "title": "Ouverture du conclave budgétaire",
+   "text": "Échéance fixée à la déclaration de politique fédérale du 13 octobre 2026.",
+   "link": "conclave-budgetaire"
+  }
+ ]
+}

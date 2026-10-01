@@ -1,0 +1,104 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: elections.items
+  size: 1
+  alias: el
+permalink: "/elections/{{ el.id }}/"
+eleventyComputed:
+  title: "{{ el.name | safe }}"
+  description: "{{ el.summary | safe }}"
+  ogImage: "/assets/img/og/elections.png"
+  bodyClass: "page-election"
+---
+{%- set url = "/elections/" + el.id + "/" -%}
+{%- set e = ("elections-" + el.id) | entry -%}
+{%- set crumbsList = [{ label: "Accueil", url: "/" }, { label: "Élections", url: "/elections/" }, { label: el.name, url: url }] -%}
+{%- set gov = (el.government | default("")) -%}
+<div class="container">
+  {% include "partials/breadcrumbs.njk" %}
+  <article data-pagefind-body>
+    <header class="notice-head">
+      <div class="kicker">
+        <span class="badge">{{ { chambre: "Élections législatives", regionales: "Élections régionales et communautaires", europeennes: "Élections européennes", communales: "Élections locales" }[el.type] }}</span>
+        <span class="chip">{{ el.date | dateFr }}</span>
+      </div>
+      <h1 data-pagefind-meta="title">{{ el.name }}</h1>
+      <p class="definition">{{ el.summary }}</p>
+      <span hidden data-pagefind-filter="type">Élection</span>
+    </header>
+    <div class="notice-layout">
+      <div>
+        {%- if el.seats %}
+        {%- set rows = el.seats | seatsWithInfo %}
+        <section aria-labelledby="res-h">
+          <h2 id="res-h" style="margin-top:0">Composition de la Chambre</h2>
+          <div class="hemicycle-wrap">{{ el.seats | hemicycle(el.total, "Chambre des représentants — " + (el.date | year), "h-" + el.id) | safe }}</div>
+          {% include "partials/seat-legend.njk" %}
+          {%- set total = el.total %}{% set caption = "Répartition des sièges, " + el.name %}
+          {% include "partials/seat-table.njk" %}
+          {%- if el.groups %}<p class="small muted">Groupes linguistiques : {{ el.groups.nl }} membres néerlandophones, {{ el.groups.fr }} francophones.</p>{% endif %}
+          <p><a class="btn btn-ghost btn-small" href="/jouer/coalitions/?parlement=chambre-{{ el.date | year }}">{% icon "puzzle" %} Former une coalition avec ces résultats</a></p>
+        </section>
+        {%- elif el.parliaments %}
+        {%- for pa in el.parliaments %}
+        {%- set rows = pa.seats | seatsWithInfo %}
+        <section aria-labelledby="pa-{{ pa.id }}">
+          <h2 id="pa-{{ pa.id }}"{% if loop.first %} style="margin-top:0"{% endif %}>{{ pa.name }}</h2>
+          <div class="hemicycle-wrap">{{ pa.seats | hemicycle(pa.total, pa.name + " — " + (el.date | year), "h-" + el.id + "-" + pa.id) | safe }}</div>
+          {% include "partials/seat-legend.njk" %}
+          {%- set total = pa.total %}{% set caption = pa.name %}
+          {% include "partials/seat-table.njk" %}
+        </section>
+        {%- endfor %}
+        {%- elif el.colleges %}
+        {%- for co in el.colleges %}
+        {%- set rows = co.seats | seatsWithInfo %}
+        <section aria-labelledby="co-{{ co.id }}">
+          <h2 id="co-{{ co.id }}"{% if loop.first %} style="margin-top:0"{% endif %}>{{ co.name }} ({{ co.total }} siège{{ "s" if co.total > 1 }})</h2>
+          <div class="seat-bars">
+            {%- for r in rows | bySeats %}
+            <div class="seat-bar"><span><span class="party-swatch" style="background:{{ r.color }}"></span>{{ r.label }}</span><span class="track"><span class="fill" style="width:{{ r.seats / co.total * 100 }}%;background:{{ r.color }}"></span></span><span class="v">{{ r.seats }}</span></div>
+            {%- endfor %}
+          </div>
+        </section>
+        {%- endfor %}
+        {%- else %}
+        <div class="callout callout-methode"><p class="callout-title">Résultats détaillés</p><p>Les résultats détaillés de ce scrutin ne sont pas encore repris dans Sociopo faute de vérification suffisante. Consultez les publications du SPF Intérieur et du CRISP.</p></div>
+        {%- endif %}
+
+        {%- if el.constituencies %}
+        <section aria-labelledby="circ-h">
+          <h2 id="circ-h">Répartition des sièges par circonscription</h2>
+          <div class="seat-bars">
+            {%- for c in el.constituencies %}<div class="seat-bar"><span>{{ c.name }}</span><span class="track"><span class="fill" style="width:{{ c.seats / 24 * 100 }}%;background:var(--accent)"></span></span><span class="v">{{ c.seats }}</span></div>{% endfor %}
+          </div>
+          <p class="small muted">Les sièges sont répartis entre circonscriptions en fonction de la population. Le <a class="wl" href="/notions/seuil-electoral/" data-slug="seuil-electoral">seuil électoral</a> de 5 % s'apprécie dans chaque circonscription.</p>
+        </section>
+        {%- endif %}
+
+        {%- if el.text %}<div class="prose">{{ el.text | md | safe }}</div>{% endif %}
+        {%- if e %}{% set entry = e %}{% include "partials/entry-foot.njk" %}{% endif %}
+      </div>
+      <aside class="aside" data-pagefind-ignore aria-label="Fiche du scrutin">
+        <div class="aside-box">
+          <h2>Fiche</h2>
+          <dl class="facts">
+            <dt>Date</dt><dd>{{ el.date | dateFr }}</dd>
+            {%- if el.total %}<dt>Sièges</dt><dd>{{ el.total }}</dd><dt>Majorité absolue</dt><dd>{{ (el.total / 2) | round(0, "floor") + 1 }}</dd>{% endif %}
+            {%- if gov %}{% set gg = ("gouvernement-" + gov) | entry %}{% if gg %}<dt>Gouvernement issu</dt><dd><a href="{{ gg.url }}">{{ gg.title }}</a></dd>{% endif %}{% endif %}
+            {%- if el.formation_days %}<dt>Durée de formation</dt><dd>{{ el.formation_days }} jours</dd>{% endif %}
+          </dl>
+        </div>
+        {%- set same = elections.items | where("type", el.type) %}
+        <div class="aside-box">
+          <h2>Autres scrutins</h2>
+          <ul>
+            {%- for x in same %}{% if loop.index0 > 0 and same[loop.index0 - 1].id == el.id %}<li>Suivant : <a href="/elections/{{ x.id }}/">{{ x.name }}</a></li>{% endif %}{% if loop.index0 < same.length - 1 and same[loop.index0 + 1].id == el.id %}<li>Précédent : <a href="/elections/{{ x.id }}/">{{ x.name }}</a></li>{% endif %}{% endfor %}
+            <li><a href="/elections/">Tous les scrutins</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </article>
+</div>
