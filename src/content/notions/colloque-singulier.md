@@ -1,7 +1,7 @@
 ---
 title: Colloque singulier
 kind: procedure
-themes: [monarchie, gouvernement-coalitions]
+themes: [monarchie, gouvernement]
 level: 2
 summary: "Entretien privé et régulier entre le Roi et le Premier ministre — ou un autre ministre — dont le contenu reste secret. C'est le principal canal par lequel le Roi exerce son droit d'être informé, d'encourager et d'avertir."
 terms: { nl: "colloque singulier", de: "Einzelgespräch mit dem König", en: "private audience with the King" }
