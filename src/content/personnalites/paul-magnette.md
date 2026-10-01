@@ -2,8 +2,8 @@
 title: Paul Magnette
 kind: personne
 themes: [partis, federalisme, europe-international]
-group: entites
-order: 22014
+group: presidents
+order: 4
 summary: "Politologue, ancien professeur à l'ULB, ministre fédéral (2007-2013), bourgmestre de Charleroi, ministre-président wallon (2014-2017) et président du PS depuis 2019. Il s'est fait connaître internationalement en bloquant la signature du CETA en 2016."
 born: 1971-06-28
 birthplace: Louvain
