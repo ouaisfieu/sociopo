@@ -84,6 +84,13 @@
    "link": "unionisme"
   },
   {
+   "date": "1850-05-05",
+   "type": "institution",
+   "title": "Création de la Banque nationale",
+   "text": "Le ministre des Finances Walthère Frère-Orban fait créer la Banque nationale de Belgique.",
+   "link": "banque-nationale-de-belgique"
+  },
+  {
    "date": "1873",
    "type": "loi",
    "title": "Première loi linguistique",
@@ -161,6 +168,13 @@
    "link": "albert-ier"
   },
   {
+   "date": "1912-08-15",
+   "type": "societe",
+   "title": "Lettre au roi de Jules Destrée",
+   "text": "« Sire, il n'y a pas de Belges » : la lettre de Destrée devient un texte fondateur du mouvement wallon.",
+   "link": "jules-destree"
+  },
+  {
    "date": "1913-04",
    "type": "social",
    "title": "Grève générale de 1913",
@@ -217,11 +231,25 @@
    "link": "lois-linguistiques"
   },
   {
+   "date": "1933-12",
+   "type": "social",
+   "title": "Plan du travail",
+   "text": "Le Parti ouvrier belge adopte le plan d'Henri de Man pour répondre à la crise.",
+   "link": "plan-de-man"
+  },
+  {
    "date": "1934-02-17",
    "type": "monarchie",
    "title": "Mort d'Albert Ier",
    "text": "Le Roi meurt dans un accident d'escalade à Marche-les-Dames ; Léopold III lui succède.",
    "link": "leopold-iii"
+  },
+  {
+   "date": "1935-03",
+   "type": "gouvernement",
+   "title": "Gouvernement van Zeeland",
+   "text": "Gouvernement d'union nationale, dévaluation du franc et politique de relance.",
+   "link": "paul-van-zeeland"
   },
   {
    "date": "1936-05-24",
@@ -273,6 +301,13 @@
    "link": "securite-sociale"
   },
   {
+   "date": "1946-06-20",
+   "type": "international",
+   "title": "Accord italo-belge",
+   "text": "Des travailleurs italiens pour les mines belges, en échange de charbon.",
+   "link": "accord-italo-belge-de-1946"
+  },
+  {
    "date": "1948-03-27",
    "type": "loi",
    "title": "Suffrage féminin aux élections législatives",
@@ -322,11 +357,25 @@
    "link": "conseil-national-du-travail"
   },
   {
+   "date": "1955-07-27",
+   "type": "loi",
+   "title": "Loi Collard",
+   "text": "La loi scolaire du gouvernement socialiste-libéral relance la seconde guerre scolaire.",
+   "link": "guerre-scolaire-1950-1958"
+  },
+  {
    "date": "1956-08-08",
    "type": "societe",
    "title": "Catastrophe du Bois du Cazier",
    "text": "262 mineurs meurent à Marcinelle, dont 136 Italiens.",
    "link": "catastrophe-du-bois-du-cazier"
+  },
+  {
+   "date": "1957-03-25",
+   "type": "international",
+   "title": "Traités de Rome",
+   "text": "La Belgique, membre fondateur de la Communauté économique européenne.",
+   "link": "belgique-et-union-europeenne"
   },
   {
    "date": "1958-11-20",
@@ -392,6 +441,13 @@
    "link": "defi"
   },
   {
+   "date": "1967-10",
+   "type": "international",
+   "title": "L'OTAN s'installe à Bruxelles",
+   "text": "Le siège de l'Alliance quitte la France pour Bruxelles ; le SHAPE s'installe près de Mons.",
+   "link": "otan"
+  },
+  {
    "date": "1968-02-07",
    "type": "crise",
    "title": "Chute du gouvernement sur Louvain",
@@ -418,6 +474,13 @@
    "title": "Loi du Pacte culturel",
    "text": "Protection des tendances idéologiques et philosophiques dans les politiques culturelles.",
    "link": "pacte-culturel"
+  },
+  {
+   "date": "1974-07-19",
+   "type": "loi",
+   "title": "Reconnaissance du culte islamique",
+   "text": "L'islam rejoint les cultes reconnus par l'État.",
+   "link": "cultes-reconnus"
   },
   {
    "date": "1974-08-01",
@@ -608,11 +671,25 @@
    "link": "coalition-arc-en-ciel"
   },
   {
+   "date": "2000-04-07",
+   "type": "international",
+   "title": "Excuses de la Belgique au Rwanda",
+   "text": "À Kigali, Guy Verhofstadt demande pardon pour l'inaction de 1994.",
+   "link": "genocide-des-tutsi-et-belgique"
+  },
+  {
    "date": "2001-07-13",
    "type": "reforme",
    "title": "Accords du Lambermont et du Lombard",
    "text": "Cinquième réforme de l'État : autonomie fiscale, refinancement des Communautés, institutions bruxelloises.",
    "link": "cinquieme-reforme-de-l-etat"
+  },
+  {
+   "date": "2002-02-05",
+   "type": "international",
+   "title": "Excuses pour l'assassinat de Lumumba",
+   "text": "Le gouvernement présente ses excuses après la commission d'enquête parlementaire.",
+   "link": "assassinat-de-patrice-lumumba"
   },
   {
    "date": "2002-05-28",
@@ -636,6 +713,13 @@
    "link": "mariage-pour-tous"
   },
   {
+   "date": "2003-08-05",
+   "type": "loi",
+   "title": "Compétence universelle restreinte",
+   "text": "Sous la pression américaine, la loi de 1993 est fortement limitée.",
+   "link": "loi-de-competence-universelle"
+  },
+  {
    "date": "2004-11-09",
    "type": "crise",
    "title": "Condamnation du Vlaams Blok",
@@ -648,6 +732,13 @@
    "title": "Grève contre le Pacte des générations",
    "text": "Mobilisation syndicale contre la réforme des fins de carrière.",
    "link": "pacte-des-generations"
+  },
+  {
+   "date": "2006-12-13",
+   "type": "societe",
+   "title": "« Bye Bye Belgium »",
+   "text": "Le faux journal de la RTBF annonçant l'indépendance de la Flandre provoque un choc.",
+   "link": "rtbf"
   },
   {
    "date": "2007-06-10",
@@ -671,6 +762,13 @@
    "link": "crise-fortis-2008"
   },
   {
+   "date": "2009-12-01",
+   "type": "international",
+   "title": "Herman Van Rompuy au Conseil européen",
+   "text": "Le Premier ministre belge devient le premier président permanent du Conseil européen.",
+   "link": "herman-van-rompuy"
+  },
+  {
    "date": "2010-04-22",
    "type": "crise",
    "title": "Chute du gouvernement Leterme II sur BHV",
@@ -690,6 +788,13 @@
    "title": "Accord institutionnel « papillon »",
    "text": "Accord sur la sixième réforme de l'État et la scission de BHV.",
    "link": "accord-papillon"
+  },
+  {
+   "date": "2011-11-11",
+   "type": "societe",
+   "title": "G1000",
+   "text": "Sommet citoyen de quelque 700 personnes tirées au sort, en pleine crise politique.",
+   "link": "g1000"
   },
   {
    "date": "2011-12-06",
@@ -769,6 +874,13 @@
    "link": "crise-de-marrakech-2018"
   },
   {
+   "date": "2019-02-25",
+   "type": "institution",
+   "title": "Dialogue citoyen permanent",
+   "text": "La Communauté germanophone institutionnalise la délibération de citoyens tirés au sort.",
+   "link": "dialogue-citoyen-permanent"
+  },
+  {
    "date": "2019-05-26",
    "type": "election",
    "title": "Nouveau « dimanche noir »",
@@ -790,6 +902,13 @@
    "link": "crise-du-covid-19"
   },
   {
+   "date": "2020-06-30",
+   "type": "monarchie",
+   "title": "Regrets du Roi pour la colonisation",
+   "text": "Le roi Philippe exprime ses « plus profonds regrets » au président congolais.",
+   "link": "relations-belgique-congo"
+  },
+  {
    "date": "2020-10-01",
    "type": "gouvernement",
    "title": "Coalition Vivaldi",
@@ -804,11 +923,25 @@
    "link": "inondations-de-2021"
   },
   {
+   "date": "2021-08-14",
+   "type": "loi",
+   "title": "Loi pandémie",
+   "text": "Base légale des mesures sanitaires, sous contrôle du Parlement.",
+   "link": "loi-pandemie"
+  },
+  {
    "date": "2022-03-12",
    "type": "institution",
    "title": "Le cdH devient Les Engagés",
    "text": "Refondation du centre francophone.",
    "link": "les-engages"
+  },
+  {
+   "date": "2022-03-18",
+   "type": "gouvernement",
+   "title": "Prolongation de deux réacteurs",
+   "text": "Le gouvernement décide de prolonger Doel 4 et Tihange 3 jusqu'en 2035.",
+   "link": "parc-nucleaire"
   },
   {
    "date": "2022-06",
@@ -832,11 +965,32 @@
    "link": "conflit-delhaize-2023"
   },
   {
+   "date": "2023-03-15",
+   "type": "institution",
+   "title": "La Flandre quitte Unia",
+   "text": "Création d'un Vlaams Mensenrechteninstituut pour les compétences flamandes.",
+   "link": "unia"
+  },
+  {
+   "date": "2023-07-25",
+   "type": "crise",
+   "title": "Verdict du procès des attentats",
+   "text": "Six accusés reconnus coupables d'assassinats terroristes par la cour d'assises de Bruxelles.",
+   "link": "attentats-du-22-mars-2016"
+  },
+  {
    "date": "2023-09",
    "type": "societe",
    "title": "Bon d'État record",
    "text": "Plus de 21 milliards d'euros souscrits ; les banques relèvent leurs taux d'épargne.",
    "link": "bon-d-etat"
+  },
+  {
+   "date": "2023-11-30",
+   "type": "loi",
+   "title": "Arrêt d'appel dans la Klimaatzaak",
+   "text": "Objectif de réduction de 55 % des émissions d'ici 2030 imposé à l'État fédéral, à la Flandre et à Bruxelles.",
+   "link": "klimaatzaak"
   },
   {
    "date": "2024-01",
@@ -851,6 +1005,13 @@
    "title": "Méga-scrutin de 2024",
    "text": "Victoire du MR et des Engagés, maintien de la N-VA en tête, effondrement d'Ecolo ; premier vote européen à 16 ans.",
    "link": "elections-chambre-2024"
+  },
+  {
+   "date": "2024-06-28",
+   "type": "crise",
+   "title": "Clôture de l'enquête sur les tueries du Brabant",
+   "text": "Le parquet fédéral annonce qu'aucun acte d'enquête ne peut plus être posé.",
+   "link": "tueries-du-brabant"
   },
   {
    "date": "2024-07-15",
@@ -893,6 +1054,13 @@
    "title": "Manifestation nationale contre l'Arizona",
    "text": "Première grande mobilisation syndicale contre les réformes annoncées.",
    "link": "mobilisations-contre-l-arizona"
+  },
+  {
+   "date": "2025-03-17",
+   "type": "international",
+   "title": "Le Rwanda rompt avec la Belgique",
+   "text": "Kigali rompt ses relations diplomatiques sur fond de guerre dans l'est du Congo.",
+   "link": "relations-belgique-congo"
   },
   {
    "date": "2025-03-31",
@@ -984,6 +1152,13 @@
    "title": "Le plus gros déficit de la zone euro",
    "text": "Eurostat : déficit de 5,2 % du PIB en 2025, dette de 107,9 %.",
    "link": "deficit-public"
+  },
+  {
+   "date": "2026-05-13",
+   "type": "loi",
+   "title": "Fusion des zones de police bruxelloises",
+   "text": "La Chambre approuve une zone de police unique pour Bruxelles à partir de 2028.",
+   "link": "police-integree"
   },
   {
    "date": "2026-07-10",

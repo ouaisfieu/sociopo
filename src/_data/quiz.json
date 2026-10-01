@@ -1,108 +1,2190 @@
 {
-  "updated": "2026-10-01",
-  "note": "Questions rédigées à la main. La bonne réponse est l'indice « a » (0 = première proposition) ; les propositions sont mélangées à l'affichage.",
-  "items": [
-    { "id": "chambre-150", "th": "institutions-federales", "q": "Combien de députés siègent à la Chambre des représentants ?", "c": ["150", "120", "212", "89"], "a": 0, "x": "Depuis les élections de 1995, la Chambre compte 150 membres élus directement dans onze circonscriptions provinciales (Bruxelles formant la sienne).", "l": "chambre-des-representants" },
-    { "id": "federal-1993", "th": "institutions-federales", "q": "Depuis quelle année l'article 1er de la Constitution proclame-t-il que « la Belgique est un État fédéral » ?", "c": ["1993", "1970", "1980", "2001"], "a": 0, "x": "La quatrième réforme de l'État (accord de la Saint-Michel) a inscrit le caractère fédéral dans la Constitution en 1993.", "l": "etat-federal" },
-    { "id": "senat-60", "th": "institutions-federales", "q": "Combien de sénateurs compte le Sénat depuis la réforme de 2014 ?", "c": ["60", "71", "50", "40"], "a": 0, "x": "50 sénateurs désignés par les parlements des entités fédérées et 10 sénateurs cooptés. Ils ne sont plus élus directement.", "l": "senat" },
-    { "id": "ministres-15", "th": "institutions-federales", "q": "Combien de membres le Conseil des ministres fédéral compte-t-il au maximum ?", "c": ["15", "12", "20", "18"], "a": 0, "x": "L'article 99 de la Constitution limite le Conseil des ministres à quinze membres et impose la parité linguistique, le Premier ministre éventuellement excepté.", "l": "conseil-des-ministres" },
-    { "id": "contreseing", "th": "institutions-federales", "q": "Pourquoi les actes du Roi doivent-ils être contresignés ?", "c": ["Parce qu'un ministre en assume la responsabilité politique", "Pour que la Cour constitutionnelle puisse les vérifier", "Pour prouver leur authenticité au Moniteur belge", "Parce que le Roi n'a pas le droit de signer seul un texte"], "a": 0, "x": "Le Roi est inviolable : « aucun acte du Roi ne peut avoir d'effet s'il n'est contresigné par un ministre, qui, par cela seul, s'en rend responsable » (art. 106).", "l": "contreseing-ministeriel" },
-    { "id": "cc-annule", "th": "justice-droits", "q": "Quelle juridiction peut annuler une loi, un décret ou une ordonnance ?", "c": ["La Cour constitutionnelle", "Le Conseil d'État", "La Cour de cassation", "La Cour des comptes"], "a": 0, "x": "La Cour constitutionnelle (ex-Cour d'arbitrage) contrôle les normes législatives ; le Conseil d'État annule les actes administratifs.", "l": "cour-constitutionnelle" },
-    { "id": "cour-comptes", "th": "institutions-federales", "q": "Quelle institution contrôle les finances publiques pour le compte des parlements ?", "c": ["La Cour des comptes", "L'Inspection des finances", "La Banque nationale de Belgique", "Le Bureau fédéral du Plan"], "a": 0, "x": "La Cour des comptes est une émanation de la Chambre ; l'Inspection des finances, elle, conseille le gouvernement.", "l": "cour-des-comptes" },
-    { "id": "de-roover", "th": "parlement", "q": "Qui préside la Chambre des représentants depuis juillet 2024 ?", "c": ["Peter De Roover", "Eliane Tillieux", "Patrick Dewael", "Siegfried Bracke"], "a": 0, "x": "Le député N-VA Peter De Roover a été élu président de la Chambre le 10 juillet 2024.", "l": "president-de-la-chambre" },
-    { "id": "communautes-3", "th": "federalisme", "q": "Combien de Communautés compte la Belgique ?", "c": ["Trois", "Deux", "Quatre", "Cinq"], "a": 0, "x": "Les Communautés flamande, française (« Fédération Wallonie-Bruxelles ») et germanophone, compétentes pour les matières liées aux personnes.", "l": "communaute" },
-    { "id": "regions-3", "th": "federalisme", "q": "Combien de Régions compte la Belgique ?", "c": ["Trois", "Deux", "Quatre", "Dix"], "a": 0, "x": "Les Régions flamande, wallonne et de Bruxelles-Capitale, compétentes pour les matières liées au territoire.", "l": "region" },
-    { "id": "eupen", "th": "federalisme", "q": "Dans quelle ville siège le Parlement de la Communauté germanophone ?", "c": ["Eupen", "Saint-Vith", "Malmedy", "Verviers"], "a": 0, "x": "Eupen accueille le Parlement (25 membres) et le gouvernement de la Communauté germanophone, dans l'ancien sanatorium réaménagé.", "l": "communaute-germanophone" },
-    { "id": "pfwb-94", "th": "federalisme", "q": "Combien de membres compte le Parlement de la Fédération Wallonie-Bruxelles ?", "c": ["94", "75", "89", "124"], "a": 0, "x": "Les 75 députés wallons et 19 députés du groupe français du Parlement bruxellois. Les élus germanophones du Parlement wallon y sont remplacés par des suppléants.", "l": "parlement-de-la-federation-wallonie-bruxelles" },
-    { "id": "vp-124", "th": "federalisme", "q": "Combien de membres compte le Parlement flamand ?", "c": ["124", "118", "150", "100"], "a": 0, "x": "118 élus dans la Région flamande et 6 élus par les électeurs néerlandophones de Bruxelles.", "l": "parlement-flamand" },
-    { "id": "fusion-flamande", "th": "federalisme", "q": "Quelle entité a fusionné ses institutions avec celles de sa Région dès 1980 ?", "c": ["La Communauté flamande", "La Communauté française", "La Communauté germanophone", "Aucune"], "a": 0, "x": "Le Parlement et le gouvernement flamands exercent à la fois les compétences communautaires et régionales. Côté francophone, Communauté et Région restent distinctes.", "l": "communaute-flamande" },
-    { "id": "ordonnance", "th": "bruxelles", "q": "Comment s'appellent les normes législatives adoptées par le Parlement bruxellois ?", "c": ["Des ordonnances", "Des décrets", "Des lois", "Des arrêtés"], "a": 0, "x": "Les ordonnances ont force de loi mais un régime de contrôle un peu différent de celui des décrets.", "l": "ordonnance" },
-    { "id": "residuelles", "th": "federalisme", "q": "À qui appartiennent aujourd'hui les compétences résiduelles (non attribuées) ?", "c": ["À l'État fédéral", "Aux Régions", "Aux Communautés", "Aux communes"], "a": 0, "x": "L'article 35 de la Constitution prévoit de les transférer aux entités fédérées, mais il n'est jamais entré en vigueur faute de loi d'exécution.", "l": "competences-residuelles" },
-    { "id": "six-reformes", "th": "reformes-etat", "q": "Combien de réformes de l'État la Belgique a-t-elle connues entre 1970 et 2014 ?", "c": ["Six", "Quatre", "Cinq", "Sept"], "a": 0, "x": "1970, 1980, 1988-1989, 1993, 2001 et 2012-2014. L'accord Arizona annonce une septième réforme.", "l": "reforme-de-l-etat" },
-    { "id": "premiere-1970", "th": "reformes-etat", "q": "En quelle année a eu lieu la première réforme de l'État ?", "c": ["1970", "1962", "1980", "1993"], "a": 0, "x": "La révision de 1970 crée les communautés culturelles, les groupes linguistiques, la sonnette d'alarme et la parité linguistique au gouvernement.", "l": "premiere-reforme-de-l-etat" },
-    { "id": "bruxelles-1989", "th": "reformes-etat", "q": "Quelle réforme a doté Bruxelles d'institutions régionales propres ?", "c": ["La troisième (1988-1989)", "La première (1970)", "La deuxième (1980)", "La quatrième (1993)"], "a": 0, "x": "Prévue dès 1970, la Région de Bruxelles-Capitale n'est mise en place qu'en 1989, avec la loi spéciale du 12 janvier 1989.", "l": "troisieme-reforme-de-l-etat" },
-    { "id": "bhv-scission", "th": "communautaire", "q": "Quelle réforme de l'État a scindé l'arrondissement électoral de Bruxelles-Hal-Vilvorde ?", "c": ["La sixième (2012-2014)", "La cinquième (2001)", "La quatrième (1993)", "Aucune : BHV existe toujours"], "a": 0, "x": "L'accord institutionnel de 2011 a scindé BHV en 2012, avec des garanties pour les francophones des six communes à facilités.", "l": "bhv" },
-    { "id": "papillon", "th": "reformes-etat", "q": "Comment surnomme-t-on l'accord institutionnel d'octobre 2011 ?", "c": ["L'accord papillon", "L'accord du Lambermont", "L'accord de la Saint-Michel", "Le pacte d'Egmont"], "a": 0, "x": "Le surnom renvoie au nœud papillon d'Elio Di Rupo, formateur. L'accord a ouvert la voie à la sixième réforme de l'État.", "l": "accord-papillon" },
-    { "id": "saint-michel", "th": "reformes-etat", "q": "Quel accord de 1992 a préparé la transformation de la Belgique en État fédéral ?", "c": ["L'accord de la Saint-Michel", "Le pacte d'Egmont", "L'accord du Stuyvenberg", "L'accord du Lombard"], "a": 0, "x": "Conclu fin septembre 1992, autour de la Saint-Michel (29 septembre), il a débouché sur la quatrième réforme de l'État.", "l": "accord-de-la-saint-michel" },
-    { "id": "loi-speciale-100", "th": "parlement", "q": "Combien de voix faut-il au minimum à la Chambre pour adopter une loi spéciale, si les 150 députés votent ?", "c": ["100, avec une majorité dans chaque groupe linguistique", "76", "100, sans autre condition", "120"], "a": 0, "x": "La majorité spéciale exige les deux tiers des suffrages exprimés et la majorité dans le groupe néerlandais comme dans le groupe français.", "l": "majorite-speciale" },
-    { "id": "sonnette", "th": "parlement", "q": "Qu'est-ce que la « sonnette d'alarme » ?", "c": ["Une procédure permettant à un groupe linguistique de suspendre l'examen d'un texte jugé dangereux pour les relations entre communautés", "Le signal annonçant le début d'un vote en séance plénière", "Une alerte budgétaire de la Cour des comptes", "Le droit du Roi de renvoyer une loi au Parlement"], "a": 0, "x": "Introduite en 1970, elle requiert la signature des trois quarts des membres d'un groupe linguistique. Le Conseil des ministres doit alors se prononcer dans les trente jours.", "l": "sonnette-d-alarme" },
-    { "id": "legislature-5", "th": "parlement", "q": "Pour combien d'années la Chambre est-elle élue depuis 2014 ?", "c": ["Cinq ans", "Quatre ans", "Six ans", "Trois ans"], "a": 0, "x": "La sixième réforme a aligné la législature fédérale sur celle des parlements régionaux et du Parlement européen.", "l": "legislature" },
-    { "id": "jours-de-wever", "th": "gouvernement", "q": "Combien de jours se sont écoulés entre les élections du 9 juin 2024 et la prestation de serment du gouvernement De Wever ?", "c": ["239", "541", "494", "194"], "a": 0, "x": "Le gouvernement Arizona a prêté serment le 3 février 2025.", "l": "formation-federale-2024-2025" },
-    { "id": "record-541", "th": "gouvernement", "q": "Quel est le record de durée d'une formation fédérale ?", "c": ["541 jours (2010-2011)", "494 jours (2019-2020)", "239 jours (2024-2025)", "194 jours (2007)"], "a": 0, "x": "Entre les élections du 13 juin 2010 et le gouvernement Di Rupo (6 décembre 2011), la Belgique a vécu la plus longue crise de formation de son histoire.", "l": "crise-politique-2007-2011" },
-    { "id": "wilmes", "th": "gouvernement", "q": "Qui a été la première femme Première ministre de Belgique ?", "c": ["Sophie Wilmès", "Laurette Onkelinx", "Joëlle Milquet", "Isabelle Durant"], "a": 0, "x": "Sophie Wilmès (MR) a succédé à Charles Michel en octobre 2019 et a dirigé le gouvernement pendant la première vague de Covid-19.", "l": "sophie-wilmes" },
-    { "id": "arizona-partis", "th": "gouvernement", "q": "Quels partis composent la coalition « Arizona » ?", "c": ["N-VA, MR, Les Engagés, Vooruit, CD&V", "N-VA, MR, CD&V, Open Vld", "PS, MR, Ecolo, Vooruit, Open Vld, CD&V, Groen", "N-VA, Vlaams Belang, MR, CD&V"], "a": 0, "x": "Le nom vient du drapeau de l'Arizona, où l'on retrouve le jaune (N-VA), le bleu (MR), le rouge (Vooruit) et l'orange (CD&V, Les Engagés).", "l": "coalition-arizona" },
-    { "id": "vivaldi", "th": "gouvernement", "q": "Pourquoi la coalition De Croo (2020-2025) était-elle surnommée « Vivaldi » ?", "c": ["Elle réunissait quatre familles politiques, comme les quatre saisons", "Son accord fut signé à l'issue d'un concert", "Elle comptait quatre vice-Premiers ministres italiens", "Elle a été formée en quatre jours"], "a": 0, "x": "Socialistes, libéraux, écologistes et chrétiens-démocrates flamands : sept partis issus de quatre familles.", "l": "coalition-vivaldi" },
-    { "id": "kern", "th": "gouvernement", "q": "Qu'appelle-t-on le « kern » ?", "c": ["Le comité restreint du Premier ministre et des vice-Premiers ministres", "Le noyau dur d'un parti", "La réunion annuelle des présidents de parti", "Le centre de crise fédéral"], "a": 0, "x": "Un vice-Premier ministre par parti de la coalition : c'est là que se tranchent les arbitrages politiques.", "l": "kern" },
-    { "id": "bxl-613", "th": "bruxelles", "q": "Combien de jours la Région bruxelloise est-elle restée sans nouveau gouvernement après les élections de 2024 ?", "c": ["613", "541", "239", "494"], "a": 0, "x": "Le gouvernement Dilliès a prêté serment le 14 février 2026, au terme d'une crise sans précédent au niveau régional.", "l": "formation-bruxelloise-2024-2026" },
-    { "id": "dillies", "th": "bruxelles", "q": "Qui est ministre-président de la Région de Bruxelles-Capitale depuis février 2026 ?", "c": ["Boris Dilliès", "Rudi Vervoort", "David Leisterh", "Charles Picqué"], "a": 0, "x": "Le libéral Boris Dilliès (MR), bourgmestre d'Uccle, a succédé à Rudi Vervoort (PS).", "l": "boris-dillies" },
-    { "id": "vote-1893", "th": "elections", "q": "Depuis quand le vote est-il obligatoire en Belgique ?", "c": ["1893", "1919", "1948", "1830"], "a": 0, "x": "Introduit avec le suffrage universel masculin tempéré par le vote plural (révision de 1893). La Flandre l'a supprimé pour les élections locales de 2024.", "l": "vote-obligatoire" },
-    { "id": "femmes-1948", "th": "elections", "q": "En quelle année les femmes ont-elles obtenu le droit de vote aux élections législatives ?", "c": ["1948", "1919", "1921", "1945"], "a": 0, "x": "Électrices aux communales depuis 1921, les femmes votent pour la première fois aux législatives en 1949.", "l": "suffrage-feminin" },
-    { "id": "dhondt", "th": "elections", "q": "Quelle méthode répartit les sièges de la Chambre entre les listes ?", "c": ["La méthode D'Hondt", "La méthode Imperiali", "La méthode Sainte-Laguë", "Le quotient de Hare"], "a": 0, "x": "Inventée par le juriste gantois Victor D'Hondt, elle est appliquée en Belgique depuis 1899, première proportionnelle nationale au monde.", "l": "methode-d-hondt" },
-    { "id": "seuil-5", "th": "elections", "q": "Quel seuil électoral faut-il atteindre dans une circonscription pour obtenir des sièges à la Chambre ?", "c": ["5 %", "3 %", "10 %", "Il n'y en a pas"], "a": 0, "x": "Le seuil de 5 % par circonscription a été introduit en 2003.", "l": "seuil-electoral" },
-    { "id": "nva-2024", "th": "elections", "q": "Quel parti a obtenu le plus de sièges à la Chambre en juin 2024 ?", "c": ["La N-VA (24 sièges)", "Le Vlaams Belang (20 sièges)", "Le MR (20 sièges)", "Le PS (16 sièges)"], "a": 0, "x": "La N-VA reste premier parti avec 16,7 % des voix ; son président Bart De Wever devient Premier ministre.", "l": "n-va" },
-    { "id": "flandre-vote", "th": "elections", "q": "Qu'est-ce qui a changé pour les électeurs flamands aux communales d'octobre 2024 ?", "c": ["Le vote n'y était plus obligatoire", "Ils votaient par Internet", "Ils pouvaient voter dès 16 ans", "Ils élisaient directement leur bourgmestre au suffrage universel"], "a": 0, "x": "La Flandre a supprimé l'obligation de vote aux élections locales ; la participation est tombée un peu en dessous des deux tiers des électeurs.", "l": "vote-obligatoire" },
-    { "id": "vote-16", "th": "elections", "q": "À partir de quel âge pouvait-on voter aux élections européennes de 2024 en Belgique ?", "c": ["16 ans", "18 ans", "17 ans", "21 ans"], "a": 0, "x": "Une première : inscrits d'office, les jeunes de 16 et 17 ans étaient appelés aux urnes pour les européennes, avec la même obligation de vote que les adultes.", "l": "vote-a-16-ans" },
-    { "id": "dimanche-noir", "th": "partis", "q": "À quelle élection renvoie l'expression « dimanche noir » ?", "c": ["24 novembre 1991", "13 juin 2010", "26 mai 1999", "8 octobre 2000"], "a": 0, "x": "Ce jour-là, le Vlaams Blok passe de 2 à 12 sièges à la Chambre, ce qui consolide le cordon sanitaire.", "l": "dimanche-noir" },
-    { "id": "europe-22", "th": "europe-international", "q": "Combien de sièges la Belgique détient-elle au Parlement européen depuis 2024 ?", "c": ["22", "21", "24", "25"], "a": 0, "x": "13 pour le collège néerlandophone, 8 pour le collège francophone et 1 pour le collège germanophone.", "l": "elections-europeennes" },
-    { "id": "anders", "th": "partis", "q": "Quel parti flamand s'appelle « Anders » depuis janvier 2026 ?", "c": ["Open Vld", "CD&V", "Groen", "Vooruit"], "a": 0, "x": "Après sa défaite de 2024, le parti libéral flamand a choisi un nouveau nom sous la présidence de Frédéric De Gucht.", "l": "anders" },
-    { "id": "bouchez", "th": "partis", "q": "Qui préside le Mouvement réformateur (MR) ?", "c": ["Georges-Louis Bouchez", "Charles Michel", "Sophie Wilmès", "Didier Reynders"], "a": 0, "x": "Président depuis novembre 2019, Georges-Louis Bouchez a mené le MR à la première place en Wallonie et à Bruxelles en 2024.", "l": "mr" },
-    { "id": "cordon", "th": "partis", "q": "En quoi consiste le cordon sanitaire en Flandre ?", "c": ["L'engagement des autres partis de ne pas former de majorité avec le Vlaams Belang", "Une zone tampon autour de Bruxelles", "L'interdiction de financer un parti étranger", "Un dispositif de quarantaine sanitaire"], "a": 0, "x": "Conclu à la fin des années 1980 contre le Vlaams Blok, il est contesté au niveau local depuis 2024 (Ninove, Ranst).", "l": "cordon-sanitaire" },
-    { "id": "unitaire", "th": "partis", "q": "Quel parti représenté à la Chambre est resté national (unitaire) ?", "c": ["Le PTB-PVDA", "Le MR", "Ecolo-Groen", "Les Engagés"], "a": 0, "x": "Tous les autres grands partis se sont scindés selon la frontière linguistique entre 1968 et 1978 ; Ecolo et Groen forment un groupe commun mais sont deux partis distincts.", "l": "ptb-pvda" },
-    { "id": "cdh-engages", "th": "partis", "q": "Sous quel nom Les Engagés étaient-ils connus jusqu'en 2022 ?", "c": ["cdH", "PSC-CVP", "FDF", "Spirit"], "a": 0, "x": "Le Centre démocrate humaniste (2002-2022), lui-même héritier du PSC.", "l": "les-engages" },
-    { "id": "vooruit-spa", "th": "partis", "q": "Comment s'appelait Vooruit avant 2021 ?", "c": ["sp.a", "SP-Agalev", "Volksunie", "PVV"], "a": 0, "x": "Les socialistes flamands, longtemps SP puis sp.a, ont adopté le nom Vooruit en mars 2021 sous la présidence de Conner Rousseau.", "l": "vooruit" },
-    { "id": "scission-1978", "th": "partis", "q": "Quel parti national s'est scindé en dernier selon la frontière linguistique ?", "c": ["Le Parti socialiste belge (1978)", "Le PSC-CVP (1968)", "Le parti libéral (1972)", "Le parti communiste (1989)"], "a": 0, "x": "Après les chrétiens-démocrates (1968) et les libéraux (1972), les socialistes se scindent en PS et SP en 1978.", "l": "scission-des-partis-nationaux" },
-    { "id": "pilier", "th": "piliers-societe-civile", "q": "Qu'appelle-t-on un « pilier » en sociologie politique belge ?", "c": ["Un réseau d'organisations (syndicat, mutualité, écoles, presse…) liées à une même famille idéologique", "Un ministre chargé d'une compétence clé", "Un article fondamental de la Constitution", "L'une des trois Régions"], "a": 0, "x": "Les mondes catholique, socialiste et libéral ont structuré la société belge de la naissance à la mort, « van de wieg tot het graf ».", "l": "pilier" },
-    { "id": "acv-plus-grand", "th": "travail-concertation", "q": "Quel est le plus grand syndicat de Belgique en nombre d'affiliés ?", "c": ["La CSC-ACV (chrétienne)", "La FGTB-ABVV (socialiste)", "La CGSLB-ACLVB (libérale)", "La CNE"], "a": 0, "x": "La confédération chrétienne devance la socialiste ; les deux dépassent chacune le million d'affiliés. La CNE est une centrale de la CSC.", "l": "csc" },
-    { "id": "clivages", "th": "piliers-societe-civile", "q": "Quels sont les trois clivages qui structurent traditionnellement la politique belge ?", "c": ["Philosophique, socio-économique, communautaire", "Urbain, rural, littoral", "Monarchiste, républicain, européen", "Nord, Sud, Bruxelles"], "a": 0, "x": "Église-État, possédants-travailleurs, centre-périphérie (Flamands-francophones) : la grille de Lipset et Rokkan appliquée à la Belgique.", "l": "clivage" },
-    { "id": "saut-index", "th": "travail-concertation", "q": "Qu'est-ce qu'un « saut d'index » ?", "c": ["La suppression ponctuelle d'une indexation des salaires et allocations", "Une hausse exceptionnelle de l'indice des prix", "Le passage d'une commission paritaire à une autre", "Une prime de fin d'année"], "a": 0, "x": "Le gouvernement Michel en a appliqué un en 2015. En 2025, l'Arizona a choisi de limiter l'indexation des hauts salaires et allocations en 2026 et 2028.", "l": "saut-d-index" },
-    { "id": "gand", "th": "travail-concertation", "q": "Que désigne le « système de Gand » ?", "c": ["Le paiement des allocations de chômage par les syndicats", "Le mode de scrutin des élections sociales", "Le compromis de 1909 sur la question scolaire", "La règle de répartition des sièges au conseil communal"], "a": 0, "x": "Hérité des caisses syndicales du début du XXe siècle, ce système explique en partie le taux de syndicalisation élevé en Belgique.", "l": "systeme-de-gand" },
-    { "id": "loi-1996", "th": "travail-concertation", "q": "Quelle loi encadre la « norme salariale » ?", "c": ["La loi de 1996 sur la compétitivité", "La loi du 20 septembre 1948", "La loi unique de 1961", "La loi Renault de 1998"], "a": 0, "x": "Révisée en 2017, elle limite la hausse des salaires (hors index) à l'évolution prévue chez les voisins.", "l": "loi-de-1996" },
-    { "id": "groupe-10", "th": "travail-concertation", "q": "Qu'est-ce que le « Groupe des 10 » ?", "c": ["Le lieu de concertation des dirigeants des syndicats et des organisations patronales", "Les dix provinces", "Le comité des dix plus grandes villes", "Le conseil des dix vice-Premiers ministres"], "a": 0, "x": "Il négocie notamment l'accord interprofessionnel.", "l": "groupe-des-10" },
-    { "id": "pacte-1944", "th": "protection-sociale", "q": "De quel texte est née la sécurité sociale belge moderne ?", "c": ["Le pacte social de 1944", "La Constitution de 1831", "Le pacte scolaire de 1958", "La loi unique de 1961"], "a": 0, "x": "Négocié dans la clandestinité entre patrons et syndicalistes, il est traduit par l'arrêté-loi du 28 décembre 1944.", "l": "pacte-social-de-1944" },
-    { "id": "chomage-2026", "th": "protection-sociale", "q": "Quelle réforme du chômage est entrée en vigueur en 2026 ?", "c": ["La limitation des allocations dans le temps", "La suppression du chômage temporaire", "Le paiement des allocations par les Régions", "Le doublement des allocations"], "a": 0, "x": "Décidée par l'Arizona, elle met fin à l'exception belge d'allocations illimitées dans le temps ; les premières fins de droit interviennent dès le début de 2026.", "l": "limitation-des-allocations-de-chomage-dans-le-temps" },
-    { "id": "inami", "th": "protection-sociale", "q": "Quel organisme fédéral gère l'assurance soins de santé ?", "c": ["L'INAMI", "L'ONEM", "L'ONSS", "Fedasil"], "a": 0, "x": "L'Institut national d'assurance maladie-invalidité finance les remboursements, versés par les mutualités.", "l": "inami" },
-    { "id": "deficit-2025", "th": "economie-finances", "q": "Selon Eurostat (avril 2026), quel était le déficit public de la Belgique en 2025 ?", "c": ["5,2 % du PIB", "3,0 % du PIB", "1,5 % du PIB", "8,4 % du PIB"], "a": 0, "x": "Le plus élevé de la zone euro, pour une dette de 107,9 % du PIB.", "l": "deficit-public" },
-    { "id": "moodys", "th": "economie-finances", "q": "Quelle agence a abaissé la note de la Belgique de Aa3 à A1 en avril 2026 ?", "c": ["Moody's", "Fitch", "S&P", "Scope"], "a": 0, "x": "Moody's (17 avril 2026), suivie par S&P (AA-) une semaine plus tard ; Fitch avait déjà abaissé la note à A+ en 2025.", "l": "notation-souveraine" },
-    { "id": "douziemes", "th": "economie-finances", "q": "Que sont les « douzièmes provisoires » ?", "c": ["Des crédits mensuels votés en l'absence de budget", "La part des impôts versée aux communes", "Un impôt payé en douze mensualités", "La quote-part belge au budget européen"], "a": 0, "x": "Ils permettent de dépenser chaque mois un douzième des crédits de l'année précédente.", "l": "douziemes-provisoires" },
-    { "id": "plus-values", "th": "economie-finances", "q": "Quel nouvel impôt est entré en vigueur le 1er janvier 2026 ?", "c": ["Une taxe de 10 % sur les plus-values financières", "Un impôt sur la fortune", "Une taxe kilométrique fédérale", "Une TVA à 25 %"], "a": 0, "x": "Mesure phare de l'accord Arizona, avec une exonération pour une première tranche de plus-values.", "l": "taxe-sur-les-plus-values" },
-    { "id": "frontiere-1962", "th": "communautaire", "q": "Quand la frontière linguistique a-t-elle été fixée par la loi ?", "c": ["1962", "1932", "1830", "1970"], "a": 0, "x": "Les lois linguistiques de 1962-1963 fixent la frontière et transfèrent notamment les Fourons au Limbourg et Comines-Mouscron au Hainaut.", "l": "frontiere-linguistique" },
-    { "id": "facilites-6", "th": "communautaire", "q": "Combien de communes à facilités entourent Bruxelles ?", "c": ["Six", "Douze", "Trois", "Dix-neuf"], "a": 0, "x": "Drogenbos, Kraainem, Linkebeek, Rhode-Saint-Genèse, Wemmel et Wezembeek-Oppem, situées en Région flamande.", "l": "communes-a-facilites" },
-    { "id": "fourons", "th": "communautaire", "q": "Les Fourons ont été rattachés en 1963 à la province…", "c": ["de Limbourg", "de Liège", "de Brabant flamand", "de Luxembourg"], "a": 0, "x": "Ce transfert a nourri un conflit communautaire durable, incarné par José Happart dans les années 1980.", "l": "fourons" },
-    { "id": "walen-buiten", "th": "communautaire", "q": "À quel conflit le slogan « Walen buiten » est-il associé ?", "c": ["L'affaire de Louvain (1966-1968)", "La Question royale (1950)", "La scission de BHV (2012)", "La grève de 1960-1961"], "a": 0, "x": "Les étudiants flamands exigeaient le départ de la section francophone de l'université de Louvain, transférée ensuite à Louvain-la-Neuve. La crise fit tomber le gouvernement Vanden Boeynants en 1968.", "l": "affaire-de-louvain" },
-    { "id": "bhv-sigle", "th": "communautaire", "q": "Que signifie le sigle BHV ?", "c": ["Bruxelles-Hal-Vilvorde", "Belgique-Hollande-Vlaanderen", "Bureau des hautes valeurs", "Brabant-Hainaut-Verviers"], "a": 0, "x": "L'arrondissement électoral et judiciaire réunissant Bruxelles et 35 communes flamandes, scindé en 2012.", "l": "bhv" },
-    { "id": "communes-19", "th": "bruxelles", "q": "Combien de communes compte la Région de Bruxelles-Capitale ?", "c": ["19", "17", "21", "6"], "a": 0, "x": "La fusion des communes de 1977 n'a pas concerné Bruxelles : ses 19 communes remontent pour l'essentiel à 1921, quand la Ville de Bruxelles a annexé Laeken, Haren et Neder-Over-Heembeek.", "l": "les-19-communes" },
-    { "id": "bxl-17", "th": "bruxelles", "q": "Combien de sièges sont réservés au groupe néerlandais du Parlement bruxellois ?", "c": ["17 sur 89", "11 sur 75", "30 sur 89", "6 sur 72"], "a": 0, "x": "Une garantie fixe depuis 2004, quel que soit le nombre de voix obtenues par les listes néerlandophones.", "l": "garanties-des-neerlandophones-bruxellois" },
-    { "id": "cocom", "th": "bruxelles", "q": "Quelle institution gère à Bruxelles les allocations familiales ?", "c": ["La Commission communautaire commune (COCOM)", "La COCOF", "La VGC", "La Ville de Bruxelles"], "a": 0, "x": "La COCOM, via Iriscare, est compétente pour les matières « bicommunautaires » qui s'adressent à tous les Bruxellois.", "l": "cocom" },
-    { "id": "pacte-scolaire", "th": "ethique-enseignement-cultes", "q": "En quelle année le pacte scolaire a-t-il mis fin à la deuxième guerre scolaire ?", "c": ["1958", "1884", "1945", "1970"], "a": 0, "x": "Signé par les trois partis traditionnels, il organise la coexistence des réseaux officiel et libre.", "l": "pacte-scolaire" },
-    { "id": "euthanasie", "th": "ethique-enseignement-cultes", "q": "En quelle année la Belgique a-t-elle dépénalisé l'euthanasie ?", "c": ["2002", "1990", "2014", "1998"], "a": 0, "x": "La loi du 28 mai 2002, étendue aux mineurs en 2014.", "l": "euthanasie" },
-    { "id": "mariage-2003", "th": "ethique-enseignement-cultes", "q": "En quelle année le mariage a-t-il été ouvert aux couples de même sexe ?", "c": ["2003", "2001", "2006", "2013"], "a": 0, "x": "La Belgique a été le deuxième pays au monde à le faire, après les Pays-Bas.", "l": "mariage-pour-tous" },
-    { "id": "cultes-6", "th": "ethique-enseignement-cultes", "q": "Combien de cultes sont reconnus par l'État belge (hors laïcité organisée) ?", "c": ["Six", "Trois", "Quatre", "Huit"], "a": 0, "x": "Catholique, protestant-évangélique, israélite, anglican, islamique et orthodoxe. La laïcité organisée bénéficie d'un financement comparable.", "l": "cultes-reconnus" },
-    { "id": "albert-2013", "th": "monarchie", "q": "Quel roi a abdiqué le 21 juillet 2013 ?", "c": ["Albert II", "Baudouin", "Léopold III", "Philippe"], "a": 0, "x": "Albert II a abdiqué en faveur de son fils Philippe, septième roi des Belges.", "l": "albert-ii" },
-    { "id": "baudouin-1990", "th": "monarchie", "q": "Pour ne pas sanctionner quelle loi le roi Baudouin a-t-il été déclaré « dans l'impossibilité de régner » en 1990 ?", "c": ["La loi dépénalisant partiellement l'avortement", "La loi sur l'euthanasie", "La loi sur le mariage civil", "La loi sur les pouvoirs spéciaux"], "a": 0, "x": "Le gouvernement Martens VIII a exercé les pouvoirs royaux pendant 36 heures, le temps de sanctionner la loi.", "l": "impossibilite-de-regner" },
-    { "id": "question-royale", "th": "monarchie", "q": "Comment la Question royale s'est-elle dénouée ?", "c": ["Par l'abdication de Léopold III en faveur de Baudouin (1951)", "Par la proclamation de la République", "Par la restauration pleine de Léopold III", "Par une régence de vingt ans"], "a": 0, "x": "Malgré 57,7 % de « oui » à la consultation de 1950, les émeutes en Wallonie poussent Léopold III à déléguer ses pouvoirs à son fils, puis à abdiquer le 16 juillet 1951.", "l": "question-royale" },
-    { "id": "elisabeth", "th": "monarchie", "q": "Qui est l'héritière du trône ?", "c": ["La princesse Élisabeth", "La princesse Astrid", "La princesse Éléonore", "La reine Mathilde"], "a": 0, "x": "Fille aînée du roi Philippe, née en 2001, elle serait la première reine des Belges grâce à l'abolition de la loi salique en 1991.", "l": "elisabeth-de-belgique" },
-    { "id": "marche-blanche", "th": "justice-droits", "q": "Quelle affaire a provoqué la Marche blanche d'octobre 1996 ?", "c": ["L'affaire Dutroux", "Les tueries du Brabant", "L'assassinat d'André Cools", "L'affaire Agusta"], "a": 0, "x": "Environ 300 000 personnes ont défilé à Bruxelles le 20 octobre 1996 ; la commission d'enquête a débouché sur la réforme des polices.", "l": "affaire-dutroux" },
-    { "id": "attentats-2016", "th": "justice-droits", "q": "À quelle date ont eu lieu les attentats de Zaventem et de Maelbeek ?", "c": ["22 mars 2016", "13 novembre 2015", "24 mai 2014", "11 septembre 2001"], "a": 0, "x": "32 victimes ont été tuées ; le procès devant la cour d'assises s'est tenu en 2022-2023.", "l": "attentats-du-22-mars-2016" },
-    { "id": "unia", "th": "justice-droits", "q": "Quelle institution publique lutte contre les discriminations et promeut l'égalité des chances ?", "c": ["Unia", "Le Comité P", "L'OCAM", "La FSMA"], "a": 0, "x": "Successeur du Centre pour l'égalité des chances et la lutte contre le racisme, créé en 1993.", "l": "unia" },
-    { "id": "independance", "th": "histoire", "q": "Quel jour le Gouvernement provisoire a-t-il proclamé l'indépendance de la Belgique ?", "c": ["4 octobre 1830", "21 juillet 1831", "25 août 1830", "7 février 1831"], "a": 0, "x": "Après les combats de septembre 1830 à Bruxelles. Le 21 juillet 1831, Léopold Ier prête serment ; le 7 février 1831, la Constitution est adoptée.", "l": "revolution-belge" },
-    { "id": "constitution-1831", "th": "histoire", "q": "Quel organe a adopté la Constitution belge le 7 février 1831 ?", "c": ["Le Congrès national", "Le Gouvernement provisoire", "Les États généraux du Royaume-Uni des Pays-Bas", "La Chambre des représentants"], "a": 0, "x": "Élu au suffrage censitaire, le Congrès national a aussi choisi la forme monarchique et désigné le roi.", "l": "congres-national" },
-    { "id": "greve-60", "th": "histoire", "q": "Contre quel projet était dirigée la grève générale de l'hiver 1960-1961 ?", "c": ["La loi unique", "La Question royale", "Le pacte scolaire", "Le traité de Rome"], "a": 0, "x": "Le plan d'austérité du gouvernement Eyskens provoque une grève de cinq semaines, surtout suivie en Wallonie, où elle nourrit le mouvement wallon.", "l": "greve-generale-de-1960-1961" },
-    { "id": "congo-1960", "th": "histoire", "q": "À quelle date le Congo belge est-il devenu indépendant ?", "c": ["30 juin 1960", "4 octobre 1960", "1er juillet 1962", "15 novembre 1908"], "a": 0, "x": "Le 15 novembre 1908 marque la reprise de l'État indépendant du Congo par la Belgique ; le 1er juillet 1962, l'indépendance du Rwanda et du Burundi.", "l": "independance-du-congo" },
-    { "id": "rome-1957", "th": "europe-international", "q": "La Belgique est membre fondateur de la Communauté économique européenne, créée par le traité de Rome en…", "c": ["1957", "1951", "1992", "1948"], "a": 0, "x": "Paul-Henri Spaak a joué un rôle décisif dans sa négociation (rapport Spaak, 1956).", "l": "belgique-et-union-europeenne" },
-    { "id": "ceta", "th": "europe-international", "q": "Quelle assemblée a retardé la signature de l'accord CETA entre l'UE et le Canada en 2016 ?", "c": ["Le Parlement de Wallonie", "Le Parlement flamand", "Le Sénat", "Le Parlement de la Communauté germanophone"], "a": 0, "x": "Le gouvernement fédéral ne pouvait signer sans l'accord des entités fédérées ; la Wallonie de Paul Magnette a obtenu une déclaration interprétative.", "l": "ceta-wallonie" },
-    { "id": "g1000", "th": "medias-democratie", "q": "Qu'était le G1000, organisé en novembre 2011 ?", "c": ["Un sommet citoyen réunissant des Belges tirés au sort", "Une réunion des 1 000 plus grandes entreprises", "Un concert pour la paix communautaire", "Une manifestation de 1 000 bourgmestres"], "a": 0, "x": "Né pendant la crise de 541 jours, il a inspiré les dispositifs délibératifs ultérieurs.", "l": "g1000" },
-    { "id": "dialogue-citoyen", "th": "medias-democratie", "q": "Quelle entité a institué en 2019 un dialogue citoyen permanent avec des citoyens tirés au sort ?", "c": ["La Communauté germanophone", "La Région flamande", "La Ville de Bruxelles", "La Province de Namur"], "a": 0, "x": "Le « modèle d'Ostbelgien » associe un conseil citoyen permanent et des assemblées tirées au sort.", "l": "dialogue-citoyen-permanent" },
-    { "id": "copernic", "th": "administration", "q": "Comment s'appelle la réforme de l'administration fédérale lancée en 2000, qui a transformé les ministères en SPF ?", "c": ["La réforme Copernic", "La réforme Octopus", "La réforme Galilée", "Le plan Marshall"], "a": 0, "x": "Lancée par le gouvernement Verhofstadt I, elle a créé les services publics fédéraux (SPF) et les mandats de management.", "l": "reforme-copernic" },
-    { "id": "italo-belge", "th": "migrations-diversite", "q": "Que prévoyait l'accord italo-belge de 1946 ?", "c": ["L'envoi de travailleurs italiens dans les mines en échange de charbon", "La restitution de territoires", "L'adhésion de l'Italie au Benelux", "La reconnaissance d'une minorité italophone"], "a": 0, "x": "Des dizaines de milliers d'Italiens sont venus travailler dans les charbonnages ; la catastrophe du Bois du Cazier (1956) a fait 262 morts, dont 136 Italiens.", "l": "accord-italo-belge-de-1946" },
-    { "id": "conventions-1964", "th": "migrations-diversite", "q": "Avec quels pays la Belgique a-t-elle signé des conventions de main-d'œuvre en 1964 ?", "c": ["Le Maroc et la Turquie", "L'Italie et l'Espagne", "La Pologne et la Grèce", "Le Congo et le Rwanda"], "a": 0, "x": "Ces conventions sont à l'origine d'une large part des communautés marocaine et turque de Belgique.", "l": "conventions-bilaterales-de-1964" },
-    { "id": "moureaux", "th": "migrations-diversite", "q": "Que réprime la loi Moureaux de 1981 ?", "c": ["Certains actes inspirés par le racisme ou la xénophobie", "La fraude électorale", "Le cumul des mandats", "La concurrence déloyale"], "a": 0, "x": "Du nom du ministre de la Justice Philippe Moureaux (PS), elle a été complétée par les lois antidiscrimination de 2007.", "l": "loi-moureaux" },
-    { "id": "nucleaire-2025", "th": "energie-environnement", "q": "En quelle année la loi de 2003 sur la sortie du nucléaire a-t-elle été abrogée ?", "c": ["2025", "2015", "2022", "Elle est toujours en vigueur"], "a": 0, "x": "La loi du 15 mai 2025, portée par le ministre de l'Énergie Mathieu Bihet (MR), a supprimé l'interdiction de construire de nouvelles centrales.", "l": "sortie-du-nucleaire" },
-    { "id": "klimaatzaak", "th": "energie-environnement", "q": "Qu'a décidé la cour d'appel de Bruxelles dans l'affaire Klimaatzaak en novembre 2023 ?", "c": ["Elle a enjoint à l'État fédéral, à la Flandre et à Bruxelles de réduire leurs émissions de 55 % d'ici 2030", "Elle a rejeté toute responsabilité des pouvoirs publics", "Elle a interdit les voitures à moteur thermique", "Elle a imposé une taxe carbone"], "a": 0, "x": "Par rapport à 1990. La Région wallonne n'était pas condamnée, la cour estimant ses objectifs suffisants.", "l": "klimaatzaak" },
-    { "id": "communes-565", "th": "pouvoirs-locaux", "q": "Combien de communes compte la Belgique depuis le 1er janvier 2025 ?", "c": ["565", "581", "589", "2 359"], "a": 0, "x": "285 en Flandre (après des fusions volontaires), 261 en Wallonie et 19 à Bruxelles. Avant la fusion de 1977, il y en avait 2 359.", "l": "commune" },
-    { "id": "fusion-1977", "th": "pouvoirs-locaux", "q": "En quelle année la grande fusion des communes a-t-elle réduit leur nombre de 2 359 à 596 ?", "c": ["1977", "1964", "1983", "2001"], "a": 0, "x": "Elle a été suivie de la fusion d'Anvers en 1983 (589 communes).", "l": "fusion-des-communes" },
-    { "id": "provinces-10", "th": "pouvoirs-locaux", "q": "Combien de provinces compte la Belgique depuis 1995 ?", "c": ["Dix", "Neuf", "Onze", "Douze"], "a": 0, "x": "La province de Brabant a été scindée en Brabant flamand et Brabant wallon ; le territoire de Bruxelles-Capitale n'appartient à aucune province.", "l": "province-de-brabant" },
-    { "id": "comite-concertation", "th": "federalisme", "q": "Quel organe réunit le gouvernement fédéral et les gouvernements des entités fédérées pour prévenir les conflits ?", "c": ["Le Comité de concertation", "Le Sénat", "Le Conseil d'État", "Le Groupe des 10"], "a": 0, "x": "Composé paritairement, il décide par consensus ; il a été très sollicité pendant la crise du Covid-19.", "l": "comite-de-concertation" },
-    { "id": "lumumba", "th": "europe-international", "q": "En 2002, le gouvernement belge a présenté ses excuses pour sa « responsabilité morale » dans quel événement ?", "c": ["L'assassinat de Patrice Lumumba", "Le génocide des Tutsi", "La catastrophe du Bois du Cazier", "Les grèves de 1960"], "a": 0, "x": "À la suite de la commission d'enquête parlementaire de 2000-2001. Pour le génocide des Tutsi, Guy Verhofstadt avait présenté des excuses en 2000.", "l": "assassinat-de-patrice-lumumba" },
-    { "id": "mr-wallonie-2024", "th": "elections", "q": "Lors du méga-scrutin de 2024, quel parti est devenu le premier parti en Wallonie ?", "c": ["Le MR", "Le PS", "Les Engagés", "Le PTB"], "a": 0, "x": "Le MR devance le PS au Parlement wallon (26 sièges contre 19), une première depuis l'élection directe de ce parlement en 1995.", "l": "mr" }
-  ]
+ "updated": "2026-10-01",
+ "note": "Questions rédigées à la main. La bonne réponse est l'indice « a » (0 = première proposition) ; les propositions sont mélangées à l'affichage.",
+ "items": [
+  {
+   "id": "chambre-150",
+   "th": "institutions-federales",
+   "q": "Combien de députés siègent à la Chambre des représentants ?",
+   "c": [
+    "150",
+    "120",
+    "212",
+    "89"
+   ],
+   "a": 0,
+   "x": "Depuis les élections de 1995, la Chambre compte 150 membres élus directement dans onze circonscriptions provinciales (Bruxelles formant la sienne).",
+   "l": "chambre-des-representants"
+  },
+  {
+   "id": "federal-1993",
+   "th": "institutions-federales",
+   "q": "Depuis quelle année l'article 1er de la Constitution proclame-t-il que « la Belgique est un État fédéral » ?",
+   "c": [
+    "1993",
+    "1970",
+    "1980",
+    "2001"
+   ],
+   "a": 0,
+   "x": "La quatrième réforme de l'État (accord de la Saint-Michel) a inscrit le caractère fédéral dans la Constitution en 1993.",
+   "l": "etat-federal"
+  },
+  {
+   "id": "senat-60",
+   "th": "institutions-federales",
+   "q": "Combien de sénateurs compte le Sénat depuis la réforme de 2014 ?",
+   "c": [
+    "60",
+    "71",
+    "50",
+    "40"
+   ],
+   "a": 0,
+   "x": "50 sénateurs désignés par les parlements des entités fédérées et 10 sénateurs cooptés. Ils ne sont plus élus directement.",
+   "l": "senat"
+  },
+  {
+   "id": "ministres-15",
+   "th": "institutions-federales",
+   "q": "Combien de membres le Conseil des ministres fédéral compte-t-il au maximum ?",
+   "c": [
+    "15",
+    "12",
+    "20",
+    "18"
+   ],
+   "a": 0,
+   "x": "L'article 99 de la Constitution limite le Conseil des ministres à quinze membres et impose la parité linguistique, le Premier ministre éventuellement excepté.",
+   "l": "conseil-des-ministres"
+  },
+  {
+   "id": "contreseing",
+   "th": "institutions-federales",
+   "q": "Pourquoi les actes du Roi doivent-ils être contresignés ?",
+   "c": [
+    "Parce qu'un ministre en assume la responsabilité politique",
+    "Pour que la Cour constitutionnelle puisse les vérifier",
+    "Pour prouver leur authenticité au Moniteur belge",
+    "Parce que le Roi n'a pas le droit de signer seul un texte"
+   ],
+   "a": 0,
+   "x": "Le Roi est inviolable : « aucun acte du Roi ne peut avoir d'effet s'il n'est contresigné par un ministre, qui, par cela seul, s'en rend responsable » (art. 106).",
+   "l": "contreseing-ministeriel"
+  },
+  {
+   "id": "cc-annule",
+   "th": "justice-droits",
+   "q": "Quelle juridiction peut annuler une loi, un décret ou une ordonnance ?",
+   "c": [
+    "La Cour constitutionnelle",
+    "Le Conseil d'État",
+    "La Cour de cassation",
+    "La Cour des comptes"
+   ],
+   "a": 0,
+   "x": "La Cour constitutionnelle (ex-Cour d'arbitrage) contrôle les normes législatives ; le Conseil d'État annule les actes administratifs.",
+   "l": "cour-constitutionnelle"
+  },
+  {
+   "id": "cour-comptes",
+   "th": "institutions-federales",
+   "q": "Quelle institution contrôle les finances publiques pour le compte des parlements ?",
+   "c": [
+    "La Cour des comptes",
+    "L'Inspection des finances",
+    "La Banque nationale de Belgique",
+    "Le Bureau fédéral du Plan"
+   ],
+   "a": 0,
+   "x": "La Cour des comptes est une émanation de la Chambre ; l'Inspection des finances, elle, conseille le gouvernement.",
+   "l": "cour-des-comptes"
+  },
+  {
+   "id": "de-roover",
+   "th": "parlement",
+   "q": "Qui préside la Chambre des représentants depuis juillet 2024 ?",
+   "c": [
+    "Peter De Roover",
+    "Eliane Tillieux",
+    "Patrick Dewael",
+    "Siegfried Bracke"
+   ],
+   "a": 0,
+   "x": "Le député N-VA Peter De Roover a été élu président de la Chambre le 10 juillet 2024.",
+   "l": "president-de-la-chambre"
+  },
+  {
+   "id": "communautes-3",
+   "th": "federalisme",
+   "q": "Combien de Communautés compte la Belgique ?",
+   "c": [
+    "Trois",
+    "Deux",
+    "Quatre",
+    "Cinq"
+   ],
+   "a": 0,
+   "x": "Les Communautés flamande, française (« Fédération Wallonie-Bruxelles ») et germanophone, compétentes pour les matières liées aux personnes.",
+   "l": "communaute"
+  },
+  {
+   "id": "regions-3",
+   "th": "federalisme",
+   "q": "Combien de Régions compte la Belgique ?",
+   "c": [
+    "Trois",
+    "Deux",
+    "Quatre",
+    "Dix"
+   ],
+   "a": 0,
+   "x": "Les Régions flamande, wallonne et de Bruxelles-Capitale, compétentes pour les matières liées au territoire.",
+   "l": "region"
+  },
+  {
+   "id": "eupen",
+   "th": "federalisme",
+   "q": "Dans quelle ville siège le Parlement de la Communauté germanophone ?",
+   "c": [
+    "Eupen",
+    "Saint-Vith",
+    "Malmedy",
+    "Verviers"
+   ],
+   "a": 0,
+   "x": "Eupen accueille le Parlement (25 membres) et le gouvernement de la Communauté germanophone, dans l'ancien sanatorium réaménagé.",
+   "l": "communaute-germanophone"
+  },
+  {
+   "id": "pfwb-94",
+   "th": "federalisme",
+   "q": "Combien de membres compte le Parlement de la Fédération Wallonie-Bruxelles ?",
+   "c": [
+    "94",
+    "75",
+    "89",
+    "124"
+   ],
+   "a": 0,
+   "x": "Les 75 députés wallons et 19 députés du groupe français du Parlement bruxellois. Les élus germanophones du Parlement wallon y sont remplacés par des suppléants.",
+   "l": "parlement-de-la-federation-wallonie-bruxelles"
+  },
+  {
+   "id": "vp-124",
+   "th": "federalisme",
+   "q": "Combien de membres compte le Parlement flamand ?",
+   "c": [
+    "124",
+    "118",
+    "150",
+    "100"
+   ],
+   "a": 0,
+   "x": "118 élus dans la Région flamande et 6 élus par les électeurs néerlandophones de Bruxelles.",
+   "l": "parlement-flamand"
+  },
+  {
+   "id": "fusion-flamande",
+   "th": "federalisme",
+   "q": "Quelle entité a fusionné ses institutions avec celles de sa Région dès 1980 ?",
+   "c": [
+    "La Communauté flamande",
+    "La Communauté française",
+    "La Communauté germanophone",
+    "Aucune"
+   ],
+   "a": 0,
+   "x": "Le Parlement et le gouvernement flamands exercent à la fois les compétences communautaires et régionales. Côté francophone, Communauté et Région restent distinctes.",
+   "l": "communaute-flamande"
+  },
+  {
+   "id": "ordonnance",
+   "th": "bruxelles",
+   "q": "Comment s'appellent les normes législatives adoptées par le Parlement bruxellois ?",
+   "c": [
+    "Des ordonnances",
+    "Des décrets",
+    "Des lois",
+    "Des arrêtés"
+   ],
+   "a": 0,
+   "x": "Les ordonnances ont force de loi mais un régime de contrôle un peu différent de celui des décrets.",
+   "l": "ordonnance"
+  },
+  {
+   "id": "residuelles",
+   "th": "federalisme",
+   "q": "À qui appartiennent aujourd'hui les compétences résiduelles (non attribuées) ?",
+   "c": [
+    "À l'État fédéral",
+    "Aux Régions",
+    "Aux Communautés",
+    "Aux communes"
+   ],
+   "a": 0,
+   "x": "L'article 35 de la Constitution prévoit de les transférer aux entités fédérées, mais il n'est jamais entré en vigueur faute de loi d'exécution.",
+   "l": "competences-residuelles"
+  },
+  {
+   "id": "six-reformes",
+   "th": "reformes-etat",
+   "q": "Combien de réformes de l'État la Belgique a-t-elle connues entre 1970 et 2014 ?",
+   "c": [
+    "Six",
+    "Quatre",
+    "Cinq",
+    "Sept"
+   ],
+   "a": 0,
+   "x": "1970, 1980, 1988-1989, 1993, 2001 et 2012-2014. L'accord Arizona annonce une septième réforme.",
+   "l": "reforme-de-l-etat"
+  },
+  {
+   "id": "premiere-1970",
+   "th": "reformes-etat",
+   "q": "En quelle année a eu lieu la première réforme de l'État ?",
+   "c": [
+    "1970",
+    "1962",
+    "1980",
+    "1993"
+   ],
+   "a": 0,
+   "x": "La révision de 1970 crée les communautés culturelles, les groupes linguistiques, la sonnette d'alarme et la parité linguistique au gouvernement.",
+   "l": "premiere-reforme-de-l-etat"
+  },
+  {
+   "id": "bruxelles-1989",
+   "th": "reformes-etat",
+   "q": "Quelle réforme a doté Bruxelles d'institutions régionales propres ?",
+   "c": [
+    "La troisième (1988-1989)",
+    "La première (1970)",
+    "La deuxième (1980)",
+    "La quatrième (1993)"
+   ],
+   "a": 0,
+   "x": "Prévue dès 1970, la Région de Bruxelles-Capitale n'est mise en place qu'en 1989, avec la loi spéciale du 12 janvier 1989.",
+   "l": "troisieme-reforme-de-l-etat"
+  },
+  {
+   "id": "bhv-scission",
+   "th": "communautaire",
+   "q": "Quelle réforme de l'État a scindé l'arrondissement électoral de Bruxelles-Hal-Vilvorde ?",
+   "c": [
+    "La sixième (2012-2014)",
+    "La cinquième (2001)",
+    "La quatrième (1993)",
+    "Aucune : BHV existe toujours"
+   ],
+   "a": 0,
+   "x": "L'accord institutionnel de 2011 a scindé BHV en 2012, avec des garanties pour les francophones des six communes à facilités.",
+   "l": "bhv"
+  },
+  {
+   "id": "papillon",
+   "th": "reformes-etat",
+   "q": "Comment surnomme-t-on l'accord institutionnel d'octobre 2011 ?",
+   "c": [
+    "L'accord papillon",
+    "L'accord du Lambermont",
+    "L'accord de la Saint-Michel",
+    "Le pacte d'Egmont"
+   ],
+   "a": 0,
+   "x": "Le surnom renvoie au nœud papillon d'Elio Di Rupo, formateur. L'accord a ouvert la voie à la sixième réforme de l'État.",
+   "l": "accord-papillon"
+  },
+  {
+   "id": "saint-michel",
+   "th": "reformes-etat",
+   "q": "Quel accord de 1992 a préparé la transformation de la Belgique en État fédéral ?",
+   "c": [
+    "L'accord de la Saint-Michel",
+    "Le pacte d'Egmont",
+    "L'accord du Stuyvenberg",
+    "L'accord du Lombard"
+   ],
+   "a": 0,
+   "x": "Conclu fin septembre 1992, autour de la Saint-Michel (29 septembre), il a débouché sur la quatrième réforme de l'État.",
+   "l": "accord-de-la-saint-michel"
+  },
+  {
+   "id": "loi-speciale-100",
+   "th": "parlement",
+   "q": "Combien de voix faut-il au minimum à la Chambre pour adopter une loi spéciale, si les 150 députés votent ?",
+   "c": [
+    "100, avec une majorité dans chaque groupe linguistique",
+    "76",
+    "100, sans autre condition",
+    "120"
+   ],
+   "a": 0,
+   "x": "La majorité spéciale exige les deux tiers des suffrages exprimés et la majorité dans le groupe néerlandais comme dans le groupe français.",
+   "l": "majorite-speciale"
+  },
+  {
+   "id": "sonnette",
+   "th": "parlement",
+   "q": "Qu'est-ce que la « sonnette d'alarme » ?",
+   "c": [
+    "Une procédure permettant à un groupe linguistique de suspendre l'examen d'un texte jugé dangereux pour les relations entre communautés",
+    "Le signal annonçant le début d'un vote en séance plénière",
+    "Une alerte budgétaire de la Cour des comptes",
+    "Le droit du Roi de renvoyer une loi au Parlement"
+   ],
+   "a": 0,
+   "x": "Introduite en 1970, elle requiert la signature des trois quarts des membres d'un groupe linguistique. Le Conseil des ministres doit alors se prononcer dans les trente jours.",
+   "l": "sonnette-d-alarme"
+  },
+  {
+   "id": "legislature-5",
+   "th": "parlement",
+   "q": "Pour combien d'années la Chambre est-elle élue depuis 2014 ?",
+   "c": [
+    "Cinq ans",
+    "Quatre ans",
+    "Six ans",
+    "Trois ans"
+   ],
+   "a": 0,
+   "x": "La sixième réforme a aligné la législature fédérale sur celle des parlements régionaux et du Parlement européen.",
+   "l": "legislature"
+  },
+  {
+   "id": "jours-de-wever",
+   "th": "gouvernement",
+   "q": "Combien de jours se sont écoulés entre les élections du 9 juin 2024 et la prestation de serment du gouvernement De Wever ?",
+   "c": [
+    "239",
+    "541",
+    "494",
+    "194"
+   ],
+   "a": 0,
+   "x": "Le gouvernement Arizona a prêté serment le 3 février 2025.",
+   "l": "formation-federale-2024-2025"
+  },
+  {
+   "id": "record-541",
+   "th": "gouvernement",
+   "q": "Quel est le record de durée d'une formation fédérale ?",
+   "c": [
+    "541 jours (2010-2011)",
+    "494 jours (2019-2020)",
+    "239 jours (2024-2025)",
+    "194 jours (2007)"
+   ],
+   "a": 0,
+   "x": "Entre les élections du 13 juin 2010 et le gouvernement Di Rupo (6 décembre 2011), la Belgique a vécu la plus longue crise de formation de son histoire.",
+   "l": "crise-politique-2007-2011"
+  },
+  {
+   "id": "wilmes",
+   "th": "gouvernement",
+   "q": "Qui a été la première femme Première ministre de Belgique ?",
+   "c": [
+    "Sophie Wilmès",
+    "Laurette Onkelinx",
+    "Joëlle Milquet",
+    "Isabelle Durant"
+   ],
+   "a": 0,
+   "x": "Sophie Wilmès (MR) a succédé à Charles Michel en octobre 2019 et a dirigé le gouvernement pendant la première vague de Covid-19.",
+   "l": "sophie-wilmes"
+  },
+  {
+   "id": "arizona-partis",
+   "th": "gouvernement",
+   "q": "Quels partis composent la coalition « Arizona » ?",
+   "c": [
+    "N-VA, MR, Les Engagés, Vooruit, CD&V",
+    "N-VA, MR, CD&V, Open Vld",
+    "PS, MR, Ecolo, Vooruit, Open Vld, CD&V, Groen",
+    "N-VA, Vlaams Belang, MR, CD&V"
+   ],
+   "a": 0,
+   "x": "Le nom vient du drapeau de l'Arizona, où l'on retrouve le jaune (N-VA), le bleu (MR), le rouge (Vooruit) et l'orange (CD&V, Les Engagés).",
+   "l": "coalition-arizona"
+  },
+  {
+   "id": "vivaldi",
+   "th": "gouvernement",
+   "q": "Pourquoi la coalition De Croo (2020-2025) était-elle surnommée « Vivaldi » ?",
+   "c": [
+    "Elle réunissait quatre familles politiques, comme les quatre saisons",
+    "Son accord fut signé à l'issue d'un concert",
+    "Elle comptait quatre vice-Premiers ministres italiens",
+    "Elle a été formée en quatre jours"
+   ],
+   "a": 0,
+   "x": "Socialistes, libéraux, écologistes et chrétiens-démocrates flamands : sept partis issus de quatre familles.",
+   "l": "coalition-vivaldi"
+  },
+  {
+   "id": "kern",
+   "th": "gouvernement",
+   "q": "Qu'appelle-t-on le « kern » ?",
+   "c": [
+    "Le comité restreint du Premier ministre et des vice-Premiers ministres",
+    "Le noyau dur d'un parti",
+    "La réunion annuelle des présidents de parti",
+    "Le centre de crise fédéral"
+   ],
+   "a": 0,
+   "x": "Un vice-Premier ministre par parti de la coalition : c'est là que se tranchent les arbitrages politiques.",
+   "l": "kern"
+  },
+  {
+   "id": "bxl-613",
+   "th": "bruxelles",
+   "q": "Combien de jours la Région bruxelloise est-elle restée sans nouveau gouvernement après les élections de 2024 ?",
+   "c": [
+    "613",
+    "541",
+    "239",
+    "494"
+   ],
+   "a": 0,
+   "x": "Le gouvernement Dilliès a prêté serment le 14 février 2026, au terme d'une crise sans précédent au niveau régional.",
+   "l": "formation-bruxelloise-2024-2026"
+  },
+  {
+   "id": "dillies",
+   "th": "bruxelles",
+   "q": "Qui est ministre-président de la Région de Bruxelles-Capitale depuis février 2026 ?",
+   "c": [
+    "Boris Dilliès",
+    "Rudi Vervoort",
+    "David Leisterh",
+    "Charles Picqué"
+   ],
+   "a": 0,
+   "x": "Le libéral Boris Dilliès (MR), bourgmestre d'Uccle, a succédé à Rudi Vervoort (PS).",
+   "l": "boris-dillies"
+  },
+  {
+   "id": "vote-1893",
+   "th": "elections",
+   "q": "Depuis quand le vote est-il obligatoire en Belgique ?",
+   "c": [
+    "1893",
+    "1919",
+    "1948",
+    "1830"
+   ],
+   "a": 0,
+   "x": "Introduit avec le suffrage universel masculin tempéré par le vote plural (révision de 1893). La Flandre l'a supprimé pour les élections locales de 2024.",
+   "l": "vote-obligatoire"
+  },
+  {
+   "id": "femmes-1948",
+   "th": "elections",
+   "q": "En quelle année les femmes ont-elles obtenu le droit de vote aux élections législatives ?",
+   "c": [
+    "1948",
+    "1919",
+    "1921",
+    "1945"
+   ],
+   "a": 0,
+   "x": "Électrices aux communales depuis 1921, les femmes votent pour la première fois aux législatives en 1949.",
+   "l": "suffrage-feminin"
+  },
+  {
+   "id": "dhondt",
+   "th": "elections",
+   "q": "Quelle méthode répartit les sièges de la Chambre entre les listes ?",
+   "c": [
+    "La méthode D'Hondt",
+    "La méthode Imperiali",
+    "La méthode Sainte-Laguë",
+    "Le quotient de Hare"
+   ],
+   "a": 0,
+   "x": "Inventée par le juriste gantois Victor D'Hondt, elle est appliquée en Belgique depuis 1899, première proportionnelle nationale au monde.",
+   "l": "methode-d-hondt"
+  },
+  {
+   "id": "seuil-5",
+   "th": "elections",
+   "q": "Quel seuil électoral faut-il atteindre dans une circonscription pour obtenir des sièges à la Chambre ?",
+   "c": [
+    "5 %",
+    "3 %",
+    "10 %",
+    "Il n'y en a pas"
+   ],
+   "a": 0,
+   "x": "Le seuil de 5 % par circonscription a été introduit en 2003.",
+   "l": "seuil-electoral"
+  },
+  {
+   "id": "nva-2024",
+   "th": "elections",
+   "q": "Quel parti a obtenu le plus de sièges à la Chambre en juin 2024 ?",
+   "c": [
+    "La N-VA (24 sièges)",
+    "Le Vlaams Belang (20 sièges)",
+    "Le MR (20 sièges)",
+    "Le PS (16 sièges)"
+   ],
+   "a": 0,
+   "x": "La N-VA reste premier parti avec 16,7 % des voix ; son président Bart De Wever devient Premier ministre.",
+   "l": "n-va"
+  },
+  {
+   "id": "flandre-vote",
+   "th": "elections",
+   "q": "Qu'est-ce qui a changé pour les électeurs flamands aux communales d'octobre 2024 ?",
+   "c": [
+    "Le vote n'y était plus obligatoire",
+    "Ils votaient par Internet",
+    "Ils pouvaient voter dès 16 ans",
+    "Ils élisaient directement leur bourgmestre au suffrage universel"
+   ],
+   "a": 0,
+   "x": "La Flandre a supprimé l'obligation de vote aux élections locales ; la participation est tombée un peu en dessous des deux tiers des électeurs.",
+   "l": "vote-obligatoire"
+  },
+  {
+   "id": "vote-16",
+   "th": "elections",
+   "q": "À partir de quel âge pouvait-on voter aux élections européennes de 2024 en Belgique ?",
+   "c": [
+    "16 ans",
+    "18 ans",
+    "17 ans",
+    "21 ans"
+   ],
+   "a": 0,
+   "x": "Une première : inscrits d'office, les jeunes de 16 et 17 ans étaient appelés aux urnes pour les européennes, avec la même obligation de vote que les adultes.",
+   "l": "vote-a-16-ans"
+  },
+  {
+   "id": "dimanche-noir",
+   "th": "partis",
+   "q": "À quelle élection renvoie l'expression « dimanche noir » ?",
+   "c": [
+    "24 novembre 1991",
+    "13 juin 2010",
+    "26 mai 1999",
+    "8 octobre 2000"
+   ],
+   "a": 0,
+   "x": "Ce jour-là, le Vlaams Blok passe de 2 à 12 sièges à la Chambre, ce qui consolide le cordon sanitaire.",
+   "l": "dimanche-noir"
+  },
+  {
+   "id": "europe-22",
+   "th": "europe-international",
+   "q": "Combien de sièges la Belgique détient-elle au Parlement européen depuis 2024 ?",
+   "c": [
+    "22",
+    "21",
+    "24",
+    "25"
+   ],
+   "a": 0,
+   "x": "13 pour le collège néerlandophone, 8 pour le collège francophone et 1 pour le collège germanophone.",
+   "l": "elections-europeennes"
+  },
+  {
+   "id": "anders",
+   "th": "partis",
+   "q": "Quel parti flamand s'appelle « Anders » depuis janvier 2026 ?",
+   "c": [
+    "Open Vld",
+    "CD&V",
+    "Groen",
+    "Vooruit"
+   ],
+   "a": 0,
+   "x": "Après sa défaite de 2024, le parti libéral flamand a choisi un nouveau nom sous la présidence de Frédéric De Gucht.",
+   "l": "anders"
+  },
+  {
+   "id": "bouchez",
+   "th": "partis",
+   "q": "Qui préside le Mouvement réformateur (MR) ?",
+   "c": [
+    "Georges-Louis Bouchez",
+    "Charles Michel",
+    "Sophie Wilmès",
+    "Didier Reynders"
+   ],
+   "a": 0,
+   "x": "Président depuis novembre 2019, Georges-Louis Bouchez a mené le MR à la première place en Wallonie et à Bruxelles en 2024.",
+   "l": "mr"
+  },
+  {
+   "id": "cordon",
+   "th": "partis",
+   "q": "En quoi consiste le cordon sanitaire en Flandre ?",
+   "c": [
+    "L'engagement des autres partis de ne pas former de majorité avec le Vlaams Belang",
+    "Une zone tampon autour de Bruxelles",
+    "L'interdiction de financer un parti étranger",
+    "Un dispositif de quarantaine sanitaire"
+   ],
+   "a": 0,
+   "x": "Conclu à la fin des années 1980 contre le Vlaams Blok, il est contesté au niveau local depuis 2024 (Ninove, Ranst).",
+   "l": "cordon-sanitaire"
+  },
+  {
+   "id": "unitaire",
+   "th": "partis",
+   "q": "Quel parti représenté à la Chambre est resté national (unitaire) ?",
+   "c": [
+    "Le PTB-PVDA",
+    "Le MR",
+    "Ecolo-Groen",
+    "Les Engagés"
+   ],
+   "a": 0,
+   "x": "Tous les autres grands partis se sont scindés selon la frontière linguistique entre 1968 et 1978 ; Ecolo et Groen forment un groupe commun mais sont deux partis distincts.",
+   "l": "ptb-pvda"
+  },
+  {
+   "id": "cdh-engages",
+   "th": "partis",
+   "q": "Sous quel nom Les Engagés étaient-ils connus jusqu'en 2022 ?",
+   "c": [
+    "cdH",
+    "PSC-CVP",
+    "FDF",
+    "Spirit"
+   ],
+   "a": 0,
+   "x": "Le Centre démocrate humaniste (2002-2022), lui-même héritier du PSC.",
+   "l": "les-engages"
+  },
+  {
+   "id": "vooruit-spa",
+   "th": "partis",
+   "q": "Comment s'appelait Vooruit avant 2021 ?",
+   "c": [
+    "sp.a",
+    "SP-Agalev",
+    "Volksunie",
+    "PVV"
+   ],
+   "a": 0,
+   "x": "Les socialistes flamands, longtemps SP puis sp.a, ont adopté le nom Vooruit en mars 2021 sous la présidence de Conner Rousseau.",
+   "l": "vooruit"
+  },
+  {
+   "id": "scission-1978",
+   "th": "partis",
+   "q": "Quel parti national s'est scindé en dernier selon la frontière linguistique ?",
+   "c": [
+    "Le Parti socialiste belge (1978)",
+    "Le PSC-CVP (1968)",
+    "Le parti libéral (1972)",
+    "Le parti communiste (1989)"
+   ],
+   "a": 0,
+   "x": "Après les chrétiens-démocrates (1968) et les libéraux (1972), les socialistes se scindent en PS et SP en 1978.",
+   "l": "scission-des-partis-nationaux"
+  },
+  {
+   "id": "pilier",
+   "th": "piliers-societe-civile",
+   "q": "Qu'appelle-t-on un « pilier » en sociologie politique belge ?",
+   "c": [
+    "Un réseau d'organisations (syndicat, mutualité, écoles, presse…) liées à une même famille idéologique",
+    "Un ministre chargé d'une compétence clé",
+    "Un article fondamental de la Constitution",
+    "L'une des trois Régions"
+   ],
+   "a": 0,
+   "x": "Les mondes catholique, socialiste et libéral ont structuré la société belge de la naissance à la mort, « van de wieg tot het graf ».",
+   "l": "pilier"
+  },
+  {
+   "id": "acv-plus-grand",
+   "th": "travail-concertation",
+   "q": "Quel est le plus grand syndicat de Belgique en nombre d'affiliés ?",
+   "c": [
+    "La CSC-ACV (chrétienne)",
+    "La FGTB-ABVV (socialiste)",
+    "La CGSLB-ACLVB (libérale)",
+    "La CNE"
+   ],
+   "a": 0,
+   "x": "La confédération chrétienne devance la socialiste ; les deux dépassent chacune le million d'affiliés. La CNE est une centrale de la CSC.",
+   "l": "csc"
+  },
+  {
+   "id": "clivages",
+   "th": "piliers-societe-civile",
+   "q": "Quels sont les trois clivages qui structurent traditionnellement la politique belge ?",
+   "c": [
+    "Philosophique, socio-économique, communautaire",
+    "Urbain, rural, littoral",
+    "Monarchiste, républicain, européen",
+    "Nord, Sud, Bruxelles"
+   ],
+   "a": 0,
+   "x": "Église-État, possédants-travailleurs, centre-périphérie (Flamands-francophones) : la grille de Lipset et Rokkan appliquée à la Belgique.",
+   "l": "clivage"
+  },
+  {
+   "id": "saut-index",
+   "th": "travail-concertation",
+   "q": "Qu'est-ce qu'un « saut d'index » ?",
+   "c": [
+    "La suppression ponctuelle d'une indexation des salaires et allocations",
+    "Une hausse exceptionnelle de l'indice des prix",
+    "Le passage d'une commission paritaire à une autre",
+    "Une prime de fin d'année"
+   ],
+   "a": 0,
+   "x": "Le gouvernement Michel en a appliqué un en 2015. En 2025, l'Arizona a choisi de limiter l'indexation des hauts salaires et allocations en 2026 et 2028.",
+   "l": "saut-d-index"
+  },
+  {
+   "id": "gand",
+   "th": "travail-concertation",
+   "q": "Que désigne le « système de Gand » ?",
+   "c": [
+    "Le paiement des allocations de chômage par les syndicats",
+    "Le mode de scrutin des élections sociales",
+    "Le compromis de 1909 sur la question scolaire",
+    "La règle de répartition des sièges au conseil communal"
+   ],
+   "a": 0,
+   "x": "Hérité des caisses syndicales du début du XXe siècle, ce système explique en partie le taux de syndicalisation élevé en Belgique.",
+   "l": "systeme-de-gand"
+  },
+  {
+   "id": "loi-1996",
+   "th": "travail-concertation",
+   "q": "Quelle loi encadre la « norme salariale » ?",
+   "c": [
+    "La loi de 1996 sur la compétitivité",
+    "La loi du 20 septembre 1948",
+    "La loi unique de 1961",
+    "La loi Renault de 1998"
+   ],
+   "a": 0,
+   "x": "Révisée en 2017, elle limite la hausse des salaires (hors index) à l'évolution prévue chez les voisins.",
+   "l": "loi-de-1996"
+  },
+  {
+   "id": "groupe-10",
+   "th": "travail-concertation",
+   "q": "Qu'est-ce que le « Groupe des 10 » ?",
+   "c": [
+    "Le lieu de concertation des dirigeants des syndicats et des organisations patronales",
+    "Les dix provinces",
+    "Le comité des dix plus grandes villes",
+    "Le conseil des dix vice-Premiers ministres"
+   ],
+   "a": 0,
+   "x": "Il négocie notamment l'accord interprofessionnel.",
+   "l": "groupe-des-10"
+  },
+  {
+   "id": "pacte-1944",
+   "th": "protection-sociale",
+   "q": "De quel texte est née la sécurité sociale belge moderne ?",
+   "c": [
+    "Le pacte social de 1944",
+    "La Constitution de 1831",
+    "Le pacte scolaire de 1958",
+    "La loi unique de 1961"
+   ],
+   "a": 0,
+   "x": "Négocié dans la clandestinité entre patrons et syndicalistes, il est traduit par l'arrêté-loi du 28 décembre 1944.",
+   "l": "pacte-social-de-1944"
+  },
+  {
+   "id": "chomage-2026",
+   "th": "protection-sociale",
+   "q": "Quelle réforme du chômage est entrée en vigueur en 2026 ?",
+   "c": [
+    "La limitation des allocations dans le temps",
+    "La suppression du chômage temporaire",
+    "Le paiement des allocations par les Régions",
+    "Le doublement des allocations"
+   ],
+   "a": 0,
+   "x": "Décidée par l'Arizona, elle met fin à l'exception belge d'allocations illimitées dans le temps ; les premières fins de droit interviennent dès le début de 2026.",
+   "l": "limitation-des-allocations-de-chomage-dans-le-temps"
+  },
+  {
+   "id": "inami",
+   "th": "protection-sociale",
+   "q": "Quel organisme fédéral gère l'assurance soins de santé ?",
+   "c": [
+    "L'INAMI",
+    "L'ONEM",
+    "L'ONSS",
+    "Fedasil"
+   ],
+   "a": 0,
+   "x": "L'Institut national d'assurance maladie-invalidité finance les remboursements, versés par les mutualités.",
+   "l": "inami"
+  },
+  {
+   "id": "deficit-2025",
+   "th": "economie-finances",
+   "q": "Selon Eurostat (avril 2026), quel était le déficit public de la Belgique en 2025 ?",
+   "c": [
+    "5,2 % du PIB",
+    "3,0 % du PIB",
+    "1,5 % du PIB",
+    "8,4 % du PIB"
+   ],
+   "a": 0,
+   "x": "Le plus élevé de la zone euro, pour une dette de 107,9 % du PIB.",
+   "l": "deficit-public"
+  },
+  {
+   "id": "moodys",
+   "th": "economie-finances",
+   "q": "Quelle agence a abaissé la note de la Belgique de Aa3 à A1 en avril 2026 ?",
+   "c": [
+    "Moody's",
+    "Fitch",
+    "S&P",
+    "Scope"
+   ],
+   "a": 0,
+   "x": "Moody's (17 avril 2026), suivie par S&P (AA-) une semaine plus tard ; Fitch avait déjà abaissé la note à A+ en 2025.",
+   "l": "notation-souveraine"
+  },
+  {
+   "id": "douziemes",
+   "th": "economie-finances",
+   "q": "Que sont les « douzièmes provisoires » ?",
+   "c": [
+    "Des crédits mensuels votés en l'absence de budget",
+    "La part des impôts versée aux communes",
+    "Un impôt payé en douze mensualités",
+    "La quote-part belge au budget européen"
+   ],
+   "a": 0,
+   "x": "Ils permettent de dépenser chaque mois un douzième des crédits de l'année précédente.",
+   "l": "douziemes-provisoires"
+  },
+  {
+   "id": "plus-values",
+   "th": "economie-finances",
+   "q": "Quel nouvel impôt est entré en vigueur le 1er janvier 2026 ?",
+   "c": [
+    "Une taxe de 10 % sur les plus-values financières",
+    "Un impôt sur la fortune",
+    "Une taxe kilométrique fédérale",
+    "Une TVA à 25 %"
+   ],
+   "a": 0,
+   "x": "Mesure phare de l'accord Arizona, avec une exonération pour une première tranche de plus-values.",
+   "l": "taxe-sur-les-plus-values"
+  },
+  {
+   "id": "frontiere-1962",
+   "th": "communautaire",
+   "q": "Quand la frontière linguistique a-t-elle été fixée par la loi ?",
+   "c": [
+    "1962",
+    "1932",
+    "1830",
+    "1970"
+   ],
+   "a": 0,
+   "x": "Les lois linguistiques de 1962-1963 fixent la frontière et transfèrent notamment les Fourons au Limbourg et Comines-Mouscron au Hainaut.",
+   "l": "frontiere-linguistique"
+  },
+  {
+   "id": "facilites-6",
+   "th": "communautaire",
+   "q": "Combien de communes à facilités entourent Bruxelles ?",
+   "c": [
+    "Six",
+    "Douze",
+    "Trois",
+    "Dix-neuf"
+   ],
+   "a": 0,
+   "x": "Drogenbos, Kraainem, Linkebeek, Rhode-Saint-Genèse, Wemmel et Wezembeek-Oppem, situées en Région flamande.",
+   "l": "communes-a-facilites"
+  },
+  {
+   "id": "fourons",
+   "th": "communautaire",
+   "q": "Les Fourons ont été rattachés en 1963 à la province…",
+   "c": [
+    "de Limbourg",
+    "de Liège",
+    "de Brabant flamand",
+    "de Luxembourg"
+   ],
+   "a": 0,
+   "x": "Ce transfert a nourri un conflit communautaire durable, incarné par José Happart dans les années 1980.",
+   "l": "fourons"
+  },
+  {
+   "id": "walen-buiten",
+   "th": "communautaire",
+   "q": "À quel conflit le slogan « Walen buiten » est-il associé ?",
+   "c": [
+    "L'affaire de Louvain (1966-1968)",
+    "La Question royale (1950)",
+    "La scission de BHV (2012)",
+    "La grève de 1960-1961"
+   ],
+   "a": 0,
+   "x": "Les étudiants flamands exigeaient le départ de la section francophone de l'université de Louvain, transférée ensuite à Louvain-la-Neuve. La crise fit tomber le gouvernement Vanden Boeynants en 1968.",
+   "l": "affaire-de-louvain"
+  },
+  {
+   "id": "bhv-sigle",
+   "th": "communautaire",
+   "q": "Que signifie le sigle BHV ?",
+   "c": [
+    "Bruxelles-Hal-Vilvorde",
+    "Belgique-Hollande-Vlaanderen",
+    "Bureau des hautes valeurs",
+    "Brabant-Hainaut-Verviers"
+   ],
+   "a": 0,
+   "x": "L'arrondissement électoral et judiciaire réunissant Bruxelles et 35 communes flamandes, scindé en 2012.",
+   "l": "bhv"
+  },
+  {
+   "id": "communes-19",
+   "th": "bruxelles",
+   "q": "Combien de communes compte la Région de Bruxelles-Capitale ?",
+   "c": [
+    "19",
+    "17",
+    "21",
+    "6"
+   ],
+   "a": 0,
+   "x": "La fusion des communes de 1977 n'a pas concerné Bruxelles : ses 19 communes remontent pour l'essentiel à 1921, quand la Ville de Bruxelles a annexé Laeken, Haren et Neder-Over-Heembeek.",
+   "l": "les-19-communes"
+  },
+  {
+   "id": "bxl-17",
+   "th": "bruxelles",
+   "q": "Combien de sièges sont réservés au groupe néerlandais du Parlement bruxellois ?",
+   "c": [
+    "17 sur 89",
+    "11 sur 75",
+    "30 sur 89",
+    "6 sur 72"
+   ],
+   "a": 0,
+   "x": "Une garantie fixe depuis 2004, quel que soit le nombre de voix obtenues par les listes néerlandophones.",
+   "l": "garanties-des-neerlandophones-bruxellois"
+  },
+  {
+   "id": "cocom",
+   "th": "bruxelles",
+   "q": "Quelle institution gère à Bruxelles les allocations familiales ?",
+   "c": [
+    "La Commission communautaire commune (COCOM)",
+    "La COCOF",
+    "La VGC",
+    "La Ville de Bruxelles"
+   ],
+   "a": 0,
+   "x": "La COCOM, via Iriscare, est compétente pour les matières « bicommunautaires » qui s'adressent à tous les Bruxellois.",
+   "l": "cocom"
+  },
+  {
+   "id": "pacte-scolaire",
+   "th": "ethique-enseignement-cultes",
+   "q": "En quelle année le pacte scolaire a-t-il mis fin à la deuxième guerre scolaire ?",
+   "c": [
+    "1958",
+    "1884",
+    "1945",
+    "1970"
+   ],
+   "a": 0,
+   "x": "Signé par les trois partis traditionnels, il organise la coexistence des réseaux officiel et libre.",
+   "l": "pacte-scolaire"
+  },
+  {
+   "id": "euthanasie",
+   "th": "ethique-enseignement-cultes",
+   "q": "En quelle année la Belgique a-t-elle dépénalisé l'euthanasie ?",
+   "c": [
+    "2002",
+    "1990",
+    "2014",
+    "1998"
+   ],
+   "a": 0,
+   "x": "La loi du 28 mai 2002, étendue aux mineurs en 2014.",
+   "l": "euthanasie"
+  },
+  {
+   "id": "mariage-2003",
+   "th": "ethique-enseignement-cultes",
+   "q": "En quelle année le mariage a-t-il été ouvert aux couples de même sexe ?",
+   "c": [
+    "2003",
+    "2001",
+    "2006",
+    "2013"
+   ],
+   "a": 0,
+   "x": "La Belgique a été le deuxième pays au monde à le faire, après les Pays-Bas.",
+   "l": "mariage-pour-tous"
+  },
+  {
+   "id": "cultes-6",
+   "th": "ethique-enseignement-cultes",
+   "q": "Combien de cultes sont reconnus par l'État belge (hors laïcité organisée) ?",
+   "c": [
+    "Six",
+    "Trois",
+    "Quatre",
+    "Huit"
+   ],
+   "a": 0,
+   "x": "Catholique, protestant-évangélique, israélite, anglican, islamique et orthodoxe. La laïcité organisée bénéficie d'un financement comparable.",
+   "l": "cultes-reconnus"
+  },
+  {
+   "id": "albert-2013",
+   "th": "monarchie",
+   "q": "Quel roi a abdiqué le 21 juillet 2013 ?",
+   "c": [
+    "Albert II",
+    "Baudouin",
+    "Léopold III",
+    "Philippe"
+   ],
+   "a": 0,
+   "x": "Albert II a abdiqué en faveur de son fils Philippe, septième roi des Belges.",
+   "l": "albert-ii"
+  },
+  {
+   "id": "baudouin-1990",
+   "th": "monarchie",
+   "q": "Pour ne pas sanctionner quelle loi le roi Baudouin a-t-il été déclaré « dans l'impossibilité de régner » en 1990 ?",
+   "c": [
+    "La loi dépénalisant partiellement l'avortement",
+    "La loi sur l'euthanasie",
+    "La loi sur le mariage civil",
+    "La loi sur les pouvoirs spéciaux"
+   ],
+   "a": 0,
+   "x": "Le gouvernement Martens VIII a exercé les pouvoirs royaux pendant 36 heures, le temps de sanctionner la loi.",
+   "l": "impossibilite-de-regner"
+  },
+  {
+   "id": "question-royale",
+   "th": "monarchie",
+   "q": "Comment la Question royale s'est-elle dénouée ?",
+   "c": [
+    "Par l'abdication de Léopold III en faveur de Baudouin (1951)",
+    "Par la proclamation de la République",
+    "Par la restauration pleine de Léopold III",
+    "Par une régence de vingt ans"
+   ],
+   "a": 0,
+   "x": "Malgré 57,7 % de « oui » à la consultation de 1950, les émeutes en Wallonie poussent Léopold III à déléguer ses pouvoirs à son fils, puis à abdiquer le 16 juillet 1951.",
+   "l": "question-royale"
+  },
+  {
+   "id": "elisabeth",
+   "th": "monarchie",
+   "q": "Qui est l'héritière du trône ?",
+   "c": [
+    "La princesse Élisabeth",
+    "La princesse Astrid",
+    "La princesse Éléonore",
+    "La reine Mathilde"
+   ],
+   "a": 0,
+   "x": "Fille aînée du roi Philippe, née en 2001, elle serait la première reine des Belges grâce à l'abolition de la loi salique en 1991.",
+   "l": "elisabeth-de-belgique"
+  },
+  {
+   "id": "marche-blanche",
+   "th": "justice-droits",
+   "q": "Quelle affaire a provoqué la Marche blanche d'octobre 1996 ?",
+   "c": [
+    "L'affaire Dutroux",
+    "Les tueries du Brabant",
+    "L'assassinat d'André Cools",
+    "L'affaire Agusta"
+   ],
+   "a": 0,
+   "x": "Environ 300 000 personnes ont défilé à Bruxelles le 20 octobre 1996 ; la commission d'enquête a débouché sur la réforme des polices.",
+   "l": "affaire-dutroux"
+  },
+  {
+   "id": "attentats-2016",
+   "th": "justice-droits",
+   "q": "À quelle date ont eu lieu les attentats de Zaventem et de Maelbeek ?",
+   "c": [
+    "22 mars 2016",
+    "13 novembre 2015",
+    "24 mai 2014",
+    "11 septembre 2001"
+   ],
+   "a": 0,
+   "x": "32 victimes ont été tuées ; le procès devant la cour d'assises s'est tenu en 2022-2023.",
+   "l": "attentats-du-22-mars-2016"
+  },
+  {
+   "id": "unia",
+   "th": "justice-droits",
+   "q": "Quelle institution publique lutte contre les discriminations et promeut l'égalité des chances ?",
+   "c": [
+    "Unia",
+    "Le Comité P",
+    "L'OCAM",
+    "La FSMA"
+   ],
+   "a": 0,
+   "x": "Successeur du Centre pour l'égalité des chances et la lutte contre le racisme, créé en 1993.",
+   "l": "unia"
+  },
+  {
+   "id": "independance",
+   "th": "histoire",
+   "q": "Quel jour le Gouvernement provisoire a-t-il proclamé l'indépendance de la Belgique ?",
+   "c": [
+    "4 octobre 1830",
+    "21 juillet 1831",
+    "25 août 1830",
+    "7 février 1831"
+   ],
+   "a": 0,
+   "x": "Après les combats de septembre 1830 à Bruxelles. Le 21 juillet 1831, Léopold Ier prête serment ; le 7 février 1831, la Constitution est adoptée.",
+   "l": "revolution-belge"
+  },
+  {
+   "id": "constitution-1831",
+   "th": "histoire",
+   "q": "Quel organe a adopté la Constitution belge le 7 février 1831 ?",
+   "c": [
+    "Le Congrès national",
+    "Le Gouvernement provisoire",
+    "Les États généraux du Royaume-Uni des Pays-Bas",
+    "La Chambre des représentants"
+   ],
+   "a": 0,
+   "x": "Élu au suffrage censitaire, le Congrès national a aussi choisi la forme monarchique et désigné le roi.",
+   "l": "congres-national"
+  },
+  {
+   "id": "greve-60",
+   "th": "histoire",
+   "q": "Contre quel projet était dirigée la grève générale de l'hiver 1960-1961 ?",
+   "c": [
+    "La loi unique",
+    "La Question royale",
+    "Le pacte scolaire",
+    "Le traité de Rome"
+   ],
+   "a": 0,
+   "x": "Le plan d'austérité du gouvernement Eyskens provoque une grève de cinq semaines, surtout suivie en Wallonie, où elle nourrit le mouvement wallon.",
+   "l": "greve-generale-de-1960-1961"
+  },
+  {
+   "id": "congo-1960",
+   "th": "histoire",
+   "q": "À quelle date le Congo belge est-il devenu indépendant ?",
+   "c": [
+    "30 juin 1960",
+    "4 octobre 1960",
+    "1er juillet 1962",
+    "15 novembre 1908"
+   ],
+   "a": 0,
+   "x": "Le 15 novembre 1908 marque la reprise de l'État indépendant du Congo par la Belgique ; le 1er juillet 1962, l'indépendance du Rwanda et du Burundi.",
+   "l": "independance-du-congo"
+  },
+  {
+   "id": "rome-1957",
+   "th": "europe-international",
+   "q": "La Belgique est membre fondateur de la Communauté économique européenne, créée par le traité de Rome en…",
+   "c": [
+    "1957",
+    "1951",
+    "1992",
+    "1948"
+   ],
+   "a": 0,
+   "x": "Paul-Henri Spaak a joué un rôle décisif dans sa négociation (rapport Spaak, 1956).",
+   "l": "belgique-et-union-europeenne"
+  },
+  {
+   "id": "ceta",
+   "th": "europe-international",
+   "q": "Quelle assemblée a retardé la signature de l'accord CETA entre l'UE et le Canada en 2016 ?",
+   "c": [
+    "Le Parlement de Wallonie",
+    "Le Parlement flamand",
+    "Le Sénat",
+    "Le Parlement de la Communauté germanophone"
+   ],
+   "a": 0,
+   "x": "Le gouvernement fédéral ne pouvait signer sans l'accord des entités fédérées ; la Wallonie de Paul Magnette a obtenu une déclaration interprétative.",
+   "l": "ceta-wallonie"
+  },
+  {
+   "id": "g1000",
+   "th": "medias-democratie",
+   "q": "Qu'était le G1000, organisé en novembre 2011 ?",
+   "c": [
+    "Un sommet citoyen réunissant des Belges tirés au sort",
+    "Une réunion des 1 000 plus grandes entreprises",
+    "Un concert pour la paix communautaire",
+    "Une manifestation de 1 000 bourgmestres"
+   ],
+   "a": 0,
+   "x": "Né pendant la crise de 541 jours, il a inspiré les dispositifs délibératifs ultérieurs.",
+   "l": "g1000"
+  },
+  {
+   "id": "dialogue-citoyen",
+   "th": "medias-democratie",
+   "q": "Quelle entité a institué en 2019 un dialogue citoyen permanent avec des citoyens tirés au sort ?",
+   "c": [
+    "La Communauté germanophone",
+    "La Région flamande",
+    "La Ville de Bruxelles",
+    "La Province de Namur"
+   ],
+   "a": 0,
+   "x": "Le « modèle d'Ostbelgien » associe un conseil citoyen permanent et des assemblées tirées au sort.",
+   "l": "dialogue-citoyen-permanent"
+  },
+  {
+   "id": "copernic",
+   "th": "administration",
+   "q": "Comment s'appelle la réforme de l'administration fédérale lancée en 2000, qui a transformé les ministères en SPF ?",
+   "c": [
+    "La réforme Copernic",
+    "La réforme Octopus",
+    "La réforme Galilée",
+    "Le plan Marshall"
+   ],
+   "a": 0,
+   "x": "Lancée par le gouvernement Verhofstadt I, elle a créé les services publics fédéraux (SPF) et les mandats de management.",
+   "l": "reforme-copernic"
+  },
+  {
+   "id": "italo-belge",
+   "th": "migrations-diversite",
+   "q": "Que prévoyait l'accord italo-belge de 1946 ?",
+   "c": [
+    "L'envoi de travailleurs italiens dans les mines en échange de charbon",
+    "La restitution de territoires",
+    "L'adhésion de l'Italie au Benelux",
+    "La reconnaissance d'une minorité italophone"
+   ],
+   "a": 0,
+   "x": "Des dizaines de milliers d'Italiens sont venus travailler dans les charbonnages ; la catastrophe du Bois du Cazier (1956) a fait 262 morts, dont 136 Italiens.",
+   "l": "accord-italo-belge-de-1946"
+  },
+  {
+   "id": "conventions-1964",
+   "th": "migrations-diversite",
+   "q": "Avec quels pays la Belgique a-t-elle signé des conventions de main-d'œuvre en 1964 ?",
+   "c": [
+    "Le Maroc et la Turquie",
+    "L'Italie et l'Espagne",
+    "La Pologne et la Grèce",
+    "Le Congo et le Rwanda"
+   ],
+   "a": 0,
+   "x": "Ces conventions sont à l'origine d'une large part des communautés marocaine et turque de Belgique.",
+   "l": "conventions-bilaterales-de-1964"
+  },
+  {
+   "id": "moureaux",
+   "th": "migrations-diversite",
+   "q": "Que réprime la loi Moureaux de 1981 ?",
+   "c": [
+    "Certains actes inspirés par le racisme ou la xénophobie",
+    "La fraude électorale",
+    "Le cumul des mandats",
+    "La concurrence déloyale"
+   ],
+   "a": 0,
+   "x": "Du nom du ministre de la Justice Philippe Moureaux (PS), elle a été complétée par les lois antidiscrimination de 2007.",
+   "l": "loi-moureaux"
+  },
+  {
+   "id": "nucleaire-2025",
+   "th": "energie-environnement",
+   "q": "En quelle année la loi de 2003 sur la sortie du nucléaire a-t-elle été abrogée ?",
+   "c": [
+    "2025",
+    "2015",
+    "2022",
+    "Elle est toujours en vigueur"
+   ],
+   "a": 0,
+   "x": "La loi du 15 mai 2025, portée par le ministre de l'Énergie Mathieu Bihet (MR), a supprimé l'interdiction de construire de nouvelles centrales.",
+   "l": "sortie-du-nucleaire"
+  },
+  {
+   "id": "klimaatzaak",
+   "th": "energie-environnement",
+   "q": "Qu'a décidé la cour d'appel de Bruxelles dans l'affaire Klimaatzaak en novembre 2023 ?",
+   "c": [
+    "Elle a enjoint à l'État fédéral, à la Flandre et à Bruxelles de réduire leurs émissions de 55 % d'ici 2030",
+    "Elle a rejeté toute responsabilité des pouvoirs publics",
+    "Elle a interdit les voitures à moteur thermique",
+    "Elle a imposé une taxe carbone"
+   ],
+   "a": 0,
+   "x": "Par rapport à 1990. La Région wallonne n'était pas condamnée, la cour estimant ses objectifs suffisants.",
+   "l": "klimaatzaak"
+  },
+  {
+   "id": "communes-565",
+   "th": "pouvoirs-locaux",
+   "q": "Combien de communes compte la Belgique depuis le 1er janvier 2025 ?",
+   "c": [
+    "565",
+    "581",
+    "589",
+    "2 359"
+   ],
+   "a": 0,
+   "x": "285 en Flandre (après des fusions volontaires), 261 en Wallonie et 19 à Bruxelles. Avant la fusion de 1977, il y en avait 2 359.",
+   "l": "commune"
+  },
+  {
+   "id": "fusion-1977",
+   "th": "pouvoirs-locaux",
+   "q": "En quelle année la grande fusion des communes a-t-elle réduit leur nombre de 2 359 à 596 ?",
+   "c": [
+    "1977",
+    "1964",
+    "1983",
+    "2001"
+   ],
+   "a": 0,
+   "x": "Elle a été suivie de la fusion d'Anvers en 1983 (589 communes).",
+   "l": "fusion-des-communes"
+  },
+  {
+   "id": "provinces-10",
+   "th": "pouvoirs-locaux",
+   "q": "Combien de provinces compte la Belgique depuis 1995 ?",
+   "c": [
+    "Dix",
+    "Neuf",
+    "Onze",
+    "Douze"
+   ],
+   "a": 0,
+   "x": "La province de Brabant a été scindée en Brabant flamand et Brabant wallon ; le territoire de Bruxelles-Capitale n'appartient à aucune province.",
+   "l": "province-de-brabant"
+  },
+  {
+   "id": "comite-concertation",
+   "th": "federalisme",
+   "q": "Quel organe réunit le gouvernement fédéral et les gouvernements des entités fédérées pour prévenir les conflits ?",
+   "c": [
+    "Le Comité de concertation",
+    "Le Sénat",
+    "Le Conseil d'État",
+    "Le Groupe des 10"
+   ],
+   "a": 0,
+   "x": "Composé paritairement, il décide par consensus ; il a été très sollicité pendant la crise du Covid-19.",
+   "l": "comite-de-concertation"
+  },
+  {
+   "id": "lumumba",
+   "th": "europe-international",
+   "q": "En 2002, le gouvernement belge a présenté ses excuses pour sa « responsabilité morale » dans quel événement ?",
+   "c": [
+    "L'assassinat de Patrice Lumumba",
+    "Le génocide des Tutsi",
+    "La catastrophe du Bois du Cazier",
+    "Les grèves de 1960"
+   ],
+   "a": 0,
+   "x": "À la suite de la commission d'enquête parlementaire de 2000-2001. Pour le génocide des Tutsi, Guy Verhofstadt avait présenté des excuses en 2000.",
+   "l": "assassinat-de-patrice-lumumba"
+  },
+  {
+   "id": "mr-wallonie-2024",
+   "th": "elections",
+   "q": "Lors du méga-scrutin de 2024, quel parti est devenu le premier parti en Wallonie ?",
+   "c": [
+    "Le MR",
+    "Le PS",
+    "Les Engagés",
+    "Le PTB"
+   ],
+   "a": 0,
+   "x": "Le MR devance le PS au Parlement wallon (26 sièges contre 19), une première depuis l'élection directe de ce parlement en 1995.",
+   "l": "mr"
+  },
+  {
+   "id": "roi-des-belges-titre",
+   "th": "monarchie",
+   "q": "Quel est le titre exact du souverain belge ?",
+   "c": [
+    "Roi des Belges",
+    "Roi de Belgique",
+    "Roi de Belgique et des Flandres",
+    "Souverain de Belgique"
+   ],
+   "a": 0,
+   "x": "Le titre « roi des Belges » souligne que la monarchie repose sur la souveraineté nationale, issue de la révolution de 1830.",
+   "l": "roi"
+  },
+  {
+   "id": "consultation-1950-oui",
+   "th": "monarchie",
+   "q": "Quel pourcentage de « oui » la consultation populaire du 12 mars 1950 a-t-elle donné au niveau national ?",
+   "c": [
+    "57,7 %",
+    "72 %",
+    "42 %",
+    "50,1 %"
+   ],
+   "a": 0,
+   "x": "Le oui l'emporte avec 57,7 %, mais avec environ 72 % en Flandre contre 42 % en Wallonie et 48 % à Bruxelles.",
+   "l": "consultation-populaire-de-1950"
+  },
+  {
+   "id": "impossibilite-1990",
+   "th": "monarchie",
+   "q": "Pourquoi le roi Baudouin a-t-il été déclaré dans l'impossibilité de régner en avril 1990 ?",
+   "c": [
+    "Il refusait de sanctionner la loi dépénalisant partiellement l'avortement",
+    "Il était hospitalisé",
+    "Il voyageait à l'étranger",
+    "Il refusait de nommer un gouvernement"
+   ],
+   "a": 0,
+   "x": "Pour respecter à la fois la conscience du Roi et la volonté du Parlement, les ministres ont constaté son impossibilité de régner pendant 36 heures.",
+   "l": "impossibilite-de-regner"
+  },
+  {
+   "id": "succession-femmes",
+   "th": "monarchie",
+   "q": "Depuis quelle révision constitutionnelle les femmes peuvent-elles accéder au trône ?",
+   "c": [
+    "1991",
+    "1831",
+    "1970",
+    "2013"
+   ],
+   "a": 0,
+   "x": "La révision de 1991 a supprimé l'exclusion des femmes : la princesse Elisabeth est l'héritière du trône.",
+   "l": "succession-au-trone"
+  },
+  {
+   "id": "abdications",
+   "th": "monarchie",
+   "q": "Combien de rois des Belges ont abdiqué ?",
+   "c": [
+    "Deux : Léopold III et Albert II",
+    "Un seul : Albert II",
+    "Trois",
+    "Aucun"
+   ],
+   "a": 0,
+   "x": "Léopold III a abdiqué en 1951 au terme de la Question royale ; Albert II en 2013, en faveur de Philippe.",
+   "l": "abdication"
+  },
+  {
+   "id": "regent-1944",
+   "th": "monarchie",
+   "q": "Qui fut régent du Royaume de 1944 à 1950 ?",
+   "c": [
+    "Le prince Charles, comte de Flandre",
+    "La reine Élisabeth",
+    "Paul-Henri Spaak",
+    "Le prince Albert"
+   ],
+   "a": 0,
+   "x": "Frère de Léopold III, le prince Charles exerce les pouvoirs royaux pendant l'impossibilité de régner du roi.",
+   "l": "regence"
+  },
+  {
+   "id": "octopus-dutroux",
+   "th": "justice-droits",
+   "q": "Quelle affaire a conduit à la création du Conseil supérieur de la Justice et de la police intégrée ?",
+   "c": [
+    "L'affaire Dutroux",
+    "Les tueries du Brabant",
+    "L'affaire Agusta",
+    "Le Qatargate"
+   ],
+   "a": 0,
+   "x": "Les dysfonctionnements révélés par l'affaire Dutroux ont mené à l'accord Octopus de 1998.",
+   "l": "accord-octopus"
+  },
+  {
+   "id": "assises-jures",
+   "th": "justice-droits",
+   "q": "Combien de jurés composent le jury d'une cour d'assises ?",
+   "c": [
+    "12",
+    "6",
+    "9",
+    "15"
+   ],
+   "a": 0,
+   "x": "Douze citoyens tirés au sort siègent aux côtés de trois magistrats professionnels.",
+   "l": "cour-d-assises"
+  },
+  {
+   "id": "delit-presse-juridiction",
+   "th": "justice-droits",
+   "q": "Quelle juridiction est en principe compétente pour juger un délit de presse non raciste ?",
+   "c": [
+    "La cour d'assises",
+    "Le tribunal de police",
+    "Le tribunal correctionnel",
+    "Le Conseil d'État"
+   ],
+   "a": 0,
+   "x": "L'article 150 de la Constitution réserve les délits de presse au jury, sauf ceux inspirés par le racisme ou la xénophobie, jugés en correctionnelle depuis 1999.",
+   "l": "delit-de-presse"
+  },
+  {
+   "id": "ocam-niveaux",
+   "th": "justice-droits",
+   "q": "Combien de niveaux compte l'échelle de la menace fixée par l'OCAM ?",
+   "c": [
+    "4",
+    "3",
+    "5",
+    "10"
+   ],
+   "a": 0,
+   "x": "Le niveau 4, « très grave », a été décrété notamment en novembre 2015 à Bruxelles et le 22 mars 2016 dans tout le pays.",
+   "l": "ocam"
+  },
+  {
+   "id": "comites-p-r",
+   "th": "justice-droits",
+   "q": "Devant quelle assemblée le Comité P et le Comité R font-ils rapport ?",
+   "c": [
+    "La Chambre des représentants",
+    "Le Sénat",
+    "Le Parlement européen",
+    "Le Conseil d'État"
+   ],
+   "a": 0,
+   "x": "Ces organes de contrôle externe des services de police et de renseignement dépendent de la Chambre.",
+   "l": "comite-p"
+  },
+  {
+   "id": "unia-flandre-2023",
+   "th": "justice-droits",
+   "q": "En quelle année la Flandre s'est-elle retirée d'Unia ?",
+   "c": [
+    "2023",
+    "2014",
+    "2019",
+    "2025"
+   ],
+   "a": 0,
+   "x": "Depuis le 15 mars 2023, un Vlaams Mensenrechteninstituut est compétent pour les matières flamandes.",
+   "l": "unia"
+  },
+  {
+   "id": "surpopulation-2026",
+   "th": "justice-droits",
+   "q": "Combien de détenus les prisons belges comptaient-elles environ en février 2026, pour quelque 11 000 places ?",
+   "c": [
+    "13 500",
+    "9 000",
+    "20 000",
+    "11 000"
+   ],
+   "a": 0,
+   "x": "Près de 600 détenus dormaient alors sur un matelas au sol.",
+   "l": "surpopulation-carcerale"
+  },
+  {
+   "id": "muette-de-portici",
+   "th": "histoire",
+   "q": "Quel opéra a déclenché l'émeute du 25 août 1830 à Bruxelles ?",
+   "c": [
+    "La Muette de Portici",
+    "Guillaume Tell",
+    "Carmen",
+    "Le Lion de Flandre"
+   ],
+   "a": 0,
+   "x": "La représentation au théâtre de la Monnaie marque le début de la révolution belge.",
+   "l": "revolution-belge"
+  },
+  {
+   "id": "traite-1839",
+   "th": "histoire",
+   "q": "En quelle année les Pays-Bas ont-ils reconnu l'indépendance belge par le traité des XXIV articles ?",
+   "c": [
+    "1839",
+    "1831",
+    "1848",
+    "1830"
+   ],
+   "a": 0,
+   "x": "Le traité de Londres du 19 avril 1839 fixe aussi les frontières et la neutralité de la Belgique.",
+   "l": "traite-des-xxiv-articles"
+  },
+  {
+   "id": "loppem-1918",
+   "th": "histoire",
+   "q": "Quelle réforme les accords de Loppem (1918) ont-ils permis ?",
+   "c": [
+    "Le suffrage universel masculin pur",
+    "Le vote des femmes aux législatives",
+    "La fédéralisation",
+    "La création de la Cour d'arbitrage"
+   ],
+   "a": 0,
+   "x": "Le principe « un homme, une voix » est appliqué dès les élections de 1919, avant la révision constitutionnelle de 1921.",
+   "l": "coup-de-lophem"
+  },
+  {
+   "id": "marcinelle-victimes",
+   "th": "histoire",
+   "q": "Combien de mineurs ont péri dans la catastrophe du Bois du Cazier en 1956 ?",
+   "c": [
+    "262",
+    "62",
+    "1 000",
+    "136"
+   ],
+   "a": 0,
+   "x": "262 morts de douze nationalités, dont 136 Italiens.",
+   "l": "catastrophe-du-bois-du-cazier"
+  },
+  {
+   "id": "greve-du-siecle",
+   "th": "histoire",
+   "q": "Contre quelle loi la grève générale de l'hiver 1960-1961 était-elle dirigée ?",
+   "c": [
+    "La loi unique",
+    "La loi Collard",
+    "La loi Moureaux",
+    "La loi de 1996"
+   ],
+   "a": 0,
+   "x": "La loi unique du gouvernement Eyskens imposait un programme d'austérité.",
+   "l": "greve-generale-de-1960-1961"
+  },
+  {
+   "id": "formation-541",
+   "th": "histoire",
+   "q": "Combien de jours a duré la formation du gouvernement après les élections de 2010 ?",
+   "c": [
+    "541",
+    "194",
+    "239",
+    "494"
+   ],
+   "a": 0,
+   "x": "Un record : du 13 juin 2010 au 6 décembre 2011, jour de la prestation de serment du gouvernement Di Rupo.",
+   "l": "crise-politique-2007-2011"
+  },
+  {
+   "id": "annexion-congo",
+   "th": "histoire",
+   "q": "En quelle année la Belgique a-t-elle repris l'État indépendant du Congo ?",
+   "c": [
+    "1908",
+    "1885",
+    "1830",
+    "1960"
+   ],
+   "a": 0,
+   "x": "Sous la pression internationale, le Congo de Léopold II devient le Congo belge.",
+   "l": "etat-independant-du-congo"
+  },
+  {
+   "id": "eurodeputes-2024",
+   "th": "europe-international",
+   "q": "Combien de députés européens la Belgique élit-elle depuis 2024 ?",
+   "c": [
+    "22",
+    "21",
+    "13",
+    "25"
+   ],
+   "a": 0,
+   "x": "Treize pour le collège néerlandais, huit pour le collège français et un pour le collège germanophone.",
+   "l": "belgique-et-union-europeenne"
+  },
+  {
+   "id": "benelux-londres",
+   "th": "europe-international",
+   "q": "Où la convention douanière du Benelux a-t-elle été signée en 1944 ?",
+   "c": [
+    "À Londres",
+    "À Bruxelles",
+    "À La Haye",
+    "À Luxembourg"
+   ],
+   "a": 0,
+   "x": "Les gouvernements en exil de Belgique, des Pays-Bas et du Luxembourg la signent le 5 septembre 1944.",
+   "l": "benelux"
+  },
+  {
+   "id": "president-commission-belge",
+   "th": "europe-international",
+   "q": "Quel Belge a présidé la Commission européenne ?",
+   "c": [
+    "Jean Rey",
+    "Paul-Henri Spaak",
+    "Herman Van Rompuy",
+    "Étienne Davignon"
+   ],
+   "a": 0,
+   "x": "Jean Rey préside de 1967 à 1970 la première Commission unique des Communautés européennes.",
+   "l": "commissaires-europeens-belges"
+  },
+  {
+   "id": "otan-secretaires",
+   "th": "europe-international",
+   "q": "Quels Belges ont été secrétaires généraux de l'OTAN ?",
+   "c": [
+    "Paul-Henri Spaak et Willy Claes",
+    "Leo Tindemans et Wilfried Martens",
+    "Guy Verhofstadt et Karel De Gucht",
+    "Charles Michel et Didier Reynders"
+   ],
+   "a": 0,
+   "x": "Spaak de 1957 à 1961, Claes de 1994 à 1995.",
+   "l": "otan"
+  },
+  {
+   "id": "competence-universelle-2003",
+   "th": "europe-international",
+   "q": "Pourquoi la loi belge de compétence universelle a-t-elle été restreinte en 2003 ?",
+   "c": [
+    "Sous la pression des États-Unis après des plaintes visant leurs dirigeants",
+    "À la demande de la Cour européenne des droits de l'homme",
+    "Parce qu'elle était inconstitutionnelle",
+    "Pour réduire l'arriéré judiciaire"
+   ],
+   "a": 0,
+   "x": "Washington avait menacé de remettre en cause la présence du siège de l'OTAN à Bruxelles.",
+   "l": "loi-de-competence-universelle"
+  },
+  {
+   "id": "ostbelgien-dialogue",
+   "th": "medias-democratie",
+   "q": "Quelle entité a institué en 2019 un dialogue citoyen permanent avec des citoyens tirés au sort ?",
+   "c": [
+    "La Communauté germanophone",
+    "La Région flamande",
+    "La Région de Bruxelles-Capitale",
+    "L'État fédéral"
+   ],
+   "a": 0,
+   "x": "Le « modèle de l'Ostbelgien » associe durablement un Conseil citoyen au Parlement.",
+   "l": "dialogue-citoyen-permanent"
+  },
+  {
+   "id": "commission-deliberative",
+   "th": "medias-democratie",
+   "q": "Comment est composée une commission délibérative bruxelloise ?",
+   "c": [
+    "15 députés et 45 citoyens tirés au sort",
+    "89 députés",
+    "45 députés et 15 experts",
+    "30 citoyens élus"
+   ],
+   "a": 0,
+   "x": "Le Parlement bruxellois et la COCOF les ont instituées en 2019.",
+   "l": "commissions-deliberatives"
+  },
+  {
+   "id": "bye-bye-belgium",
+   "th": "medias-democratie",
+   "q": "Quel média a diffusé en 2006 le faux journal « Bye Bye Belgium » ?",
+   "c": [
+    "La RTBF",
+    "La VRT",
+    "RTL-TVI",
+    "Le Soir"
+   ],
+   "a": 0,
+   "x": "Le docu-fiction annonçant l'indépendance de la Flandre a provoqué une vive polémique.",
+   "l": "rtbf"
+  },
+  {
+   "id": "referendum-federal",
+   "th": "medias-democratie",
+   "q": "Un référendum décisionnel est-il possible au niveau fédéral ?",
+   "c": [
+    "Non, seules des consultations non contraignantes existent aux niveaux local et régional",
+    "Oui, depuis 1950",
+    "Oui, depuis la sixième réforme de l'État",
+    "Oui, à la demande de 100 000 citoyens"
+   ],
+   "a": 0,
+   "x": "La démocratie belge est représentative ; la seule consultation nationale, en 1950, était consultative.",
+   "l": "consultation-populaire"
+  },
+  {
+   "id": "cour-des-comptes-mandats",
+   "th": "medias-democratie",
+   "q": "Auprès de quelle institution les mandataires déposent-ils leur liste de mandats et leur déclaration de patrimoine ?",
+   "c": [
+    "La Cour des comptes",
+    "Le Conseil d'État",
+    "La Banque nationale",
+    "Le SPF Finances"
+   ],
+   "a": 0,
+   "x": "Les listes de mandats sont publiées chaque année au Moniteur belge.",
+   "l": "declaration-de-mandats-et-de-patrimoine"
+  },
+  {
+   "id": "accord-1946-charbon",
+   "th": "migrations-diversite",
+   "q": "Que prévoyait l'accord italo-belge de 1946 ?",
+   "c": [
+    "L'envoi de travailleurs italiens dans les mines en échange de charbon",
+    "La libre circulation des étudiants",
+    "La double nationalité",
+    "Le retour des émigrés belges"
+   ],
+   "a": 0,
+   "x": "On a résumé cet accord par la formule « des hommes contre du charbon ».",
+   "l": "accord-italo-belge-de-1946"
+  },
+  {
+   "id": "conventions-1964-pays",
+   "th": "migrations-diversite",
+   "q": "Avec quels pays la Belgique a-t-elle signé des conventions de main-d'œuvre en 1964 ?",
+   "c": [
+    "Le Maroc et la Turquie",
+    "L'Algérie et la Tunisie",
+    "L'Espagne et la Grèce",
+    "La Pologne et la Roumanie"
+   ],
+   "a": 0,
+   "x": "Ces accords ont favorisé l'installation durable de familles marocaines et turques.",
+   "l": "conventions-bilaterales-de-1964"
+  },
+  {
+   "id": "cgra-refugies",
+   "th": "migrations-diversite",
+   "q": "Quelle instance indépendante statue sur la reconnaissance du statut de réfugié ?",
+   "c": [
+    "Le CGRA",
+    "Fedasil",
+    "L'Office des étrangers",
+    "Unia"
+   ],
+   "a": 0,
+   "x": "Le Commissariat général aux réfugiés et aux apatrides décide ; ses décisions peuvent être contestées devant le Conseil du contentieux des étrangers.",
+   "l": "cgra"
+  },
+  {
+   "id": "loi-moureaux-annee",
+   "th": "migrations-diversite",
+   "q": "En quelle année la loi Moureaux contre le racisme a-t-elle été adoptée ?",
+   "c": [
+    "1981",
+    "1993",
+    "2007",
+    "1964"
+   ],
+   "a": 0,
+   "x": "La loi du 30 juillet 1981 porte le nom du ministre de la Justice Philippe Moureaux.",
+   "l": "loi-moureaux"
+  },
+  {
+   "id": "semira-adamu",
+   "th": "migrations-diversite",
+   "q": "Quel ministre a démissionné après la mort de Semira Adamu en 1998 ?",
+   "c": [
+    "Louis Tobback",
+    "Johan Vande Lanotte",
+    "Patrick Dewael",
+    "Jan Jambon"
+   ],
+   "a": 0,
+   "x": "La jeune Nigériane est morte étouffée lors d'une tentative d'expulsion.",
+   "l": "centres-fermes"
+  },
+  {
+   "id": "inburgering-2004",
+   "th": "migrations-diversite",
+   "q": "Quelle entité a rendu la première le parcours d'intégration obligatoire, en 2004 ?",
+   "c": [
+    "La Flandre",
+    "La Wallonie",
+    "Bruxelles",
+    "La Communauté germanophone"
+   ],
+   "a": 0,
+   "x": "Les autres entités ont suivi selon des modalités différentes.",
+   "l": "parcours-d-integration"
+  },
+  {
+   "id": "sortie-nucleaire-loi",
+   "th": "energie-environnement",
+   "q": "En quelle année la loi de sortie du nucléaire a-t-elle été adoptée ?",
+   "c": [
+    "2003",
+    "1999",
+    "2015",
+    "2022"
+   ],
+   "a": 0,
+   "x": "La loi du 31 janvier 2003 prévoyait la fermeture des réacteurs après quarante ans.",
+   "l": "sortie-du-nucleaire"
+  },
+  {
+   "id": "abrogation-sortie-nucleaire",
+   "th": "energie-environnement",
+   "q": "Quand la loi de sortie du nucléaire a-t-elle été abrogée ?",
+   "c": [
+    "En mai 2025",
+    "En mars 2022",
+    "En 2014",
+    "Elle est toujours en vigueur"
+   ],
+   "a": 0,
+   "x": "La loi Bihet, adoptée par la majorité Arizona, a mis fin au principe de sortie.",
+   "l": "sortie-du-nucleaire"
+  },
+  {
+   "id": "reacteurs-2035",
+   "th": "energie-environnement",
+   "q": "Quels réacteurs ont été prolongés jusqu'en 2035 ?",
+   "c": [
+    "Doel 4 et Tihange 3",
+    "Doel 1 et Doel 2",
+    "Tihange 1 et Tihange 2",
+    "Doel 3 et Tihange 2"
+   ],
+   "a": 0,
+   "x": "La décision de mars 2022 a été suivie d'un accord avec Engie en 2023.",
+   "l": "parc-nucleaire"
+  },
+  {
+   "id": "klimaatzaak-2023",
+   "th": "energie-environnement",
+   "q": "Qu'a ordonné la cour d'appel de Bruxelles dans la Klimaatzaak en 2023 ?",
+   "c": [
+    "Une réduction de 55 % des émissions d'ici 2030 par rapport à 1990",
+    "La fermeture des centrales à charbon",
+    "Une taxe carbone fédérale",
+    "La sortie du nucléaire"
+   ],
+   "a": 0,
+   "x": "L'injonction vise l'État fédéral, la Flandre et Bruxelles.",
+   "l": "klimaatzaak"
+  },
+  {
+   "id": "creg-regulateur",
+   "th": "energie-environnement",
+   "q": "Quelle institution régule les marchés de l'électricité et du gaz au niveau fédéral ?",
+   "c": [
+    "La CREG",
+    "Elia",
+    "L'ONDRAF",
+    "Fluxys"
+   ],
+   "a": 0,
+   "x": "Les Régions disposent de leurs propres régulateurs : VREG, CWaPE et Brugel.",
+   "l": "creg"
+  },
+  {
+   "id": "statut-camu",
+   "th": "administration",
+   "q": "De quand date le statut des agents de l'État dit « statut Camu » ?",
+   "c": [
+    "1937",
+    "1831",
+    "1993",
+    "2000"
+   ],
+   "a": 0,
+   "x": "Il visait à protéger l'administration contre l'arbitraire politique.",
+   "l": "fonction-publique"
+  },
+  {
+   "id": "registre-national-1983",
+   "th": "administration",
+   "q": "En quelle année le Registre national a-t-il été créé ?",
+   "c": [
+    "1983",
+    "1945",
+    "2001",
+    "1970"
+   ],
+   "a": 0,
+   "x": "La loi du 8 août 1983 a créé ce fichier central des personnes physiques.",
+   "l": "registre-national"
+  },
+  {
+   "id": "sncb-1926",
+   "th": "administration",
+   "q": "En quelle année la SNCB a-t-elle été créée ?",
+   "c": [
+    "1926",
+    "1835",
+    "1958",
+    "2014"
+   ],
+   "a": 0,
+   "x": "La SNCB date de 1926 ; le premier chemin de fer belge, entre Bruxelles et Malines, de 1835.",
+   "l": "sncb"
+  },
+  {
+   "id": "pacte-scolaire-signataires",
+   "th": "ethique-enseignement-cultes",
+   "q": "Quels partis ont signé le pacte scolaire de 1958 ?",
+   "c": [
+    "Catholiques, socialistes et libéraux",
+    "Socialistes et communistes",
+    "Catholiques et libéraux seulement",
+    "Tous les partis flamands"
+   ],
+   "a": 0,
+   "x": "Le pacte met fin à la seconde guerre scolaire.",
+   "l": "pacte-scolaire"
+  },
+  {
+   "id": "culte-non-reconnu",
+   "th": "ethique-enseignement-cultes",
+   "q": "Lequel de ces cultes n'est pas reconnu en Belgique ?",
+   "c": [
+    "Le bouddhisme",
+    "L'islam",
+    "Le culte orthodoxe",
+    "Le culte anglican"
+   ],
+   "a": 0,
+   "x": "Six cultes sont reconnus ; le bouddhisme demande de longue date un statut de philosophie non confessionnelle.",
+   "l": "cultes-reconnus"
+  },
+  {
+   "id": "premier-pm-socialiste",
+   "th": "gouvernement",
+   "q": "Qui fut le premier socialiste à diriger le gouvernement belge ?",
+   "c": [
+    "Paul-Henri Spaak",
+    "Achille Van Acker",
+    "Camille Huysmans",
+    "Edmond Leburton"
+   ],
+   "a": 0,
+   "x": "Spaak devient Premier ministre en 1938.",
+   "l": "paul-henri-spaak"
+  },
+  {
+   "id": "martens-neuf",
+   "th": "gouvernement",
+   "q": "Quel Premier ministre a dirigé neuf gouvernements ?",
+   "c": [
+    "Wilfried Martens",
+    "Gaston Eyskens",
+    "Jean-Luc Dehaene",
+    "Guy Verhofstadt"
+   ],
+   "a": 0,
+   "x": "Wilfried Martens a dirigé neuf gouvernements entre 1979 et 1992.",
+   "l": "wilfried-martens"
+  },
+  {
+   "id": "de-wever-singularite",
+   "th": "gouvernement",
+   "q": "Qu'a de particulier la nomination de Bart De Wever comme Premier ministre en 2025 ?",
+   "c": [
+    "C'est le premier nationaliste flamand à diriger le gouvernement fédéral",
+    "C'est le premier Bruxellois",
+    "C'est le plus jeune Premier ministre",
+    "C'est le premier sans parti"
+   ],
+   "a": 0,
+   "x": "Il a présidé la N-VA de 2004 à 2025.",
+   "l": "bart-de-wever"
+  },
+  {
+   "id": "bruxelles-613-jours",
+   "th": "bruxelles",
+   "q": "Combien de jours a-t-il fallu pour former le gouvernement bruxellois après les élections de 2024 ?",
+   "c": [
+    "613",
+    "239",
+    "541",
+    "120"
+   ],
+   "a": 0,
+   "x": "Le gouvernement Dilliès prête serment le 14 février 2026.",
+   "l": "formation-bruxelloise-2024-2026"
+  },
+  {
+   "id": "presidente-n-va",
+   "th": "partis",
+   "q": "Qui préside la N-VA depuis avril 2025 ?",
+   "c": [
+    "Valerie Van Peel",
+    "Bart De Wever",
+    "Theo Francken",
+    "Jan Jambon"
+   ],
+   "a": 0,
+   "x": "Elle succède à Bart De Wever, devenu Premier ministre.",
+   "l": "valerie-van-peel"
+  },
+  {
+   "id": "cardijn-joc",
+   "th": "piliers-societe-civile",
+   "q": "Quel mouvement Joseph Cardijn a-t-il fondé ?",
+   "c": [
+    "La Jeunesse ouvrière chrétienne",
+    "La CSC",
+    "Le Boerenbond",
+    "Les mutualités chrétiennes"
+   ],
+   "a": 0,
+   "x": "La JOC, fondée en 1925, s'est répandue dans le monde entier.",
+   "l": "joseph-cardijn"
+  },
+  {
+   "id": "vooruit-gand",
+   "th": "piliers-societe-civile",
+   "q": "Qu'était à l'origine le Vooruit fondé à Gand en 1880 ?",
+   "c": [
+    "Une coopérative ouvrière socialiste",
+    "Un journal catholique",
+    "Une banque libérale",
+    "Un parti flamand"
+   ],
+   "a": 0,
+   "x": "Autour d'Édouard Anseele, la coopérative devient un pilier du socialisme gantois.",
+   "l": "edouard-anseele"
+  },
+  {
+   "id": "bon-d-etat-montant",
+   "th": "economie-finances",
+   "q": "Combien le bon d'État de septembre 2023 a-t-il permis de lever environ ?",
+   "c": [
+    "22 milliards d'euros",
+    "2 milliards d'euros",
+    "100 milliards d'euros",
+    "500 millions d'euros"
+   ],
+   "a": 0,
+   "x": "Un record, qui a poussé les banques à mieux rémunérer l'épargne.",
+   "l": "bon-d-etat"
+  }
+ ]
 }
