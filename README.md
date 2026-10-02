@@ -70,6 +70,28 @@ Encadré (types : note, definition, exemple, attention, debat, chiffres, histoir
 :::
 ```
 
+## Fiches de personnalités et dossiers
+
+```markdown
+---
+title: Jean-Luc Dehaene
+group: premiers-ministres   # rois, premiers-ministres, entites, presidents, ministres, figures, histoire, societe
+order: 1992                 # tri dans la liste du groupe
+summary: "Une à deux phrases."
+born: 1940-08-07            # date complète ou année seule entre guillemets ("1931")
+birthplace: Montpellier (France)
+died: 2014-05-15
+party: cvp                  # identifiant d'une fiche parti, ou party_label: "…"
+roles:
+  - { role: "Premier ministre", from: 1992, to: 1999 }
+related: [quatrieme-reforme-de-l-etat, gouvernement-dehaene-i]
+---
+```
+
+Les dossiers (`src/content/dossiers/`) acceptent en plus `order`, `published`, `updated`, `about` (notions clés affichées en marge) et `faq` (questions-réponses reprises en JSON-LD `FAQPage`). Les fiches de personnes vivantes s'en tiennent au parcours public.
+
+État des contenus : arrêté au 1er octobre 2026.
+
 Les identifiants de thèmes, de natures et de familles politiques sont définis dans `lib/taxonomy.js`. Les wiki-liens vers des notices pas encore rédigées s'affichent sans lien et sont listés au build (`STRICT=1 npm run check` les rend bloquants).
 
 ## Licences
