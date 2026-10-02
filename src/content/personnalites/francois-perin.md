@@ -7,7 +7,7 @@ order: 1921
 summary: "Professeur de droit constitutionnel à l'université de Liège, cofondateur du Rassemblement wallon (1968) et ministre des Réformes institutionnelles (1974-1976). Fédéraliste, puis rallié aux libéraux, il a fini par plaider pour le rattachement de la Wallonie à la France."
 born: 1921-01-31
 birthplace: Liège
-died: 2013-08-27
+died: 2013-09-26
 deathplace: Liège
 party: rassemblement-wallon
 roles:

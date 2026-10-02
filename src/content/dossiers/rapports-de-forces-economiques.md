@@ -41,7 +41,7 @@ Le parc nucléaire a été construit par des sociétés privées liées à la [[
 
 ## 5. La financiarisation des services sociaux
 
-Les maisons de repos et l'immobilier de santé attirent des investisseurs, notamment des sociétés immobilières réglementées cotées et des exploitants commerciaux. Les Régions, compétentes pour les [[maisons-de-repos|maisons de repos]] depuis 2014, encadrent la part du secteur commercial de manière différente ; la crise du Covid-19 a relancé le débat sur la qualité des soins dans les établissements à but lucratif.
+Les maisons de repos et l'immobilier de santé attirent des investisseurs, notamment des sociétés immobilières réglementées cotées et des exploitants commerciaux. Les entités fédérées, compétentes pour les [[maisons-de-repos|maisons de repos]] depuis 2014, encadrent la part du secteur commercial de manière différente ; la crise du Covid-19 a relancé le débat sur la qualité des soins dans les établissements à but lucratif.
 
 ## 6. Divergences régionales et finances publiques
 

@@ -8,7 +8,7 @@ summary: "Principal dirigeant du Parti ouvrier belge de sa fondation aux années
 born: 1866-01-25
 birthplace: Ixelles
 died: 1938-12-27
-deathplace: Bruxelles
+deathplace: Ixelles
 party: parti-ouvrier-belge
 roles:
   - { role: "Président du Bureau socialiste international", from: 1900, to: 1918 }

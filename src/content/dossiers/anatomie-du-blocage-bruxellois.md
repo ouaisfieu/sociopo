@@ -14,7 +14,7 @@ sources:
   - { title: "Projets d'ordonnances budgétaires et commentaires", url: "https://www.ccrek.be", publisher: "Cour des comptes" }
 faq:
   - { q: "Pourquoi faut-il une majorité dans chaque groupe linguistique à Bruxelles ?", a: "Parce que les institutions bruxelloises, créées en 1989, garantissent à la minorité néerlandophone une participation au gouvernement : les ministres néerlandophones sont désignés par le groupe néerlandais du Parlement, qui compte 17 députés sur 89." }
-  - { q: "Combien de temps a duré la crise ?", a: "613 jours, entre les élections du 9 juin 2024 et la prestation de serment du gouvernement Dilliès le 14 février 2026, un record pour une entité fédérée." }
+  - { q: "Combien de temps a duré la crise ?", a: "613 jours séparent les élections du 9 juin 2024 de l'accord du 12 février 2026 ; le gouvernement Dilliès a prêté serment deux jours plus tard. C'est un record pour une entité fédérée." }
 ---
 ## 1. Une mécanique institutionnelle exigeante
 
@@ -28,17 +28,17 @@ Ces règles, issues des compromis de 1989 et de 2001, protègent la minorité fl
 Groen 4 · Team Fouad Ahidar 3 · N-VA 2 · Open VLD 2 · Vlaams Belang 2 · Vooruit 2 · PVDA 1 · CD&V 1.
 :::
 
-Côté francophone, la majorité MR-PS-Les Engagés (44 sièges sur 72) se dessine rapidement. Côté néerlandophone, le cordon sanitaire écarte le Vlaams Belang ; plusieurs partis refusent la Team Fouad Ahidar ; le PS refuse la N-VA, que le MR souhaite associer ; le PVDA ne gouverne pas avec les partis traditionnels. Restent des combinaisons à une voix près, que les désaccords sur la mobilité, la fiscalité et la gouvernance rendent impraticables.
+Côté francophone, la majorité MR-PS-Les Engagés (44 sièges sur 72) se dessine rapidement. Côté néerlandophone, le cordon sanitaire écarte le Vlaams Belang ; plusieurs partis refusent la Team Fouad Ahidar ; le PS refuse la N-VA, que le MR souhaite associer ; le PVDA reste en dehors des combinaisons envisagées. Restent des combinaisons à une voix près, que les désaccords sur la mobilité, la fiscalité et la gouvernance rendent impraticables.
 
-## 3. Dix-huit mois d'impasse
+## 3. Vingt mois d'impasse
 
-Le libéral David Leisterh mène des missions successives qui échouent. Le 11 décembre 2025, Yvan Verougstraete (Les Engagés) tente une majorité sans le MR, avant de renoncer fin janvier 2026. Pendant ce temps, le gouvernement Vervoort III reste en [[affaires-courantes|affaires courantes]] et la Région vit de [[douziemes-provisoires|douzièmes provisoires]], alors que sa dette s'alourdit et que les agences de notation s'inquiètent.
+Le libéral David Leisterh mène des missions successives qui échouent. Le 11 décembre 2025, Yvan Verougstraete (Les Engagés) tente une majorité sans le MR, avant de renoncer le 20 janvier 2026. Pendant ce temps, le gouvernement Vervoort III reste en [[affaires-courantes|affaires courantes]] et la Région vit de [[douziemes-provisoires|douzièmes provisoires]], alors que sa dette s'alourdit et que les agences de notation s'inquiètent.
 
-Le dénouement intervient lors d'un « conclave » réuni par Georges-Louis Bouchez à la Fondation universitaire, du 10 au 12 février 2026 : le MR accepte de gouverner avec Groen, et la majorité néerlandophone réunit Groen, Anders, Vooruit et le CD&V (9 sièges). Le gouvernement de [[boris-dillies|Boris Dilliès]] prête serment le 14 février 2026.
+Le dénouement intervient lors d'un « conclave » réuni par Georges-Louis Bouchez à la Fondation universitaire, du 10 au 12 février 2026 : le MR renonce à associer la N-VA, et la majorité néerlandophone réunit Groen, Anders, Vooruit et le CD&V (9 sièges). Le gouvernement de [[boris-dillies|Boris Dilliès]] prête serment le 14 février 2026.
 
 ## 4. Les enjeux de fond
 
-- **Mobilité** : le plan [[good-move|Good Move]] et la place de la voiture opposaient frontalement le MR à Groen.
+- **Mobilité** : le plan [[good-move|Good Move]] et la place de la voiture opposaient le MR et Groen.
 - **Finances** : la Région affiche des déficits structurels et une dette en forte hausse, dans un contexte de [[financement-de-bruxelles|financement]] jugé insuffisant par les Bruxellois au regard des navetteurs et des fonctions de capitale.
 - **Représentation** : l'émergence de la Team Fouad Ahidar a révélé l'écart entre une partie de l'électorat bruxellois, notamment d'origine immigrée, et les partis néerlandophones traditionnels.
 

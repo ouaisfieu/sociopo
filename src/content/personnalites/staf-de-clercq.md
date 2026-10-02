@@ -14,4 +14,4 @@ roles:
   - { role: "Chef du VNV", from: 1933, to: 1942 }
 related: [vnv, collaboration-et-repression, seconde-guerre-mondiale, mouvement-flamand]
 ---
-Sous sa direction, le VNV rassemble une grande partie du nationalisme flamand, obtient plus de 15 % des voix en Flandre en 1939, puis choisit la collaboration en 1940 dans l'espoir d'une Flandre autonome dans une Europe dominée par l'Allemagne. Il meurt en 1942, avant la Libération.
+Sous sa direction, le VNV rassemble une grande partie du nationalisme flamand, obtient environ 15 % des voix en Flandre en 1939, puis choisit la collaboration en 1940 dans l'espoir d'une Flandre autonome dans une Europe dominée par l'Allemagne. Il meurt en 1942, avant la Libération.

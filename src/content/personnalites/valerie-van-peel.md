@@ -12,4 +12,4 @@ roles:
   - { role: "Présidente de la N-VA", from: 2025-04-26 }
 related: [n-va, bart-de-wever, coalition-arizona, president-de-parti]
 ---
-Après dix ans de mandat à la Chambre, Valerie Van Peel prend la tête de la N-VA alors que le parti dirige pour la première fois le gouvernement fédéral et la Flandre, et doit le préparer aux élections de 2029, face à la concurrence du Vlaams Belang.
+Après dix ans de mandat à la Chambre, Valerie Van Peel prend la tête de la N-VA alors que le parti dirige pour la première fois le gouvernement fédéral, tout en conservant la tête du gouvernement flamand, et doit le préparer aux élections de 2029, face à la concurrence du Vlaams Belang.

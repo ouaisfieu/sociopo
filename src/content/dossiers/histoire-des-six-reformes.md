@@ -21,7 +21,7 @@ Sous le gouvernement de Gaston Eyskens, la [[premiere-reforme-de-l-etat|premièr
 
 ## 2. 1980 : Communautés et Régions
 
-La [[deuxieme-reforme-de-l-etat|deuxième réforme]] transforme les communautés culturelles en Communautés, compétentes aussi pour les [[matieres-personnalisables|matières personnalisables]], et crée la Région flamande et la Région wallonne, dotées d'un conseil et d'un exécutif. La Flandre fusionne d'emblée ses institutions. La Cour d'arbitrage, future [[cour-constitutionnelle|Cour constitutionnelle]], est créée pour trancher les conflits de compétences. Bruxelles reste « au frigo ».
+La [[deuxieme-reforme-de-l-etat|deuxième réforme]] transforme les communautés culturelles en Communautés, compétentes aussi pour les [[matieres-personnalisables|matières personnalisables]], et crée la Région flamande et la Région wallonne, dotées d'un conseil et d'un exécutif. La Flandre fusionne d'emblée ses institutions. La révision prévoit une Cour d'arbitrage, installée en 1984, future [[cour-constitutionnelle|Cour constitutionnelle]], pour trancher les conflits de compétences. Bruxelles reste « au frigo ».
 
 ## 3. 1988-1989 : Bruxelles et l'enseignement
 
@@ -37,7 +37,7 @@ La [[cinquieme-reforme-de-l-etat|cinquième réforme]] ([[accords-du-lambermont|
 
 ## 6. 2012-2014 : la sixième réforme
 
-Négociée après 541 jours de crise ([[accord-papillon|accord papillon]]), la [[sixieme-reforme-de-l-etat|sixième réforme]] scinde Bruxelles-Hal-Vilvorde, transforme le Sénat en assemblée des entités fédérées, transfère près de 20 milliards d'euros de compétences — allocations familiales, maisons de repos, politique de l'emploi, maisons de justice, code de la route — et réforme la loi spéciale de financement en accroissant l'autonomie fiscale des Régions. Elle fait coïncider les élections fédérales et régionales tous les cinq ans.
+Négociée pendant la crise de 541 jours ([[accord-papillon|accord papillon]] du 11 octobre 2011), la [[sixieme-reforme-de-l-etat|sixième réforme]] scinde Bruxelles-Hal-Vilvorde, transforme le Sénat en assemblée des entités fédérées, transfère des compétences représentant de 17 à 20 milliards d'euros selon les estimations — allocations familiales, maisons de repos, politique de l'emploi, maisons de justice, code de la route — et réforme la loi spéciale de financement en accroissant l'autonomie fiscale des Régions. Elle fait coïncider les élections fédérales et régionales tous les cinq ans.
 
 :::note Une méthode constante
 Chaque réforme résulte d'un compromis global entre exigences flamandes d'autonomie et demandes francophones de garanties et de moyens, nécessitant une majorité des deux tiers et une majorité dans chaque groupe linguistique. Cette méthode explique leur caractère incrémental et la complexité du résultat ([[lasagne-institutionnelle]]).

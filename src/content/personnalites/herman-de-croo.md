@@ -4,7 +4,7 @@ kind: personne
 themes: [parlement, partis]
 group: figures
 order: 1937
-summary: "Libéral flamand, plusieurs fois ministre entre 1974 et 1992, président de la Chambre de 1999 à 2007 et bourgmestre de Brakel pendant des décennies. Il est le père d'Alexander De Croo."
+summary: "Libéral flamand, plusieurs fois ministre entre 1974 et 1988, président de la Chambre de 1999 à 2007, bourgmestre de Michelbeke puis de Brakel (2000-2012). Il est le père d'Alexander De Croo."
 born: "1937"
 birthplace: Brakel
 party: anders

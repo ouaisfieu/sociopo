@@ -6,7 +6,6 @@ group: presidents
 order: 8
 summary: "Président du CD&V depuis 2022, auparavant secrétaire d'État à l'Asile et à la Migration dans le gouvernement De Croo (2020-2022). Il a mené le parti dans les coalitions Arizona au fédéral et avec la N-VA en Flandre."
 born: 1988-09-21
-birthplace: Vilvorde
 party: cd-v
 job: "Président du CD&V (depuis 2022)"
 roles:

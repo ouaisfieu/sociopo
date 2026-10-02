@@ -5,8 +5,8 @@ themes: [gouvernement, europe-international, partis]
 group: ministres
 order: 1
 summary: "Président du cdH puis des Engagés (2019-2025), artisan de la refondation du centre francophone, bourgmestre de Namur, puis vice-Premier ministre et ministre des Affaires étrangères dans le gouvernement De Wever depuis 2025."
-born: 1978-05-19
-birthplace: Namur
+born: 1978-04-09
+birthplace: Mons
 party: les-engages
 job: "Vice-Premier ministre, ministre des Affaires étrangères (depuis 2025)"
 roles:

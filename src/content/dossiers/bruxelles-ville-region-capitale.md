@@ -17,7 +17,7 @@ faq:
 ---
 ## 1. Un statut longtemps contesté
 
-Bruxelles, capitale du pays, a été la pierre d'achoppement des réformes de l'État : les Flamands refusaient d'en faire une Région à part entière, les francophones refusaient une gestion par les deux Communautés. Le compromis de 1988-1989 crée la [[region-de-bruxelles-capitale|Région de Bruxelles-Capitale]], limitée aux [[les-19-communes|19 communes]], avec des [[garanties-des-neerlandophones-bruxellois|garanties pour la minorité néerlandophone]]. Les matières communautaires sont exercées par la Communauté flamande ([[vgc|VGC]]), la Communauté française ([[cocof|COCOF]]) et, pour les matières bicommunautaires, par la [[cocom|Commission communautaire commune]].
+Bruxelles, capitale du pays, a été la pierre d'achoppement des réformes de l'État : les Flamands refusaient d'en faire une Région à part entière, les francophones refusaient une gestion par les deux Communautés. Le compromis de 1988-1989 crée la [[region-de-bruxelles-capitale|Région de Bruxelles-Capitale]], limitée aux [[les-19-communes|19 communes]], avec des [[garanties-des-neerlandophones-bruxellois|garanties pour la minorité néerlandophone]]. Les matières communautaires y sont exercées par la Communauté flamande et la Communauté française, avec leurs commissions communautaires ([[vgc|VGC]] et [[cocof|COCOF]]), et, pour les matières bicommunautaires, par la [[cocom|Commission communautaire commune]].
 
 ## 2. Une ville-région aux paradoxes
 
@@ -31,7 +31,7 @@ Avec environ 1,2 million d'habitants, Bruxelles est la région la plus jeune et 
 
 ## 3. Les dossiers qui fâchent
 
-- **Mobilité** : le plan [[good-move|Good Move]], les [[zones-de-basses-emissions|zones de basses émissions]] et l'abandon du métro 3 au profit d'un tram ont divisé les partis et les quartiers.
+- **Mobilité** : le plan [[good-move|Good Move]], les [[zones-de-basses-emissions|zones de basses émissions]] et l'arrêt du tronçon nord du métro 3, remplacé par un tram ont divisé les partis et les quartiers.
 - **Gouvernance** : la multiplication des niveaux de pouvoir — Région, commissions communautaires, 19 communes, CPAS, zones de police — est jugée coûteuse et peu lisible ; la fusion des zones de police a été décidée en 2026.
 - **Finances** : la Région a accumulé une dette importante et a dû adopter un plan d'assainissement après la crise de formation de 2024-2026.
 - **Sécurité et cohésion sociale** : trafic de drogue, fusillades dans certains quartiers et sentiment d'insécurité ont pesé sur le débat en 2024-2026.

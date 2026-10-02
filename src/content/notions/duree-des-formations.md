@@ -15,6 +15,6 @@ related: [formation-du-gouvernement, crise-politique-2007-2011, formation-federa
 | 10 juin 2007 | Verhofstadt III, intérimaire (21 décembre 2007) | 194 jours |
 | 25 mai 2014 | Michel I (11 octobre 2014) | 139 jours |
 
-Au niveau régional, le record appartient à la Région de Bruxelles-Capitale : 613 jours entre les élections de juin 2024 et le gouvernement Dilliès (février 2026).
+Au niveau régional, le record appartient à la Région de Bruxelles-Capitale : 613 jours entre les élections de juin 2024 et l'accord sur le gouvernement Dilliès (février 2026).
 
 Les causes de ces longues formations sont structurelles : fragmentation des partis, absence de partis nationaux, divergence des résultats au nord et au sud, nécessité d'une majorité dans chaque groupe linguistique, revendications institutionnelles. La [frise des gouvernements](/gouvernements/) visualise ces périodes.

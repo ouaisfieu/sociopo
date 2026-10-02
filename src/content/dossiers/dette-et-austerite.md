@@ -37,7 +37,7 @@ Les [[regles-budgetaires-europeennes|nouvelles règles budgétaires européennes
 
 ## 4. La rigueur de l'Arizona
 
-Le gouvernement De Wever a multiplié les accords budgétaires : accord de Pâques en 2025, accord de novembre 2025 prévoyant 9,2 milliards d'euros d'efforts d'ici 2029, effort supplémentaire de 10 milliards décidé en juillet 2026, puis [[conclave-budgetaire|conclave]] budgétaire à l'automne 2026. Les mesures combinent économies (chômage, pensions, fonction publique, soins de santé), recettes nouvelles (plus-values, accises, TVA sur certaines prestations, taxe bancaire) et limitation de l'indexation. Les entités fédérées mènent leurs propres plans d'économies, notamment en Wallonie, en Fédération Wallonie-Bruxelles et, depuis 2026, à Bruxelles.
+Le gouvernement De Wever a multiplié les accords budgétaires : accord de Pâques en 2025, accord de novembre 2025 prévoyant 9,2 milliards d'euros d'efforts d'ici 2029, objectif d'un effort supplémentaire de 10 milliards d'ici 2029 fixé en juillet 2026, les mesures étant renvoyées au [[conclave-budgetaire|conclave]] budgétaire de l'automne 2026. Les mesures combinent économies (chômage, pensions, fonction publique, soins de santé), recettes nouvelles (plus-values, accises, TVA sur certaines prestations, taxe bancaire) et limitation de l'indexation. Les entités fédérées mènent leurs propres plans d'économies, notamment en Wallonie, en Fédération Wallonie-Bruxelles et, depuis 2026, à Bruxelles.
 
 :::debat Quelle politique budgétaire ?
 - **Orthodoxie budgétaire** (majorité, Commission européenne, institutions financières) : la dette doit être stabilisée puis réduite pour préserver la crédibilité du pays et ses marges futures, en agissant prioritairement sur les dépenses.

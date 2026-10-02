@@ -12,4 +12,4 @@ date_end: "1846"
 ---
 L'« union des oppositions » de 1828, qualifiée de « monstrueuse » par ses adversaires, rassemble deux familles idéologiquement opposées autour de revendications communes : liberté de la presse, de l'enseignement, responsabilité ministérielle. Après l'indépendance, les gouvernements unionistes associent les deux tendances au nom de la consolidation du nouvel État.
 
-Le congrès libéral de 1846 et le premier gouvernement libéral homogène de Charles Rogier (1847) ouvrent l'ère du bipartisme catholiques-libéraux, structuré par le [[clivage-philosophique|clivage philosophique]].
+Le congrès libéral de 1846 et le gouvernement libéral de Charles Rogier (1847), premier cabinet libéral durable, ouvrent l'ère du bipartisme catholiques-libéraux, structuré par le [[clivage-philosophique|clivage philosophique]].

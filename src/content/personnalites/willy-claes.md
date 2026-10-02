@@ -13,4 +13,4 @@ roles:
   - { role: "Secrétaire général de l'OTAN", from: 1994, to: 1995 }
 related: [affaire-agusta-dassault, otan, vooruit, cour-de-cassation]
 ---
-Ministre à de nombreuses reprises depuis 1968, Claes a été l'un des principaux dirigeants du socialisme flamand. Sa nomination à la tête de l'OTAN est interrompue par l'[[affaire-agusta-dassault|affaire Agusta]] : il démissionne en octobre 1995, puis est condamné par la Cour de cassation à une peine avec sursis.
+Député depuis 1968 et ministre à de nombreuses reprises à partir de 1972, Claes a été l'un des principaux dirigeants du socialisme flamand. Sa nomination à la tête de l'OTAN est interrompue par l'[[affaire-agusta-dassault|affaire Agusta]] : il démissionne en octobre 1995, puis est condamné par la Cour de cassation à une peine avec sursis.

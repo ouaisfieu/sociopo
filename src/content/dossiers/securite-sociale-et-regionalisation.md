@@ -12,7 +12,7 @@ sources:
   - { title: "Vade-mecum du budget de la protection sociale", url: "https://socialsecurity.belgium.be", publisher: "SPF Sécurité sociale" }
   - { title: "Rapports du Comité d'étude sur le vieillissement", url: "https://www.plan.be", publisher: "Conseil supérieur des finances / Bureau fédéral du Plan" }
 faq:
-  - { q: "Quelles branches de la sécurité sociale ont été régionalisées ?", a: "Depuis la sixième réforme de l'État, les allocations familiales relèvent des Communautés (et, à Bruxelles, de la Commission communautaire commune) ; une partie des soins de santé, comme les maisons de repos, et des politiques de l'emploi ont aussi été transférées." }
+  - { q: "Quelles branches de la sécurité sociale ont été régionalisées ?", a: "Depuis la sixième réforme de l'État, les allocations familiales relèvent des Communautés, la compétence étant exercée en Wallonie par la Région wallonne et à Bruxelles par la Commission communautaire commune ; une partie des soins de santé, comme les maisons de repos, et des politiques de l'emploi ont aussi été transférées." }
   - { q: "Pourquoi la régionalisation des soins de santé est-elle débattue ?", a: "Les partisans y voient le moyen de former des blocs de compétences cohérents ; leurs opposants craignent la fin de la solidarité interpersonnelle entre Belges et une dégradation de la couverture dans les régions moins riches." }
 ---
 ## 1. Un système fédéral et paritaire
@@ -23,7 +23,7 @@ Son caractère fédéral organise une solidarité interpersonnelle : chacun coti
 
 ## 2. La sixième réforme : une première brèche
 
-La [[sixieme-reforme-de-l-etat|sixième réforme de l'État]] transfère aux entités fédérées les [[allocations-familiales|allocations familiales]], les [[maisons-de-repos|maisons de repos]] et d'autres pans des soins aux personnes âgées, certaines politiques de santé mentale et de prévention, ainsi que les réductions de cotisations pour groupes cibles et le contrôle de la disponibilité des chômeurs. Chaque Communauté a depuis réformé les allocations familiales selon ses priorités.
+La [[sixieme-reforme-de-l-etat|sixième réforme de l'État]] transfère aux entités fédérées les [[allocations-familiales|allocations familiales]], les [[maisons-de-repos|maisons de repos]] et d'autres pans des soins aux personnes âgées, certaines politiques de santé mentale et de prévention, ainsi que les réductions de cotisations pour groupes cibles et le contrôle de la disponibilité des chômeurs. Chaque entité compétente — Communautés flamande et germanophone, Région wallonne (par transfert de la Communauté française) et, à Bruxelles, Commission communautaire commune — a depuis réformé les allocations familiales selon ses priorités.
 
 ## 3. Les revendications flamandes
 

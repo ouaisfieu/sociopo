@@ -14,4 +14,4 @@ roles:
   - { role: "Coprésident du PSB, puis président du PS", from: 1973, to: 1981 }
 related: [assassinat-d-andre-cools, affaire-agusta-dassault, ps, guy-spitaels]
 ---
-Fils de syndicaliste, bourgmestre de Flémalle, Cools exerce pendant trente ans une influence considérable sur le socialisme liégeois et wallon ; il joue un rôle dans la scission du PSB en 1978. Son [[assassinat-d-andre-cools|assassinat]], longtemps resté inexpliqué, a mis au jour des règlements de comptes internes et l'[[affaire-agusta-dassault|affaire Agusta]].
+Bourgmestre de Flémalle, Cools exerce pendant trente ans une influence considérable sur le socialisme liégeois et wallon ; il joue un rôle dans la scission du PSB en 1978. Son [[assassinat-d-andre-cools|assassinat]], longtemps resté inexpliqué, a mis au jour des règlements de comptes internes et l'[[affaire-agusta-dassault|affaire Agusta]].

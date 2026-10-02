@@ -35,7 +35,7 @@ La [[loi-de-1996|loi de 1996]] sur la compétitivité introduit une [[norme-sala
 
 ## 3. L'Arizona : réformer sans les partenaires sociaux
 
-La coalition De Wever fait adopter des réformes majeures — [[limitation-des-allocations-de-chomage-dans-le-temps|limitation du chômage dans le temps]], [[reforme-des-pensions-2025|réforme des pensions]], limitation partielle de l'indexation des revenus les plus élevés en 2026 et 2028, extension des [[flexi-jobs|flexi-jobs]], assouplissements du travail de nuit — sans accord préalable du Groupe des 10. Les syndicats y voient un contournement de la concertation et ont répondu par la mobilisation la plus longue depuis des décennies ([[mobilisations-contre-l-arizona]]).
+La coalition De Wever fait adopter des réformes majeures — [[limitation-des-allocations-de-chomage-dans-le-temps|limitation du chômage dans le temps]], [[reforme-des-pensions-2025|réforme des pensions]], non-indexation en 2026 et 2028 de la part des salaires dépassant 4 000 euros bruts mensuels (et des allocations dépassant 2 000 euros), extension des [[flexi-jobs|flexi-jobs]], assouplissements du travail de nuit — sans accord préalable du Groupe des 10. Les syndicats y voient un contournement de la concertation et ont répondu par la mobilisation la plus longue depuis des décennies ([[mobilisations-contre-l-arizona]]).
 
 Les employeurs, s'ils soutiennent l'orientation générale des réformes, rappellent eux aussi leur attachement au dialogue social, notamment pour la paix sociale dans les entreprises.
 

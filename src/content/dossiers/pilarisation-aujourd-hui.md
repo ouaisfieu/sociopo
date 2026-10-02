@@ -21,7 +21,7 @@ faq:
 
 ## 2. La dépilarisation
 
-Depuis les années 1960, la sécularisation, l'élévation du niveau d'instruction, la télévision et l'individualisation des modes de vie érodent les loyautés ([[depilarisation]]). Les journaux prennent leurs distances avec les partis, la fidélité électorale recule et de nouveaux partis — régionalistes, écologistes, d'extrême droite, populistes — émergent hors des piliers. Les partis traditionnels eux-mêmes se rebaptisent : le cdH devient Les Engagés en 2022 en abandonnant toute référence chrétienne, le sp.a devient Vooruit en 2021.
+Depuis les années 1960, la sécularisation, l'élévation du niveau d'instruction, la télévision et l'individualisation des modes de vie érodent les loyautés ([[depilarisation]]). Les journaux prennent leurs distances avec les partis, la fidélité électorale recule et de nouveaux partis — régionalistes, écologistes, d'extrême droite, populistes — émergent hors des piliers. Les partis traditionnels eux-mêmes se rebaptisent : le PSC, devenu cdH en 2002 en abandonnant la référence chrétienne, se rebaptise Les Engagés en 2022 ; le sp.a devient Vooruit en 2021.
 
 ## 3. Des organisations toujours puissantes
 

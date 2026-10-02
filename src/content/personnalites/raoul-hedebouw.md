@@ -5,7 +5,7 @@ themes: [partis]
 group: presidents
 order: 5
 summary: "Porte-parole puis président du PTB-PVDA depuis 2021, député fédéral depuis 2014. Liégeois s'exprimant dans les deux langues, il incarne le seul grand parti resté unitaire et national, devenu une force majeure à Bruxelles et en Wallonie."
-born: 1977-03-03
+born: 1977-07-12
 birthplace: Liège
 party: ptb-pvda
 job: "Président du PTB-PVDA (depuis 2021), député fédéral"

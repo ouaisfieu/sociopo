@@ -15,4 +15,4 @@ roles:
   - { role: "Chef du gouvernement", from: 1932, to: 1934 }
 related: [premiere-guerre-mondiale, albert-ier, parti-catholique]
 ---
-Pendant la guerre, Broqueville dirige depuis Sainte-Adresse, près du Havre, un gouvernement qui s'ouvre aux libéraux et aux socialistes : Émile Vandervelde y entre en 1916. Revenu au pouvoir en 1932, il gouverne par pouvoirs spéciaux face à la crise et met en garde contre le réarmement allemand.
+Pendant la guerre, Broqueville dirige depuis Sainte-Adresse, près du Havre, un gouvernement qui s'ouvre aux libéraux et aux socialistes : Émile Vandervelde y entre en 1916. Revenu au pouvoir en 1932, il gouverne par pouvoirs spéciaux face à la crise et, en mars 1934, juge le réarmement allemand inéluctable et récuse toute guerre préventive.

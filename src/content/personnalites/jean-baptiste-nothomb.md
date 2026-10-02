@@ -9,7 +9,7 @@ born: 1805-07-03
 birthplace: Messancy
 died: 1881-09-16
 deathplace: Berlin
-party_label: "Unioniste (catholique modéré)"
+party_label: "Unioniste (libéral modéré)"
 roles:
   - { role: "Membre du Congrès national", from: 1830, to: 1831 }
   - { role: "Chef du gouvernement", from: 1841, to: 1845 }

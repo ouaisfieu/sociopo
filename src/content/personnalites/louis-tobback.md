@@ -9,7 +9,7 @@ born: 1938-05-03
 birthplace: Louvain
 party: vooruit
 roles:
-  - { role: "Ministre de l'Intérieur", from: 1988, to: 1991 }
+  - { role: "Ministre de l'Intérieur", from: 1988, to: 1994 }
   - { role: "Président du SP", from: 1994, to: 1998 }
   - { role: "Ministre de l'Intérieur", from: 1998, to: 1998 }
   - { role: "Bourgmestre de Louvain", from: 1995, to: 2018 }

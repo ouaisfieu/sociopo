@@ -5,8 +5,8 @@ themes: [partis]
 group: presidents
 order: 2
 summary: "Président du Vlaams Belang depuis 2014, élu à 28 ans. Sous sa direction, le parti d'extrême droite flamand est passé de moins de 6 % des voix en Flandre en 2014 à près de 19 % en 2019 et près de 23 % en 2024, tout en restant exclu du pouvoir par le cordon sanitaire."
-born: 1986-06-22
-birthplace: Mortsel
+born: 1986-10-07
+birthplace: Anvers
 party: vlaams-belang
 job: "Président du Vlaams Belang (depuis 2014), député fédéral"
 roles:

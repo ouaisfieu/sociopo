@@ -12,4 +12,4 @@ roles:
   - { role: "Président du Vlaams Blok", from: 1978, to: 1996 }
 related: [vlaams-blok, pacte-d-egmont, volksunie, frank-vanhecke, filip-dewinter, cordon-sanitaire]
 ---
-Opposé au compromis d'Egmont, jugé contraire aux intérêts flamands, Dillen quitte la Volksunie et fonde le Vlaams Blok, longtemps marginal, qui perce à Anvers en 1988 et aux législatives de 1991 (« dimanche noir »). Cette percée conduit les autres partis à adopter le [[cordon-sanitaire|cordon sanitaire]].
+Sorti de la Volksunie dès 1971, Dillen fonde en 1977, contre le compromis d'Egmont jugé contraire aux intérêts flamands, la Vlaams-Nationale Partij, qui forme en 1978 avec le parti de Lode Claes le cartel Vlaams Blok. Longtemps marginal, le parti perce à Anvers en 1988 et aux législatives de 1991 (« dimanche noir »). Cette percée conduit les autres partis à adopter le [[cordon-sanitaire|cordon sanitaire]].

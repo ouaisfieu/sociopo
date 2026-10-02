@@ -32,4 +32,4 @@ Les Engagés obtiennent 20,7 % en Wallonie (17 sièges, contre 10 pour le cdH en
 
 ## Un centre sous tension
 
-Le parti revendique un rôle de modérateur dans des majorités de droite : il a pesé contre certaines économies dans les soins de santé et la culture, et a cherché, en décembre 2025, à former un gouvernement bruxellois sans le MR (mission de formateur de Verougstraete, abandonnée fin janvier 2026), avant l'accord final avec les libéraux en février 2026. Les sondages de 2026 enregistrent une certaine usure.
+Le parti revendique un rôle de modérateur dans des majorités de droite : il a pesé contre certaines économies dans les soins de santé et la culture, et a cherché, en décembre 2025, à former un gouvernement bruxellois sans le MR (mission de formateur de Verougstraete, abandonnée le 20 janvier 2026), avant l'accord final avec les libéraux en février 2026. Les sondages de 2026 enregistrent une certaine usure.

@@ -35,7 +35,7 @@ N-VA et Vlaams Belang, ensemble proches de la moitié des voix flamandes dans le
 
 ### Scénario 3 — La polarisation au Sud
 
-Au sud du pays, la remontée du PS et la progression du PTB rendraient plus difficile la formation de majorités de centre droit, alors que le PTB refuse jusqu'ici de gouverner avec les partis traditionnels. Le contraste entre majorités du Nord et du Sud pourrait rendre la formation fédérale très longue, comme en 2010-2011.
+Au sud du pays, la remontée du PS et la progression du PTB rendraient plus difficile la formation de majorités de centre droit, alors que le PTB n'a jusqu'ici participé à aucun gouvernement régional ou fédéral (il ne gouverne qu'au niveau local, comme à Forest depuis 2024). Le contraste entre majorités du Nord et du Sud pourrait rendre la formation fédérale très longue, comme en 2010-2011.
 
 ### Scénario 4 — La crise institutionnelle
 

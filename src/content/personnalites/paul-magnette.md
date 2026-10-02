@@ -4,14 +4,15 @@ kind: personne
 themes: [partis, federalisme, europe-international]
 group: presidents
 order: 4
-summary: "Politologue, ancien professeur à l'ULB, ministre fédéral (2007-2013), bourgmestre de Charleroi, ministre-président wallon (2014-2017) et président du PS depuis 2019. Il s'est fait connaître internationalement en bloquant la signature du CETA en 2016."
+summary: "Politologue, ancien professeur à l'ULB, ministre fédéral (2007-2013), bourgmestre de Charleroi (2012-2024), ministre-président wallon (2014-2017) et président du PS (2013-2014, puis depuis 2019). Il s'est fait connaître internationalement en bloquant la signature du CETA en 2016."
 born: 1971-06-28
 birthplace: Louvain
 party: ps
-job: "Président du PS (depuis 2019), bourgmestre de Charleroi"
+job: "Président du PS (depuis 2019)"
 roles:
   - { role: "Ministre fédéral (Climat et Énergie, puis Entreprises publiques)", from: 2007, to: 2013 }
-  - { role: "Bourgmestre de Charleroi", from: 2012 }
+  - { role: "Bourgmestre de Charleroi", from: 2012, to: 2024 }
+  - { role: "Président du PS (intérim)", from: 2013, to: 2014 }
   - { role: "Ministre-président wallon", from: 2014, to: 2017 }
   - { role: "Président du PS", from: 2019 }
 related: [ps, ceta-wallonie, gouvernement-wallonie-magnette, formation-federale-2019-2020, affaire-publifin-nethys]

@@ -36,15 +36,15 @@ Aux régionales, le paysage est encore plus contrasté. En Flandre, N-VA et Vlaa
 | Fédération Wallonie-Bruxelles | Les Engagés, MR | juillet 2024 | environ 5 semaines |
 | Flandre | N-VA, Vooruit, CD&V | 30 septembre 2024 | près de 4 mois |
 | Fédéral | N-VA, MR, Les Engagés, Vooruit, CD&V | 3 février 2025 | 239 jours |
-| Bruxelles | MR, PS, Les Engagés + Groen, Anders, Vooruit, CD&V | 14 février 2026 | 613 jours |
+| Bruxelles | MR, PS, Les Engagés + Groen, Anders, Vooruit, CD&V | 14 février 2026 | 613 jours (jusqu'à l'accord) |
 
 La rapidité francophone tient à une majorité évidente à deux partis ; la lenteur fédérale, aux arbitrages socio-économiques entre libéraux et socialistes flamands ([[formation-federale-2024-2025]]) ; l'enlisement bruxellois, aux règles de double majorité et à l'éclatement du groupe néerlandophone ([[anatomie-du-blocage-bruxellois]]).
 
 ## 3. L'Arizona : un pari socio-économique
 
-L'accord de coalition met en suspens la réforme institutionnelle chère à la N-VA au profit d'un programme d'assainissement budgétaire et de réformes du marché du travail : [[limitation-des-allocations-de-chomage-dans-le-temps|limitation du chômage dans le temps]] (effective à partir de 2026), [[reforme-des-pensions-2025|réforme des pensions]] avec un malus pour les carrières courtes, taxe de 10 % sur les plus-values, effort de défense porté à 2 % du PIB, politique migratoire plus restrictive. L'objectif affiché est un taux d'emploi de 80 % en 2029.
+L'accord de coalition met en suspens la réforme institutionnelle chère à la N-VA au profit d'un programme d'assainissement budgétaire et de réformes du marché du travail : [[limitation-des-allocations-de-chomage-dans-le-temps|limitation du chômage dans le temps]] (effective à partir de 2026), [[reforme-des-pensions-2025|réforme des pensions]] avec un malus pour les carrières courtes, taxe de 10 % sur les plus-values, effort de défense porté à 2 % du PIB, politique migratoire plus restrictive. L'objectif affiché est un taux d'emploi de 80 % à l'horizon de la législature.
 
-Les accords successifs — accord de Pâques (avril 2025), accord d'été (juillet 2025), accord budgétaire de novembre 2025 (9,2 milliards d'euros d'efforts d'ici 2029, avec notamment une limitation partielle de l'indexation en 2026 et 2028 pour les revenus les plus élevés), effort supplémentaire de 10 milliards décidé en juillet 2026 — montrent une coalition soudée par la contrainte budgétaire mais traversée de tensions, en particulier entre le MR et Vooruit.
+Les accords successifs — accord de Pâques (avril 2025), accord d'été (juillet 2025), accord budgétaire de novembre 2025 (9,2 milliards d'euros d'efforts d'ici 2029, avec notamment la non-indexation en 2026 et 2028 de la part des salaires dépassant 4 000 euros bruts mensuels et des allocations dépassant 2 000 euros), objectif d'un effort supplémentaire de 10 milliards fixé en juillet 2026 — montrent une coalition soudée par la contrainte budgétaire mais traversée de tensions, en particulier entre le MR et Vooruit.
 
 ## 4. Un conflit social d'ampleur historique
 

@@ -5,7 +5,7 @@ themes: [partis]
 group: presidents
 order: 3
 summary: "Libéral montois, président du Mouvement réformateur depuis 2019. Il a conduit le MR à devenir le premier parti francophone aux élections de 2024 et à entrer dans les gouvernements fédéral, wallon, de la Fédération Wallonie-Bruxelles et, en 2026, bruxellois."
-born: 1986-06-21
+born: 1986-03-23
 birthplace: Frameries
 party: mr
 job: "Président du MR (depuis 2019)"

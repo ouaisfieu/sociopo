@@ -4,7 +4,7 @@ kind: personne
 themes: [partis]
 group: figures
 order: 1970
-summary: "Président du cdH de 2011 à 2019, bourgmestre de Bastogne et ancien ministre wallon. Il a provoqué en juin 2017 la chute des majorités PS-cdH en Wallonie et en Fédération Wallonie-Bruxelles, au lendemain des scandales Publifin et Samusocial."
+summary: "Président du cdH de 2011 à 2019, bourgmestre de Bastogne et ancien ministre wallon. Il a provoqué en juin 2017 la chute de la majorité PS-cdH en Wallonie, au lendemain des scandales Publifin et Samusocial."
 born: "1970"
 birthplace: Bastogne
 party: cdh
