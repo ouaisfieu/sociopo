@@ -422,6 +422,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--accent-soft) 45%, trans
 .related-grid a span { display: block; font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }
 .backlinks { font-size: 0.92rem; }
 .backlinks a { white-space: nowrap; }
+@media (max-width: 640px) { .backlinks a { white-space: normal; } }
 
 /* ---------- Aperçu au survol ---------- */
 .preview-pop { position: absolute; z-index: 80; width: min(380px, calc(100vw - 32px)); padding: 0.9rem 1rem; border-radius: 12px; background: var(--surface); border: 1px solid var(--line-2); box-shadow: var(--shadow-3); font-family: var(--font-sans); font-size: 0.9rem; line-height: 1.5; color: var(--ink-2); pointer-events: auto; animation: pop 0.14s ease-out; }
